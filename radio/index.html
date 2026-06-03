@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Morning Whisper Radio</title>
+    <meta name="description" content="Meditative morning news broadcasts with audio and show notes.">
+    <link rel="canonical" href="https://thoughtvector.zip/radio/">
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f3ee;
+        --ink: #202622;
+        --muted: #66716b;
+        --line: #d8cec2;
+        --panel: #fffaf4;
+        --accent: #315f4d;
+        --accent-soft: #dfece5;
+        --gold: #b58a42;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        letter-spacing: 0;
+      }
+      main { width: min(960px, calc(100% - 32px)); margin: 0 auto; padding: 56px 0; }
+      header { display: grid; gap: 16px; margin-bottom: 32px; }
+      .eyebrow { color: var(--accent); font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; }
+      h1 { margin: 0; font-size: clamp(2.6rem, 8vw, 5.8rem); line-height: 0.95; letter-spacing: 0; }
+      .lede { max-width: 680px; margin: 0; color: var(--muted); font-size: 1.12rem; line-height: 1.6; }
+      section { border-top: 1px solid var(--line); padding: 28px 0; }
+      h2 { margin: 0 0 14px; font-size: 1.1rem; }
+      .player {
+        display: grid;
+        gap: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        padding: 20px;
+      }
+      audio { width: 100%; }
+      .meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); font-size: 0.94rem; }
+      .pill { border: 1px solid var(--line); border-radius: 999px; padding: 6px 10px; background: #fff; }
+      .sources { display: grid; gap: 12px; padding-left: 1.3rem; }
+      .sources li { line-height: 1.45; }
+      .sources span { display: block; color: var(--muted); font-size: 0.84rem; }
+      a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+      .archive { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+      .archive li { display: flex; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--line); padding-bottom: 10px; }
+      .archive span { color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="eyebrow">Meditative Mornings</div>
+        <h1>Morning Whisper Radio</h1>
+        <p class="lede">A calm morning audio briefing with news, weather, and context, prepared for quiet listening.</p>
+      </header>
+      <section class="player" aria-label="Latest episode">
+        <div>
+          <h2>Latest Episode</h2>
+          <div class="meta">
+            <span class="pill">2026-06-03 02:24:24+00:00</span>
+            <span class="pill">80 selected sources</span>
+            <span class="pill">5 feed failures</span>
+          </div>
+        </div>
+        <audio controls preload="metadata">
+          <source src="latest.ogg" type="audio/ogg">
+        </audio>
+      </section>
+      <section>
+        <h2>Show Notes</h2>
+        <ol class="sources"><li><span>NVIDIA Blog</span><a href="https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw">Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw</a></li><li><span>Handelsblatt</span><a href="https://www.handelsblatt.com/politik/international/usa-diese-beispiele-zeigen-wie-donald-trump-sein-amt-fuer-sich-ausnutzt/100228750.html">USA: Sohn kauft Aktien, Vater treibt die Kurse an: Diese Beispiele zeigen, wie Familie Trump Kasse macht</a></li><li><span>Deutsche Welle English</span><a href="https://www.dw.com/en/world-cup-david-beckham-to-get-hollywood-walk-of-fame-star/a-77398896?maca=en-rss-en-all-1573-rdf">World Cup: David Beckham to get Hollywood Walk of Fame star</a></li><li><span>NVIDIA Technical Blog</span><a href="https://developer.nvidia.com/blog/deploy-self-evolving-agents-for-faster-more-secure-research-with-a-hermes-agent-and-nvidia-nemoclaw">Deploy Self-Evolving Agents for Faster, More Secure Research with a Hermes Agent and NVIDIA NemoClaw</a></li><li><span>Finance</span><a href="https://www.economist.com/finance-and-economics/2026/06/02/want-to-know-the-future-dont-trust-the-stockmarket">Want to know the future? Don’t trust the stockmarket</a></li><li><span>Hugging Face Blog</span><a href="https://huggingface.co/blog/Hcompany/holo31">Holo3.1: Fast &amp; Local Computer Use Agents</a></li><li><span>FAZ Wirtschaft</span><a href="https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ruestung-indien-verkauft-seine-superrakete-an-suedostasien-zur-freude-russlands-200891263.html">Rüstung: Indien verkauft seine Superrakete an Südostasien – zur Freude Russlands</a></li><li><span>Helsing News</span><a href="https://news.google.com/rss/articles/CBMiSkFVX3lxTE81cFdyYkx3MXdwVVdXdXAyX0dLcl9WeU8yelhoR21EcmgtbHpMUzM0dHhaQWttUUhMZ1E3c3pfaWtUWWJRRXhmQnJn?oc=5">Finance Project Manager - Helsing</a></li><li><span>France24 En</span><a href="https://www.france24.com/en/middle-east/20260603-middle-east-war-live-us-military-says-it-intercepted-iranian-missile-and-drone-attacks">Middle East war live: US military says it intercepted Iranian missile and drone attacks</a></li><li><span>Anthropic Official Updates</span><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa1dNc3ZvdjUxU2dqd0dWT2xFZFlxdXRMSkRjVE9icHNYRmhkV3JVV2Q2QlJteFJ6RkdVYmhhM0VSbGxYUGtoUlJNcE1ZT2d5MkdyQnJrclpzVUJ3eGh4cDFUQlZEZ2tKVElmdGZrTTRPcVdsVlI0VnlnVmtmU1pDdER1OU5JWnA2TDB6UFJ3WGM0S0JFWkNRVGE5dktkeV9VWGw3MVpEb0pOc3M?oc=5">Building Agents on Claude Opus 4.8: Live Demos with Letta and Browserbase - Anthropic</a></li></ol>
+      </section>
+      <section>
+        <h2>Archive</h2>
+        <ul class="archive"><li><a href="media/20260603-022424Z.ogg">2026-06-03 02:24:24+00:00</a><span>80 sources selected</span></li></ul>
+      </section>
+    </main>
+  </body>
+</html>
