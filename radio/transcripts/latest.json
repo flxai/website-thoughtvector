@@ -1,75 +1,402 @@
 {
-  "kind": "estimated-transcript",
-  "run_id": "20260603-102905Z",
-  "segments": [
+  "groups": [
     {
-      "end": 16.561,
+      "end": 14.84,
+      "id": "p0",
       "index": 0,
-      "start": 10.0,
+      "segments": [
+        "s0",
+        "s1"
+      ],
+      "start": 10.22,
       "text": "Good morning. Weather data is unavailable right now; we start with the news."
     },
     {
-      "end": 57.943,
+      "end": 54.57,
+      "id": "p1",
       "index": 1,
-      "start": 16.561,
+      "segments": [
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "start": 15.12,
       "text": "Financial institutions are fundamentally changing how they deploy artificial intelligence. Rather than using fragmented tools for separate tasks like fraud or credit risk, banks are shifting toward Transaction Foundation Models. This move aims to create a unified layer of institutional intelligence across entire systems. At the same time, the tools for attacking these systems are evolving. Anthropic Red has released a new framework called the LLM ATT&CK Navigator, which maps how large language models are being used to facilitate cyber attacks."
     },
     {
-      "end": 78.635,
+      "end": 74.32,
+      "id": "p2",
       "index": 2,
-      "start": 57.943,
+      "segments": [
+        "s7",
+        "s8",
+        "s9"
+      ],
+      "start": 55.07,
       "text": "As AI moves into more critical infrastructure, the hardware is following. NVIDIA is pushing its AI capabilities directly into the laptop market to enable local processing. This shift toward edge AI reduces the reliance on cloud infrastructure for high-performance tasks."
     },
     {
-      "end": 122.036,
+      "end": 113.28,
+      "id": "p3",
       "index": 3,
-      "start": 78.635,
+      "segments": [
+        "s10",
+        "s11",
+        "s12",
+        "s13",
+        "s14",
+        "s15"
+      ],
+      "start": 74.86,
       "text": "These technological shifts occur against a backdrop of escalating physical conflict. Ukraine has launched long-range drone strikes against Saint Petersburg, timed to coincide with the start of a major Russian economic forum. The strike is a strategic move to disrupt Russia's internal security perception. In the Middle East, the stakes are equally high. Ambassadors from Israel and Lebanon have opened direct talks in Washington. President Donald Trump claims he has received commitments to de-escalation, though the goal is to prevent a wider regional war."
     },
     {
-      "end": 140.204,
+      "end": 130.57,
+      "id": "p4",
       "index": 4,
-      "start": 122.036,
+      "segments": [
+        "s16",
+        "s17",
+        "s18"
+      ],
+      "start": 114.6,
       "text": "Geopolitical instability is now filtering directly into European markets. The German DAX has fallen below the 25,000-point mark. This volatility is driven by rising oil prices and increased uncertainty surrounding the conflict in Iran."
     },
     {
-      "end": 184.615,
+      "end": 170.39,
+      "id": "p5",
       "index": 5,
-      "start": 140.204,
+      "segments": [
+        "s19",
+        "s20",
+        "s21",
+        "s22",
+        "s23",
+        "s24"
+      ],
+      "start": 131.65,
       "text": "Regulatory pressure is also mounting for big tech in Europe. The EU Court has ruled that Meta's Messenger service must adhere to stricter competition rules under the Digital Markets Act. This decision limits Meta's ability to leverage its ecosystem as a gatekeeper. In other German news, the healthcare sector is seeing a surprising financial surplus. The largest health insurance funds reported a combined gain of 773 million euros in the first quarter. Despite the surplus, these funds warn that reforms are still necessary to prevent future contribution increases."
     },
     {
-      "end": 188.652,
+      "end": 174.63,
+      "id": "p6",
       "index": 6,
-      "start": 184.615,
+      "segments": [
+        "s25"
+      ],
+      "start": 171.11,
       "text": "Weather data remains unavailable for the closing update."
     },
     {
-      "end": 192.185,
+      "end": 177.39,
+      "id": "p7",
       "index": 7,
-      "start": 188.652,
+      "segments": [
+        "s26"
+      ],
+      "start": 175.35,
       "text": "Finally, a quick look at the calendar."
     },
     {
-      "end": 243.156,
+      "end": 223.52,
+      "id": "p8",
       "index": 8,
-      "start": 192.185,
+      "segments": [
+        "s27",
+        "s28"
+      ],
+      "start": 177.69,
       "text": "On your calendar today: all day, 'Department Retro', at 10:00, 'Optikrunde', at 10:30, 25 minute 'Research weekly', at Gauss; note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616038 PIN: 8..., at 11:00, 'MxM Spotlight 🔦', note: Dear Innovators, You're invited to MxM Spotlight, our weekly knowledge-sharing platform! MxM Spotlight brings together the best of our previous PM, T..., at 15:00, 'Corsnero OffGPT', note: Corsnero OffGPT, at 15:00, 2 hour 'Gruppenmeeting Gregor', and at 15:00, 2 hour '🧠☕ Research Seminar', note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616571 PIN: 2...."
     },
     {
-      "end": 247.194,
+      "end": 246.93,
+      "id": "p9",
       "index": 9,
-      "start": 243.156,
+      "segments": [
+        "s29"
+      ],
+      "start": 244.25,
       "text": "And that's it for your personal morning broadcast."
     },
     {
-      "end": 248.708,
+      "end": 248.27,
+      "id": "p10",
       "index": 10,
-      "start": 247.194,
+      "segments": [
+        "s30"
+      ],
+      "start": 247.39,
       "text": "Rise and shine."
     }
   ],
-  "source": "radio_script",
-  "timing": "word-count-estimate",
-  "version": 1
+  "kind": "script-transcript",
+  "media": {
+    "duration_seconds": 268.715
+  },
+  "run_id": "20260603-102905Z",
+  "segments": [
+    {
+      "end": 10.56,
+      "group": "p0",
+      "id": "s0",
+      "index": 0,
+      "start": 10.22,
+      "text": "Good morning."
+    },
+    {
+      "end": 14.84,
+      "group": "p0",
+      "id": "s1",
+      "index": 1,
+      "start": 10.72,
+      "text": "Weather data is unavailable right now; we start with the news."
+    },
+    {
+      "end": 20.7,
+      "group": "p1",
+      "id": "s2",
+      "index": 2,
+      "start": 15.12,
+      "text": "Financial institutions are fundamentally changing how they deploy artificial intelligence."
+    },
+    {
+      "end": 30.54,
+      "group": "p1",
+      "id": "s3",
+      "index": 3,
+      "start": 21.14,
+      "text": "Rather than using fragmented tools for separate tasks like fraud or credit risk, banks are shifting toward Transaction Foundation Models."
+    },
+    {
+      "end": 34.68,
+      "group": "p1",
+      "id": "s4",
+      "index": 4,
+      "start": 31.18,
+      "text": "This move aims to create a unified layer of institutional intelligence across entire systems."
+    },
+    {
+      "end": 42.19,
+      "group": "p1",
+      "id": "s5",
+      "index": 5,
+      "start": 40.65,
+      "text": "At the same time, the tools for attacking these systems are evolving."
+    },
+    {
+      "end": 54.57,
+      "group": "p1",
+      "id": "s6",
+      "index": 6,
+      "start": 43.11,
+      "text": "Anthropic Red has released a new framework called the LLM ATT&CK Navigator, which maps how large language models are being used to facilitate cyber attacks."
+    },
+    {
+      "end": 59.79,
+      "group": "p2",
+      "id": "s7",
+      "index": 7,
+      "start": 55.07,
+      "text": "As AI moves into more critical infrastructure, the hardware is following."
+    },
+    {
+      "end": 66.69,
+      "group": "p2",
+      "id": "s8",
+      "index": 8,
+      "start": 59.91,
+      "text": "NVIDIA is pushing its AI capabilities directly into the laptop market to enable local processing."
+    },
+    {
+      "end": 74.32,
+      "group": "p2",
+      "id": "s9",
+      "index": 9,
+      "start": 67.63,
+      "text": "This shift toward edge AI reduces the reliance on cloud infrastructure for high-performance tasks."
+    },
+    {
+      "end": 80.3,
+      "group": "p3",
+      "id": "s10",
+      "index": 10,
+      "start": 74.86,
+      "text": "These technological shifts occur against a backdrop of escalating physical conflict."
+    },
+    {
+      "end": 90.26,
+      "group": "p3",
+      "id": "s11",
+      "index": 11,
+      "start": 81.48,
+      "text": "Ukraine has launched long-range drone strikes against Saint Petersburg, timed to coincide with the start of a major Russian economic forum."
+    },
+    {
+      "end": 95.5,
+      "group": "p3",
+      "id": "s12",
+      "index": 12,
+      "start": 90.52,
+      "text": "The strike is a strategic move to disrupt Russia's internal security perception."
+    },
+    {
+      "end": 99.92,
+      "group": "p3",
+      "id": "s13",
+      "index": 13,
+      "start": 98.38,
+      "text": "In the Middle East, the stakes are equally high."
+    },
+    {
+      "end": 105.3,
+      "group": "p3",
+      "id": "s14",
+      "index": 14,
+      "start": 100.86,
+      "text": "Ambassadors from Israel and Lebanon have opened direct talks in Washington."
+    },
+    {
+      "end": 113.28,
+      "group": "p3",
+      "id": "s15",
+      "index": 15,
+      "start": 105.74,
+      "text": "President Donald Trump claims he has received commitments to de-escalation, though the goal is to prevent a wider regional war."
+    },
+    {
+      "end": 118.84,
+      "group": "p4",
+      "id": "s16",
+      "index": 16,
+      "start": 114.6,
+      "text": "Geopolitical instability is now filtering directly into European markets."
+    },
+    {
+      "end": 123.0,
+      "group": "p4",
+      "id": "s17",
+      "index": 17,
+      "start": 119.14,
+      "text": "The German DAX has fallen below the 25,000-point mark."
+    },
+    {
+      "end": 130.57,
+      "group": "p4",
+      "id": "s18",
+      "index": 18,
+      "start": 123.47,
+      "text": "This volatility is driven by rising oil prices and increased uncertainty surrounding the conflict in Iran."
+    },
+    {
+      "end": 135.61,
+      "group": "p5",
+      "id": "s19",
+      "index": 19,
+      "start": 131.65,
+      "text": "Regulatory pressure is also mounting for big tech in Europe."
+    },
+    {
+      "end": 143.71,
+      "group": "p5",
+      "id": "s20",
+      "index": 20,
+      "start": 135.93,
+      "text": "The EU Court has ruled that Meta's Messenger service must adhere to stricter competition rules under the Digital Markets Act."
+    },
+    {
+      "end": 149.25,
+      "group": "p5",
+      "id": "s21",
+      "index": 21,
+      "start": 144.03,
+      "text": "This decision limits Meta's ability to leverage its ecosystem as a gatekeeper."
+    },
+    {
+      "end": 155.29,
+      "group": "p5",
+      "id": "s22",
+      "index": 22,
+      "start": 153.37,
+      "text": "In other German news, the healthcare sector is seeing a surprising financial surplus."
+    },
+    {
+      "end": 163.15,
+      "group": "p5",
+      "id": "s23",
+      "index": 23,
+      "start": 155.75,
+      "text": "The largest health insurance funds reported a combined gain of 773 million euros in the first quarter."
+    },
+    {
+      "end": 170.39,
+      "group": "p5",
+      "id": "s24",
+      "index": 24,
+      "start": 163.37,
+      "text": "Despite the surplus, these funds warn that reforms are still necessary to prevent future contribution increases."
+    },
+    {
+      "end": 174.63,
+      "group": "p6",
+      "id": "s25",
+      "index": 25,
+      "start": 171.11,
+      "text": "Weather data remains unavailable for the closing update."
+    },
+    {
+      "end": 177.39,
+      "group": "p7",
+      "id": "s26",
+      "index": 26,
+      "start": 175.35,
+      "text": "Finally, a quick look at the calendar."
+    },
+    {
+      "end": 211.88,
+      "group": "p8",
+      "id": "s27",
+      "index": 27,
+      "start": 177.69,
+      "text": "On your calendar today: all day, 'Department Retro', at 10:00, 'Optikrunde', at 10:30, 25 minute 'Research weekly', at Gauss; note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616038 PIN: 8..., at 11:00, 'MxM Spotlight 🔦', note: Dear Innovators, You're invited to MxM Spotlight, our weekly knowledge-sharing platform!"
+    },
+    {
+      "end": 223.52,
+      "group": "p8",
+      "id": "s28",
+      "index": 28,
+      "start": 211.88,
+      "text": "MxM Spotlight brings together the best of our previous PM, T..., at 15:00, 'Corsnero OffGPT', note: Corsnero OffGPT, at 15:00, 2 hour 'Gruppenmeeting Gregor', and at 15:00, 2 hour '🧠☕ Research Seminar', note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616571 PIN: 2...."
+    },
+    {
+      "end": 246.93,
+      "group": "p9",
+      "id": "s29",
+      "index": 29,
+      "start": 244.25,
+      "text": "And that's it for your personal morning broadcast."
+    },
+    {
+      "end": 248.27,
+      "group": "p10",
+      "id": "s30",
+      "index": 30,
+      "start": 247.39,
+      "text": "Rise and shine."
+    }
+  ],
+  "source": "radio_script+transcribe",
+  "timing": "transcribe-word-aligned-script",
+  "transcribe": {
+    "cache": "transcribe.verbose.cache.json",
+    "cached": false,
+    "match_ratio": 0.841,
+    "matched_words": 398,
+    "script_words": 473,
+    "source_bytes": 3290197,
+    "tool": "transcribe",
+    "word_timestamps": true
+  },
+  "version": 2
 }

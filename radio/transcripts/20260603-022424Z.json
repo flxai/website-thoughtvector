@@ -1,87 +1,374 @@
 {
-  "kind": "estimated-transcript",
+  "groups": [
+    {
+      "end": 14.927,
+      "id": "p0",
+      "index": 0,
+      "segments": [
+        "s0"
+      ],
+      "start": 10.0,
+      "text": "It is currently 16 degrees and cloudy in Berlin-Tempelhof."
+    },
+    {
+      "end": 19.362,
+      "id": "p1",
+      "index": 1,
+      "segments": [
+        "s1"
+      ],
+      "start": 14.927,
+      "text": "With the morning weather set, here is the news."
+    },
+    {
+      "end": 48.434,
+      "id": "p2",
+      "index": 2,
+      "segments": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "start": 19.362,
+      "text": "AI is moving beyond the chat interface and into the physical world. NVIDIA has launched NemoClaw, a system designed to create autonomous AI engineers. These agents can handle end-to-end industrial workflows, including CAD and simulation, to significantly compress engineering timelines. This shift toward Physical AI allows models to execute complex industrial tasks rather than just providing text."
+    },
+    {
+      "end": 68.144,
+      "id": "p3",
+      "index": 3,
+      "segments": [
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "start": 48.434,
+      "text": "At the same time, the race for autonomous computer use is intensifying. Anthropic has demonstrated new agent capabilities using Claude Opus 4.8. By integrating with Letta and Browserbase, these agents can interact with web browsers to perform tasks independently."
+    },
+    {
+      "end": 99.68,
+      "id": "p4",
+      "index": 4,
+      "segments": [
+        "s9",
+        "s10",
+        "s11",
+        "s12"
+      ],
+      "start": 68.144,
+      "text": "This push for autonomy in technology contrasts with a severe breakdown in human diplomacy in the Middle East. The US military has intercepted Iranian missile and drone attacks targeting Bahrain and Kuwait. In response, the US carried out self-defense strikes on Iran's Qeshm Island. These direct exchanges of fire come as ceasefire negotiations have stalled, raising the risk of a wider regional escalation."
+    },
+    {
+      "end": 119.883,
+      "id": "p5",
+      "index": 5,
+      "segments": [
+        "s13",
+        "s14",
+        "s15"
+      ],
+      "start": 99.68,
+      "text": "These security tensions are influencing how nations position themselves on the global stage. Germany is intensifying its diplomatic efforts to secure a permanent seat on the UN Security Council. A successful bid would formally elevate Germany's influence over international security policy."
+    },
+    {
+      "end": 147.477,
+      "id": "p6",
+      "index": 6,
+      "segments": [
+        "s16",
+        "s17",
+        "s18",
+        "s19"
+      ],
+      "start": 119.883,
+      "text": "The intersection of security and commerce is also visible in Asian defense markets. India's Brahmos missile system has become a bestseller in Southeast Asia. This trend is providing indirect benefits to Russia, highlighting the strategic ties between India and Russia despite Western sanctions. These movements suggest a complex realignment of power and trade across the East."
+    },
+    {
+      "end": 150.926,
+      "id": "p7",
+      "index": 7,
+      "segments": [
+        "s20"
+      ],
+      "start": 147.477,
+      "text": "After the headlines, back to the weather."
+    },
+    {
+      "end": 156.839,
+      "id": "p8",
+      "index": 8,
+      "segments": [
+        "s21"
+      ],
+      "start": 150.926,
+      "text": "This afternoon will be cloudy with temperatures between 19 and 21 degrees."
+    },
+    {
+      "end": 161.766,
+      "id": "p9",
+      "index": 9,
+      "segments": [
+        "s22"
+      ],
+      "start": 156.839,
+      "text": "And from the weather, a quick look at the calendar."
+    },
+    {
+      "end": 211.534,
+      "id": "p10",
+      "index": 10,
+      "segments": [
+        "s23",
+        "s24"
+      ],
+      "start": 161.766,
+      "text": "On your calendar today: all day, 'Department Retro', at 10:00, 'Optikrunde', at 10:30, 25 minute 'Research weekly', at Gauss; note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616038 PIN: 8..., at 11:00, 'MxM Spotlight 🔦', note: Dear Innovators, You're invited to MxM Spotlight, our weekly knowledge-sharing platform! MxM Spotlight brings together the best of our previous PM, T..., at 15:00, 'Corsnero OffGPT', note: Corsnero OffGPT, at 15:00, 2 hour 'Gruppenmeeting Gregor', and at 15:00, 2 hour '🧠☕ Research Seminar', note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616571 PIN: 2...."
+    },
+    {
+      "end": 215.476,
+      "id": "p11",
+      "index": 11,
+      "segments": [
+        "s25"
+      ],
+      "start": 211.534,
+      "text": "And that's it for your personal morning broadcast."
+    },
+    {
+      "end": 216.954,
+      "id": "p12",
+      "index": 12,
+      "segments": [
+        "s26"
+      ],
+      "start": 215.476,
+      "text": "Rise and shine."
+    }
+  ],
+  "kind": "script-transcript",
+  "media": {
+    "duration_seconds": 236.908
+  },
   "run_id": "20260603-022424Z",
   "segments": [
     {
       "end": 14.927,
+      "group": "p0",
+      "id": "s0",
       "index": 0,
       "start": 10.0,
       "text": "It is currently 16 degrees and cloudy in Berlin-Tempelhof."
     },
     {
       "end": 19.362,
+      "group": "p1",
+      "id": "s1",
       "index": 1,
       "start": 14.927,
       "text": "With the morning weather set, here is the news."
     },
     {
-      "end": 48.434,
+      "end": 25.275,
+      "group": "p2",
+      "id": "s2",
       "index": 2,
       "start": 19.362,
-      "text": "AI is moving beyond the chat interface and into the physical world. NVIDIA has launched NemoClaw, a system designed to create autonomous AI engineers. These agents can handle end-to-end industrial workflows, including CAD and simulation, to significantly compress engineering timelines. This shift toward Physical AI allows models to execute complex industrial tasks rather than just providing text."
+      "text": "AI is moving beyond the chat interface and into the physical world."
+    },
+    {
+      "end": 31.188,
+      "group": "p2",
+      "id": "s3",
+      "index": 3,
+      "start": 25.275,
+      "text": "NVIDIA has launched NemoClaw, a system designed to create autonomous AI engineers."
+    },
+    {
+      "end": 40.058,
+      "group": "p2",
+      "id": "s4",
+      "index": 4,
+      "start": 31.188,
+      "text": "These agents can handle end-to-end industrial workflows, including CAD and simulation, to significantly compress engineering timelines."
+    },
+    {
+      "end": 48.434,
+      "group": "p2",
+      "id": "s5",
+      "index": 5,
+      "start": 40.058,
+      "text": "This shift toward Physical AI allows models to execute complex industrial tasks rather than just providing text."
+    },
+    {
+      "end": 54.347,
+      "group": "p3",
+      "id": "s6",
+      "index": 6,
+      "start": 48.434,
+      "text": "At the same time, the race for autonomous computer use is intensifying."
+    },
+    {
+      "end": 59.768,
+      "group": "p3",
+      "id": "s7",
+      "index": 7,
+      "start": 54.347,
+      "text": "Anthropic has demonstrated new agent capabilities using Claude Opus 4.8."
     },
     {
       "end": 68.144,
-      "index": 3,
-      "start": 48.434,
-      "text": "At the same time, the race for autonomous computer use is intensifying. Anthropic has demonstrated new agent capabilities using Claude Opus 4.8. By integrating with Letta and Browserbase, these agents can interact with web browsers to perform tasks independently."
+      "group": "p3",
+      "id": "s8",
+      "index": 8,
+      "start": 59.768,
+      "text": "By integrating with Letta and Browserbase, these agents can interact with web browsers to perform tasks independently."
+    },
+    {
+      "end": 77.014,
+      "group": "p4",
+      "id": "s9",
+      "index": 9,
+      "start": 68.144,
+      "text": "This push for autonomy in technology contrasts with a severe breakdown in human diplomacy in the Middle East."
+    },
+    {
+      "end": 83.912,
+      "group": "p4",
+      "id": "s10",
+      "index": 10,
+      "start": 77.014,
+      "text": "The US military has intercepted Iranian missile and drone attacks targeting Bahrain and Kuwait."
+    },
+    {
+      "end": 90.318,
+      "group": "p4",
+      "id": "s11",
+      "index": 11,
+      "start": 83.912,
+      "text": "In response, the US carried out self-defense strikes on Iran's Qeshm Island."
     },
     {
       "end": 99.68,
-      "index": 4,
-      "start": 68.144,
-      "text": "This push for autonomy in technology contrasts with a severe breakdown in human diplomacy in the Middle East. The US military has intercepted Iranian missile and drone attacks targeting Bahrain and Kuwait. In response, the US carried out self-defense strikes on Iran's Qeshm Island. These direct exchanges of fire come as ceasefire negotiations have stalled, raising the risk of a wider regional escalation."
+      "group": "p4",
+      "id": "s12",
+      "index": 12,
+      "start": 90.318,
+      "text": "These direct exchanges of fire come as ceasefire negotiations have stalled, raising the risk of a wider regional escalation."
+    },
+    {
+      "end": 106.086,
+      "group": "p5",
+      "id": "s13",
+      "index": 13,
+      "start": 99.68,
+      "text": "These security tensions are influencing how nations position themselves on the global stage."
+    },
+    {
+      "end": 113.97,
+      "group": "p5",
+      "id": "s14",
+      "index": 14,
+      "start": 106.086,
+      "text": "Germany is intensifying its diplomatic efforts to secure a permanent seat on the UN Security Council."
     },
     {
       "end": 119.883,
-      "index": 5,
-      "start": 99.68,
-      "text": "These security tensions are influencing how nations position themselves on the global stage. Germany is intensifying its diplomatic efforts to secure a permanent seat on the UN Security Council. A successful bid would formally elevate Germany's influence over international security policy."
+      "group": "p5",
+      "id": "s15",
+      "index": 15,
+      "start": 113.97,
+      "text": "A successful bid would formally elevate Germany's influence over international security policy."
+    },
+    {
+      "end": 126.289,
+      "group": "p6",
+      "id": "s16",
+      "index": 16,
+      "start": 119.883,
+      "text": "The intersection of security and commerce is also visible in Asian defense markets."
+    },
+    {
+      "end": 131.709,
+      "group": "p6",
+      "id": "s17",
+      "index": 17,
+      "start": 126.289,
+      "text": "India's Brahmos missile system has become a bestseller in Southeast Asia."
+    },
+    {
+      "end": 141.071,
+      "group": "p6",
+      "id": "s18",
+      "index": 18,
+      "start": 131.709,
+      "text": "This trend is providing indirect benefits to Russia, highlighting the strategic ties between India and Russia despite Western sanctions."
     },
     {
       "end": 147.477,
-      "index": 6,
-      "start": 119.883,
-      "text": "The intersection of security and commerce is also visible in Asian defense markets. India's Brahmos missile system has become a bestseller in Southeast Asia. This trend is providing indirect benefits to Russia, highlighting the strategic ties between India and Russia despite Western sanctions. These movements suggest a complex realignment of power and trade across the East."
+      "group": "p6",
+      "id": "s19",
+      "index": 19,
+      "start": 141.071,
+      "text": "These movements suggest a complex realignment of power and trade across the East."
     },
     {
       "end": 150.926,
-      "index": 7,
+      "group": "p7",
+      "id": "s20",
+      "index": 20,
       "start": 147.477,
       "text": "After the headlines, back to the weather."
     },
     {
       "end": 156.839,
-      "index": 8,
+      "group": "p8",
+      "id": "s21",
+      "index": 21,
       "start": 150.926,
       "text": "This afternoon will be cloudy with temperatures between 19 and 21 degrees."
     },
     {
       "end": 161.766,
-      "index": 9,
+      "group": "p9",
+      "id": "s22",
+      "index": 22,
       "start": 156.839,
       "text": "And from the weather, a quick look at the calendar."
     },
     {
-      "end": 211.534,
-      "index": 10,
+      "end": 187.882,
+      "group": "p10",
+      "id": "s23",
+      "index": 23,
       "start": 161.766,
-      "text": "On your calendar today: all day, 'Department Retro', at 10:00, 'Optikrunde', at 10:30, 25 minute 'Research weekly', at Gauss; note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616038 PIN: 8..., at 11:00, 'MxM Spotlight 🔦', note: Dear Innovators, You're invited to MxM Spotlight, our weekly knowledge-sharing platform! MxM Spotlight brings together the best of our previous PM, T..., at 15:00, 'Corsnero OffGPT', note: Corsnero OffGPT, at 15:00, 2 hour 'Gruppenmeeting Gregor', and at 15:00, 2 hour '🧠☕ Research Seminar', note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616571 PIN: 2...."
+      "text": "On your calendar today: all day, 'Department Retro', at 10:00, 'Optikrunde', at 10:30, 25 minute 'Research weekly', at Gauss; note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616038 PIN: 8..., at 11:00, 'MxM Spotlight 🔦', note: Dear Innovators, You're invited to MxM Spotlight, our weekly knowledge-sharing platform!"
+    },
+    {
+      "end": 211.534,
+      "group": "p10",
+      "id": "s24",
+      "index": 24,
+      "start": 187.882,
+      "text": "MxM Spotlight brings together the best of our previous PM, T..., at 15:00, 'Corsnero OffGPT', note: Corsnero OffGPT, at 15:00, 2 hour 'Gruppenmeeting Gregor', and at 15:00, 2 hour '🧠☕ Research Seminar', note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616571 PIN: 2...."
     },
     {
       "end": 215.476,
-      "index": 11,
+      "group": "p11",
+      "id": "s25",
+      "index": 25,
       "start": 211.534,
       "text": "And that's it for your personal morning broadcast."
     },
     {
       "end": 216.954,
-      "index": 12,
+      "group": "p12",
+      "id": "s26",
+      "index": 26,
       "start": 215.476,
       "text": "Rise and shine."
     }
   ],
   "source": "radio_script",
   "timing": "word-count-estimate",
-  "version": 1
+  "version": 2
 }
