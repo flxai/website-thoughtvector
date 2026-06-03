@@ -6,6 +6,7 @@
     <title>Morning Whisper Radio</title>
     <meta name="description" content="Meditative morning news broadcasts with audio and show notes.">
     <link rel="canonical" href="https://thoughtvector.zip/radio/">
+    <link rel="alternate" type="application/rss+xml" title="Morning Whisper Radio RSS" href="https://thoughtvector.zip/radio/feed.xml">
     <script>
       (() => {
         try {
@@ -83,6 +84,19 @@
       }
       main { width: min(960px, calc(100% - 32px)); margin: 0 auto; padding: 56px 0; }
       .topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 28px; }
+      .topbar-actions { display: inline-flex; align-items: center; gap: 14px; }
+      .feed-link {
+        display: inline-grid;
+        place-items: center;
+        width: 30px;
+        height: 30px;
+        color: var(--muted);
+        border-radius: 999px;
+        text-decoration: none;
+      }
+      .feed-link:hover { color: var(--accent); background: var(--accent-soft); }
+      .feed-link:focus-visible { outline: 3px solid var(--accent-soft); outline-offset: 3px; }
+      .feed-icon { width: 1.05rem; height: 1.05rem; }
       header { display: grid; gap: 16px; margin-bottom: 32px; }
       .eyebrow { color: var(--accent); font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; }
       h1 { margin: 0; font-size: clamp(2.35rem, 6vw, 4.8rem); line-height: 1; letter-spacing: 0; }
@@ -107,7 +121,7 @@
         width: 0.88rem;
         height: 0.88rem;
         color: var(--muted);
-        transition: color 160ms ease;
+        transition: color 250ms ease;
       }
       .theme-toggle[data-active-theme="light"] .theme-icon-sun,
       .theme-toggle[data-active-theme="dark"] .theme-icon-moon { color: var(--toggle-active-icon); }
@@ -134,7 +148,7 @@
         background: var(--toggle-thumb);
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
         transform: translateX(0);
-        transition: transform 160ms ease;
+        transition: transform 250ms ease;
       }
       .theme-toggle[aria-pressed="true"] .toggle-thumb { transform: translateX(26px); }
       .player {
@@ -229,9 +243,12 @@
     <main>
       <nav class="topbar" aria-label="Site controls">
         <div class="eyebrow">Meditative Mornings</div>
-        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme" aria-pressed="false">
-          <span class="toggle-track" aria-hidden="true"><svg class="icon theme-icon theme-icon-sun" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg><span class="toggle-thumb"></span><svg class="icon theme-icon theme-icon-moon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M20.99 13.47A8.5 8.5 0 1 1 10.53 3.01 7 7 0 0 0 20.99 13.47Z"></path></svg></span>
-        </button>
+        <div class="topbar-actions">
+          <a class="feed-link" href="feed.xml" rel="alternate" type="application/rss+xml" aria-label="RSS feed" title="RSS feed"><svg class="icon feed-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme" aria-pressed="false">
+            <span class="toggle-track" aria-hidden="true"><svg class="icon theme-icon theme-icon-sun" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg><span class="toggle-thumb"></span><svg class="icon theme-icon theme-icon-moon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M20.99 13.47A8.5 8.5 0 1 1 10.53 3.01 7 7 0 0 0 20.99 13.47Z"></path></svg></span>
+          </button>
+        </div>
       </nav>
       <header>
         <h1>Morning Whisper Radio</h1>
