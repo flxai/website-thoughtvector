@@ -398,25 +398,16 @@
       }
       .transcript-cue {
         --cue-alpha: 0;
-        --cue-edge-alpha: 0;
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
-        background: transparent;
+        background-color: transparent;
         border-radius: 0;
         margin: 0 -0.42em;
         padding: 0 0.72em;
-        transition: background 120ms linear, color 180ms ease;
+        transition: color 160ms ease;
       }
       .transcript-cue[data-active="true"] {
-        background: linear-gradient(
-          90deg,
-          transparent 0%,
-          rgba(var(--cue-highlight-rgb), var(--cue-edge-alpha)) 12%,
-          rgba(var(--cue-highlight-rgb), var(--cue-alpha)) 34%,
-          rgba(var(--cue-highlight-rgb), var(--cue-alpha)) 66%,
-          rgba(var(--cue-highlight-rgb), var(--cue-edge-alpha)) 88%,
-          transparent 100%
-        );
+        background-color: rgba(var(--cue-highlight-rgb), var(--cue-alpha));
         color: var(--ink);
       }
       .transcript-sources {
@@ -1068,7 +1059,7 @@
           let activeTranscriptCues = new Set();
           let animationFrame = null;
           const cueBlendSeconds = 0.4;
-          const maxCueAlpha = 0.12;
+          const maxCueAlpha = 0.28;
           const cueStrength = (cue, now) => {
             const start = Number(cue.dataset.start);
             const end = Number(cue.dataset.end);
@@ -1095,13 +1086,11 @@
               nextActive.add(entry.cue);
               entry.cue.dataset.active = "true";
               entry.cue.style.setProperty("--cue-alpha", alpha.toFixed(3));
-              entry.cue.style.setProperty("--cue-edge-alpha", (alpha * 0.22).toFixed(3));
             }
             for (const cue of activeTranscriptCues) {
               if (!nextActive.has(cue)) {
                 cue.removeAttribute("data-active");
                 cue.style.removeProperty("--cue-alpha");
-                cue.style.removeProperty("--cue-edge-alpha");
               }
             }
             activeTranscriptCues = nextActive;
