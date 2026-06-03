@@ -90,39 +90,50 @@
         appearance: none;
         display: inline-flex;
         align-items: center;
-        gap: 8px;
-        border: 1px solid var(--line);
-        border-radius: 999px;
-        background: var(--panel);
+        border: 0;
+        background: transparent;
         color: var(--muted);
-        padding: 5px 8px;
+        padding: 0;
         cursor: pointer;
       }
-      .theme-toggle:focus-visible { outline: 3px solid var(--accent-soft); outline-offset: 3px; }
-      .theme-icon { width: 1rem; height: 1rem; }
+      .theme-toggle:focus-visible { outline: none; }
+      .theme-toggle:focus-visible .toggle-track { outline: 3px solid var(--accent-soft); outline-offset: 3px; }
+      .theme-icon {
+        position: relative;
+        z-index: 2;
+        width: 0.88rem;
+        height: 0.88rem;
+        color: var(--muted);
+        transition: color 160ms ease;
+      }
       .theme-toggle[data-active-theme="light"] .theme-icon-sun,
-      .theme-toggle[data-active-theme="dark"] .theme-icon-moon { color: var(--accent); }
+      .theme-toggle[data-active-theme="dark"] .theme-icon-moon { color: var(--ink); }
       .toggle-track {
         position: relative;
         display: inline-flex;
         align-items: center;
-        width: 44px;
-        height: 26px;
+        justify-content: space-between;
+        width: 56px;
+        height: 30px;
         border-radius: 999px;
         background: var(--toggle-track);
-        padding: 3px;
+        padding: 0 8px;
       }
       .toggle-thumb {
         display: block;
-        width: 20px;
-        height: 20px;
+        position: absolute;
+        z-index: 1;
+        left: 3px;
+        top: 3px;
+        width: 24px;
+        height: 24px;
         border-radius: 50%;
         background: var(--toggle-thumb);
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
         transform: translateX(0);
         transition: transform 160ms ease;
       }
-      .theme-toggle[aria-pressed="true"] .toggle-thumb { transform: translateX(18px); }
+      .theme-toggle[aria-pressed="true"] .toggle-thumb { transform: translateX(26px); }
       .player {
         display: grid;
         gap: 18px;
@@ -216,9 +227,7 @@
       <nav class="topbar" aria-label="Site controls">
         <div class="eyebrow">Meditative Mornings</div>
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme" aria-pressed="false">
-          <svg class="icon theme-icon theme-icon-sun" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
-          <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
-          <svg class="icon theme-icon theme-icon-moon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M20.99 13.47A8.5 8.5 0 1 1 10.53 3.01 7 7 0 0 0 20.99 13.47Z"></path></svg>
+          <span class="toggle-track" aria-hidden="true"><svg class="icon theme-icon theme-icon-sun" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg><span class="toggle-thumb"></span><svg class="icon theme-icon theme-icon-moon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M20.99 13.47A8.5 8.5 0 1 1 10.53 3.01 7 7 0 0 0 20.99 13.47Z"></path></svg></span>
         </button>
       </nav>
       <header>
