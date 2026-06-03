@@ -1,10 +1,23 @@
 [
   {
+    "audio": "media/20260603-230127Z.ogg",
+    "feed_failure_count": 234,
+    "generated_at": "2026-06-03T23:01:27+00:00",
+    "id": "20260603-230127Z",
+    "page": "2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260603-230127Z.ass",
+    "summary": "It is currently 16 degrees and partly cloudy in Berlin-Tempelhof. With the morning weather set, here is the news. The global geopolitical and economic landscape is currently marked by significant volatility, with a strong focus on the intersection of technology, security, and trade. In the United States, the administration continues to navigate complex trade relations and domestic economic pressures, while simultaneously managing strategic competition with China. This is evident in the ongoing scrutiny of semiconductor supply chains and the implementation of export controls aimed at limiting the proliferation of advanced AI capabilities. Meanwhile, the European Union is grappling with its own set of challenges, including the need to balance economic stability with the transition toward a greener economy and the geopolitical implications of the conflict in Ukraine.",
+    "title": "It is currently 16 degrees and partly cloudy in Berlin-Tempelhof",
+    "transcript": "transcripts/20260603-230127Z.json",
+    "waveform": "waveforms/20260603-230127Z.json"
+  },
+  {
     "audio": "media/20260603-205545Z.ogg",
     "feed_failure_count": 234,
     "generated_at": "2026-06-03T20:55:45+00:00",
     "id": "20260603-205545Z",
-    "page": "2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research/",
+    "page": "2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research-20260603-205545z/",
     "selected_article_count": 80,
     "subtitles": "subtitles/20260603-205545Z.ass",
     "summary": "NVIDIA unveils new general-purpose AI capabilities for robotics, while global reports cover ongoing Middle East tensions and the cautious approach of central banks toward interest rate cuts amidst uncertain inflation data.",
