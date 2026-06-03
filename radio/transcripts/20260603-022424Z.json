@@ -1,0 +1,87 @@
+{
+  "kind": "estimated-transcript",
+  "run_id": "20260603-022424Z",
+  "segments": [
+    {
+      "end": 14.927,
+      "index": 0,
+      "start": 10.0,
+      "text": "It is currently 16 degrees and cloudy in Berlin-Tempelhof."
+    },
+    {
+      "end": 19.362,
+      "index": 1,
+      "start": 14.927,
+      "text": "With the morning weather set, here is the news."
+    },
+    {
+      "end": 48.434,
+      "index": 2,
+      "start": 19.362,
+      "text": "AI is moving beyond the chat interface and into the physical world. NVIDIA has launched NemoClaw, a system designed to create autonomous AI engineers. These agents can handle end-to-end industrial workflows, including CAD and simulation, to significantly compress engineering timelines. This shift toward Physical AI allows models to execute complex industrial tasks rather than just providing text."
+    },
+    {
+      "end": 68.144,
+      "index": 3,
+      "start": 48.434,
+      "text": "At the same time, the race for autonomous computer use is intensifying. Anthropic has demonstrated new agent capabilities using Claude Opus 4.8. By integrating with Letta and Browserbase, these agents can interact with web browsers to perform tasks independently."
+    },
+    {
+      "end": 99.68,
+      "index": 4,
+      "start": 68.144,
+      "text": "This push for autonomy in technology contrasts with a severe breakdown in human diplomacy in the Middle East. The US military has intercepted Iranian missile and drone attacks targeting Bahrain and Kuwait. In response, the US carried out self-defense strikes on Iran's Qeshm Island. These direct exchanges of fire come as ceasefire negotiations have stalled, raising the risk of a wider regional escalation."
+    },
+    {
+      "end": 119.883,
+      "index": 5,
+      "start": 99.68,
+      "text": "These security tensions are influencing how nations position themselves on the global stage. Germany is intensifying its diplomatic efforts to secure a permanent seat on the UN Security Council. A successful bid would formally elevate Germany's influence over international security policy."
+    },
+    {
+      "end": 147.477,
+      "index": 6,
+      "start": 119.883,
+      "text": "The intersection of security and commerce is also visible in Asian defense markets. India's Brahmos missile system has become a bestseller in Southeast Asia. This trend is providing indirect benefits to Russia, highlighting the strategic ties between India and Russia despite Western sanctions. These movements suggest a complex realignment of power and trade across the East."
+    },
+    {
+      "end": 150.926,
+      "index": 7,
+      "start": 147.477,
+      "text": "After the headlines, back to the weather."
+    },
+    {
+      "end": 156.839,
+      "index": 8,
+      "start": 150.926,
+      "text": "This afternoon will be cloudy with temperatures between 19 and 21 degrees."
+    },
+    {
+      "end": 161.766,
+      "index": 9,
+      "start": 156.839,
+      "text": "And from the weather, a quick look at the calendar."
+    },
+    {
+      "end": 211.534,
+      "index": 10,
+      "start": 161.766,
+      "text": "On your calendar today: all day, 'Department Retro', at 10:00, 'Optikrunde', at 10:30, 25 minute 'Research weekly', at Gauss; note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616038 PIN: 8..., at 11:00, 'MxM Spotlight 🔦', note: Dear Innovators, You're invited to MxM Spotlight, our weekly knowledge-sharing platform! MxM Spotlight brings together the best of our previous PM, T..., at 15:00, 'Corsnero OffGPT', note: Corsnero OffGPT, at 15:00, 2 hour 'Gruppenmeeting Gregor', and at 15:00, 2 hour '🧠☕ Research Seminar', note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616571 PIN: 2...."
+    },
+    {
+      "end": 215.476,
+      "index": 11,
+      "start": 211.534,
+      "text": "And that's it for your personal morning broadcast."
+    },
+    {
+      "end": 216.954,
+      "index": 12,
+      "start": 215.476,
+      "text": "Rise and shine."
+    }
+  ],
+  "source": "radio_script",
+  "timing": "word-count-estimate",
+  "version": 1
+}

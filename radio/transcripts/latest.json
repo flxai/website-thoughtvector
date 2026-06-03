@@ -1,0 +1,75 @@
+{
+  "kind": "estimated-transcript",
+  "run_id": "20260603-102905Z",
+  "segments": [
+    {
+      "end": 16.561,
+      "index": 0,
+      "start": 10.0,
+      "text": "Good morning. Weather data is unavailable right now; we start with the news."
+    },
+    {
+      "end": 57.943,
+      "index": 1,
+      "start": 16.561,
+      "text": "Financial institutions are fundamentally changing how they deploy artificial intelligence. Rather than using fragmented tools for separate tasks like fraud or credit risk, banks are shifting toward Transaction Foundation Models. This move aims to create a unified layer of institutional intelligence across entire systems. At the same time, the tools for attacking these systems are evolving. Anthropic Red has released a new framework called the LLM ATT&CK Navigator, which maps how large language models are being used to facilitate cyber attacks."
+    },
+    {
+      "end": 78.635,
+      "index": 2,
+      "start": 57.943,
+      "text": "As AI moves into more critical infrastructure, the hardware is following. NVIDIA is pushing its AI capabilities directly into the laptop market to enable local processing. This shift toward edge AI reduces the reliance on cloud infrastructure for high-performance tasks."
+    },
+    {
+      "end": 122.036,
+      "index": 3,
+      "start": 78.635,
+      "text": "These technological shifts occur against a backdrop of escalating physical conflict. Ukraine has launched long-range drone strikes against Saint Petersburg, timed to coincide with the start of a major Russian economic forum. The strike is a strategic move to disrupt Russia's internal security perception. In the Middle East, the stakes are equally high. Ambassadors from Israel and Lebanon have opened direct talks in Washington. President Donald Trump claims he has received commitments to de-escalation, though the goal is to prevent a wider regional war."
+    },
+    {
+      "end": 140.204,
+      "index": 4,
+      "start": 122.036,
+      "text": "Geopolitical instability is now filtering directly into European markets. The German DAX has fallen below the 25,000-point mark. This volatility is driven by rising oil prices and increased uncertainty surrounding the conflict in Iran."
+    },
+    {
+      "end": 184.615,
+      "index": 5,
+      "start": 140.204,
+      "text": "Regulatory pressure is also mounting for big tech in Europe. The EU Court has ruled that Meta's Messenger service must adhere to stricter competition rules under the Digital Markets Act. This decision limits Meta's ability to leverage its ecosystem as a gatekeeper. In other German news, the healthcare sector is seeing a surprising financial surplus. The largest health insurance funds reported a combined gain of 773 million euros in the first quarter. Despite the surplus, these funds warn that reforms are still necessary to prevent future contribution increases."
+    },
+    {
+      "end": 188.652,
+      "index": 6,
+      "start": 184.615,
+      "text": "Weather data remains unavailable for the closing update."
+    },
+    {
+      "end": 192.185,
+      "index": 7,
+      "start": 188.652,
+      "text": "Finally, a quick look at the calendar."
+    },
+    {
+      "end": 243.156,
+      "index": 8,
+      "start": 192.185,
+      "text": "On your calendar today: all day, 'Department Retro', at 10:00, 'Optikrunde', at 10:30, 25 minute 'Research weekly', at Gauss; note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616038 PIN: 8..., at 11:00, 'MxM Spotlight 🔦', note: Dear Innovators, You're invited to MxM Spotlight, our weekly knowledge-sharing platform! MxM Spotlight brings together the best of our previous PM, T..., at 15:00, 'Corsnero OffGPT', note: Corsnero OffGPT, at 15:00, 2 hour 'Gruppenmeeting Gregor', and at 15:00, 2 hour '🧠☕ Research Seminar', note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616571 PIN: 2...."
+    },
+    {
+      "end": 247.194,
+      "index": 9,
+      "start": 243.156,
+      "text": "And that's it for your personal morning broadcast."
+    },
+    {
+      "end": 248.708,
+      "index": 10,
+      "start": 247.194,
+      "text": "Rise and shine."
+    }
+  ],
+  "source": "radio_script",
+  "timing": "word-count-estimate",
+  "version": 1
+}
