@@ -5,6 +5,7 @@
     "generated_at": "2026-06-03T10:29:05+00:00",
     "id": "20260603-102905Z",
     "selected_article_count": 80,
+    "subtitles": "subtitles/20260603-102905Z.ass",
     "transcript": "transcripts/20260603-102905Z.json",
     "waveform": "waveforms/20260603-102905Z.json"
   },
@@ -14,6 +15,7 @@
     "generated_at": "2026-06-03T02:24:24+00:00",
     "id": "20260603-022424Z",
     "selected_article_count": 80,
+    "subtitles": "subtitles/20260603-022424Z.ass",
     "transcript": "transcripts/20260603-022424Z.json",
     "waveform": "waveforms/20260603-022424Z.json"
   }

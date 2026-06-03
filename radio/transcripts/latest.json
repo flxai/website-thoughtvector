@@ -143,7 +143,21 @@
       "id": "s0",
       "index": 0,
       "start": 10.22,
-      "text": "Good morning."
+      "text": "Good morning.",
+      "words": [
+        {
+          "end": 10.56,
+          "index": 0,
+          "start": 10.22,
+          "text": "Good"
+        },
+        {
+          "end": 10.57,
+          "index": 1,
+          "start": 10.56,
+          "text": "morning"
+        }
+      ]
     },
     {
       "end": 14.84,
@@ -151,7 +165,75 @@
       "id": "s1",
       "index": 1,
       "start": 10.72,
-      "text": "Weather data is unavailable right now; we start with the news."
+      "text": "Weather data is unavailable right now; we start with the news.",
+      "words": [
+        {
+          "end": 11.4,
+          "index": 0,
+          "start": 10.72,
+          "text": "Weather"
+        },
+        {
+          "end": 11.66,
+          "index": 1,
+          "start": 11.4,
+          "text": "data"
+        },
+        {
+          "end": 12.0,
+          "index": 2,
+          "start": 11.66,
+          "text": "is"
+        },
+        {
+          "end": 12.68,
+          "index": 3,
+          "start": 12.0,
+          "text": "unavailable"
+        },
+        {
+          "end": 12.92,
+          "index": 4,
+          "start": 12.68,
+          "text": "right"
+        },
+        {
+          "end": 13.2,
+          "index": 5,
+          "start": 12.92,
+          "text": "now"
+        },
+        {
+          "end": 13.92,
+          "index": 6,
+          "start": 13.4,
+          "text": "we"
+        },
+        {
+          "end": 14.18,
+          "index": 7,
+          "start": 13.92,
+          "text": "start"
+        },
+        {
+          "end": 14.48,
+          "index": 8,
+          "start": 14.18,
+          "text": "with"
+        },
+        {
+          "end": 14.56,
+          "index": 9,
+          "start": 14.48,
+          "text": "the"
+        },
+        {
+          "end": 14.84,
+          "index": 10,
+          "start": 14.56,
+          "text": "news"
+        }
+      ]
     },
     {
       "end": 20.7,
@@ -159,7 +241,69 @@
       "id": "s2",
       "index": 2,
       "start": 15.12,
-      "text": "Financial institutions are fundamentally changing how they deploy artificial intelligence."
+      "text": "Financial institutions are fundamentally changing how they deploy artificial intelligence.",
+      "words": [
+        {
+          "end": 15.82,
+          "index": 0,
+          "start": 15.12,
+          "text": "Financial"
+        },
+        {
+          "end": 16.64,
+          "index": 1,
+          "start": 15.82,
+          "text": "institutions"
+        },
+        {
+          "end": 17.26,
+          "index": 2,
+          "start": 16.64,
+          "text": "are"
+        },
+        {
+          "end": 17.7,
+          "index": 3,
+          "start": 17.26,
+          "text": "fundamentally"
+        },
+        {
+          "end": 18.44,
+          "index": 4,
+          "start": 17.7,
+          "text": "changing"
+        },
+        {
+          "end": 18.74,
+          "index": 5,
+          "start": 18.44,
+          "text": "how"
+        },
+        {
+          "end": 18.94,
+          "index": 6,
+          "start": 18.74,
+          "text": "they"
+        },
+        {
+          "end": 19.34,
+          "index": 7,
+          "start": 18.94,
+          "text": "deploy"
+        },
+        {
+          "end": 19.88,
+          "index": 8,
+          "start": 19.34,
+          "text": "artificial"
+        },
+        {
+          "end": 20.7,
+          "index": 9,
+          "start": 19.88,
+          "text": "intelligence"
+        }
+      ]
     },
     {
       "end": 30.54,
@@ -167,7 +311,129 @@
       "id": "s3",
       "index": 3,
       "start": 21.14,
-      "text": "Rather than using fragmented tools for separate tasks like fraud or credit risk, banks are shifting toward Transaction Foundation Models."
+      "text": "Rather than using fragmented tools for separate tasks like fraud or credit risk, banks are shifting toward Transaction Foundation Models.",
+      "words": [
+        {
+          "end": 21.78,
+          "index": 0,
+          "start": 21.14,
+          "text": "Rather"
+        },
+        {
+          "end": 22.1,
+          "index": 1,
+          "start": 21.78,
+          "text": "than"
+        },
+        {
+          "end": 22.38,
+          "index": 2,
+          "start": 22.1,
+          "text": "using"
+        },
+        {
+          "end": 23.22,
+          "index": 3,
+          "start": 22.38,
+          "text": "fragmented"
+        },
+        {
+          "end": 23.6,
+          "index": 4,
+          "start": 23.22,
+          "text": "tools"
+        },
+        {
+          "end": 23.9,
+          "index": 5,
+          "start": 23.6,
+          "text": "for"
+        },
+        {
+          "end": 24.26,
+          "index": 6,
+          "start": 23.9,
+          "text": "separate"
+        },
+        {
+          "end": 24.8,
+          "index": 7,
+          "start": 24.26,
+          "text": "tasks"
+        },
+        {
+          "end": 25.18,
+          "index": 8,
+          "start": 24.8,
+          "text": "like"
+        },
+        {
+          "end": 25.66,
+          "index": 9,
+          "start": 25.18,
+          "text": "fraud"
+        },
+        {
+          "end": 25.86,
+          "index": 10,
+          "start": 25.66,
+          "text": "or"
+        },
+        {
+          "end": 26.14,
+          "index": 11,
+          "start": 25.86,
+          "text": "credit"
+        },
+        {
+          "end": 26.52,
+          "index": 12,
+          "start": 26.14,
+          "text": "risk"
+        },
+        {
+          "end": 27.66,
+          "index": 13,
+          "start": 26.72,
+          "text": "banks"
+        },
+        {
+          "end": 27.82,
+          "index": 14,
+          "start": 27.66,
+          "text": "are"
+        },
+        {
+          "end": 28.26,
+          "index": 15,
+          "start": 27.82,
+          "text": "shifting"
+        },
+        {
+          "end": 28.64,
+          "index": 16,
+          "start": 28.26,
+          "text": "toward"
+        },
+        {
+          "end": 29.16,
+          "index": 17,
+          "start": 28.64,
+          "text": "Transaction"
+        },
+        {
+          "end": 29.78,
+          "index": 18,
+          "start": 29.16,
+          "text": "Foundation"
+        },
+        {
+          "end": 30.54,
+          "index": 19,
+          "start": 29.78,
+          "text": "Models"
+        }
+      ]
     },
     {
       "end": 34.68,
@@ -175,7 +441,93 @@
       "id": "s4",
       "index": 4,
       "start": 31.18,
-      "text": "This move aims to create a unified layer of institutional intelligence across entire systems."
+      "text": "This move aims to create a unified layer of institutional intelligence across entire systems.",
+      "words": [
+        {
+          "end": 31.9,
+          "index": 0,
+          "start": 31.18,
+          "text": "This"
+        },
+        {
+          "end": 32.18,
+          "index": 1,
+          "start": 31.9,
+          "text": "move"
+        },
+        {
+          "end": 32.5,
+          "index": 2,
+          "start": 32.18,
+          "text": "aims"
+        },
+        {
+          "end": 32.76,
+          "index": 3,
+          "start": 32.5,
+          "text": "to"
+        },
+        {
+          "end": 33.02,
+          "index": 4,
+          "start": 32.76,
+          "text": "create"
+        },
+        {
+          "end": 33.2,
+          "index": 5,
+          "start": 33.02,
+          "text": "a"
+        },
+        {
+          "end": 33.56,
+          "index": 6,
+          "start": 33.2,
+          "text": "unified"
+        },
+        {
+          "end": 34.02,
+          "index": 7,
+          "start": 33.56,
+          "text": "layer"
+        },
+        {
+          "end": 34.28,
+          "index": 8,
+          "start": 34.02,
+          "text": "of"
+        },
+        {
+          "end": 34.68,
+          "index": 9,
+          "start": 34.28,
+          "text": "institutional"
+        },
+        {
+          "end": 34.69,
+          "index": 10,
+          "start": 34.68,
+          "text": "intelligence"
+        },
+        {
+          "end": 34.69,
+          "index": 11,
+          "start": 34.68,
+          "text": "across"
+        },
+        {
+          "end": 34.69,
+          "index": 12,
+          "start": 34.68,
+          "text": "entire"
+        },
+        {
+          "end": 34.69,
+          "index": 13,
+          "start": 34.68,
+          "text": "systems"
+        }
+      ]
     },
     {
       "end": 42.19,
@@ -183,7 +535,81 @@
       "id": "s5",
       "index": 5,
       "start": 40.65,
-      "text": "At the same time, the tools for attacking these systems are evolving."
+      "text": "At the same time, the tools for attacking these systems are evolving.",
+      "words": [
+        {
+          "end": 40.843,
+          "index": 0,
+          "start": 40.65,
+          "text": "At"
+        },
+        {
+          "end": 41.035,
+          "index": 1,
+          "start": 40.843,
+          "text": "the"
+        },
+        {
+          "end": 41.227,
+          "index": 2,
+          "start": 41.035,
+          "text": "same"
+        },
+        {
+          "end": 41.42,
+          "index": 3,
+          "start": 41.227,
+          "text": "time"
+        },
+        {
+          "end": 41.612,
+          "index": 4,
+          "start": 41.42,
+          "text": "the"
+        },
+        {
+          "end": 41.805,
+          "index": 5,
+          "start": 41.612,
+          "text": "tools"
+        },
+        {
+          "end": 41.997,
+          "index": 6,
+          "start": 41.805,
+          "text": "for"
+        },
+        {
+          "end": 42.19,
+          "index": 7,
+          "start": 41.997,
+          "text": "attacking"
+        },
+        {
+          "end": 42.2,
+          "index": 8,
+          "start": 42.19,
+          "text": "these"
+        },
+        {
+          "end": 42.2,
+          "index": 9,
+          "start": 42.19,
+          "text": "systems"
+        },
+        {
+          "end": 42.2,
+          "index": 10,
+          "start": 42.19,
+          "text": "are"
+        },
+        {
+          "end": 42.2,
+          "index": 11,
+          "start": 42.19,
+          "text": "evolving"
+        }
+      ]
     },
     {
       "end": 54.57,
@@ -191,7 +617,165 @@
       "id": "s6",
       "index": 6,
       "start": 43.11,
-      "text": "Anthropic Red has released a new framework called the LLM ATT&CK Navigator, which maps how large language models are being used to facilitate cyber attacks."
+      "text": "Anthropic Red has released a new framework called the LLM ATT&CK Navigator, which maps how large language models are being used to facilitate cyber attacks.",
+      "words": [
+        {
+          "end": 43.91,
+          "index": 0,
+          "start": 43.11,
+          "text": "Anthropic"
+        },
+        {
+          "end": 44.29,
+          "index": 1,
+          "start": 43.91,
+          "text": "Red"
+        },
+        {
+          "end": 44.51,
+          "index": 2,
+          "start": 44.29,
+          "text": "has"
+        },
+        {
+          "end": 44.95,
+          "index": 3,
+          "start": 44.51,
+          "text": "released"
+        },
+        {
+          "end": 45.17,
+          "index": 4,
+          "start": 44.95,
+          "text": "a"
+        },
+        {
+          "end": 45.33,
+          "index": 5,
+          "start": 45.17,
+          "text": "new"
+        },
+        {
+          "end": 45.87,
+          "index": 6,
+          "start": 45.33,
+          "text": "framework"
+        },
+        {
+          "end": 46.21,
+          "index": 7,
+          "start": 45.87,
+          "text": "called"
+        },
+        {
+          "end": 46.39,
+          "index": 8,
+          "start": 46.21,
+          "text": "the"
+        },
+        {
+          "end": 46.923,
+          "index": 9,
+          "start": 46.39,
+          "text": "LLM"
+        },
+        {
+          "end": 47.457,
+          "index": 10,
+          "start": 46.923,
+          "text": "ATT"
+        },
+        {
+          "end": 47.99,
+          "index": 11,
+          "start": 47.457,
+          "text": "CK"
+        },
+        {
+          "end": 48.75,
+          "index": 12,
+          "start": 47.99,
+          "text": "Navigator"
+        },
+        {
+          "end": 49.79,
+          "index": 13,
+          "start": 48.95,
+          "text": "which"
+        },
+        {
+          "end": 50.11,
+          "index": 14,
+          "start": 49.79,
+          "text": "maps"
+        },
+        {
+          "end": 50.45,
+          "index": 15,
+          "start": 50.11,
+          "text": "how"
+        },
+        {
+          "end": 50.93,
+          "index": 16,
+          "start": 50.45,
+          "text": "large"
+        },
+        {
+          "end": 51.43,
+          "index": 17,
+          "start": 50.93,
+          "text": "language"
+        },
+        {
+          "end": 51.79,
+          "index": 18,
+          "start": 51.43,
+          "text": "models"
+        },
+        {
+          "end": 52.19,
+          "index": 19,
+          "start": 51.79,
+          "text": "are"
+        },
+        {
+          "end": 52.39,
+          "index": 20,
+          "start": 52.19,
+          "text": "being"
+        },
+        {
+          "end": 52.79,
+          "index": 21,
+          "start": 52.39,
+          "text": "used"
+        },
+        {
+          "end": 53.03,
+          "index": 22,
+          "start": 52.79,
+          "text": "to"
+        },
+        {
+          "end": 53.51,
+          "index": 23,
+          "start": 53.03,
+          "text": "facilitate"
+        },
+        {
+          "end": 54.13,
+          "index": 24,
+          "start": 53.51,
+          "text": "cyber"
+        },
+        {
+          "end": 54.57,
+          "index": 25,
+          "start": 54.13,
+          "text": "attacks"
+        }
+      ]
     },
     {
       "end": 59.79,
@@ -199,7 +783,75 @@
       "id": "s7",
       "index": 7,
       "start": 55.07,
-      "text": "As AI moves into more critical infrastructure, the hardware is following."
+      "text": "As AI moves into more critical infrastructure, the hardware is following.",
+      "words": [
+        {
+          "end": 55.57,
+          "index": 0,
+          "start": 55.07,
+          "text": "As"
+        },
+        {
+          "end": 56.01,
+          "index": 1,
+          "start": 55.57,
+          "text": "AI"
+        },
+        {
+          "end": 56.33,
+          "index": 2,
+          "start": 56.01,
+          "text": "moves"
+        },
+        {
+          "end": 56.73,
+          "index": 3,
+          "start": 56.33,
+          "text": "into"
+        },
+        {
+          "end": 57.03,
+          "index": 4,
+          "start": 56.73,
+          "text": "more"
+        },
+        {
+          "end": 57.47,
+          "index": 5,
+          "start": 57.03,
+          "text": "critical"
+        },
+        {
+          "end": 58.13,
+          "index": 6,
+          "start": 57.47,
+          "text": "infrastructure"
+        },
+        {
+          "end": 58.75,
+          "index": 7,
+          "start": 58.57,
+          "text": "the"
+        },
+        {
+          "end": 59.11,
+          "index": 8,
+          "start": 58.75,
+          "text": "hardware"
+        },
+        {
+          "end": 59.45,
+          "index": 9,
+          "start": 59.11,
+          "text": "is"
+        },
+        {
+          "end": 59.79,
+          "index": 10,
+          "start": 59.45,
+          "text": "following"
+        }
+      ]
     },
     {
       "end": 66.69,
@@ -207,7 +859,99 @@
       "id": "s8",
       "index": 8,
       "start": 59.91,
-      "text": "NVIDIA is pushing its AI capabilities directly into the laptop market to enable local processing."
+      "text": "NVIDIA is pushing its AI capabilities directly into the laptop market to enable local processing.",
+      "words": [
+        {
+          "end": 60.57,
+          "index": 0,
+          "start": 59.91,
+          "text": "NVIDIA"
+        },
+        {
+          "end": 60.79,
+          "index": 1,
+          "start": 60.57,
+          "text": "is"
+        },
+        {
+          "end": 61.17,
+          "index": 2,
+          "start": 60.79,
+          "text": "pushing"
+        },
+        {
+          "end": 61.45,
+          "index": 3,
+          "start": 61.17,
+          "text": "its"
+        },
+        {
+          "end": 61.79,
+          "index": 4,
+          "start": 61.45,
+          "text": "AI"
+        },
+        {
+          "end": 62.37,
+          "index": 5,
+          "start": 61.79,
+          "text": "capabilities"
+        },
+        {
+          "end": 63.19,
+          "index": 6,
+          "start": 62.37,
+          "text": "directly"
+        },
+        {
+          "end": 63.71,
+          "index": 7,
+          "start": 63.19,
+          "text": "into"
+        },
+        {
+          "end": 63.87,
+          "index": 8,
+          "start": 63.71,
+          "text": "the"
+        },
+        {
+          "end": 64.29,
+          "index": 9,
+          "start": 63.87,
+          "text": "laptop"
+        },
+        {
+          "end": 64.81,
+          "index": 10,
+          "start": 64.29,
+          "text": "market"
+        },
+        {
+          "end": 65.21,
+          "index": 11,
+          "start": 64.81,
+          "text": "to"
+        },
+        {
+          "end": 65.57,
+          "index": 12,
+          "start": 65.21,
+          "text": "enable"
+        },
+        {
+          "end": 65.99,
+          "index": 13,
+          "start": 65.57,
+          "text": "local"
+        },
+        {
+          "end": 66.69,
+          "index": 14,
+          "start": 65.99,
+          "text": "processing"
+        }
+      ]
     },
     {
       "end": 74.32,
@@ -215,7 +959,99 @@
       "id": "s9",
       "index": 9,
       "start": 67.63,
-      "text": "This shift toward edge AI reduces the reliance on cloud infrastructure for high-performance tasks."
+      "text": "This shift toward edge AI reduces the reliance on cloud infrastructure for high-performance tasks.",
+      "words": [
+        {
+          "end": 68.43,
+          "index": 0,
+          "start": 67.63,
+          "text": "This"
+        },
+        {
+          "end": 68.79,
+          "index": 1,
+          "start": 68.43,
+          "text": "shift"
+        },
+        {
+          "end": 69.22,
+          "index": 2,
+          "start": 68.79,
+          "text": "toward"
+        },
+        {
+          "end": 69.44,
+          "index": 3,
+          "start": 69.22,
+          "text": "edge"
+        },
+        {
+          "end": 69.94,
+          "index": 4,
+          "start": 69.44,
+          "text": "AI"
+        },
+        {
+          "end": 70.44,
+          "index": 5,
+          "start": 69.94,
+          "text": "reduces"
+        },
+        {
+          "end": 70.88,
+          "index": 6,
+          "start": 70.44,
+          "text": "the"
+        },
+        {
+          "end": 71.46,
+          "index": 7,
+          "start": 70.88,
+          "text": "reliance"
+        },
+        {
+          "end": 71.68,
+          "index": 8,
+          "start": 71.46,
+          "text": "on"
+        },
+        {
+          "end": 71.96,
+          "index": 9,
+          "start": 71.68,
+          "text": "cloud"
+        },
+        {
+          "end": 72.68,
+          "index": 10,
+          "start": 71.96,
+          "text": "infrastructure"
+        },
+        {
+          "end": 73.16,
+          "index": 11,
+          "start": 72.68,
+          "text": "for"
+        },
+        {
+          "end": 73.38,
+          "index": 12,
+          "start": 73.16,
+          "text": "high"
+        },
+        {
+          "end": 73.76,
+          "index": 13,
+          "start": 73.38,
+          "text": "performance"
+        },
+        {
+          "end": 74.32,
+          "index": 14,
+          "start": 73.76,
+          "text": "tasks"
+        }
+      ]
     },
     {
       "end": 80.3,
@@ -223,7 +1059,75 @@
       "id": "s10",
       "index": 10,
       "start": 74.86,
-      "text": "These technological shifts occur against a backdrop of escalating physical conflict."
+      "text": "These technological shifts occur against a backdrop of escalating physical conflict.",
+      "words": [
+        {
+          "end": 75.34,
+          "index": 0,
+          "start": 74.86,
+          "text": "These"
+        },
+        {
+          "end": 75.9,
+          "index": 1,
+          "start": 75.34,
+          "text": "technological"
+        },
+        {
+          "end": 76.66,
+          "index": 2,
+          "start": 75.9,
+          "text": "shifts"
+        },
+        {
+          "end": 77.04,
+          "index": 3,
+          "start": 76.66,
+          "text": "occur"
+        },
+        {
+          "end": 77.42,
+          "index": 4,
+          "start": 77.04,
+          "text": "against"
+        },
+        {
+          "end": 77.68,
+          "index": 5,
+          "start": 77.42,
+          "text": "a"
+        },
+        {
+          "end": 78.08,
+          "index": 6,
+          "start": 77.68,
+          "text": "backdrop"
+        },
+        {
+          "end": 78.46,
+          "index": 7,
+          "start": 78.08,
+          "text": "of"
+        },
+        {
+          "end": 79.22,
+          "index": 8,
+          "start": 78.46,
+          "text": "escalating"
+        },
+        {
+          "end": 79.54,
+          "index": 9,
+          "start": 79.22,
+          "text": "physical"
+        },
+        {
+          "end": 80.3,
+          "index": 10,
+          "start": 79.54,
+          "text": "conflict"
+        }
+      ]
     },
     {
       "end": 90.26,
@@ -231,7 +1135,141 @@
       "id": "s11",
       "index": 11,
       "start": 81.48,
-      "text": "Ukraine has launched long-range drone strikes against Saint Petersburg, timed to coincide with the start of a major Russian economic forum."
+      "text": "Ukraine has launched long-range drone strikes against Saint Petersburg, timed to coincide with the start of a major Russian economic forum.",
+      "words": [
+        {
+          "end": 81.88,
+          "index": 0,
+          "start": 81.48,
+          "text": "Ukraine"
+        },
+        {
+          "end": 82.06,
+          "index": 1,
+          "start": 81.88,
+          "text": "has"
+        },
+        {
+          "end": 82.36,
+          "index": 2,
+          "start": 82.06,
+          "text": "launched"
+        },
+        {
+          "end": 82.76,
+          "index": 3,
+          "start": 82.36,
+          "text": "long"
+        },
+        {
+          "end": 83.2,
+          "index": 4,
+          "start": 82.76,
+          "text": "range"
+        },
+        {
+          "end": 83.5,
+          "index": 5,
+          "start": 83.2,
+          "text": "drone"
+        },
+        {
+          "end": 83.9,
+          "index": 6,
+          "start": 83.5,
+          "text": "strikes"
+        },
+        {
+          "end": 84.38,
+          "index": 7,
+          "start": 83.9,
+          "text": "against"
+        },
+        {
+          "end": 84.76,
+          "index": 8,
+          "start": 84.38,
+          "text": "Saint"
+        },
+        {
+          "end": 85.22,
+          "index": 9,
+          "start": 84.76,
+          "text": "Petersburg"
+        },
+        {
+          "end": 86.62,
+          "index": 10,
+          "start": 85.68,
+          "text": "timed"
+        },
+        {
+          "end": 86.82,
+          "index": 11,
+          "start": 86.62,
+          "text": "to"
+        },
+        {
+          "end": 87.4,
+          "index": 12,
+          "start": 86.82,
+          "text": "coincide"
+        },
+        {
+          "end": 87.6,
+          "index": 13,
+          "start": 87.4,
+          "text": "with"
+        },
+        {
+          "end": 87.7,
+          "index": 14,
+          "start": 87.6,
+          "text": "the"
+        },
+        {
+          "end": 88.06,
+          "index": 15,
+          "start": 87.7,
+          "text": "start"
+        },
+        {
+          "end": 88.18,
+          "index": 16,
+          "start": 88.06,
+          "text": "of"
+        },
+        {
+          "end": 88.3,
+          "index": 17,
+          "start": 88.18,
+          "text": "a"
+        },
+        {
+          "end": 88.56,
+          "index": 18,
+          "start": 88.3,
+          "text": "major"
+        },
+        {
+          "end": 89.02,
+          "index": 19,
+          "start": 88.56,
+          "text": "Russian"
+        },
+        {
+          "end": 89.46,
+          "index": 20,
+          "start": 89.02,
+          "text": "economic"
+        },
+        {
+          "end": 90.26,
+          "index": 21,
+          "start": 89.46,
+          "text": "forum"
+        }
+      ]
     },
     {
       "end": 95.5,
@@ -239,7 +1277,81 @@
       "id": "s12",
       "index": 12,
       "start": 90.52,
-      "text": "The strike is a strategic move to disrupt Russia's internal security perception."
+      "text": "The strike is a strategic move to disrupt Russia's internal security perception.",
+      "words": [
+        {
+          "end": 90.76,
+          "index": 0,
+          "start": 90.52,
+          "text": "The"
+        },
+        {
+          "end": 91.16,
+          "index": 1,
+          "start": 90.76,
+          "text": "strike"
+        },
+        {
+          "end": 91.42,
+          "index": 2,
+          "start": 91.16,
+          "text": "is"
+        },
+        {
+          "end": 91.54,
+          "index": 3,
+          "start": 91.42,
+          "text": "a"
+        },
+        {
+          "end": 91.96,
+          "index": 4,
+          "start": 91.54,
+          "text": "strategic"
+        },
+        {
+          "end": 92.48,
+          "index": 5,
+          "start": 91.96,
+          "text": "move"
+        },
+        {
+          "end": 92.78,
+          "index": 6,
+          "start": 92.48,
+          "text": "to"
+        },
+        {
+          "end": 93.2,
+          "index": 7,
+          "start": 92.78,
+          "text": "disrupt"
+        },
+        {
+          "end": 93.9,
+          "index": 8,
+          "start": 93.2,
+          "text": "Russia's"
+        },
+        {
+          "end": 94.28,
+          "index": 9,
+          "start": 93.9,
+          "text": "internal"
+        },
+        {
+          "end": 94.86,
+          "index": 10,
+          "start": 94.28,
+          "text": "security"
+        },
+        {
+          "end": 95.5,
+          "index": 11,
+          "start": 94.86,
+          "text": "perception"
+        }
+      ]
     },
     {
       "end": 99.92,
@@ -247,7 +1359,63 @@
       "id": "s13",
       "index": 13,
       "start": 98.38,
-      "text": "In the Middle East, the stakes are equally high."
+      "text": "In the Middle East, the stakes are equally high.",
+      "words": [
+        {
+          "end": 98.765,
+          "index": 0,
+          "start": 98.38,
+          "text": "In"
+        },
+        {
+          "end": 99.15,
+          "index": 1,
+          "start": 98.765,
+          "text": "the"
+        },
+        {
+          "end": 99.535,
+          "index": 2,
+          "start": 99.15,
+          "text": "Middle"
+        },
+        {
+          "end": 99.92,
+          "index": 3,
+          "start": 99.535,
+          "text": "East"
+        },
+        {
+          "end": 99.93,
+          "index": 4,
+          "start": 99.92,
+          "text": "the"
+        },
+        {
+          "end": 99.93,
+          "index": 5,
+          "start": 99.92,
+          "text": "stakes"
+        },
+        {
+          "end": 99.93,
+          "index": 6,
+          "start": 99.92,
+          "text": "are"
+        },
+        {
+          "end": 99.93,
+          "index": 7,
+          "start": 99.92,
+          "text": "equally"
+        },
+        {
+          "end": 99.93,
+          "index": 8,
+          "start": 99.92,
+          "text": "high"
+        }
+      ]
     },
     {
       "end": 105.3,
@@ -255,7 +1423,75 @@
       "id": "s14",
       "index": 14,
       "start": 100.86,
-      "text": "Ambassadors from Israel and Lebanon have opened direct talks in Washington."
+      "text": "Ambassadors from Israel and Lebanon have opened direct talks in Washington.",
+      "words": [
+        {
+          "end": 101.58,
+          "index": 0,
+          "start": 100.86,
+          "text": "Ambassadors"
+        },
+        {
+          "end": 101.9,
+          "index": 1,
+          "start": 101.58,
+          "text": "from"
+        },
+        {
+          "end": 102.36,
+          "index": 2,
+          "start": 101.9,
+          "text": "Israel"
+        },
+        {
+          "end": 102.66,
+          "index": 3,
+          "start": 102.36,
+          "text": "and"
+        },
+        {
+          "end": 103.04,
+          "index": 4,
+          "start": 102.66,
+          "text": "Lebanon"
+        },
+        {
+          "end": 103.36,
+          "index": 5,
+          "start": 103.04,
+          "text": "have"
+        },
+        {
+          "end": 103.72,
+          "index": 6,
+          "start": 103.36,
+          "text": "opened"
+        },
+        {
+          "end": 104.04,
+          "index": 7,
+          "start": 103.72,
+          "text": "direct"
+        },
+        {
+          "end": 104.58,
+          "index": 8,
+          "start": 104.04,
+          "text": "talks"
+        },
+        {
+          "end": 104.88,
+          "index": 9,
+          "start": 104.58,
+          "text": "in"
+        },
+        {
+          "end": 105.3,
+          "index": 10,
+          "start": 104.88,
+          "text": "Washington"
+        }
+      ]
     },
     {
       "end": 113.28,
@@ -263,7 +1499,135 @@
       "id": "s15",
       "index": 15,
       "start": 105.74,
-      "text": "President Donald Trump claims he has received commitments to de-escalation, though the goal is to prevent a wider regional war."
+      "text": "President Donald Trump claims he has received commitments to de-escalation, though the goal is to prevent a wider regional war.",
+      "words": [
+        {
+          "end": 106.18,
+          "index": 0,
+          "start": 105.74,
+          "text": "President"
+        },
+        {
+          "end": 106.58,
+          "index": 1,
+          "start": 106.18,
+          "text": "Donald"
+        },
+        {
+          "end": 106.98,
+          "index": 2,
+          "start": 106.58,
+          "text": "Trump"
+        },
+        {
+          "end": 107.38,
+          "index": 3,
+          "start": 106.98,
+          "text": "claims"
+        },
+        {
+          "end": 107.62,
+          "index": 4,
+          "start": 107.38,
+          "text": "he"
+        },
+        {
+          "end": 107.72,
+          "index": 5,
+          "start": 107.62,
+          "text": "has"
+        },
+        {
+          "end": 108.1,
+          "index": 6,
+          "start": 107.72,
+          "text": "received"
+        },
+        {
+          "end": 108.62,
+          "index": 7,
+          "start": 108.1,
+          "text": "commitments"
+        },
+        {
+          "end": 108.98,
+          "index": 8,
+          "start": 108.62,
+          "text": "to"
+        },
+        {
+          "end": 109.2,
+          "index": 9,
+          "start": 108.98,
+          "text": "de"
+        },
+        {
+          "end": 110.08,
+          "index": 10,
+          "start": 109.2,
+          "text": "escalation"
+        },
+        {
+          "end": 110.42,
+          "index": 11,
+          "start": 110.1,
+          "text": "though"
+        },
+        {
+          "end": 110.6,
+          "index": 12,
+          "start": 110.42,
+          "text": "the"
+        },
+        {
+          "end": 110.84,
+          "index": 13,
+          "start": 110.6,
+          "text": "goal"
+        },
+        {
+          "end": 111.04,
+          "index": 14,
+          "start": 110.84,
+          "text": "is"
+        },
+        {
+          "end": 111.2,
+          "index": 15,
+          "start": 111.04,
+          "text": "to"
+        },
+        {
+          "end": 111.62,
+          "index": 16,
+          "start": 111.2,
+          "text": "prevent"
+        },
+        {
+          "end": 111.88,
+          "index": 17,
+          "start": 111.62,
+          "text": "a"
+        },
+        {
+          "end": 112.36,
+          "index": 18,
+          "start": 111.88,
+          "text": "wider"
+        },
+        {
+          "end": 112.86,
+          "index": 19,
+          "start": 112.36,
+          "text": "regional"
+        },
+        {
+          "end": 113.28,
+          "index": 20,
+          "start": 112.86,
+          "text": "war"
+        }
+      ]
     },
     {
       "end": 118.84,
@@ -271,7 +1635,63 @@
       "id": "s16",
       "index": 16,
       "start": 114.6,
-      "text": "Geopolitical instability is now filtering directly into European markets."
+      "text": "Geopolitical instability is now filtering directly into European markets.",
+      "words": [
+        {
+          "end": 115.32,
+          "index": 0,
+          "start": 114.6,
+          "text": "Geopolitical"
+        },
+        {
+          "end": 115.68,
+          "index": 1,
+          "start": 115.32,
+          "text": "instability"
+        },
+        {
+          "end": 116.3,
+          "index": 2,
+          "start": 115.68,
+          "text": "is"
+        },
+        {
+          "end": 116.5,
+          "index": 3,
+          "start": 116.3,
+          "text": "now"
+        },
+        {
+          "end": 116.96,
+          "index": 4,
+          "start": 116.5,
+          "text": "filtering"
+        },
+        {
+          "end": 117.4,
+          "index": 5,
+          "start": 116.96,
+          "text": "directly"
+        },
+        {
+          "end": 117.8,
+          "index": 6,
+          "start": 117.4,
+          "text": "into"
+        },
+        {
+          "end": 118.16,
+          "index": 7,
+          "start": 117.8,
+          "text": "European"
+        },
+        {
+          "end": 118.84,
+          "index": 8,
+          "start": 118.16,
+          "text": "markets"
+        }
+      ]
     },
     {
       "end": 123.0,
@@ -279,7 +1699,75 @@
       "id": "s17",
       "index": 17,
       "start": 119.14,
-      "text": "The German DAX has fallen below the 25,000-point mark."
+      "text": "The German DAX has fallen below the 25,000-point mark.",
+      "words": [
+        {
+          "end": 119.46,
+          "index": 0,
+          "start": 119.14,
+          "text": "The"
+        },
+        {
+          "end": 119.76,
+          "index": 1,
+          "start": 119.46,
+          "text": "German"
+        },
+        {
+          "end": 120.32,
+          "index": 2,
+          "start": 119.76,
+          "text": "DAX"
+        },
+        {
+          "end": 120.44,
+          "index": 3,
+          "start": 120.32,
+          "text": "has"
+        },
+        {
+          "end": 120.86,
+          "index": 4,
+          "start": 120.44,
+          "text": "fallen"
+        },
+        {
+          "end": 121.18,
+          "index": 5,
+          "start": 120.86,
+          "text": "below"
+        },
+        {
+          "end": 121.36,
+          "index": 6,
+          "start": 121.18,
+          "text": "the"
+        },
+        {
+          "end": 121.76,
+          "index": 7,
+          "start": 121.36,
+          "text": "25"
+        },
+        {
+          "end": 122.48,
+          "index": 8,
+          "start": 121.76,
+          "text": "000"
+        },
+        {
+          "end": 122.7,
+          "index": 9,
+          "start": 122.48,
+          "text": "point"
+        },
+        {
+          "end": 123.0,
+          "index": 10,
+          "start": 122.7,
+          "text": "mark"
+        }
+      ]
     },
     {
       "end": 130.57,
@@ -287,7 +1775,105 @@
       "id": "s18",
       "index": 18,
       "start": 123.47,
-      "text": "This volatility is driven by rising oil prices and increased uncertainty surrounding the conflict in Iran."
+      "text": "This volatility is driven by rising oil prices and increased uncertainty surrounding the conflict in Iran.",
+      "words": [
+        {
+          "end": 123.83,
+          "index": 0,
+          "start": 123.47,
+          "text": "This"
+        },
+        {
+          "end": 124.37,
+          "index": 1,
+          "start": 123.83,
+          "text": "volatility"
+        },
+        {
+          "end": 124.93,
+          "index": 2,
+          "start": 124.37,
+          "text": "is"
+        },
+        {
+          "end": 125.27,
+          "index": 3,
+          "start": 124.93,
+          "text": "driven"
+        },
+        {
+          "end": 125.67,
+          "index": 4,
+          "start": 125.27,
+          "text": "by"
+        },
+        {
+          "end": 126.15,
+          "index": 5,
+          "start": 125.67,
+          "text": "rising"
+        },
+        {
+          "end": 126.53,
+          "index": 6,
+          "start": 126.15,
+          "text": "oil"
+        },
+        {
+          "end": 127.07,
+          "index": 7,
+          "start": 126.53,
+          "text": "prices"
+        },
+        {
+          "end": 127.45,
+          "index": 8,
+          "start": 127.07,
+          "text": "and"
+        },
+        {
+          "end": 127.83,
+          "index": 9,
+          "start": 127.45,
+          "text": "increased"
+        },
+        {
+          "end": 128.57,
+          "index": 10,
+          "start": 127.83,
+          "text": "uncertainty"
+        },
+        {
+          "end": 129.19,
+          "index": 11,
+          "start": 128.57,
+          "text": "surrounding"
+        },
+        {
+          "end": 129.53,
+          "index": 12,
+          "start": 129.19,
+          "text": "the"
+        },
+        {
+          "end": 129.99,
+          "index": 13,
+          "start": 129.53,
+          "text": "conflict"
+        },
+        {
+          "end": 130.33,
+          "index": 14,
+          "start": 129.99,
+          "text": "in"
+        },
+        {
+          "end": 130.57,
+          "index": 15,
+          "start": 130.33,
+          "text": "Iran"
+        }
+      ]
     },
     {
       "end": 135.61,
@@ -295,7 +1881,69 @@
       "id": "s19",
       "index": 19,
       "start": 131.65,
-      "text": "Regulatory pressure is also mounting for big tech in Europe."
+      "text": "Regulatory pressure is also mounting for big tech in Europe.",
+      "words": [
+        {
+          "end": 132.41,
+          "index": 0,
+          "start": 131.65,
+          "text": "Regulatory"
+        },
+        {
+          "end": 132.83,
+          "index": 1,
+          "start": 132.41,
+          "text": "pressure"
+        },
+        {
+          "end": 133.25,
+          "index": 2,
+          "start": 132.83,
+          "text": "is"
+        },
+        {
+          "end": 133.55,
+          "index": 3,
+          "start": 133.25,
+          "text": "also"
+        },
+        {
+          "end": 133.99,
+          "index": 4,
+          "start": 133.55,
+          "text": "mounting"
+        },
+        {
+          "end": 134.37,
+          "index": 5,
+          "start": 133.99,
+          "text": "for"
+        },
+        {
+          "end": 134.61,
+          "index": 6,
+          "start": 134.37,
+          "text": "big"
+        },
+        {
+          "end": 134.93,
+          "index": 7,
+          "start": 134.61,
+          "text": "tech"
+        },
+        {
+          "end": 135.23,
+          "index": 8,
+          "start": 134.93,
+          "text": "in"
+        },
+        {
+          "end": 135.61,
+          "index": 9,
+          "start": 135.23,
+          "text": "Europe"
+        }
+      ]
     },
     {
       "end": 143.71,
@@ -303,7 +1951,129 @@
       "id": "s20",
       "index": 20,
       "start": 135.93,
-      "text": "The EU Court has ruled that Meta's Messenger service must adhere to stricter competition rules under the Digital Markets Act."
+      "text": "The EU Court has ruled that Meta's Messenger service must adhere to stricter competition rules under the Digital Markets Act.",
+      "words": [
+        {
+          "end": 136.29,
+          "index": 0,
+          "start": 135.93,
+          "text": "The"
+        },
+        {
+          "end": 136.57,
+          "index": 1,
+          "start": 136.29,
+          "text": "EU"
+        },
+        {
+          "end": 136.97,
+          "index": 2,
+          "start": 136.57,
+          "text": "Court"
+        },
+        {
+          "end": 137.17,
+          "index": 3,
+          "start": 136.97,
+          "text": "has"
+        },
+        {
+          "end": 137.51,
+          "index": 4,
+          "start": 137.17,
+          "text": "ruled"
+        },
+        {
+          "end": 137.83,
+          "index": 5,
+          "start": 137.51,
+          "text": "that"
+        },
+        {
+          "end": 138.23,
+          "index": 6,
+          "start": 137.83,
+          "text": "Meta's"
+        },
+        {
+          "end": 138.63,
+          "index": 7,
+          "start": 138.23,
+          "text": "Messenger"
+        },
+        {
+          "end": 139.23,
+          "index": 8,
+          "start": 138.63,
+          "text": "service"
+        },
+        {
+          "end": 139.63,
+          "index": 9,
+          "start": 139.23,
+          "text": "must"
+        },
+        {
+          "end": 140.05,
+          "index": 10,
+          "start": 139.63,
+          "text": "adhere"
+        },
+        {
+          "end": 140.43,
+          "index": 11,
+          "start": 140.05,
+          "text": "to"
+        },
+        {
+          "end": 140.97,
+          "index": 12,
+          "start": 140.43,
+          "text": "stricter"
+        },
+        {
+          "end": 141.39,
+          "index": 13,
+          "start": 140.97,
+          "text": "competition"
+        },
+        {
+          "end": 141.99,
+          "index": 14,
+          "start": 141.39,
+          "text": "rules"
+        },
+        {
+          "end": 142.39,
+          "index": 15,
+          "start": 141.99,
+          "text": "under"
+        },
+        {
+          "end": 142.59,
+          "index": 16,
+          "start": 142.39,
+          "text": "the"
+        },
+        {
+          "end": 142.87,
+          "index": 17,
+          "start": 142.59,
+          "text": "Digital"
+        },
+        {
+          "end": 143.47,
+          "index": 18,
+          "start": 142.87,
+          "text": "Markets"
+        },
+        {
+          "end": 143.71,
+          "index": 19,
+          "start": 143.47,
+          "text": "Act"
+        }
+      ]
     },
     {
       "end": 149.25,
@@ -311,7 +2081,81 @@
       "id": "s21",
       "index": 21,
       "start": 144.03,
-      "text": "This decision limits Meta's ability to leverage its ecosystem as a gatekeeper."
+      "text": "This decision limits Meta's ability to leverage its ecosystem as a gatekeeper.",
+      "words": [
+        {
+          "end": 144.77,
+          "index": 0,
+          "start": 144.03,
+          "text": "This"
+        },
+        {
+          "end": 145.19,
+          "index": 1,
+          "start": 144.77,
+          "text": "decision"
+        },
+        {
+          "end": 145.69,
+          "index": 2,
+          "start": 145.19,
+          "text": "limits"
+        },
+        {
+          "end": 146.17,
+          "index": 3,
+          "start": 145.69,
+          "text": "Meta's"
+        },
+        {
+          "end": 146.51,
+          "index": 4,
+          "start": 146.17,
+          "text": "ability"
+        },
+        {
+          "end": 146.89,
+          "index": 5,
+          "start": 146.51,
+          "text": "to"
+        },
+        {
+          "end": 147.23,
+          "index": 6,
+          "start": 146.89,
+          "text": "leverage"
+        },
+        {
+          "end": 147.55,
+          "index": 7,
+          "start": 147.23,
+          "text": "its"
+        },
+        {
+          "end": 148.05,
+          "index": 8,
+          "start": 147.55,
+          "text": "ecosystem"
+        },
+        {
+          "end": 148.55,
+          "index": 9,
+          "start": 148.05,
+          "text": "as"
+        },
+        {
+          "end": 148.65,
+          "index": 10,
+          "start": 148.55,
+          "text": "a"
+        },
+        {
+          "end": 149.25,
+          "index": 11,
+          "start": 148.65,
+          "text": "gatekeeper"
+        }
+      ]
     },
     {
       "end": 155.29,
@@ -319,7 +2163,87 @@
       "id": "s22",
       "index": 22,
       "start": 153.37,
-      "text": "In other German news, the healthcare sector is seeing a surprising financial surplus."
+      "text": "In other German news, the healthcare sector is seeing a surprising financial surplus.",
+      "words": [
+        {
+          "end": 153.583,
+          "index": 0,
+          "start": 153.37,
+          "text": "In"
+        },
+        {
+          "end": 153.797,
+          "index": 1,
+          "start": 153.583,
+          "text": "other"
+        },
+        {
+          "end": 154.01,
+          "index": 2,
+          "start": 153.797,
+          "text": "German"
+        },
+        {
+          "end": 154.223,
+          "index": 3,
+          "start": 154.01,
+          "text": "news"
+        },
+        {
+          "end": 154.437,
+          "index": 4,
+          "start": 154.223,
+          "text": "the"
+        },
+        {
+          "end": 154.65,
+          "index": 5,
+          "start": 154.437,
+          "text": "healthcare"
+        },
+        {
+          "end": 154.863,
+          "index": 6,
+          "start": 154.65,
+          "text": "sector"
+        },
+        {
+          "end": 155.077,
+          "index": 7,
+          "start": 154.863,
+          "text": "is"
+        },
+        {
+          "end": 155.29,
+          "index": 8,
+          "start": 155.077,
+          "text": "seeing"
+        },
+        {
+          "end": 155.3,
+          "index": 9,
+          "start": 155.29,
+          "text": "a"
+        },
+        {
+          "end": 155.3,
+          "index": 10,
+          "start": 155.29,
+          "text": "surprising"
+        },
+        {
+          "end": 155.3,
+          "index": 11,
+          "start": 155.29,
+          "text": "financial"
+        },
+        {
+          "end": 155.3,
+          "index": 12,
+          "start": 155.29,
+          "text": "surplus"
+        }
+      ]
     },
     {
       "end": 163.15,
@@ -327,7 +2251,111 @@
       "id": "s23",
       "index": 23,
       "start": 155.75,
-      "text": "The largest health insurance funds reported a combined gain of 773 million euros in the first quarter."
+      "text": "The largest health insurance funds reported a combined gain of 773 million euros in the first quarter.",
+      "words": [
+        {
+          "end": 156.51,
+          "index": 0,
+          "start": 155.75,
+          "text": "The"
+        },
+        {
+          "end": 156.97,
+          "index": 1,
+          "start": 156.51,
+          "text": "largest"
+        },
+        {
+          "end": 157.31,
+          "index": 2,
+          "start": 156.97,
+          "text": "health"
+        },
+        {
+          "end": 157.69,
+          "index": 3,
+          "start": 157.31,
+          "text": "insurance"
+        },
+        {
+          "end": 158.19,
+          "index": 4,
+          "start": 157.69,
+          "text": "funds"
+        },
+        {
+          "end": 158.61,
+          "index": 5,
+          "start": 158.19,
+          "text": "reported"
+        },
+        {
+          "end": 158.91,
+          "index": 6,
+          "start": 158.61,
+          "text": "a"
+        },
+        {
+          "end": 159.23,
+          "index": 7,
+          "start": 158.91,
+          "text": "combined"
+        },
+        {
+          "end": 159.67,
+          "index": 8,
+          "start": 159.23,
+          "text": "gain"
+        },
+        {
+          "end": 159.97,
+          "index": 9,
+          "start": 159.67,
+          "text": "of"
+        },
+        {
+          "end": 161.23,
+          "index": 10,
+          "start": 159.97,
+          "text": "773"
+        },
+        {
+          "end": 161.53,
+          "index": 11,
+          "start": 161.23,
+          "text": "million"
+        },
+        {
+          "end": 162.05,
+          "index": 12,
+          "start": 161.53,
+          "text": "euros"
+        },
+        {
+          "end": 162.37,
+          "index": 13,
+          "start": 162.05,
+          "text": "in"
+        },
+        {
+          "end": 162.47,
+          "index": 14,
+          "start": 162.37,
+          "text": "the"
+        },
+        {
+          "end": 162.71,
+          "index": 15,
+          "start": 162.47,
+          "text": "first"
+        },
+        {
+          "end": 163.15,
+          "index": 16,
+          "start": 162.71,
+          "text": "quarter"
+        }
+      ]
     },
     {
       "end": 170.39,
@@ -335,7 +2363,105 @@
       "id": "s24",
       "index": 24,
       "start": 163.37,
-      "text": "Despite the surplus, these funds warn that reforms are still necessary to prevent future contribution increases."
+      "text": "Despite the surplus, these funds warn that reforms are still necessary to prevent future contribution increases.",
+      "words": [
+        {
+          "end": 163.93,
+          "index": 0,
+          "start": 163.37,
+          "text": "Despite"
+        },
+        {
+          "end": 164.21,
+          "index": 1,
+          "start": 163.93,
+          "text": "the"
+        },
+        {
+          "end": 164.65,
+          "index": 2,
+          "start": 164.21,
+          "text": "surplus"
+        },
+        {
+          "end": 165.15,
+          "index": 3,
+          "start": 164.95,
+          "text": "these"
+        },
+        {
+          "end": 165.57,
+          "index": 4,
+          "start": 165.15,
+          "text": "funds"
+        },
+        {
+          "end": 166.05,
+          "index": 5,
+          "start": 165.57,
+          "text": "warn"
+        },
+        {
+          "end": 166.31,
+          "index": 6,
+          "start": 166.05,
+          "text": "that"
+        },
+        {
+          "end": 166.71,
+          "index": 7,
+          "start": 166.31,
+          "text": "reforms"
+        },
+        {
+          "end": 167.09,
+          "index": 8,
+          "start": 166.71,
+          "text": "are"
+        },
+        {
+          "end": 167.37,
+          "index": 9,
+          "start": 167.09,
+          "text": "still"
+        },
+        {
+          "end": 167.89,
+          "index": 10,
+          "start": 167.37,
+          "text": "necessary"
+        },
+        {
+          "end": 168.31,
+          "index": 11,
+          "start": 167.89,
+          "text": "to"
+        },
+        {
+          "end": 168.61,
+          "index": 12,
+          "start": 168.31,
+          "text": "prevent"
+        },
+        {
+          "end": 169.21,
+          "index": 13,
+          "start": 168.61,
+          "text": "future"
+        },
+        {
+          "end": 169.77,
+          "index": 14,
+          "start": 169.21,
+          "text": "contribution"
+        },
+        {
+          "end": 170.39,
+          "index": 15,
+          "start": 169.77,
+          "text": "increases"
+        }
+      ]
     },
     {
       "end": 174.63,
@@ -343,7 +2469,57 @@
       "id": "s25",
       "index": 25,
       "start": 171.11,
-      "text": "Weather data remains unavailable for the closing update."
+      "text": "Weather data remains unavailable for the closing update.",
+      "words": [
+        {
+          "end": 171.85,
+          "index": 0,
+          "start": 171.11,
+          "text": "Weather"
+        },
+        {
+          "end": 172.15,
+          "index": 1,
+          "start": 171.85,
+          "text": "data"
+        },
+        {
+          "end": 172.61,
+          "index": 2,
+          "start": 172.15,
+          "text": "remains"
+        },
+        {
+          "end": 173.47,
+          "index": 3,
+          "start": 172.61,
+          "text": "unavailable"
+        },
+        {
+          "end": 173.77,
+          "index": 4,
+          "start": 173.47,
+          "text": "for"
+        },
+        {
+          "end": 173.89,
+          "index": 5,
+          "start": 173.77,
+          "text": "the"
+        },
+        {
+          "end": 174.23,
+          "index": 6,
+          "start": 173.89,
+          "text": "closing"
+        },
+        {
+          "end": 174.63,
+          "index": 7,
+          "start": 174.23,
+          "text": "update"
+        }
+      ]
     },
     {
       "end": 177.39,
@@ -351,7 +2527,51 @@
       "id": "s26",
       "index": 26,
       "start": 175.35,
-      "text": "Finally, a quick look at the calendar."
+      "text": "Finally, a quick look at the calendar.",
+      "words": [
+        {
+          "end": 176.11,
+          "index": 0,
+          "start": 175.35,
+          "text": "Finally"
+        },
+        {
+          "end": 176.35,
+          "index": 1,
+          "start": 176.11,
+          "text": "a"
+        },
+        {
+          "end": 176.53,
+          "index": 2,
+          "start": 176.35,
+          "text": "quick"
+        },
+        {
+          "end": 176.81,
+          "index": 3,
+          "start": 176.53,
+          "text": "look"
+        },
+        {
+          "end": 176.97,
+          "index": 4,
+          "start": 176.81,
+          "text": "at"
+        },
+        {
+          "end": 177.05,
+          "index": 5,
+          "start": 176.97,
+          "text": "the"
+        },
+        {
+          "end": 177.39,
+          "index": 6,
+          "start": 177.05,
+          "text": "calendar"
+        }
+      ]
     },
     {
       "end": 211.88,
@@ -359,7 +2579,327 @@
       "id": "s27",
       "index": 27,
       "start": 177.69,
-      "text": "On your calendar today: all day, 'Department Retro', at 10:00, 'Optikrunde', at 10:30, 25 minute 'Research weekly', at Gauss; note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616038 PIN: 8..., at 11:00, 'MxM Spotlight 🔦', note: Dear Innovators, You're invited to MxM Spotlight, our weekly knowledge-sharing platform!"
+      "text": "On your calendar today: all day, 'Department Retro', at 10:00, 'Optikrunde', at 10:30, 25 minute 'Research weekly', at Gauss; note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616038 PIN: 8..., at 11:00, 'MxM Spotlight 🔦', note: Dear Innovators, You're invited to MxM Spotlight, our weekly knowledge-sharing platform!",
+      "words": [
+        {
+          "end": 178.23,
+          "index": 0,
+          "start": 177.69,
+          "text": "On"
+        },
+        {
+          "end": 178.41,
+          "index": 1,
+          "start": 178.23,
+          "text": "your"
+        },
+        {
+          "end": 178.85,
+          "index": 2,
+          "start": 178.41,
+          "text": "calendar"
+        },
+        {
+          "end": 179.25,
+          "index": 3,
+          "start": 178.85,
+          "text": "today"
+        },
+        {
+          "end": 180.23,
+          "index": 4,
+          "start": 179.51,
+          "text": "all"
+        },
+        {
+          "end": 180.47,
+          "index": 5,
+          "start": 180.23,
+          "text": "day"
+        },
+        {
+          "end": 181.395,
+          "index": 6,
+          "start": 180.47,
+          "text": "'Department"
+        },
+        {
+          "end": 182.32,
+          "index": 7,
+          "start": 181.395,
+          "text": "Retro'"
+        },
+        {
+          "end": 182.74,
+          "index": 8,
+          "start": 182.32,
+          "text": "at"
+        },
+        {
+          "end": 182.92,
+          "index": 9,
+          "start": 182.74,
+          "text": "10"
+        },
+        {
+          "end": 183.91,
+          "index": 10,
+          "start": 182.92,
+          "text": "00"
+        },
+        {
+          "end": 184.9,
+          "index": 11,
+          "start": 183.91,
+          "text": "'Optikrunde'"
+        },
+        {
+          "end": 185.3,
+          "index": 12,
+          "start": 184.9,
+          "text": "at"
+        },
+        {
+          "end": 185.52,
+          "index": 13,
+          "start": 185.3,
+          "text": "10"
+        },
+        {
+          "end": 185.82,
+          "index": 14,
+          "start": 185.52,
+          "text": "30"
+        },
+        {
+          "end": 186.56,
+          "index": 15,
+          "start": 186.04,
+          "text": "25"
+        },
+        {
+          "end": 187.16,
+          "index": 16,
+          "start": 186.56,
+          "text": "minute"
+        },
+        {
+          "end": 187.54,
+          "index": 17,
+          "start": 187.16,
+          "text": "'Research"
+        },
+        {
+          "end": 188.1,
+          "index": 18,
+          "start": 187.54,
+          "text": "weekly'"
+        },
+        {
+          "end": 188.68,
+          "index": 19,
+          "start": 188.1,
+          "text": "at"
+        },
+        {
+          "end": 189.08,
+          "index": 20,
+          "start": 188.68,
+          "text": "Gauss"
+        },
+        {
+          "end": 190.64,
+          "index": 21,
+          "start": 189.84,
+          "text": "note"
+        },
+        {
+          "end": 191.88,
+          "index": 22,
+          "start": 191.58,
+          "text": "Join"
+        },
+        {
+          "end": 192.26,
+          "index": 23,
+          "start": 191.88,
+          "text": "with"
+        },
+        {
+          "end": 192.52,
+          "index": 24,
+          "start": 192.26,
+          "text": "Google"
+        },
+        {
+          "end": 192.9,
+          "index": 25,
+          "start": 192.52,
+          "text": "Meet"
+        },
+        {
+          "end": 193.52,
+          "index": 26,
+          "start": 192.9,
+          "text": "Or"
+        },
+        {
+          "end": 193.94,
+          "index": 27,
+          "start": 193.52,
+          "text": "dial"
+        },
+        {
+          "end": 194.88,
+          "index": 28,
+          "start": 193.94,
+          "text": "DE"
+        },
+        {
+          "end": 196.82,
+          "index": 29,
+          "start": 194.88,
+          "text": "49"
+        },
+        {
+          "end": 198.76,
+          "index": 30,
+          "start": 196.82,
+          "text": "40"
+        },
+        {
+          "end": 200.7,
+          "index": 31,
+          "start": 198.76,
+          "text": "8081616038"
+        },
+        {
+          "end": 201.14,
+          "index": 32,
+          "start": 200.7,
+          "text": "PIN"
+        },
+        {
+          "end": 201.68,
+          "index": 33,
+          "start": 201.14,
+          "text": "8"
+        },
+        {
+          "end": 202.78,
+          "index": 34,
+          "start": 201.98,
+          "text": "at"
+        },
+        {
+          "end": 203.12,
+          "index": 35,
+          "start": 202.78,
+          "text": "11"
+        },
+        {
+          "end": 203.46,
+          "index": 36,
+          "start": 203.12,
+          "text": "00"
+        },
+        {
+          "end": 204.1,
+          "index": 37,
+          "start": 203.46,
+          "text": "'MxM"
+        },
+        {
+          "end": 204.76,
+          "index": 38,
+          "start": 204.1,
+          "text": "Spotlight"
+        },
+        {
+          "end": 205.2,
+          "index": 39,
+          "start": 204.76,
+          "text": "'"
+        },
+        {
+          "end": 205.64,
+          "index": 40,
+          "start": 205.2,
+          "text": "note"
+        },
+        {
+          "end": 206.04,
+          "index": 41,
+          "start": 205.64,
+          "text": "Dear"
+        },
+        {
+          "end": 206.88,
+          "index": 42,
+          "start": 206.04,
+          "text": "Innovators"
+        },
+        {
+          "end": 207.52,
+          "index": 43,
+          "start": 206.96,
+          "text": "You're"
+        },
+        {
+          "end": 207.88,
+          "index": 44,
+          "start": 207.52,
+          "text": "invited"
+        },
+        {
+          "end": 208.2,
+          "index": 45,
+          "start": 207.88,
+          "text": "to"
+        },
+        {
+          "end": 208.76,
+          "index": 46,
+          "start": 208.2,
+          "text": "MxM"
+        },
+        {
+          "end": 209.38,
+          "index": 47,
+          "start": 208.76,
+          "text": "Spotlight"
+        },
+        {
+          "end": 210.02,
+          "index": 48,
+          "start": 209.76,
+          "text": "our"
+        },
+        {
+          "end": 210.38,
+          "index": 49,
+          "start": 210.02,
+          "text": "weekly"
+        },
+        {
+          "end": 210.88,
+          "index": 50,
+          "start": 210.38,
+          "text": "knowledge"
+        },
+        {
+          "end": 211.22,
+          "index": 51,
+          "start": 210.88,
+          "text": "sharing"
+        },
+        {
+          "end": 211.88,
+          "index": 52,
+          "start": 211.22,
+          "text": "platform"
+        }
+      ]
     },
     {
       "end": 223.52,
@@ -367,7 +2907,297 @@
       "id": "s28",
       "index": 28,
       "start": 211.88,
-      "text": "MxM Spotlight brings together the best of our previous PM, T..., at 15:00, 'Corsnero OffGPT', note: Corsnero OffGPT, at 15:00, 2 hour 'Gruppenmeeting Gregor', and at 15:00, 2 hour '🧠☕ Research Seminar', note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616571 PIN: 2...."
+      "text": "MxM Spotlight brings together the best of our previous PM, T..., at 15:00, 'Corsnero OffGPT', note: Corsnero OffGPT, at 15:00, 2 hour 'Gruppenmeeting Gregor', and at 15:00, 2 hour '🧠☕ Research Seminar', note: -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::- Join with Google Meet: Or dial: (DE) +49 40 8081616571 PIN: 2....",
+      "words": [
+        {
+          "end": 213.04,
+          "index": 0,
+          "start": 211.88,
+          "text": "MxM"
+        },
+        {
+          "end": 213.42,
+          "index": 1,
+          "start": 213.04,
+          "text": "Spotlight"
+        },
+        {
+          "end": 213.86,
+          "index": 2,
+          "start": 213.42,
+          "text": "brings"
+        },
+        {
+          "end": 214.3,
+          "index": 3,
+          "start": 213.86,
+          "text": "together"
+        },
+        {
+          "end": 214.58,
+          "index": 4,
+          "start": 214.3,
+          "text": "the"
+        },
+        {
+          "end": 214.8,
+          "index": 5,
+          "start": 214.58,
+          "text": "best"
+        },
+        {
+          "end": 215.04,
+          "index": 6,
+          "start": 214.8,
+          "text": "of"
+        },
+        {
+          "end": 215.18,
+          "index": 7,
+          "start": 215.04,
+          "text": "our"
+        },
+        {
+          "end": 215.64,
+          "index": 8,
+          "start": 215.18,
+          "text": "previous"
+        },
+        {
+          "end": 216.12,
+          "index": 9,
+          "start": 215.64,
+          "text": "PM"
+        },
+        {
+          "end": 216.6,
+          "index": 10,
+          "start": 216.12,
+          "text": "T"
+        },
+        {
+          "end": 217.24,
+          "index": 11,
+          "start": 216.6,
+          "text": "at"
+        },
+        {
+          "end": 217.78,
+          "index": 12,
+          "start": 217.24,
+          "text": "15"
+        },
+        {
+          "end": 218.413,
+          "index": 13,
+          "start": 217.78,
+          "text": "00"
+        },
+        {
+          "end": 219.047,
+          "index": 14,
+          "start": 218.413,
+          "text": "'Corsnero"
+        },
+        {
+          "end": 219.68,
+          "index": 15,
+          "start": 219.047,
+          "text": "OffGPT'"
+        },
+        {
+          "end": 220.4,
+          "index": 16,
+          "start": 219.68,
+          "text": "note"
+        },
+        {
+          "end": 221.4,
+          "index": 17,
+          "start": 220.4,
+          "text": "Corsnero"
+        },
+        {
+          "end": 222.4,
+          "index": 18,
+          "start": 221.4,
+          "text": "OffGPT"
+        },
+        {
+          "end": 222.98,
+          "index": 19,
+          "start": 222.4,
+          "text": "at"
+        },
+        {
+          "end": 223.52,
+          "index": 20,
+          "start": 222.98,
+          "text": "15"
+        },
+        {
+          "end": 223.53,
+          "index": 21,
+          "start": 223.52,
+          "text": "00"
+        },
+        {
+          "end": 223.53,
+          "index": 22,
+          "start": 223.52,
+          "text": "2"
+        },
+        {
+          "end": 223.53,
+          "index": 23,
+          "start": 223.52,
+          "text": "hour"
+        },
+        {
+          "end": 223.53,
+          "index": 24,
+          "start": 223.52,
+          "text": "'Gruppenmeeting"
+        },
+        {
+          "end": 223.53,
+          "index": 25,
+          "start": 223.52,
+          "text": "Gregor'"
+        },
+        {
+          "end": 223.53,
+          "index": 26,
+          "start": 223.52,
+          "text": "and"
+        },
+        {
+          "end": 223.53,
+          "index": 27,
+          "start": 223.52,
+          "text": "at"
+        },
+        {
+          "end": 223.53,
+          "index": 28,
+          "start": 223.52,
+          "text": "15"
+        },
+        {
+          "end": 223.53,
+          "index": 29,
+          "start": 223.52,
+          "text": "00"
+        },
+        {
+          "end": 223.53,
+          "index": 30,
+          "start": 223.52,
+          "text": "2"
+        },
+        {
+          "end": 223.53,
+          "index": 31,
+          "start": 223.52,
+          "text": "hour"
+        },
+        {
+          "end": 223.53,
+          "index": 32,
+          "start": 223.52,
+          "text": "'"
+        },
+        {
+          "end": 223.53,
+          "index": 33,
+          "start": 223.52,
+          "text": "Research"
+        },
+        {
+          "end": 223.53,
+          "index": 34,
+          "start": 223.52,
+          "text": "Seminar'"
+        },
+        {
+          "end": 223.53,
+          "index": 35,
+          "start": 223.52,
+          "text": "note"
+        },
+        {
+          "end": 223.53,
+          "index": 36,
+          "start": 223.52,
+          "text": "Join"
+        },
+        {
+          "end": 223.53,
+          "index": 37,
+          "start": 223.52,
+          "text": "with"
+        },
+        {
+          "end": 223.53,
+          "index": 38,
+          "start": 223.52,
+          "text": "Google"
+        },
+        {
+          "end": 223.53,
+          "index": 39,
+          "start": 223.52,
+          "text": "Meet"
+        },
+        {
+          "end": 223.53,
+          "index": 40,
+          "start": 223.52,
+          "text": "Or"
+        },
+        {
+          "end": 223.53,
+          "index": 41,
+          "start": 223.52,
+          "text": "dial"
+        },
+        {
+          "end": 223.53,
+          "index": 42,
+          "start": 223.52,
+          "text": "DE"
+        },
+        {
+          "end": 223.53,
+          "index": 43,
+          "start": 223.52,
+          "text": "49"
+        },
+        {
+          "end": 223.53,
+          "index": 44,
+          "start": 223.52,
+          "text": "40"
+        },
+        {
+          "end": 223.53,
+          "index": 45,
+          "start": 223.52,
+          "text": "8081616571"
+        },
+        {
+          "end": 223.53,
+          "index": 46,
+          "start": 223.52,
+          "text": "PIN"
+        },
+        {
+          "end": 223.53,
+          "index": 47,
+          "start": 223.52,
+          "text": "2"
+        }
+      ]
     },
     {
       "end": 246.93,
@@ -375,7 +3205,57 @@
       "id": "s29",
       "index": 29,
       "start": 244.25,
-      "text": "And that's it for your personal morning broadcast."
+      "text": "And that's it for your personal morning broadcast.",
+      "words": [
+        {
+          "end": 244.75,
+          "index": 0,
+          "start": 244.25,
+          "text": "And"
+        },
+        {
+          "end": 245.15,
+          "index": 1,
+          "start": 244.75,
+          "text": "that's"
+        },
+        {
+          "end": 245.27,
+          "index": 2,
+          "start": 245.15,
+          "text": "it"
+        },
+        {
+          "end": 245.45,
+          "index": 3,
+          "start": 245.27,
+          "text": "for"
+        },
+        {
+          "end": 245.63,
+          "index": 4,
+          "start": 245.45,
+          "text": "your"
+        },
+        {
+          "end": 246.01,
+          "index": 5,
+          "start": 245.63,
+          "text": "personal"
+        },
+        {
+          "end": 246.37,
+          "index": 6,
+          "start": 246.01,
+          "text": "morning"
+        },
+        {
+          "end": 246.93,
+          "index": 7,
+          "start": 246.37,
+          "text": "broadcast"
+        }
+      ]
     },
     {
       "end": 248.27,
@@ -383,14 +3263,34 @@
       "id": "s30",
       "index": 30,
       "start": 247.39,
-      "text": "Rise and shine."
+      "text": "Rise and shine.",
+      "words": [
+        {
+          "end": 247.79,
+          "index": 0,
+          "start": 247.39,
+          "text": "Rise"
+        },
+        {
+          "end": 248.01,
+          "index": 1,
+          "start": 247.79,
+          "text": "and"
+        },
+        {
+          "end": 248.27,
+          "index": 2,
+          "start": 248.01,
+          "text": "shine"
+        }
+      ]
     }
   ],
   "source": "radio_script+transcribe",
   "timing": "transcribe-word-aligned-script",
   "transcribe": {
     "cache": "transcribe.verbose.cache.json",
-    "cached": false,
+    "cached": true,
     "match_ratio": 0.841,
     "matched_words": 398,
     "script_words": 473,
