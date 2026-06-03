@@ -410,17 +410,13 @@
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
         background-color: transparent;
-        box-shadow: none;
         border-radius: 0;
         margin: 0;
         padding: 0;
-        transition: background-color 120ms linear, box-shadow 120ms linear, color 160ms ease;
+        transition: background-color 120ms linear, color 160ms ease;
       }
       .transcript-cue[data-active="true"] {
         background-color: rgba(var(--cue-highlight-rgb), var(--cue-alpha));
-        box-shadow:
-          -0.22em 0 0 rgba(var(--cue-highlight-rgb), var(--cue-alpha)),
-          0.22em 0 0 rgba(var(--cue-highlight-rgb), var(--cue-alpha));
         color: var(--ink);
       }
       .transcript-sources {
