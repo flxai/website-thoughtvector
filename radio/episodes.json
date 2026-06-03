@@ -1,10 +1,23 @@
 [
   {
+    "audio": "media/20260603-205545Z.ogg",
+    "feed_failure_count": 234,
+    "generated_at": "2026-06-03T20:55:45+00:00",
+    "id": "20260603-205545Z",
+    "page": "2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260603-205545Z.ass",
+    "summary": "NVIDIA unveils new general-purpose AI capabilities for robotics, while global reports cover ongoing Middle East tensions and the cautious approach of central banks toward interest rate cuts amidst uncertain inflation data.",
+    "title": "NVIDIA unveils new general-purpose AI capabilities for robotics, while global reports cover ongoing Middle East tensions, the cautious",
+    "transcript": "transcripts/20260603-205545Z.json",
+    "waveform": "waveforms/20260603-205545Z.json"
+  },
+  {
     "audio": "media/20260603-165349Z.ogg",
     "feed_failure_count": 233,
     "generated_at": "2026-06-03T16:53:49+00:00",
     "id": "20260603-165349Z",
-    "page": "2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research/",
+    "page": "2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research-20260603-165349z/",
     "selected_article_count": 80,
     "subtitles": "subtitles/20260603-165349Z.ass",
     "summary": "Today: NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI; Wall Street: US-Börsen geben nach – KI-Titel legen weiter zu; 'Both sides are committed' to US-EU trade deal, US Trade Representative Jamieson Greer says.",

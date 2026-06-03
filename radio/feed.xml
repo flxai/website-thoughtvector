@@ -5,11 +5,19 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 16:53:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 20:55:45 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics, Vision AI; Wall Street: US-Börsen</title>
+      <title>NVIDIA unveils new general-purpose AI capabilities for robotics, while global reports cover ongoing Middle East tensions, the cautious</title>
       <link>https://thoughtvector.zip/radio/2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research/</link>
+      <guid isPermaLink="false">morning-whispers:20260603-205545Z</guid>
+      <pubDate>Wed, 03 Jun 2026 20:55:45 GMT</pubDate>
+      <description>Selected sources: NVIDIA Blog: NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI; Handelsblatt: Übernahmekampf: Woher stammen die Commerzbank-Aktien für Unicredit?; France24 Fr: Opération &quot;ville morte&quot; à Kinshasa, initiée par la coalition d&#x27;opposition C64; NVIDIA Technical Blog: Deploy Self-Evolving Agents for Faster, More Secure Research with a Hermes Agent and NVIDIA NemoClaw; Business: American capitalism has taken an apocalyptic turn; Google Research Blog: The next chapter in flood resilience: Open sourcing Google’s hydrology framework; FAZ Wirtschaft: Handelspolitik: Trump plant neue Zölle – wegen Zwangsarbeit; OpenAI News: Introducing new capabilities to GPT-Rosalind</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260603-205545Z.ogg" length="1828225" type="audio/ogg" />
+    </item>
+    <item>
+      <title>NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics, Vision AI; Wall Street: US-Börsen</title>
+      <link>https://thoughtvector.zip/radio/2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research-20260603-165349z/</link>
       <guid isPermaLink="false">morning-whispers:20260603-165349Z</guid>
       <pubDate>Wed, 03 Jun 2026 16:53:49 GMT</pubDate>
       <description>Selected sources: NVIDIA Blog: NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI; Handelsblatt: Wall Street: US-Börsen geben nach – KI-Titel legen weiter zu; France24 En: &#x27;Both sides are committed&#x27; to US-EU trade deal, US Trade Representative Jamieson Greer says; Hugging Face Blog: Direct Preference Optimization Beyond Chatbots; Business: BYD is losing its spark; NVIDIA Technical Blog: Deploy Self-Evolving Agents for Faster, More Secure Research with a Hermes Agent and NVIDIA NemoClaw; FAZ Wirtschaft: Umstrittener Steuervorteil: Union erteilt Reform des Ehegattensplittings Absage; Deutsche Welle English: UK Royal Navy helicopter crash leaves 3 dead</description>
