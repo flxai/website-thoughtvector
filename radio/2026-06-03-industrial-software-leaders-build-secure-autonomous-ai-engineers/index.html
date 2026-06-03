@@ -690,6 +690,24 @@
         overflow-wrap: anywhere;
         transition: color var(--theme-transition);
       }
+      .source-note-citations {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 2px;
+      }
+      .source-note-citation {
+        display: inline-flex;
+        align-items: center;
+        border: 1px solid color-mix(in srgb, var(--gold) 42%, transparent);
+        border-radius: 999px;
+        color: color-mix(in srgb, var(--gold) 72%, var(--muted));
+        font-size: 0.78rem;
+        line-height: 1.25;
+        max-width: min(100%, 34rem);
+        padding: 3px 7px;
+        transition: border-color var(--theme-transition), color var(--theme-transition);
+      }
       .source-note-id {
         color: inherit;
         font-family: inherit;
