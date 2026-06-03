@@ -39,8 +39,8 @@
         --waveform-rest: #d8b7c6;
         --waveform-played: #91406f;
         --waveform-playhead: #315f4d;
-        --cue-highlight: rgba(49, 95, 77, 0.18);
-        --theme-transition: 250ms ease;
+        --cue-highlight-rgb: 49, 95, 77;
+        --theme-transition: 200ms ease;
       }
       @media (prefers-color-scheme: dark) {
         :root:not([data-theme="light"]) {
@@ -64,7 +64,7 @@
           --waveform-rest: #514050;
           --waveform-played: #d47aa2;
           --waveform-playhead: #8bd4b5;
-          --cue-highlight: rgba(139, 212, 181, 0.2);
+          --cue-highlight-rgb: 139, 212, 181;
         }
       }
       :root[data-theme="dark"] {
@@ -88,7 +88,7 @@
         --waveform-rest: #514050;
         --waveform-played: #d47aa2;
         --waveform-playhead: #8bd4b5;
-        --cue-highlight: rgba(139, 212, 181, 0.2);
+        --cue-highlight-rgb: 139, 212, 181;
       }
       * { box-sizing: border-box; }
       body {
@@ -397,16 +397,26 @@
         color: var(--ink);
       }
       .transcript-cue {
+        --cue-alpha: 0;
+        --cue-edge-alpha: 0;
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
         background: transparent;
         border-radius: 0;
-        margin: 0 -0.16em;
-        padding: 0 0.32em;
-        transition: color var(--theme-transition);
+        margin: 0 -0.42em;
+        padding: 0 0.72em;
+        transition: background 120ms linear, color 180ms ease;
       }
       .transcript-cue[data-active="true"] {
-        background: linear-gradient(90deg, transparent 0%, var(--cue-highlight) 18%, var(--cue-highlight) 82%, transparent 100%);
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          rgba(var(--cue-highlight-rgb), var(--cue-edge-alpha)) 12%,
+          rgba(var(--cue-highlight-rgb), var(--cue-alpha)) 34%,
+          rgba(var(--cue-highlight-rgb), var(--cue-alpha)) 66%,
+          rgba(var(--cue-highlight-rgb), var(--cue-edge-alpha)) 88%,
+          transparent 100%
+        );
         color: var(--ink);
       }
       .transcript-sources {
@@ -1020,6 +1030,7 @@
           const durationTime = player.querySelector("[data-duration]");
           const transcriptItems = Array.from(player.querySelectorAll("[data-transcript-segment]"));
           const transcriptGroups = Array.from(player.querySelectorAll("[data-transcript-group]"));
+          const transcriptCues = Array.from(player.querySelectorAll("[data-transcript-cue]"));
           if (!audio || !toggle || !waveform) {
             continue;
           }
@@ -1054,7 +1065,47 @@
               .catch(() => {});
           };
           let activeTranscript = null;
-          let activeTranscriptCue = null;
+          let activeTranscriptCues = new Set();
+          let animationFrame = null;
+          const cueBlendSeconds = 0.4;
+          const maxCueAlpha = 0.12;
+          const cueStrength = (cue, now) => {
+            const start = Number(cue.dataset.start);
+            const end = Number(cue.dataset.end);
+            if (!Number.isFinite(start) || !Number.isFinite(end) || end <= start) {
+              return 0;
+            }
+            if (now >= start && now < end) {
+              return 1;
+            }
+            if (now < start) {
+              return clamp(1 - ((start - now) / cueBlendSeconds), 0, 1);
+            }
+            return clamp(1 - ((now - end) / cueBlendSeconds), 0, 1);
+          };
+          const syncCueHighlights = (now) => {
+            const activeCues = transcriptCues
+              .map((cue) => ({ cue, strength: cueStrength(cue, now) }))
+              .filter((entry) => entry.strength > 0.025)
+              .sort((a, b) => b.strength - a.strength)
+              .slice(0, 2);
+            const nextActive = new Set();
+            for (const entry of activeCues) {
+              const alpha = maxCueAlpha * entry.strength;
+              nextActive.add(entry.cue);
+              entry.cue.dataset.active = "true";
+              entry.cue.style.setProperty("--cue-alpha", alpha.toFixed(3));
+              entry.cue.style.setProperty("--cue-edge-alpha", (alpha * 0.22).toFixed(3));
+            }
+            for (const cue of activeTranscriptCues) {
+              if (!nextActive.has(cue)) {
+                cue.removeAttribute("data-active");
+                cue.style.removeProperty("--cue-alpha");
+                cue.style.removeProperty("--cue-edge-alpha");
+              }
+            }
+            activeTranscriptCues = nextActive;
+          };
           const updateTranscript = () => {
             if (!transcriptItems.length) {
               return;
@@ -1065,20 +1116,7 @@
               const end = Number(item.dataset.end);
               return Number.isFinite(start) && Number.isFinite(end) && now >= start && now < end;
             }) || null;
-            const activeCue = active ? Array.from(active.querySelectorAll("[data-transcript-cue]")).find((cue) => {
-              const start = Number(cue.dataset.start);
-              const end = Number(cue.dataset.end);
-              return Number.isFinite(start) && Number.isFinite(end) && now >= start && now < end;
-            }) || null : null;
-            if (activeCue !== activeTranscriptCue) {
-              if (activeTranscriptCue) {
-                activeTranscriptCue.removeAttribute("data-active");
-              }
-              if (activeCue) {
-                activeCue.dataset.active = "true";
-              }
-              activeTranscriptCue = activeCue;
-            }
+            syncCueHighlights(now);
             if (active === activeTranscript) {
               return;
             }
@@ -1143,6 +1181,21 @@
             toggle.dataset.playing = String(playing);
             toggle.setAttribute("aria-label", playing ? "Pause episode" : "Play episode");
             toggle.title = playing ? "Pause episode" : "Play episode";
+          };
+          const stopAnimation = () => {
+            if (animationFrame) {
+              window.cancelAnimationFrame(animationFrame);
+              animationFrame = null;
+            }
+          };
+          const animate = () => {
+            updateProgress();
+            animationFrame = (!audio.paused && !audio.ended) ? window.requestAnimationFrame(animate) : null;
+          };
+          const startAnimation = () => {
+            if (!animationFrame) {
+              animationFrame = window.requestAnimationFrame(animate);
+            }
           };
           player.dataset.enhanced = "true";
           audio.removeAttribute("controls");
@@ -1225,10 +1278,18 @@
           audio.addEventListener("loadedmetadata", updateProgress);
           audio.addEventListener("durationchange", updateProgress);
           audio.addEventListener("timeupdate", updateProgress);
-          audio.addEventListener("play", syncPlaying);
-          audio.addEventListener("pause", syncPlaying);
+          audio.addEventListener("play", () => {
+            syncPlaying();
+            startAnimation();
+          });
+          audio.addEventListener("pause", () => {
+            syncPlaying();
+            stopAnimation();
+            updateProgress();
+          });
           audio.addEventListener("ended", () => {
             syncPlaying();
+            stopAnimation();
             updateProgress();
           });
           updateProgress();
