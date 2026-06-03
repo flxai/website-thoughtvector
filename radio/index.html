@@ -294,6 +294,66 @@
         line-height: 1.5;
         transition: color var(--theme-transition);
       }
+      .weather-panel {
+        display: grid;
+        gap: 10px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--control-bg);
+        padding: 12px 14px;
+        transition: background-color var(--theme-transition), border-color var(--theme-transition);
+      }
+      .weather-panel h3 {
+        margin: 0;
+        color: var(--accent);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        transition: color var(--theme-transition);
+      }
+      .weather-facts {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .weather-fact {
+        display: grid;
+        gap: 3px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 10px 12px;
+        min-width: 0;
+        transition: border-color var(--theme-transition);
+      }
+      .weather-fact-label {
+        color: var(--accent);
+        font-size: 0.72rem;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        transition: color var(--theme-transition);
+      }
+      .weather-fact-value {
+        color: var(--ink);
+        font-size: 1.35rem;
+        font-weight: 800;
+        line-height: 1.1;
+        font-variant-numeric: tabular-nums;
+        transition: color var(--theme-transition);
+      }
+      .weather-fact-detail,
+      .weather-source {
+        color: var(--muted);
+        font-size: 0.84rem;
+        line-height: 1.35;
+        overflow-wrap: anywhere;
+        transition: color var(--theme-transition);
+      }
+      .weather-source { margin: 0; }
       .transcript {
         display: grid;
         gap: 12px;
@@ -677,6 +737,7 @@
           </div>
         </div>
         <div class="episode-summary"><h3>Summary</h3><p>Today: NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI; Wall Street: US-Börsen geben nach – KI-Titel legen weiter zu; &#x27;Both sides are committed&#x27; to US-EU trade deal, US Trade Representative Jamieson Greer says.</p></div>
+        <div class="weather-panel" aria-label="Weather temperatures mentioned in this episode"><h3>Weather</h3><ul class="weather-facts"><li class="weather-fact"><span class="weather-fact-label">Current</span><span class="weather-fact-value">20&deg;C</span><span class="weather-fact-detail">cloudy</span></li><li class="weather-fact"><span class="weather-fact-label">Afternoon</span><span class="weather-fact-value">22&deg;C to 23&deg;C</span><span class="weather-fact-detail">cloudy · rain up to 23%</span></li></ul><p class="weather-source">Source: <a href="https://open-meteo.com/">Open-Meteo forecast API</a> for Berlin-Tempelhof (52.473, 13.403)</p></div>
         <div class="audio-ui" data-player-ui>
           <button class="play-toggle" type="button" data-play-toggle aria-label="Play latest episode" title="Play latest episode">
             <span class="play-state" aria-hidden="true"><svg class="icon player-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg></span>
