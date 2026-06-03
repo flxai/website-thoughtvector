@@ -682,6 +682,13 @@
         transition: border-color var(--theme-transition), color var(--theme-transition);
       }
       .source-note-date { color: var(--muted); transition: color var(--theme-transition); }
+      .source-note-translation {
+        color: color-mix(in srgb, var(--muted) 82%, var(--accent));
+        font-size: 0.78rem;
+        line-height: 1;
+        text-transform: lowercase;
+        transition: color var(--theme-transition);
+      }
       .source-note-summary {
         color: var(--muted);
         font-size: 0.9rem;
@@ -690,23 +697,32 @@
         overflow-wrap: anywhere;
         transition: color var(--theme-transition);
       }
-      .source-note-citations {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-        margin-top: 2px;
+      .source-note-evidence-list {
+        display: grid;
+        gap: 4px;
+        margin-top: 4px;
+        max-width: 72rem;
       }
-      .source-note-citation {
-        display: inline-flex;
-        align-items: center;
-        border: 1px solid color-mix(in srgb, var(--gold) 42%, transparent);
-        border-radius: 999px;
-        color: color-mix(in srgb, var(--gold) 72%, var(--muted));
-        font-size: 0.78rem;
-        line-height: 1.25;
-        max-width: min(100%, 34rem);
-        padding: 3px 7px;
-        transition: border-color var(--theme-transition), color var(--theme-transition);
+      .source-note-evidence {
+        color: color-mix(in srgb, var(--muted) 88%, var(--ink));
+        font-size: 0.82rem;
+        font-style: italic;
+        line-height: 1.36;
+        overflow-wrap: anywhere;
+        transition: color var(--theme-transition);
+      }
+      .source-note-evidence::before {
+        content: "…";
+        color: color-mix(in srgb, var(--gold) 70%, var(--muted));
+        font-style: normal;
+        margin-right: 2px;
+      }
+      .source-note-evidence-mark {
+        background: color-mix(in srgb, var(--gold) 24%, transparent);
+        border-radius: 2px;
+        color: var(--ink);
+        padding: 0 2px;
+        transition: background-color var(--theme-transition), color var(--theme-transition);
       }
       .source-note-id {
         color: inherit;
