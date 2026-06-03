@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 10:29:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 16:53:49 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Morning Whisper Radio 2026-06-03</title>
+      <link>https://thoughtvector.zip/radio/media/20260603-165349Z.ogg</link>
+      <guid isPermaLink="false">morning-whispers:20260603-165349Z</guid>
+      <pubDate>Wed, 03 Jun 2026 16:53:49 GMT</pubDate>
+      <description>Selected sources: NVIDIA Blog: NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI; Handelsblatt: Wall Street: US-Börsen geben nach – KI-Titel legen weiter zu; France24 En: &#x27;Both sides are committed&#x27; to US-EU trade deal, US Trade Representative Jamieson Greer says; Hugging Face Blog: Direct Preference Optimization Beyond Chatbots; Business: BYD is losing its spark; NVIDIA Technical Blog: Deploy Self-Evolving Agents for Faster, More Secure Research with a Hermes Agent and NVIDIA NemoClaw; FAZ Wirtschaft: Umstrittener Steuervorteil: Union erteilt Reform des Ehegattensplittings Absage; Deutsche Welle English: UK Royal Navy helicopter crash leaves 3 dead</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260603-165349Z.ogg" length="3064513" type="audio/ogg" />
+    </item>
     <item>
       <title>Morning Whisper Radio 2026-06-03</title>
       <link>https://thoughtvector.zip/radio/media/20260603-102905Z.ogg</link>
