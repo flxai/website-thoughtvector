@@ -3641,7 +3641,7 @@
   "timing": "transcribe-part-aligned-script",
   "transcribe": {
     "cache": "transcribe.verbose.cache.json",
-    "cached": false,
+    "cached": true,
     "exact_words": 392,
     "match_ratio": 0.869,
     "matched_words": 403,
