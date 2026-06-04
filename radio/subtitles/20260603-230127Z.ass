@@ -1,0 +1,35 @@
+[Script Info]
+Title: Morning Whisper Radio
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,44,&H00FFFFFF,&H00C078A5,&H00181818,&H80000000,0,0,0,0,100,100,0,0,1,3,0,2,80,80,72,1
+Style: Estimated,Noto Sans,44,&H0038D8FF,&H00C078A5,&H00181818,&H80000000,0,0,0,0,100,100,0,0,1,3,0,2,80,80,72,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.00,0:00:15.15,Estimated,,0,0,0,,{\K47}It {\K47}is {\K47}currently {\K47}16 {\K47}degrees {\K47}and {\K47}partly {\K47}cloudy {\K47}in {\K47}Berlin {\K47}Tempelhof
+Dialogue: 0,0:00:15.15,0:00:19.36,Estimated,,0,0,0,,{\K47}With {\K47}the {\K47}morning {\K47}weather {\K47}set {\K47}here {\K47}is {\K47}the {\K47}news
+Dialogue: 0,0:00:19.36,0:00:30.58,Estimated,,0,0,0,,{\K47}The {\K47}global {\K47}geopolitical {\K47}and {\K47}economic {\K47}landscape {\K47}is {\K47}currently {\K47}marked {\K47}by {\K47}significant {\K47}volatility {\K47}with {\K47}a {\K47}strong {\K47}focus {\K47}on {\K47}the {\K47}intersection {\K47}of {\K47}technology {\K47}security {\K47}and {\K47}trade
+Dialogue: 0,0:00:30.58,0:00:41.34,Estimated,,0,0,0,,{\K47}In {\K47}the {\K47}United {\K47}States {\K47}the {\K47}administration {\K47}continues {\K47}to {\K47}navigate {\K47}complex {\K47}trade {\K47}relations {\K47}and {\K47}domestic {\K47}economic {\K47}pressures {\K47}while {\K47}simultaneously {\K47}managing {\K47}strategic {\K47}competition {\K47}with {\K47}China
+Dialogue: 0,0:00:41.34,0:00:53.50,Estimated,,0,0,0,,{\K47}This {\K47}is {\K47}evident {\K47}in {\K47}the {\K47}ongoing {\K47}scrutiny {\K47}of {\K47}semiconductor {\K47}supply {\K47}chains {\K47}and {\K47}the {\K47}implementation {\K47}of {\K47}export {\K47}controls {\K47}aimed {\K47}at {\K47}limiting {\K47}the {\K47}proliferation {\K47}of {\K47}advanced {\K47}AI {\K47}capabilities
+Dialogue: 0,0:00:53.50,0:01:09.88,Estimated,,0,0,0,,{\K47}Meanwhile {\K47}the {\K47}European {\K47}Union {\K47}is {\K47}grappling {\K47}with {\K47}its {\K47}own {\K47}set {\K47}of {\K47}challenges {\K47}including {\K47}the {\K47}need {\K47}to {\K47}balance {\K47}economic {\K47}stability {\K47}with {\K47}the {\K47}transition {\K47}toward {\K47}a {\K47}greener {\K47}economy {\K47}and {\K47}the {\K47}geopolitical {\K47}implications {\K47}of {\K47}the {\K47}conflict {\K47}in {\K47}Ukraine
+Dialogue: 0,0:01:09.88,0:01:20.64,Estimated,,0,0,0,,{\K47}In {\K47}the {\K47}realm {\K47}of {\K47}artificial {\K47}intelligence {\K47}the {\K47}industry {\K47}is {\K47}shifting {\K47}from {\K47}a {\K47}phase {\K47}of {\K47}rapid {\K47}experimentation {\K47}to {\K47}one {\K47}of {\K47}practical {\K47}application {\K47}and {\K47}integration
+Dialogue: 0,0:01:20.64,0:01:31.40,Estimated,,0,0,0,,{\K47}Major {\K47}tech {\K47}companies {\K47}are {\K47}increasingly {\K47}focusing {\K47}on {\K47}the {\K47}deployment {\K47}of {\K47}Large {\K47}Language {\K47}Models {\K47}LLMs {\K47}within {\K47}enterprise {\K47}environments {\K47}emphasizing {\K47}reliability {\K47}security {\K47}and {\K47}cost {\K47}efficiency
+Dialogue: 0,0:01:31.40,0:01:41.22,Estimated,,0,0,0,,{\K47}There {\K47}is {\K47}a {\K47}growing {\K47}trend {\K47}toward {\K47}'small' {\K47}but {\K47}highly {\K47}specialized {\K47}models {\K47}that {\K47}can {\K47}run {\K47}on {\K47}device {\K47}reducing {\K47}latency {\K47}and {\K47}enhancing {\K47}privacy
+Dialogue: 0,0:01:41.22,0:01:51.04,Estimated,,0,0,0,,{\K47}Additionally {\K47}the {\K47}integration {\K47}of {\K47}AI {\K47}into {\K47}robotics {\K47}and {\K47}healthcare {\K47}is {\K47}accelerating {\K47}with {\K47}a {\K47}particular {\K47}emphasis {\K47}on {\K47}autonomous {\K47}systems {\K47}and {\K47}personalized {\K47}medicine
+Dialogue: 0,0:01:51.04,0:01:59.93,Estimated,,0,0,0,,{\K47}The {\K47}energy {\K47}sector {\K47}is {\K47}witnessing {\K47}a {\K47}pivotal {\K47}transition {\K47}as {\K47}the {\K47}world {\K47}seeks {\K47}to {\K47}reduce {\K47}its {\K47}dependence {\K47}on {\K47}fossil {\K47}fuels
+Dialogue: 0,0:01:59.93,0:02:11.62,Estimated,,0,0,0,,{\K47}Investment {\K47}in {\K47}renewable {\K47}energy {\K47}sources {\K47}such {\K47}as {\K47}wind {\K47}and {\K47}solar {\K47}is {\K47}reaching {\K47}record {\K47}highs {\K47}driven {\K47}by {\K47}both {\K47}climate {\K47}goals {\K47}and {\K47}the {\K47}desire {\K47}for {\K47}energy {\K47}independence
+Dialogue: 0,0:02:11.62,0:02:21.92,Estimated,,0,0,0,,{\K47}However {\K47}this {\K47}transition {\K47}is {\K47}not {\K47}without {\K47}hurdles {\K47}as {\K47}the {\K47}volatility {\K47}of {\K47}commodity {\K47}prices {\K47}and {\K47}the {\K47}challenges {\K47}of {\K47}upgrading {\K47}aging {\K47}power {\K47}grids {\K47}persist
+Dialogue: 0,0:02:21.92,0:02:35.01,Estimated,,0,0,0,,{\K47}There {\K47}is {\K47}also {\K47}a {\K47}renewed {\K47}interest {\K47}in {\K47}nuclear {\K47}energy {\K47}particularly {\K47}small {\K47}modular {\K47}reactors {\K47}SMRs {\K47}as {\K47}a {\K47}means {\K47}of {\K47}providing {\K47}stable {\K47}carbon {\K47}free {\K47}baseload {\K47}power {\K47}to {\K47}complement {\K47}intermittent {\K47}renewables
+Dialogue: 0,0:02:35.01,0:02:38.29,Estimated,,0,0,0,,{\K47}After {\K47}the {\K47}headlines {\K47}back {\K47}to {\K47}the {\K47}weather
+Dialogue: 0,0:02:38.29,0:02:47.18,Estimated,,0,0,0,,{\K47}This {\K47}afternoon {\K47}will {\K47}be {\K47}cloudy {\K47}with {\K47}rain {\K47}chances {\K47}up {\K47}to {\K47}30 {\K47}percent {\K47}and {\K47}temperatures {\K47}between {\K47}21 {\K47}and {\K47}23 {\K47}degrees
+Dialogue: 0,0:02:47.18,0:02:51.86,Estimated,,0,0,0,,{\K47}And {\K47}from {\K47}the {\K47}weather {\K47}a {\K47}quick {\K47}look {\K47}at {\K47}the {\K47}calendar
+Dialogue: 0,0:02:51.86,0:03:18.05,Estimated,,0,0,0,,{\K47}On {\K47}your {\K47}calendar {\K47}today {\K47}personal {\K47}calendar {\K47}all {\K47}day {\K47}Department {\K47}Retro {\K47}Fronleichnam {\K47}at {\K47}BY {\K47}BW {\K47}HE {\K47}NW {\K47}RP {\K47}SL {\K47}and {\K47}Fronleichnam {\K47}at {\K47}HE {\K47}BW {\K47}BY {\K47}NW {\K47}RP {\K47}SL {\K47}at {\K47}13 {\K47}00 {\K47}Open {\K47}Office {\K47}Platform {\K47}Team {\K47}at {\K47}Momentum {\K47}office {\K47}couch {\K47}area {\K47}at {\K47}14 {\K47}00 {\K47}Meeting {\K47}Aaron {\K47}at {\K47}16 {\K47}00 {\K47}AutoML {\K47}Seminar {\K47}and {\K47}at {\K47}19 {\K47}00 {\K47}Greifen {\K47}and {\K47}Greifen
+Dialogue: 0,0:03:18.05,0:03:21.79,Estimated,,0,0,0,,{\K47}And {\K47}that's {\K47}it {\K47}for {\K47}your {\K47}personal {\K47}morning {\K47}broadcast
+Dialogue: 0,0:03:21.79,0:03:23.20,Estimated,,0,0,0,,{\K47}Rise {\K47}and {\K47}shine

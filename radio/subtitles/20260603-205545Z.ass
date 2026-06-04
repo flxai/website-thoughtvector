@@ -1,0 +1,31 @@
+[Script Info]
+Title: Morning Whisper Radio
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,44,&H00FFFFFF,&H00C078A5,&H00181818,&H80000000,0,0,0,0,100,100,0,0,1,3,0,2,80,80,72,1
+Style: Estimated,Noto Sans,44,&H0038D8FF,&H00C078A5,&H00181818,&H80000000,0,0,0,0,100,100,0,0,1,3,0,2,80,80,72,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.00,0:00:14.94,Estimated,,0,0,0,,{\K45}It {\K45}is {\K45}currently {\K45}18 {\K45}degrees {\K45}and {\K45}partly {\K45}cloudy {\K45}in {\K45}Berlin {\K45}Tempelhof
+Dialogue: 0,0:00:14.94,0:00:18.98,Estimated,,0,0,0,,{\K45}With {\K45}the {\K45}morning {\K45}weather {\K45}set {\K45}here {\K45}is {\K45}the {\K45}news
+Dialogue: 0,0:00:18.98,0:00:25.71,Estimated,,0,0,0,,{\K45}In {\K45}the {\K45}world {\K45}of {\K45}AI {\K45}and {\K45}robotics {\K45}NVIDIA {\K45}is {\K45}pushing {\K45}the {\K45}boundaries {\K45}of {\K45}physical {\K45}intelligence
+Dialogue: 0,0:00:25.71,0:00:33.34,Estimated,,0,0,0,,{\K45}The {\K45}company {\K45}has {\K45}unveiled {\K45}new {\K45}capabilities {\K45}for {\K45}its {\K45}robots {\K45}focusing {\K45}on {\K45}a {\K45}shift {\K45}toward {\K45}'general {\K45}purpose' {\K45}intelligence
+Dialogue: 0,0:00:33.34,0:00:48.15,Estimated,,0,0,0,,{\K45}By {\K45}leveraging {\K45}large {\K45}scale {\K45}foundation {\K45}models {\K45}NVIDIA {\K45}aims {\K45}to {\K45}enable {\K45}robots {\K45}to {\K45}learn {\K45}complex {\K45}tasks {\K45}from {\K45}observation {\K45}and {\K45}simulation {\K45}reducing {\K45}the {\K45}need {\K45}for {\K45}manual {\K45}programming {\K45}and {\K45}allowing {\K45}for {\K45}faster {\K45}adaptation {\K45}to {\K45}new {\K45}environments
+Dialogue: 0,0:00:48.15,0:00:50.84,Estimated,,0,0,0,,{\K45}Meanwhile {\K45}the {\K45}geopolitical {\K45}landscape {\K45}remains {\K45}volatile
+Dialogue: 0,0:00:50.84,0:00:57.13,Estimated,,0,0,0,,{\K45}In {\K45}the {\K45}Middle {\K45}East {\K45}tensions {\K45}persist {\K45}as {\K45}various {\K45}actors {\K45}navigate {\K45}a {\K45}complex {\K45}security {\K45}environment
+Dialogue: 0,0:00:57.13,0:01:09.25,Estimated,,0,0,0,,{\K45}Efforts {\K45}to {\K45}maintain {\K45}stability {\K45}are {\K45}often {\K45}hampered {\K45}by {\K45}conflicting {\K45}interests {\K45}and {\K45}the {\K45}risk {\K45}of {\K45}escalation {\K45}highlighting {\K45}the {\K45}ongoing {\K45}challenge {\K45}of {\K45}achieving {\K45}a {\K45}lasting {\K45}peace {\K45}in {\K45}the {\K45}region
+Dialogue: 0,0:01:09.25,0:01:19.12,Estimated,,0,0,0,,{\K45}Turning {\K45}to {\K45}the {\K45}economy {\K45}central {\K45}banks {\K45}are {\K45}closely {\K45}monitoring {\K45}inflation {\K45}and {\K45}employment {\K45}data {\K45}to {\K45}determine {\K45}the {\K45}timing {\K45}of {\K45}potential {\K45}interest {\K45}rate {\K45}cuts
+Dialogue: 0,0:01:19.12,0:01:31.69,Estimated,,0,0,0,,{\K45}Market {\K45}analysts {\K45}suggest {\K45}that {\K45}while {\K45}some {\K45}progress {\K45}has {\K45}been {\K45}made {\K45}the {\K45}path {\K45}to {\K45}price {\K45}stability {\K45}remains {\K45}uncertain {\K45}necessitating {\K45}a {\K45}cautious {\K45}approach {\K45}to {\K45}monetary {\K45}policy {\K45}in {\K45}the {\K45}coming {\K45}months
+Dialogue: 0,0:01:31.69,0:01:34.83,Estimated,,0,0,0,,{\K45}After {\K45}the {\K45}headlines {\K45}back {\K45}to {\K45}the {\K45}weather
+Dialogue: 0,0:01:34.83,0:01:43.36,Estimated,,0,0,0,,{\K45}This {\K45}afternoon {\K45}will {\K45}be {\K45}cloudy {\K45}with {\K45}rain {\K45}chances {\K45}up {\K45}to {\K45}30 {\K45}percent {\K45}and {\K45}temperatures {\K45}between {\K45}22 {\K45}and {\K45}23 {\K45}degrees
+Dialogue: 0,0:01:43.36,0:01:47.85,Estimated,,0,0,0,,{\K45}And {\K45}from {\K45}the {\K45}weather {\K45}a {\K45}quick {\K45}look {\K45}at {\K45}the {\K45}calendar
+Dialogue: 0,0:01:47.85,0:02:04.45,Estimated,,0,0,0,,{\K45}On {\K45}your {\K45}calendar {\K45}today {\K45}personal {\K45}calendar {\K45}all {\K45}day {\K45}Department {\K45}Retro {\K45}at {\K45}10 {\K45}00 {\K45}Optikrunde {\K45}at {\K45}10 {\K45}30 {\K45}Research {\K45}weekly {\K45}at {\K45}Gauss {\K45}at {\K45}11 {\K45}00 {\K45}MxM {\K45}Spotlight {\K45}and {\K45}at {\K45}15 {\K45}00 {\K45}Corsnero {\K45}OffGPT {\K45}Gruppenmeeting {\K45}Gregor {\K45}and {\K45}Research {\K45}Seminar
+Dialogue: 0,0:02:04.45,0:02:08.04,Estimated,,0,0,0,,{\K45}And {\K45}that's {\K45}it {\K45}for {\K45}your {\K45}personal {\K45}morning {\K45}broadcast
+Dialogue: 0,0:02:08.04,0:02:09.39,Estimated,,0,0,0,,{\K45}Rise {\K45}and {\K45}shine

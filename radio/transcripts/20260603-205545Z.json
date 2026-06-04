@@ -1,0 +1,2181 @@
+{
+  "groups": [
+    {
+      "end": 14.937,
+      "id": "p0",
+      "index": 0,
+      "section_index": 0,
+      "section_kind": "weather_opening",
+      "segments": [
+        "s0"
+      ],
+      "start": 10.0,
+      "text": "It is currently 18 degrees and partly cloudy in Berlin-Tempelhof."
+    },
+    {
+      "end": 18.977,
+      "id": "p1",
+      "index": 1,
+      "section_index": 1,
+      "section_kind": "news_bridge",
+      "segments": [
+        "s1"
+      ],
+      "start": 14.937,
+      "text": "With the morning weather set, here is the news."
+    },
+    {
+      "end": 48.151,
+      "id": "p2",
+      "index": 2,
+      "section_index": 2,
+      "section_kind": "news",
+      "segments": [
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "start": 18.977,
+      "text": "In the world of AI and robotics, NVIDIA is pushing the boundaries of physical intelligence. The company has unveiled new capabilities for its robots, focusing on a shift toward 'general-purpose' intelligence. By leveraging large-scale foundation models, NVIDIA aims to enable robots to learn complex tasks from observation and simulation, reducing the need for manual programming and allowing for faster adaptation to new environments."
+    },
+    {
+      "end": 69.247,
+      "id": "p3",
+      "index": 3,
+      "section_index": 3,
+      "section_kind": "news",
+      "segments": [
+        "s5",
+        "s6",
+        "s7"
+      ],
+      "start": 48.151,
+      "text": "Meanwhile, the geopolitical landscape remains volatile. In the Middle East, tensions persist as various actors navigate a complex security environment. Efforts to maintain stability are often hampered by conflicting interests and the risk of escalation, highlighting the ongoing challenge of achieving a lasting peace in the region."
+    },
+    {
+      "end": 91.689,
+      "id": "p4",
+      "index": 4,
+      "section_index": 4,
+      "section_kind": "news",
+      "segments": [
+        "s8",
+        "s9"
+      ],
+      "start": 69.247,
+      "text": "Turning to the economy, central banks are closely monitoring inflation and employment data to determine the timing of potential interest rate cuts. Market analysts suggest that while some progress has been made, the path to price stability remains uncertain, necessitating a cautious approach to monetary policy in the coming months."
+    },
+    {
+      "end": 94.831,
+      "id": "p5",
+      "index": 5,
+      "section_index": 5,
+      "section_kind": "weather_return_bridge",
+      "segments": [
+        "s10"
+      ],
+      "start": 91.689,
+      "text": "After the headlines, back to the weather."
+    },
+    {
+      "end": 103.359,
+      "id": "p6",
+      "index": 6,
+      "section_index": 6,
+      "section_kind": "weather_closing",
+      "segments": [
+        "s11"
+      ],
+      "start": 94.831,
+      "text": "This afternoon will be cloudy with rain chances up to 30 percent and temperatures between 22 and 23 degrees."
+    },
+    {
+      "end": 107.847,
+      "id": "p7",
+      "index": 7,
+      "section_index": 7,
+      "section_kind": "calendar_bridge",
+      "segments": [
+        "s12"
+      ],
+      "start": 103.359,
+      "text": "And from the weather, a quick look at the calendar."
+    },
+    {
+      "end": 124.454,
+      "id": "p8",
+      "index": 8,
+      "section_index": 8,
+      "section_kind": "calendar",
+      "segments": [
+        "s13"
+      ],
+      "start": 107.847,
+      "text": "On your calendar today: personal calendar: all day: Department Retro, at 10:00, Optikrunde, at 10:30, Research weekly at Gauss, at 11:00, MxM Spotlight, and at 15:00, Corsnero OffGPT, Gruppenmeeting Gregor, and Research Seminar."
+    },
+    {
+      "end": 128.045,
+      "id": "p9",
+      "index": 9,
+      "section_index": 9,
+      "section_kind": "closing",
+      "segments": [
+        "s14"
+      ],
+      "start": 124.454,
+      "text": "And that's it for your personal morning broadcast."
+    },
+    {
+      "end": 129.392,
+      "id": "p10",
+      "index": 10,
+      "section_index": 10,
+      "section_kind": "signoff",
+      "segments": [
+        "s15"
+      ],
+      "start": 128.045,
+      "text": "Rise and shine."
+    }
+  ],
+  "kind": "script-transcript",
+  "media": {
+    "duration_seconds": 149.399
+  },
+  "run_id": "20260603-205545Z",
+  "segments": [
+    {
+      "end": 14.937,
+      "group": "p0",
+      "id": "s0",
+      "index": 0,
+      "start": 10.0,
+      "text": "It is currently 18 degrees and partly cloudy in Berlin-Tempelhof.",
+      "words": [
+        {
+          "end": 10.449,
+          "index": 0,
+          "source": "interpolated",
+          "start": 10.0,
+          "text": "It"
+        },
+        {
+          "end": 10.898,
+          "index": 1,
+          "source": "interpolated",
+          "start": 10.449,
+          "text": "is"
+        },
+        {
+          "end": 11.347,
+          "index": 2,
+          "source": "interpolated",
+          "start": 10.898,
+          "text": "currently"
+        },
+        {
+          "end": 11.795,
+          "index": 3,
+          "source": "interpolated",
+          "start": 11.347,
+          "text": "18"
+        },
+        {
+          "end": 12.244,
+          "index": 4,
+          "source": "interpolated",
+          "start": 11.795,
+          "text": "degrees"
+        },
+        {
+          "end": 12.693,
+          "index": 5,
+          "source": "interpolated",
+          "start": 12.244,
+          "text": "and"
+        },
+        {
+          "end": 13.142,
+          "index": 6,
+          "source": "interpolated",
+          "start": 12.693,
+          "text": "partly"
+        },
+        {
+          "end": 13.591,
+          "index": 7,
+          "source": "interpolated",
+          "start": 13.142,
+          "text": "cloudy"
+        },
+        {
+          "end": 14.04,
+          "index": 8,
+          "source": "interpolated",
+          "start": 13.591,
+          "text": "in"
+        },
+        {
+          "end": 14.488,
+          "index": 9,
+          "source": "interpolated",
+          "start": 14.04,
+          "text": "Berlin"
+        },
+        {
+          "end": 14.937,
+          "index": 10,
+          "source": "interpolated",
+          "start": 14.488,
+          "text": "Tempelhof"
+        }
+      ]
+    },
+    {
+      "end": 18.977,
+      "group": "p1",
+      "id": "s1",
+      "index": 1,
+      "start": 14.937,
+      "text": "With the morning weather set, here is the news.",
+      "words": [
+        {
+          "end": 15.386,
+          "index": 0,
+          "source": "interpolated",
+          "start": 14.937,
+          "text": "With"
+        },
+        {
+          "end": 15.835,
+          "index": 1,
+          "source": "interpolated",
+          "start": 15.386,
+          "text": "the"
+        },
+        {
+          "end": 16.284,
+          "index": 2,
+          "source": "interpolated",
+          "start": 15.835,
+          "text": "morning"
+        },
+        {
+          "end": 16.733,
+          "index": 3,
+          "source": "interpolated",
+          "start": 16.284,
+          "text": "weather"
+        },
+        {
+          "end": 17.181,
+          "index": 4,
+          "source": "interpolated",
+          "start": 16.733,
+          "text": "set"
+        },
+        {
+          "end": 17.63,
+          "index": 5,
+          "source": "interpolated",
+          "start": 17.181,
+          "text": "here"
+        },
+        {
+          "end": 18.079,
+          "index": 6,
+          "source": "interpolated",
+          "start": 17.63,
+          "text": "is"
+        },
+        {
+          "end": 18.528,
+          "index": 7,
+          "source": "interpolated",
+          "start": 18.079,
+          "text": "the"
+        },
+        {
+          "end": 18.977,
+          "index": 8,
+          "source": "interpolated",
+          "start": 18.528,
+          "text": "news"
+        }
+      ]
+    },
+    {
+      "end": 25.709,
+      "group": "p2",
+      "id": "s2",
+      "index": 2,
+      "start": 18.977,
+      "text": "In the world of AI and robotics, NVIDIA is pushing the boundaries of physical intelligence.",
+      "words": [
+        {
+          "end": 19.426,
+          "index": 0,
+          "source": "interpolated",
+          "start": 18.977,
+          "text": "In"
+        },
+        {
+          "end": 19.874,
+          "index": 1,
+          "source": "interpolated",
+          "start": 19.426,
+          "text": "the"
+        },
+        {
+          "end": 20.323,
+          "index": 2,
+          "source": "interpolated",
+          "start": 19.874,
+          "text": "world"
+        },
+        {
+          "end": 20.772,
+          "index": 3,
+          "source": "interpolated",
+          "start": 20.323,
+          "text": "of"
+        },
+        {
+          "end": 21.221,
+          "index": 4,
+          "source": "interpolated",
+          "start": 20.772,
+          "text": "AI"
+        },
+        {
+          "end": 21.67,
+          "index": 5,
+          "source": "interpolated",
+          "start": 21.221,
+          "text": "and"
+        },
+        {
+          "end": 22.119,
+          "index": 6,
+          "source": "interpolated",
+          "start": 21.67,
+          "text": "robotics"
+        },
+        {
+          "end": 22.568,
+          "index": 7,
+          "source": "interpolated",
+          "start": 22.119,
+          "text": "NVIDIA"
+        },
+        {
+          "end": 23.016,
+          "index": 8,
+          "source": "interpolated",
+          "start": 22.568,
+          "text": "is"
+        },
+        {
+          "end": 23.465,
+          "index": 9,
+          "source": "interpolated",
+          "start": 23.016,
+          "text": "pushing"
+        },
+        {
+          "end": 23.914,
+          "index": 10,
+          "source": "interpolated",
+          "start": 23.465,
+          "text": "the"
+        },
+        {
+          "end": 24.363,
+          "index": 11,
+          "source": "interpolated",
+          "start": 23.914,
+          "text": "boundaries"
+        },
+        {
+          "end": 24.812,
+          "index": 12,
+          "source": "interpolated",
+          "start": 24.363,
+          "text": "of"
+        },
+        {
+          "end": 25.261,
+          "index": 13,
+          "source": "interpolated",
+          "start": 24.812,
+          "text": "physical"
+        },
+        {
+          "end": 25.709,
+          "index": 14,
+          "source": "interpolated",
+          "start": 25.261,
+          "text": "intelligence"
+        }
+      ]
+    },
+    {
+      "end": 33.34,
+      "group": "p2",
+      "id": "s3",
+      "index": 3,
+      "start": 25.709,
+      "text": "The company has unveiled new capabilities for its robots, focusing on a shift toward 'general-purpose' intelligence.",
+      "words": [
+        {
+          "end": 26.158,
+          "index": 0,
+          "source": "interpolated",
+          "start": 25.709,
+          "text": "The"
+        },
+        {
+          "end": 26.607,
+          "index": 1,
+          "source": "interpolated",
+          "start": 26.158,
+          "text": "company"
+        },
+        {
+          "end": 27.056,
+          "index": 2,
+          "source": "interpolated",
+          "start": 26.607,
+          "text": "has"
+        },
+        {
+          "end": 27.505,
+          "index": 3,
+          "source": "interpolated",
+          "start": 27.056,
+          "text": "unveiled"
+        },
+        {
+          "end": 27.954,
+          "index": 4,
+          "source": "interpolated",
+          "start": 27.505,
+          "text": "new"
+        },
+        {
+          "end": 28.402,
+          "index": 5,
+          "source": "interpolated",
+          "start": 27.954,
+          "text": "capabilities"
+        },
+        {
+          "end": 28.851,
+          "index": 6,
+          "source": "interpolated",
+          "start": 28.402,
+          "text": "for"
+        },
+        {
+          "end": 29.3,
+          "index": 7,
+          "source": "interpolated",
+          "start": 28.851,
+          "text": "its"
+        },
+        {
+          "end": 29.749,
+          "index": 8,
+          "source": "interpolated",
+          "start": 29.3,
+          "text": "robots"
+        },
+        {
+          "end": 30.198,
+          "index": 9,
+          "source": "interpolated",
+          "start": 29.749,
+          "text": "focusing"
+        },
+        {
+          "end": 30.647,
+          "index": 10,
+          "source": "interpolated",
+          "start": 30.198,
+          "text": "on"
+        },
+        {
+          "end": 31.096,
+          "index": 11,
+          "source": "interpolated",
+          "start": 30.647,
+          "text": "a"
+        },
+        {
+          "end": 31.544,
+          "index": 12,
+          "source": "interpolated",
+          "start": 31.096,
+          "text": "shift"
+        },
+        {
+          "end": 31.993,
+          "index": 13,
+          "source": "interpolated",
+          "start": 31.544,
+          "text": "toward"
+        },
+        {
+          "end": 32.442,
+          "index": 14,
+          "source": "interpolated",
+          "start": 31.993,
+          "text": "'general"
+        },
+        {
+          "end": 32.891,
+          "index": 15,
+          "source": "interpolated",
+          "start": 32.442,
+          "text": "purpose'"
+        },
+        {
+          "end": 33.34,
+          "index": 16,
+          "source": "interpolated",
+          "start": 32.891,
+          "text": "intelligence"
+        }
+      ]
+    },
+    {
+      "end": 48.151,
+      "group": "p2",
+      "id": "s4",
+      "index": 4,
+      "start": 33.34,
+      "text": "By leveraging large-scale foundation models, NVIDIA aims to enable robots to learn complex tasks from observation and simulation, reducing the need for manual programming and allowing for faster adaptation to new environments.",
+      "words": [
+        {
+          "end": 33.789,
+          "index": 0,
+          "source": "interpolated",
+          "start": 33.34,
+          "text": "By"
+        },
+        {
+          "end": 34.237,
+          "index": 1,
+          "source": "interpolated",
+          "start": 33.789,
+          "text": "leveraging"
+        },
+        {
+          "end": 34.686,
+          "index": 2,
+          "source": "interpolated",
+          "start": 34.237,
+          "text": "large"
+        },
+        {
+          "end": 35.135,
+          "index": 3,
+          "source": "interpolated",
+          "start": 34.686,
+          "text": "scale"
+        },
+        {
+          "end": 35.584,
+          "index": 4,
+          "source": "interpolated",
+          "start": 35.135,
+          "text": "foundation"
+        },
+        {
+          "end": 36.033,
+          "index": 5,
+          "source": "interpolated",
+          "start": 35.584,
+          "text": "models"
+        },
+        {
+          "end": 36.482,
+          "index": 6,
+          "source": "interpolated",
+          "start": 36.033,
+          "text": "NVIDIA"
+        },
+        {
+          "end": 36.93,
+          "index": 7,
+          "source": "interpolated",
+          "start": 36.482,
+          "text": "aims"
+        },
+        {
+          "end": 37.379,
+          "index": 8,
+          "source": "interpolated",
+          "start": 36.93,
+          "text": "to"
+        },
+        {
+          "end": 37.828,
+          "index": 9,
+          "source": "interpolated",
+          "start": 37.379,
+          "text": "enable"
+        },
+        {
+          "end": 38.277,
+          "index": 10,
+          "source": "interpolated",
+          "start": 37.828,
+          "text": "robots"
+        },
+        {
+          "end": 38.726,
+          "index": 11,
+          "source": "interpolated",
+          "start": 38.277,
+          "text": "to"
+        },
+        {
+          "end": 39.175,
+          "index": 12,
+          "source": "interpolated",
+          "start": 38.726,
+          "text": "learn"
+        },
+        {
+          "end": 39.623,
+          "index": 13,
+          "source": "interpolated",
+          "start": 39.175,
+          "text": "complex"
+        },
+        {
+          "end": 40.072,
+          "index": 14,
+          "source": "interpolated",
+          "start": 39.623,
+          "text": "tasks"
+        },
+        {
+          "end": 40.521,
+          "index": 15,
+          "source": "interpolated",
+          "start": 40.072,
+          "text": "from"
+        },
+        {
+          "end": 40.97,
+          "index": 16,
+          "source": "interpolated",
+          "start": 40.521,
+          "text": "observation"
+        },
+        {
+          "end": 41.419,
+          "index": 17,
+          "source": "interpolated",
+          "start": 40.97,
+          "text": "and"
+        },
+        {
+          "end": 41.868,
+          "index": 18,
+          "source": "interpolated",
+          "start": 41.419,
+          "text": "simulation"
+        },
+        {
+          "end": 42.317,
+          "index": 19,
+          "source": "interpolated",
+          "start": 41.868,
+          "text": "reducing"
+        },
+        {
+          "end": 42.765,
+          "index": 20,
+          "source": "interpolated",
+          "start": 42.317,
+          "text": "the"
+        },
+        {
+          "end": 43.214,
+          "index": 21,
+          "source": "interpolated",
+          "start": 42.765,
+          "text": "need"
+        },
+        {
+          "end": 43.663,
+          "index": 22,
+          "source": "interpolated",
+          "start": 43.214,
+          "text": "for"
+        },
+        {
+          "end": 44.112,
+          "index": 23,
+          "source": "interpolated",
+          "start": 43.663,
+          "text": "manual"
+        },
+        {
+          "end": 44.561,
+          "index": 24,
+          "source": "interpolated",
+          "start": 44.112,
+          "text": "programming"
+        },
+        {
+          "end": 45.01,
+          "index": 25,
+          "source": "interpolated",
+          "start": 44.561,
+          "text": "and"
+        },
+        {
+          "end": 45.458,
+          "index": 26,
+          "source": "interpolated",
+          "start": 45.01,
+          "text": "allowing"
+        },
+        {
+          "end": 45.907,
+          "index": 27,
+          "source": "interpolated",
+          "start": 45.458,
+          "text": "for"
+        },
+        {
+          "end": 46.356,
+          "index": 28,
+          "source": "interpolated",
+          "start": 45.907,
+          "text": "faster"
+        },
+        {
+          "end": 46.805,
+          "index": 29,
+          "source": "interpolated",
+          "start": 46.356,
+          "text": "adaptation"
+        },
+        {
+          "end": 47.254,
+          "index": 30,
+          "source": "interpolated",
+          "start": 46.805,
+          "text": "to"
+        },
+        {
+          "end": 47.703,
+          "index": 31,
+          "source": "interpolated",
+          "start": 47.254,
+          "text": "new"
+        },
+        {
+          "end": 48.151,
+          "index": 32,
+          "source": "interpolated",
+          "start": 47.703,
+          "text": "environments"
+        }
+      ]
+    },
+    {
+      "end": 50.844,
+      "group": "p3",
+      "id": "s5",
+      "index": 5,
+      "start": 48.151,
+      "text": "Meanwhile, the geopolitical landscape remains volatile.",
+      "words": [
+        {
+          "end": 48.6,
+          "index": 0,
+          "source": "interpolated",
+          "start": 48.151,
+          "text": "Meanwhile"
+        },
+        {
+          "end": 49.049,
+          "index": 1,
+          "source": "interpolated",
+          "start": 48.6,
+          "text": "the"
+        },
+        {
+          "end": 49.498,
+          "index": 2,
+          "source": "interpolated",
+          "start": 49.049,
+          "text": "geopolitical"
+        },
+        {
+          "end": 49.947,
+          "index": 3,
+          "source": "interpolated",
+          "start": 49.498,
+          "text": "landscape"
+        },
+        {
+          "end": 50.396,
+          "index": 4,
+          "source": "interpolated",
+          "start": 49.947,
+          "text": "remains"
+        },
+        {
+          "end": 50.844,
+          "index": 5,
+          "source": "interpolated",
+          "start": 50.396,
+          "text": "volatile"
+        }
+      ]
+    },
+    {
+      "end": 57.128,
+      "group": "p3",
+      "id": "s6",
+      "index": 6,
+      "start": 50.844,
+      "text": "In the Middle East, tensions persist as various actors navigate a complex security environment.",
+      "words": [
+        {
+          "end": 51.293,
+          "index": 0,
+          "source": "interpolated",
+          "start": 50.844,
+          "text": "In"
+        },
+        {
+          "end": 51.742,
+          "index": 1,
+          "source": "interpolated",
+          "start": 51.293,
+          "text": "the"
+        },
+        {
+          "end": 52.191,
+          "index": 2,
+          "source": "interpolated",
+          "start": 51.742,
+          "text": "Middle"
+        },
+        {
+          "end": 52.64,
+          "index": 3,
+          "source": "interpolated",
+          "start": 52.191,
+          "text": "East"
+        },
+        {
+          "end": 53.089,
+          "index": 4,
+          "source": "interpolated",
+          "start": 52.64,
+          "text": "tensions"
+        },
+        {
+          "end": 53.538,
+          "index": 5,
+          "source": "interpolated",
+          "start": 53.089,
+          "text": "persist"
+        },
+        {
+          "end": 53.986,
+          "index": 6,
+          "source": "interpolated",
+          "start": 53.538,
+          "text": "as"
+        },
+        {
+          "end": 54.435,
+          "index": 7,
+          "source": "interpolated",
+          "start": 53.986,
+          "text": "various"
+        },
+        {
+          "end": 54.884,
+          "index": 8,
+          "source": "interpolated",
+          "start": 54.435,
+          "text": "actors"
+        },
+        {
+          "end": 55.333,
+          "index": 9,
+          "source": "interpolated",
+          "start": 54.884,
+          "text": "navigate"
+        },
+        {
+          "end": 55.782,
+          "index": 10,
+          "source": "interpolated",
+          "start": 55.333,
+          "text": "a"
+        },
+        {
+          "end": 56.231,
+          "index": 11,
+          "source": "interpolated",
+          "start": 55.782,
+          "text": "complex"
+        },
+        {
+          "end": 56.679,
+          "index": 12,
+          "source": "interpolated",
+          "start": 56.231,
+          "text": "security"
+        },
+        {
+          "end": 57.128,
+          "index": 13,
+          "source": "interpolated",
+          "start": 56.679,
+          "text": "environment"
+        }
+      ]
+    },
+    {
+      "end": 69.247,
+      "group": "p3",
+      "id": "s7",
+      "index": 7,
+      "start": 57.128,
+      "text": "Efforts to maintain stability are often hampered by conflicting interests and the risk of escalation, highlighting the ongoing challenge of achieving a lasting peace in the region.",
+      "words": [
+        {
+          "end": 57.577,
+          "index": 0,
+          "source": "interpolated",
+          "start": 57.128,
+          "text": "Efforts"
+        },
+        {
+          "end": 58.026,
+          "index": 1,
+          "source": "interpolated",
+          "start": 57.577,
+          "text": "to"
+        },
+        {
+          "end": 58.475,
+          "index": 2,
+          "source": "interpolated",
+          "start": 58.026,
+          "text": "maintain"
+        },
+        {
+          "end": 58.924,
+          "index": 3,
+          "source": "interpolated",
+          "start": 58.475,
+          "text": "stability"
+        },
+        {
+          "end": 59.372,
+          "index": 4,
+          "source": "interpolated",
+          "start": 58.924,
+          "text": "are"
+        },
+        {
+          "end": 59.821,
+          "index": 5,
+          "source": "interpolated",
+          "start": 59.372,
+          "text": "often"
+        },
+        {
+          "end": 60.27,
+          "index": 6,
+          "source": "interpolated",
+          "start": 59.821,
+          "text": "hampered"
+        },
+        {
+          "end": 60.719,
+          "index": 7,
+          "source": "interpolated",
+          "start": 60.27,
+          "text": "by"
+        },
+        {
+          "end": 61.168,
+          "index": 8,
+          "source": "interpolated",
+          "start": 60.719,
+          "text": "conflicting"
+        },
+        {
+          "end": 61.617,
+          "index": 9,
+          "source": "interpolated",
+          "start": 61.168,
+          "text": "interests"
+        },
+        {
+          "end": 62.066,
+          "index": 10,
+          "source": "interpolated",
+          "start": 61.617,
+          "text": "and"
+        },
+        {
+          "end": 62.514,
+          "index": 11,
+          "source": "interpolated",
+          "start": 62.066,
+          "text": "the"
+        },
+        {
+          "end": 62.963,
+          "index": 12,
+          "source": "interpolated",
+          "start": 62.514,
+          "text": "risk"
+        },
+        {
+          "end": 63.412,
+          "index": 13,
+          "source": "interpolated",
+          "start": 62.963,
+          "text": "of"
+        },
+        {
+          "end": 63.861,
+          "index": 14,
+          "source": "interpolated",
+          "start": 63.412,
+          "text": "escalation"
+        },
+        {
+          "end": 64.31,
+          "index": 15,
+          "source": "interpolated",
+          "start": 63.861,
+          "text": "highlighting"
+        },
+        {
+          "end": 64.759,
+          "index": 16,
+          "source": "interpolated",
+          "start": 64.31,
+          "text": "the"
+        },
+        {
+          "end": 65.207,
+          "index": 17,
+          "source": "interpolated",
+          "start": 64.759,
+          "text": "ongoing"
+        },
+        {
+          "end": 65.656,
+          "index": 18,
+          "source": "interpolated",
+          "start": 65.207,
+          "text": "challenge"
+        },
+        {
+          "end": 66.105,
+          "index": 19,
+          "source": "interpolated",
+          "start": 65.656,
+          "text": "of"
+        },
+        {
+          "end": 66.554,
+          "index": 20,
+          "source": "interpolated",
+          "start": 66.105,
+          "text": "achieving"
+        },
+        {
+          "end": 67.003,
+          "index": 21,
+          "source": "interpolated",
+          "start": 66.554,
+          "text": "a"
+        },
+        {
+          "end": 67.452,
+          "index": 22,
+          "source": "interpolated",
+          "start": 67.003,
+          "text": "lasting"
+        },
+        {
+          "end": 67.9,
+          "index": 23,
+          "source": "interpolated",
+          "start": 67.452,
+          "text": "peace"
+        },
+        {
+          "end": 68.349,
+          "index": 24,
+          "source": "interpolated",
+          "start": 67.9,
+          "text": "in"
+        },
+        {
+          "end": 68.798,
+          "index": 25,
+          "source": "interpolated",
+          "start": 68.349,
+          "text": "the"
+        },
+        {
+          "end": 69.247,
+          "index": 26,
+          "source": "interpolated",
+          "start": 68.798,
+          "text": "region"
+        }
+      ]
+    },
+    {
+      "end": 79.121,
+      "group": "p4",
+      "id": "s8",
+      "index": 8,
+      "start": 69.247,
+      "text": "Turning to the economy, central banks are closely monitoring inflation and employment data to determine the timing of potential interest rate cuts.",
+      "words": [
+        {
+          "end": 69.696,
+          "index": 0,
+          "source": "interpolated",
+          "start": 69.247,
+          "text": "Turning"
+        },
+        {
+          "end": 70.145,
+          "index": 1,
+          "source": "interpolated",
+          "start": 69.696,
+          "text": "to"
+        },
+        {
+          "end": 70.593,
+          "index": 2,
+          "source": "interpolated",
+          "start": 70.145,
+          "text": "the"
+        },
+        {
+          "end": 71.042,
+          "index": 3,
+          "source": "interpolated",
+          "start": 70.593,
+          "text": "economy"
+        },
+        {
+          "end": 71.491,
+          "index": 4,
+          "source": "interpolated",
+          "start": 71.042,
+          "text": "central"
+        },
+        {
+          "end": 71.94,
+          "index": 5,
+          "source": "interpolated",
+          "start": 71.491,
+          "text": "banks"
+        },
+        {
+          "end": 72.389,
+          "index": 6,
+          "source": "interpolated",
+          "start": 71.94,
+          "text": "are"
+        },
+        {
+          "end": 72.838,
+          "index": 7,
+          "source": "interpolated",
+          "start": 72.389,
+          "text": "closely"
+        },
+        {
+          "end": 73.287,
+          "index": 8,
+          "source": "interpolated",
+          "start": 72.838,
+          "text": "monitoring"
+        },
+        {
+          "end": 73.735,
+          "index": 9,
+          "source": "interpolated",
+          "start": 73.287,
+          "text": "inflation"
+        },
+        {
+          "end": 74.184,
+          "index": 10,
+          "source": "interpolated",
+          "start": 73.735,
+          "text": "and"
+        },
+        {
+          "end": 74.633,
+          "index": 11,
+          "source": "interpolated",
+          "start": 74.184,
+          "text": "employment"
+        },
+        {
+          "end": 75.082,
+          "index": 12,
+          "source": "interpolated",
+          "start": 74.633,
+          "text": "data"
+        },
+        {
+          "end": 75.531,
+          "index": 13,
+          "source": "interpolated",
+          "start": 75.082,
+          "text": "to"
+        },
+        {
+          "end": 75.98,
+          "index": 14,
+          "source": "interpolated",
+          "start": 75.531,
+          "text": "determine"
+        },
+        {
+          "end": 76.428,
+          "index": 15,
+          "source": "interpolated",
+          "start": 75.98,
+          "text": "the"
+        },
+        {
+          "end": 76.877,
+          "index": 16,
+          "source": "interpolated",
+          "start": 76.428,
+          "text": "timing"
+        },
+        {
+          "end": 77.326,
+          "index": 17,
+          "source": "interpolated",
+          "start": 76.877,
+          "text": "of"
+        },
+        {
+          "end": 77.775,
+          "index": 18,
+          "source": "interpolated",
+          "start": 77.326,
+          "text": "potential"
+        },
+        {
+          "end": 78.224,
+          "index": 19,
+          "source": "interpolated",
+          "start": 77.775,
+          "text": "interest"
+        },
+        {
+          "end": 78.673,
+          "index": 20,
+          "source": "interpolated",
+          "start": 78.224,
+          "text": "rate"
+        },
+        {
+          "end": 79.121,
+          "index": 21,
+          "source": "interpolated",
+          "start": 78.673,
+          "text": "cuts"
+        }
+      ]
+    },
+    {
+      "end": 91.689,
+      "group": "p4",
+      "id": "s9",
+      "index": 9,
+      "start": 79.121,
+      "text": "Market analysts suggest that while some progress has been made, the path to price stability remains uncertain, necessitating a cautious approach to monetary policy in the coming months.",
+      "words": [
+        {
+          "end": 79.57,
+          "index": 0,
+          "source": "interpolated",
+          "start": 79.121,
+          "text": "Market"
+        },
+        {
+          "end": 80.019,
+          "index": 1,
+          "source": "interpolated",
+          "start": 79.57,
+          "text": "analysts"
+        },
+        {
+          "end": 80.468,
+          "index": 2,
+          "source": "interpolated",
+          "start": 80.019,
+          "text": "suggest"
+        },
+        {
+          "end": 80.917,
+          "index": 3,
+          "source": "interpolated",
+          "start": 80.468,
+          "text": "that"
+        },
+        {
+          "end": 81.366,
+          "index": 4,
+          "source": "interpolated",
+          "start": 80.917,
+          "text": "while"
+        },
+        {
+          "end": 81.815,
+          "index": 5,
+          "source": "interpolated",
+          "start": 81.366,
+          "text": "some"
+        },
+        {
+          "end": 82.263,
+          "index": 6,
+          "source": "interpolated",
+          "start": 81.815,
+          "text": "progress"
+        },
+        {
+          "end": 82.712,
+          "index": 7,
+          "source": "interpolated",
+          "start": 82.263,
+          "text": "has"
+        },
+        {
+          "end": 83.161,
+          "index": 8,
+          "source": "interpolated",
+          "start": 82.712,
+          "text": "been"
+        },
+        {
+          "end": 83.61,
+          "index": 9,
+          "source": "interpolated",
+          "start": 83.161,
+          "text": "made"
+        },
+        {
+          "end": 84.059,
+          "index": 10,
+          "source": "interpolated",
+          "start": 83.61,
+          "text": "the"
+        },
+        {
+          "end": 84.508,
+          "index": 11,
+          "source": "interpolated",
+          "start": 84.059,
+          "text": "path"
+        },
+        {
+          "end": 84.956,
+          "index": 12,
+          "source": "interpolated",
+          "start": 84.508,
+          "text": "to"
+        },
+        {
+          "end": 85.405,
+          "index": 13,
+          "source": "interpolated",
+          "start": 84.956,
+          "text": "price"
+        },
+        {
+          "end": 85.854,
+          "index": 14,
+          "source": "interpolated",
+          "start": 85.405,
+          "text": "stability"
+        },
+        {
+          "end": 86.303,
+          "index": 15,
+          "source": "interpolated",
+          "start": 85.854,
+          "text": "remains"
+        },
+        {
+          "end": 86.752,
+          "index": 16,
+          "source": "interpolated",
+          "start": 86.303,
+          "text": "uncertain"
+        },
+        {
+          "end": 87.201,
+          "index": 17,
+          "source": "interpolated",
+          "start": 86.752,
+          "text": "necessitating"
+        },
+        {
+          "end": 87.649,
+          "index": 18,
+          "source": "interpolated",
+          "start": 87.201,
+          "text": "a"
+        },
+        {
+          "end": 88.098,
+          "index": 19,
+          "source": "interpolated",
+          "start": 87.649,
+          "text": "cautious"
+        },
+        {
+          "end": 88.547,
+          "index": 20,
+          "source": "interpolated",
+          "start": 88.098,
+          "text": "approach"
+        },
+        {
+          "end": 88.996,
+          "index": 21,
+          "source": "interpolated",
+          "start": 88.547,
+          "text": "to"
+        },
+        {
+          "end": 89.445,
+          "index": 22,
+          "source": "interpolated",
+          "start": 88.996,
+          "text": "monetary"
+        },
+        {
+          "end": 89.894,
+          "index": 23,
+          "source": "interpolated",
+          "start": 89.445,
+          "text": "policy"
+        },
+        {
+          "end": 90.342,
+          "index": 24,
+          "source": "interpolated",
+          "start": 89.894,
+          "text": "in"
+        },
+        {
+          "end": 90.791,
+          "index": 25,
+          "source": "interpolated",
+          "start": 90.342,
+          "text": "the"
+        },
+        {
+          "end": 91.24,
+          "index": 26,
+          "source": "interpolated",
+          "start": 90.791,
+          "text": "coming"
+        },
+        {
+          "end": 91.689,
+          "index": 27,
+          "source": "interpolated",
+          "start": 91.24,
+          "text": "months"
+        }
+      ]
+    },
+    {
+      "end": 94.831,
+      "group": "p5",
+      "id": "s10",
+      "index": 10,
+      "start": 91.689,
+      "text": "After the headlines, back to the weather.",
+      "words": [
+        {
+          "end": 92.138,
+          "index": 0,
+          "source": "interpolated",
+          "start": 91.689,
+          "text": "After"
+        },
+        {
+          "end": 92.587,
+          "index": 1,
+          "source": "interpolated",
+          "start": 92.138,
+          "text": "the"
+        },
+        {
+          "end": 93.036,
+          "index": 2,
+          "source": "interpolated",
+          "start": 92.587,
+          "text": "headlines"
+        },
+        {
+          "end": 93.484,
+          "index": 3,
+          "source": "interpolated",
+          "start": 93.036,
+          "text": "back"
+        },
+        {
+          "end": 93.933,
+          "index": 4,
+          "source": "interpolated",
+          "start": 93.484,
+          "text": "to"
+        },
+        {
+          "end": 94.382,
+          "index": 5,
+          "source": "interpolated",
+          "start": 93.933,
+          "text": "the"
+        },
+        {
+          "end": 94.831,
+          "index": 6,
+          "source": "interpolated",
+          "start": 94.382,
+          "text": "weather"
+        }
+      ]
+    },
+    {
+      "end": 103.359,
+      "group": "p6",
+      "id": "s11",
+      "index": 11,
+      "start": 94.831,
+      "text": "This afternoon will be cloudy with rain chances up to 30 percent and temperatures between 22 and 23 degrees.",
+      "words": [
+        {
+          "end": 95.28,
+          "index": 0,
+          "source": "interpolated",
+          "start": 94.831,
+          "text": "This"
+        },
+        {
+          "end": 95.729,
+          "index": 1,
+          "source": "interpolated",
+          "start": 95.28,
+          "text": "afternoon"
+        },
+        {
+          "end": 96.177,
+          "index": 2,
+          "source": "interpolated",
+          "start": 95.729,
+          "text": "will"
+        },
+        {
+          "end": 96.626,
+          "index": 3,
+          "source": "interpolated",
+          "start": 96.177,
+          "text": "be"
+        },
+        {
+          "end": 97.075,
+          "index": 4,
+          "source": "interpolated",
+          "start": 96.626,
+          "text": "cloudy"
+        },
+        {
+          "end": 97.524,
+          "index": 5,
+          "source": "interpolated",
+          "start": 97.075,
+          "text": "with"
+        },
+        {
+          "end": 97.973,
+          "index": 6,
+          "source": "interpolated",
+          "start": 97.524,
+          "text": "rain"
+        },
+        {
+          "end": 98.422,
+          "index": 7,
+          "source": "interpolated",
+          "start": 97.973,
+          "text": "chances"
+        },
+        {
+          "end": 98.87,
+          "index": 8,
+          "source": "interpolated",
+          "start": 98.422,
+          "text": "up"
+        },
+        {
+          "end": 99.319,
+          "index": 9,
+          "source": "interpolated",
+          "start": 98.87,
+          "text": "to"
+        },
+        {
+          "end": 99.768,
+          "index": 10,
+          "source": "interpolated",
+          "start": 99.319,
+          "text": "30"
+        },
+        {
+          "end": 100.217,
+          "index": 11,
+          "source": "interpolated",
+          "start": 99.768,
+          "text": "percent"
+        },
+        {
+          "end": 100.666,
+          "index": 12,
+          "source": "interpolated",
+          "start": 100.217,
+          "text": "and"
+        },
+        {
+          "end": 101.115,
+          "index": 13,
+          "source": "interpolated",
+          "start": 100.666,
+          "text": "temperatures"
+        },
+        {
+          "end": 101.563,
+          "index": 14,
+          "source": "interpolated",
+          "start": 101.115,
+          "text": "between"
+        },
+        {
+          "end": 102.012,
+          "index": 15,
+          "source": "interpolated",
+          "start": 101.563,
+          "text": "22"
+        },
+        {
+          "end": 102.461,
+          "index": 16,
+          "source": "interpolated",
+          "start": 102.012,
+          "text": "and"
+        },
+        {
+          "end": 102.91,
+          "index": 17,
+          "source": "interpolated",
+          "start": 102.461,
+          "text": "23"
+        },
+        {
+          "end": 103.359,
+          "index": 18,
+          "source": "interpolated",
+          "start": 102.91,
+          "text": "degrees"
+        }
+      ]
+    },
+    {
+      "end": 107.847,
+      "group": "p7",
+      "id": "s12",
+      "index": 12,
+      "start": 103.359,
+      "text": "And from the weather, a quick look at the calendar.",
+      "words": [
+        {
+          "end": 103.808,
+          "index": 0,
+          "source": "interpolated",
+          "start": 103.359,
+          "text": "And"
+        },
+        {
+          "end": 104.257,
+          "index": 1,
+          "source": "interpolated",
+          "start": 103.808,
+          "text": "from"
+        },
+        {
+          "end": 104.705,
+          "index": 2,
+          "source": "interpolated",
+          "start": 104.257,
+          "text": "the"
+        },
+        {
+          "end": 105.154,
+          "index": 3,
+          "source": "interpolated",
+          "start": 104.705,
+          "text": "weather"
+        },
+        {
+          "end": 105.603,
+          "index": 4,
+          "source": "interpolated",
+          "start": 105.154,
+          "text": "a"
+        },
+        {
+          "end": 106.052,
+          "index": 5,
+          "source": "interpolated",
+          "start": 105.603,
+          "text": "quick"
+        },
+        {
+          "end": 106.501,
+          "index": 6,
+          "source": "interpolated",
+          "start": 106.052,
+          "text": "look"
+        },
+        {
+          "end": 106.95,
+          "index": 7,
+          "source": "interpolated",
+          "start": 106.501,
+          "text": "at"
+        },
+        {
+          "end": 107.398,
+          "index": 8,
+          "source": "interpolated",
+          "start": 106.95,
+          "text": "the"
+        },
+        {
+          "end": 107.847,
+          "index": 9,
+          "source": "interpolated",
+          "start": 107.398,
+          "text": "calendar"
+        }
+      ]
+    },
+    {
+      "end": 124.454,
+      "group": "p8",
+      "id": "s13",
+      "index": 13,
+      "start": 107.847,
+      "text": "On your calendar today: personal calendar: all day: Department Retro, at 10:00, Optikrunde, at 10:30, Research weekly at Gauss, at 11:00, MxM Spotlight, and at 15:00, Corsnero OffGPT, Gruppenmeeting Gregor, and Research Seminar.",
+      "words": [
+        {
+          "end": 108.296,
+          "index": 0,
+          "source": "interpolated",
+          "start": 107.847,
+          "text": "On"
+        },
+        {
+          "end": 108.745,
+          "index": 1,
+          "source": "interpolated",
+          "start": 108.296,
+          "text": "your"
+        },
+        {
+          "end": 109.194,
+          "index": 2,
+          "source": "interpolated",
+          "start": 108.745,
+          "text": "calendar"
+        },
+        {
+          "end": 109.643,
+          "index": 3,
+          "source": "interpolated",
+          "start": 109.194,
+          "text": "today"
+        },
+        {
+          "end": 110.091,
+          "index": 4,
+          "source": "interpolated",
+          "start": 109.643,
+          "text": "personal"
+        },
+        {
+          "end": 110.54,
+          "index": 5,
+          "source": "interpolated",
+          "start": 110.091,
+          "text": "calendar"
+        },
+        {
+          "end": 110.989,
+          "index": 6,
+          "source": "interpolated",
+          "start": 110.54,
+          "text": "all"
+        },
+        {
+          "end": 111.438,
+          "index": 7,
+          "source": "interpolated",
+          "start": 110.989,
+          "text": "day"
+        },
+        {
+          "end": 111.887,
+          "index": 8,
+          "source": "interpolated",
+          "start": 111.438,
+          "text": "Department"
+        },
+        {
+          "end": 112.336,
+          "index": 9,
+          "source": "interpolated",
+          "start": 111.887,
+          "text": "Retro"
+        },
+        {
+          "end": 112.785,
+          "index": 10,
+          "source": "interpolated",
+          "start": 112.336,
+          "text": "at"
+        },
+        {
+          "end": 113.233,
+          "index": 11,
+          "source": "interpolated",
+          "start": 112.785,
+          "text": "10"
+        },
+        {
+          "end": 113.682,
+          "index": 12,
+          "source": "interpolated",
+          "start": 113.233,
+          "text": "00"
+        },
+        {
+          "end": 114.131,
+          "index": 13,
+          "source": "interpolated",
+          "start": 113.682,
+          "text": "Optikrunde"
+        },
+        {
+          "end": 114.58,
+          "index": 14,
+          "source": "interpolated",
+          "start": 114.131,
+          "text": "at"
+        },
+        {
+          "end": 115.029,
+          "index": 15,
+          "source": "interpolated",
+          "start": 114.58,
+          "text": "10"
+        },
+        {
+          "end": 115.478,
+          "index": 16,
+          "source": "interpolated",
+          "start": 115.029,
+          "text": "30"
+        },
+        {
+          "end": 115.926,
+          "index": 17,
+          "source": "interpolated",
+          "start": 115.478,
+          "text": "Research"
+        },
+        {
+          "end": 116.375,
+          "index": 18,
+          "source": "interpolated",
+          "start": 115.926,
+          "text": "weekly"
+        },
+        {
+          "end": 116.824,
+          "index": 19,
+          "source": "interpolated",
+          "start": 116.375,
+          "text": "at"
+        },
+        {
+          "end": 117.273,
+          "index": 20,
+          "source": "interpolated",
+          "start": 116.824,
+          "text": "Gauss"
+        },
+        {
+          "end": 117.722,
+          "index": 21,
+          "source": "interpolated",
+          "start": 117.273,
+          "text": "at"
+        },
+        {
+          "end": 118.171,
+          "index": 22,
+          "source": "interpolated",
+          "start": 117.722,
+          "text": "11"
+        },
+        {
+          "end": 118.619,
+          "index": 23,
+          "source": "interpolated",
+          "start": 118.171,
+          "text": "00"
+        },
+        {
+          "end": 119.068,
+          "index": 24,
+          "source": "interpolated",
+          "start": 118.619,
+          "text": "MxM"
+        },
+        {
+          "end": 119.517,
+          "index": 25,
+          "source": "interpolated",
+          "start": 119.068,
+          "text": "Spotlight"
+        },
+        {
+          "end": 119.966,
+          "index": 26,
+          "source": "interpolated",
+          "start": 119.517,
+          "text": "and"
+        },
+        {
+          "end": 120.415,
+          "index": 27,
+          "source": "interpolated",
+          "start": 119.966,
+          "text": "at"
+        },
+        {
+          "end": 120.864,
+          "index": 28,
+          "source": "interpolated",
+          "start": 120.415,
+          "text": "15"
+        },
+        {
+          "end": 121.312,
+          "index": 29,
+          "source": "interpolated",
+          "start": 120.864,
+          "text": "00"
+        },
+        {
+          "end": 121.761,
+          "index": 30,
+          "source": "interpolated",
+          "start": 121.312,
+          "text": "Corsnero"
+        },
+        {
+          "end": 122.21,
+          "index": 31,
+          "source": "interpolated",
+          "start": 121.761,
+          "text": "OffGPT"
+        },
+        {
+          "end": 122.659,
+          "index": 32,
+          "source": "interpolated",
+          "start": 122.21,
+          "text": "Gruppenmeeting"
+        },
+        {
+          "end": 123.108,
+          "index": 33,
+          "source": "interpolated",
+          "start": 122.659,
+          "text": "Gregor"
+        },
+        {
+          "end": 123.557,
+          "index": 34,
+          "source": "interpolated",
+          "start": 123.108,
+          "text": "and"
+        },
+        {
+          "end": 124.006,
+          "index": 35,
+          "source": "interpolated",
+          "start": 123.557,
+          "text": "Research"
+        },
+        {
+          "end": 124.454,
+          "index": 36,
+          "source": "interpolated",
+          "start": 124.006,
+          "text": "Seminar"
+        }
+      ]
+    },
+    {
+      "end": 128.045,
+      "group": "p9",
+      "id": "s14",
+      "index": 14,
+      "start": 124.454,
+      "text": "And that's it for your personal morning broadcast.",
+      "words": [
+        {
+          "end": 124.903,
+          "index": 0,
+          "source": "interpolated",
+          "start": 124.454,
+          "text": "And"
+        },
+        {
+          "end": 125.352,
+          "index": 1,
+          "source": "interpolated",
+          "start": 124.903,
+          "text": "that's"
+        },
+        {
+          "end": 125.801,
+          "index": 2,
+          "source": "interpolated",
+          "start": 125.352,
+          "text": "it"
+        },
+        {
+          "end": 126.25,
+          "index": 3,
+          "source": "interpolated",
+          "start": 125.801,
+          "text": "for"
+        },
+        {
+          "end": 126.699,
+          "index": 4,
+          "source": "interpolated",
+          "start": 126.25,
+          "text": "your"
+        },
+        {
+          "end": 127.147,
+          "index": 5,
+          "source": "interpolated",
+          "start": 126.699,
+          "text": "personal"
+        },
+        {
+          "end": 127.596,
+          "index": 6,
+          "source": "interpolated",
+          "start": 127.147,
+          "text": "morning"
+        },
+        {
+          "end": 128.045,
+          "index": 7,
+          "source": "interpolated",
+          "start": 127.596,
+          "text": "broadcast"
+        }
+      ]
+    },
+    {
+      "end": 129.392,
+      "group": "p10",
+      "id": "s15",
+      "index": 15,
+      "start": 128.045,
+      "text": "Rise and shine.",
+      "words": [
+        {
+          "end": 128.494,
+          "index": 0,
+          "source": "interpolated",
+          "start": 128.045,
+          "text": "Rise"
+        },
+        {
+          "end": 128.943,
+          "index": 1,
+          "source": "interpolated",
+          "start": 128.494,
+          "text": "and"
+        },
+        {
+          "end": 129.392,
+          "index": 2,
+          "source": "interpolated",
+          "start": 128.943,
+          "text": "shine"
+        }
+      ]
+    }
+  ],
+  "source": "radio_script",
+  "timing": "word-count-estimate",
+  "validation": {
+    "monotonic": true,
+    "segments": 16,
+    "status": "ok",
+    "timed_word_coverage": 1.0,
+    "timed_words": 266,
+    "words": 266
+  },
+  "version": 3
+}

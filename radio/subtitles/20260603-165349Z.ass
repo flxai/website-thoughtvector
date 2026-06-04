@@ -1,0 +1,39 @@
+[Script Info]
+Title: Morning Whisper Radio
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,44,&H00FFFFFF,&H00C078A5,&H00181818,&H80000000,0,0,0,0,100,100,0,0,1,3,0,2,80,80,72,1
+Style: Estimated,Noto Sans,44,&H0038D8FF,&H00C078A5,&H00181818,&H80000000,0,0,0,0,100,100,0,0,1,3,0,2,80,80,72,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.00,0:00:14.58,Estimated,,0,0,0,,{\K46}It {\K46}is {\K46}currently {\K46}20 {\K46}degrees {\K46}and {\K46}cloudy {\K46}in {\K46}Berlin {\K46}Tempelhof
+Dialogue: 0,0:00:14.58,0:00:18.69,Estimated,,0,0,0,,{\K46}With {\K46}the {\K46}morning {\K46}weather {\K46}set {\K46}here {\K46}is {\K46}the {\K46}news
+Dialogue: 0,0:00:18.69,0:00:26.47,Estimated,,0,0,0,,{\K46}NVIDIA {\K46}is {\K46}pushing {\K46}the {\K46}boundaries {\K46}of {\K46}artificial {\K46}intelligence {\K46}by {\K46}moving {\K46}beyond {\K46}chatbots {\K46}and {\K46}into {\K46}the {\K46}physical {\K46}world
+Dialogue: 0,0:00:26.47,0:00:36.53,Estimated,,0,0,0,,{\K46}At {\K46}the {\K46}CVPR {\K46}conference {\K46}the {\K46}company {\K46}unveiled {\K46}new {\K46}agent {\K46}skills {\K46}designed {\K46}to {\K46}accelerate {\K46}the {\K46}development {\K46}of {\K46}robotics {\K46}vision {\K46}AI {\K46}and {\K46}autonomous {\K46}vehicles
+Dialogue: 0,0:00:36.53,0:00:47.06,Estimated,,0,0,0,,{\K46}This {\K46}shift {\K46}toward {\K46}Physical {\K46}AI {\K46}is {\K46}supported {\K46}by {\K46}the {\K46}launch {\K46}of {\K46}NVIDIA {\K46}NemoClaw {\K46}which {\K46}enables {\K46}self {\K46}evolving {\K46}agents {\K46}to {\K46}synthesize {\K46}research {\K46}more {\K46}securely
+Dialogue: 0,0:00:47.06,0:00:52.55,Estimated,,0,0,0,,{\K46}At {\K46}the {\K46}same {\K46}time {\K46}the {\K46}open {\K46}source {\K46}community {\K46}is {\K46}challenging {\K46}proprietary {\K46}ecosystems
+Dialogue: 0,0:00:52.55,0:01:02.16,Estimated,,0,0,0,,{\K46}Nous {\K46}Research {\K46}has {\K46}released {\K46}Hermes {\K46}Desktop {\K46}an {\K46}open {\K46}source {\K46}AI {\K46}agent {\K46}application {\K46}under {\K46}the {\K46}MIT {\K46}license {\K46}aiming {\K46}for {\K46}cross {\K46}platform {\K46}availability
+Dialogue: 0,0:01:02.16,0:01:09.02,Estimated,,0,0,0,,{\K46}These {\K46}technological {\K46}leaps {\K46}in {\K46}automation {\K46}coincide {\K46}with {\K46}a {\K46}volatile {\K46}period {\K46}for {\K46}global {\K46}trade {\K46}and {\K46}security
+Dialogue: 0,0:01:09.02,0:01:21.37,Estimated,,0,0,0,,{\K46}US {\K46}Trade {\K46}Representative {\K46}Jamieson {\K46}Greer {\K46}maintains {\K46}that {\K46}the {\K46}United {\K46}States {\K46}and {\K46}the {\K46}European {\K46}Union {\K46}remain {\K46}committed {\K46}to {\K46}their {\K46}trade {\K46}deal {\K46}even {\K46}as {\K46}the {\K46}US {\K46}proposes {\K46}new {\K46}tariffs
+Dialogue: 0,0:01:21.37,0:01:29.15,Estimated,,0,0,0,,{\K46}In {\K46}other {\K46}diplomatic {\K46}shifts {\K46}Bangladesh's {\K46}Khalilur {\K46}Rahman {\K46}has {\K46}been {\K46}elected {\K46}President {\K46}of {\K46}the {\K46}81st {\K46}UN {\K46}General {\K46}Assembly
+Dialogue: 0,0:01:29.15,0:01:41.04,Estimated,,0,0,0,,{\K46}The {\K46}geopolitical {\K46}tension {\K46}is {\K46}most {\K46}acute {\K46}in {\K46}the {\K46}Middle {\K46}East {\K46}where {\K46}a {\K46}reported {\K46}Iranian {\K46}attack {\K46}on {\K46}Kuwait {\K46}has {\K46}left {\K46}one {\K46}person {\K46}dead {\K46}and {\K46}several {\K46}others {\K46}injured
+Dialogue: 0,0:01:41.04,0:01:49.74,Estimated,,0,0,0,,{\K46}This {\K46}escalation {\K46}follows {\K46}a {\K46}period {\K46}of {\K46}intense {\K46}repression {\K46}within {\K46}Iran {\K46}and {\K46}a {\K46}broader {\K46}conflict {\K46}involving {\K46}the {\K46}US {\K46}and {\K46}Israel
+Dialogue: 0,0:01:49.74,0:01:57.06,Estimated,,0,0,0,,{\K46}This {\K46}instability {\K46}in {\K46}global {\K46}security {\K46}is {\K46}mirroring {\K46}a {\K46}decline {\K46}in {\K46}Germany's {\K46}own {\K46}international {\K46}and {\K46}economic {\K46}standing
+Dialogue: 0,0:01:57.06,0:02:12.61,Estimated,,0,0,0,,{\K46}For {\K46}the {\K46}first {\K46}time {\K46}Germany {\K46}has {\K46}failed {\K46}to {\K46}secure {\K46}a {\K46}seat {\K46}on {\K46}the {\K46}UN {\K46}Security {\K46}Council {\K46}a {\K46}blow {\K46}to {\K46}its {\K46}diplomatic {\K46}prestige {\K46}that {\K46}has {\K46}already {\K46}sparked {\K46}political {\K46}friction {\K46}between {\K46}the {\K46}Greens {\K46}and {\K46}the {\K46}CDU
+Dialogue: 0,0:02:12.61,0:02:18.10,Estimated,,0,0,0,,{\K46}The {\K46}diplomatic {\K46}setback {\K46}is {\K46}compounded {\K46}by {\K46}a {\K46}sharp {\K46}drop {\K46}in {\K46}foreign {\K46}investment
+Dialogue: 0,0:02:18.10,0:02:26.34,Estimated,,0,0,0,,{\K46}US {\K46}pharmaceutical {\K46}giant {\K46}Eli {\K46}Lilly {\K46}has {\K46}halved {\K46}its {\K46}planned {\K46}multi {\K46}billion {\K46}dollar {\K46}investment {\K46}in {\K46}a {\K46}German {\K46}production {\K46}site
+Dialogue: 0,0:02:26.34,0:02:34.57,Estimated,,0,0,0,,{\K46}The {\K46}company {\K46}explicitly {\K46}cited {\K46}the {\K46}German {\K46}government's {\K46}austerity {\K46}measures {\K46}and {\K46}spending {\K46}cuts {\K46}as {\K46}the {\K46}reason {\K46}for {\K46}the {\K46}pullback
+Dialogue: 0,0:02:34.57,0:02:37.78,Estimated,,0,0,0,,{\K46}After {\K46}the {\K46}headlines {\K46}back {\K46}to {\K46}the {\K46}weather
+Dialogue: 0,0:02:37.78,0:02:46.47,Estimated,,0,0,0,,{\K46}This {\K46}afternoon {\K46}will {\K46}be {\K46}cloudy {\K46}with {\K46}temperatures {\K46}between {\K46}22 {\K46}and {\K46}23 {\K46}degrees {\K46}and {\K46}rain {\K46}chances {\K46}up {\K46}to {\K46}23 {\K46}percent
+Dialogue: 0,0:02:46.47,0:02:51.04,Estimated,,0,0,0,,{\K46}And {\K46}from {\K46}the {\K46}weather {\K46}a {\K46}quick {\K46}look {\K46}at {\K46}the {\K46}calendar
+Dialogue: 0,0:02:51.04,0:03:15.29,Estimated,,0,0,0,,{\K46}On {\K46}your {\K46}calendar {\K46}today {\K46}all {\K46}day {\K46}'Department {\K46}Retro' {\K46}at {\K46}10 {\K46}00 {\K46}'Optikrunde' {\K46}at {\K46}10 {\K46}30 {\K46}25 {\K46}minute {\K46}'Research {\K46}weekly' {\K46}at {\K46}Gauss {\K46}note {\K46}Join {\K46}with {\K46}Google {\K46}Meet {\K46}Or {\K46}dial {\K46}DE {\K46}49 {\K46}40 {\K46}8081616038 {\K46}PIN {\K46}8 {\K46}at {\K46}11 {\K46}00 {\K46}'MxM {\K46}Spotlight {\K46}' {\K46}note {\K46}Dear {\K46}Innovators {\K46}You're {\K46}invited {\K46}to {\K46}MxM {\K46}Spotlight {\K46}our {\K46}weekly {\K46}knowledge {\K46}sharing {\K46}platform
+Dialogue: 0,0:03:15.29,0:03:37.25,Estimated,,0,0,0,,{\K46}MxM {\K46}Spotlight {\K46}brings {\K46}together {\K46}the {\K46}best {\K46}of {\K46}our {\K46}previous {\K46}PM {\K46}T {\K46}at {\K46}15 {\K46}00 {\K46}'Corsnero {\K46}OffGPT' {\K46}note {\K46}Corsnero {\K46}OffGPT {\K46}at {\K46}15 {\K46}00 {\K46}2 {\K46}hour {\K46}'Gruppenmeeting {\K46}Gregor' {\K46}and {\K46}at {\K46}15 {\K46}00 {\K46}2 {\K46}hour {\K46}' {\K46}Research {\K46}Seminar' {\K46}note {\K46}Join {\K46}with {\K46}Google {\K46}Meet {\K46}Or {\K46}dial {\K46}DE {\K46}49 {\K46}40 {\K46}8081616571 {\K46}PIN {\K46}2
+Dialogue: 0,0:03:37.25,0:03:40.91,Estimated,,0,0,0,,{\K46}And {\K46}that's {\K46}it {\K46}for {\K46}your {\K46}personal {\K46}morning {\K46}broadcast
+Dialogue: 0,0:03:40.91,0:03:42.28,Estimated,,0,0,0,,{\K46}Rise {\K46}and {\K46}shine

@@ -1,0 +1,46 @@
+[Script Info]
+Title: Morning Whisper Radio
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,44,&H00FFFFFF,&H00C078A5,&H00181818,&H80000000,0,0,0,0,100,100,0,0,1,3,0,2,80,80,72,1
+Style: Estimated,Noto Sans,44,&H0038D8FF,&H00C078A5,&H00181818,&H80000000,0,0,0,0,100,100,0,0,1,3,0,2,80,80,72,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.00,0:00:11.01,Estimated,,0,0,0,,{\K51}Good {\K50}morning
+Dialogue: 0,0:00:11.01,0:00:16.56,Estimated,,0,0,0,,{\K50}Weather {\K51}data {\K50}is {\K51}unavailable {\K50}right {\K50}now {\K50}we {\K51}start {\K50}with {\K51}the {\K50}news
+Dialogue: 0,0:00:16.56,0:00:21.61,Estimated,,0,0,0,,{\K50}Financial {\K50}institutions {\K50}are {\K50}fundamentally {\K50}changing {\K50}how {\K50}they {\K50}deploy {\K51}artificial {\K50}intelligence
+Dialogue: 0,0:00:21.61,0:00:31.70,Estimated,,0,0,0,,{\K50}Rather {\K51}than {\K50}using {\K51}fragmented {\K50}tools {\K50}for {\K50}separate {\K50}tasks {\K50}like {\K50}fraud {\K50}or {\K50}credit {\K50}risk {\K50}banks {\K50}are {\K50}shifting {\K51}toward {\K50}Transaction {\K51}Foundation {\K50}Models
+Dialogue: 0,0:00:31.70,0:00:38.77,Estimated,,0,0,0,,{\K50}This {\K51}move {\K51}aims {\K50}to {\K50}create {\K51}a {\K50}unified {\K51}layer {\K51}of {\K50}institutional {\K51}intelligence {\K50}across {\K50}entire {\K50}systems
+Dialogue: 0,0:00:38.77,0:00:44.82,Estimated,,0,0,0,,{\K51}At {\K50}the {\K51}same {\K50}time {\K50}the {\K50}tools {\K51}for {\K50}attacking {\K51}these {\K51}systems {\K50}are {\K51}evolving
+Dialogue: 0,0:00:44.82,0:00:57.94,Estimated,,0,0,0,,{\K50}Anthropic {\K50}Red {\K50}has {\K51}released {\K50}a {\K51}new {\K50}framework {\K50}called {\K50}the {\K51}LLM {\K50}ATT {\K51}CK {\K51}Navigator {\K50}which {\K51}maps {\K50}how {\K50}large {\K50}language {\K51}models {\K50}are {\K51}being {\K50}used {\K50}to {\K50}facilitate {\K51}cyber {\K50}attacks
+Dialogue: 0,0:00:57.94,0:01:03.50,Estimated,,0,0,0,,{\K51}As {\K51}AI {\K50}moves {\K51}into {\K50}more {\K50}critical {\K51}infrastructure {\K51}the {\K50}hardware {\K51}is {\K50}following
+Dialogue: 0,0:01:03.50,0:01:11.06,Estimated,,0,0,0,,{\K50}NVIDIA {\K51}is {\K50}pushing {\K50}its {\K50}AI {\K50}capabilities {\K50}directly {\K50}into {\K51}the {\K50}laptop {\K51}market {\K50}to {\K50}enable {\K50}local {\K50}processing
+Dialogue: 0,0:01:11.06,0:01:18.64,Estimated,,0,0,0,,{\K50}This {\K50}shift {\K50}toward {\K50}edge {\K50}AI {\K51}reduces {\K50}the {\K51}reliance {\K50}on {\K50}cloud {\K50}infrastructure {\K50}for {\K50}high {\K50}performance {\K51}tasks
+Dialogue: 0,0:01:18.64,0:01:24.19,Estimated,,0,0,0,,{\K50}These {\K51}technological {\K50}shifts {\K50}occur {\K50}against {\K50}a {\K50}backdrop {\K50}of {\K51}escalating {\K50}physical {\K51}conflict
+Dialogue: 0,0:01:24.19,0:01:35.29,Estimated,,0,0,0,,{\K50}Ukraine {\K50}has {\K51}launched {\K50}long {\K50}range {\K50}drone {\K50}strikes {\K50}against {\K50}Saint {\K51}Petersburg {\K50}timed {\K51}to {\K50}coincide {\K50}with {\K50}the {\K50}start {\K50}of {\K50}a {\K51}major {\K50}Russian {\K51}economic {\K50}forum
+Dialogue: 0,0:01:35.29,0:01:41.34,Estimated,,0,0,0,,{\K50}The {\K50}strike {\K50}is {\K50}a {\K50}strategic {\K50}move {\K50}to {\K50}disrupt {\K51}Russia's {\K50}internal {\K51}security {\K50}perception
+Dialogue: 0,0:01:41.34,0:01:45.89,Estimated,,0,0,0,,{\K50}In {\K50}the {\K50}Middle {\K50}East {\K50}the {\K51}stakes {\K50}are {\K51}equally {\K50}high
+Dialogue: 0,0:01:45.89,0:01:51.44,Estimated,,0,0,0,,{\K50}Ambassadors {\K50}from {\K50}Israel {\K50}and {\K50}Lebanon {\K51}have {\K50}opened {\K51}direct {\K50}talks {\K50}in {\K50}Washington
+Dialogue: 0,0:01:51.44,0:02:02.04,Estimated,,0,0,0,,{\K50}President {\K50}Donald {\K50}Trump {\K50}claims {\K50}he {\K50}has {\K51}received {\K50}commitments {\K51}to {\K50}de {\K50}escalation {\K50}though {\K50}the {\K50}goal {\K50}is {\K51}to {\K50}prevent {\K51}a {\K50}wider {\K50}regional {\K50}war
+Dialogue: 0,0:02:02.04,0:02:06.58,Estimated,,0,0,0,,{\K50}Geopolitical {\K50}instability {\K50}is {\K51}now {\K50}filtering {\K50}directly {\K51}into {\K50}European {\K51}markets
+Dialogue: 0,0:02:06.58,0:02:12.13,Estimated,,0,0,0,,{\K50}The {\K50}German {\K51}DAX {\K50}has {\K50}fallen {\K50}below {\K50}the {\K50}25 {\K50}000 {\K50}point {\K50}mark
+Dialogue: 0,0:02:12.13,0:02:20.20,Estimated,,0,0,0,,{\K50}This {\K51}volatility {\K50}is {\K50}driven {\K50}by {\K50}rising {\K50}oil {\K50}prices {\K50}and {\K50}increased {\K51}uncertainty {\K50}surrounding {\K50}the {\K50}conflict {\K50}in {\K50}Iran
+Dialogue: 0,0:02:20.20,0:02:25.25,Estimated,,0,0,0,,{\K50}Regulatory {\K50}pressure {\K50}is {\K51}also {\K50}mounting {\K50}for {\K50}big {\K50}tech {\K50}in {\K50}Europe
+Dialogue: 0,0:02:25.25,0:02:35.34,Estimated,,0,0,0,,{\K50}The {\K50}EU {\K50}Court {\K50}has {\K50}ruled {\K50}that {\K50}Meta's {\K51}Messenger {\K50}service {\K50}must {\K50}adhere {\K50}to {\K51}stricter {\K50}competition {\K50}rules {\K50}under {\K50}the {\K50}Digital {\K50}Markets {\K50}Act
+Dialogue: 0,0:02:35.34,0:02:41.40,Estimated,,0,0,0,,{\K50}This {\K51}decision {\K50}limits {\K50}Meta's {\K50}ability {\K50}to {\K50}leverage {\K50}its {\K50}ecosystem {\K50}as {\K50}a {\K50}gatekeeper
+Dialogue: 0,0:02:41.40,0:02:47.96,Estimated,,0,0,0,,{\K50}In {\K50}other {\K50}German {\K51}news {\K50}the {\K50}healthcare {\K50}sector {\K50}is {\K50}seeing {\K50}a {\K50}surprising {\K50}financial {\K51}surplus
+Dialogue: 0,0:02:47.96,0:02:56.54,Estimated,,0,0,0,,{\K50}The {\K50}largest {\K50}health {\K50}insurance {\K50}funds {\K50}reported {\K50}a {\K50}combined {\K50}gain {\K51}of {\K50}773 {\K50}million {\K50}euros {\K50}in {\K50}the {\K50}first {\K50}quarter
+Dialogue: 0,0:02:56.54,0:03:04.62,Estimated,,0,0,0,,{\K50}Despite {\K51}the {\K50}surplus {\K50}these {\K50}funds {\K50}warn {\K50}that {\K50}reforms {\K50}are {\K50}still {\K51}necessary {\K50}to {\K50}prevent {\K50}future {\K50}contribution {\K50}increases
+Dialogue: 0,0:03:04.62,0:03:08.65,Estimated,,0,0,0,,{\K50}Weather {\K50}data {\K50}remains {\K50}unavailable {\K50}for {\K50}the {\K50}closing {\K50}update
+Dialogue: 0,0:03:08.65,0:03:12.18,Estimated,,0,0,0,,{\K51}Finally {\K50}a {\K50}quick {\K50}look {\K50}at {\K50}the {\K50}calendar
+Dialogue: 0,0:03:12.18,0:03:38.93,Estimated,,0,0,0,,{\K50}On {\K50}your {\K51}calendar {\K50}today {\K50}all {\K50}day {\K50}'Department {\K50}Retro' {\K50}at {\K50}10 {\K50}00 {\K51}'Optikrunde' {\K50}at {\K50}10 {\K50}30 {\K50}25 {\K50}minute {\K50}'Research {\K50}weekly' {\K50}at {\K50}Gauss {\K51}note {\K50}Join {\K50}with {\K50}Google {\K50}Meet {\K50}Or {\K50}dial {\K50}DE {\K50}49 {\K51}40 {\K50}8081616038 {\K50}PIN {\K50}8 {\K50}at {\K50}11 {\K50}00 {\K50}'MxM {\K50}Spotlight {\K51}' {\K50}note {\K50}Dear {\K50}Innovators {\K50}You're {\K51}invited {\K50}to {\K50}MxM {\K50}Spotlight {\K50}our {\K50}weekly {\K50}knowledge {\K50}sharing {\K50}platform
+Dialogue: 0,0:03:38.93,0:04:03.16,Estimated,,0,0,0,,{\K51}MxM {\K50}Spotlight {\K50}brings {\K50}together {\K50}the {\K50}best {\K50}of {\K50}our {\K50}previous {\K51}PM {\K50}T {\K50}at {\K50}15 {\K50}00 {\K50}'Corsnero {\K50}OffGPT' {\K50}note {\K50}Corsnero {\K50}OffGPT {\K51}at {\K50}15 {\K50}00 {\K50}2 {\K50}hour {\K50}'Gruppenmeeting {\K50}Gregor' {\K50}and {\K50}at {\K51}15 {\K50}00 {\K50}2 {\K50}hour {\K50}' {\K50}Research {\K50}Seminar' {\K50}note {\K50}Join {\K51}with {\K50}Google {\K50}Meet {\K50}Or {\K50}dial {\K51}DE {\K50}49 {\K50}40 {\K50}8081616571 {\K50}PIN {\K50}2
+Dialogue: 0,0:04:03.16,0:04:07.19,Estimated,,0,0,0,,{\K50}And {\K50}that's {\K50}it {\K51}for {\K50}your {\K50}personal {\K50}morning {\K50}broadcast
+Dialogue: 0,0:04:07.19,0:04:08.71,Estimated,,0,0,0,,{\K50}Rise {\K50}and {\K50}shine
