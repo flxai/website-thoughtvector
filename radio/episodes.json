@@ -1,5 +1,18 @@
 [
   {
+    "audio": "media/20260604-000314Z.ogg",
+    "feed_failure_count": 234,
+    "generated_at": "2026-06-04T00:03:14+00:00",
+    "id": "20260604-000314Z",
+    "page": "2026-06-04-nvidia-enables-the-next-era-of-physical-ai-research/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260604-000314Z.ass",
+    "summary": "In the realm of artificial intelligence and robotics, NVIDIA is pushing the boundaries of physical AI. NVIDIA has introduced new tools and frameworks to accelerate the development of autonomous machines, focusing on the integration of generative AI with robotics. This shift aims to move beyond traditional programming, allowing robots to learn and adapt through simulation and real-world interaction, potentially revolutionizing industries from manufacturing to healthcare. Meanwhile, the geopolitical landscape remains volatile. In the Middle East, diplomatic efforts continue as nations seek a sustainable ceasefire and a path toward long-term stability. These negotiations are complicated by internal political pressures and the strategic interests of global powers, highlighting the fragile nature of peace in the region.",
+    "title": "In the realm of artificial intelligence and robotics, NVIDIA is pushing the boundaries of physical AI",
+    "transcript": "transcripts/20260604-000314Z.json",
+    "waveform": "waveforms/20260604-000314Z.json"
+  },
+  {
     "audio": "media/20260603-230127Z.ogg",
     "feed_failure_count": 234,
     "generated_at": "2026-06-03T23:01:27+00:00",

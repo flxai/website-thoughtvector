@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 23:01:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 00:03:14 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In the realm of artificial intelligence and robotics, NVIDIA is pushing the boundaries of physical AI</title>
+      <link>https://thoughtvector.zip/radio/2026-06-04-nvidia-enables-the-next-era-of-physical-ai-research/</link>
+      <guid isPermaLink="false">morning-whispers:20260604-000314Z</guid>
+      <pubDate>Thu, 04 Jun 2026 00:03:14 GMT</pubDate>
+      <description>Selected sources: NVIDIA Blog: NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI; Handelsblatt: EU: Ungarn ebnet Ukraine den Weg zu EU-Beitrittsgesprächen; Deutsche Welle English: Israel, Lebanon renew ceasefire after US-brokered talks; Google Research Blog: The next chapter in flood resilience: Open sourcing Google’s hydrology framework; Business: American capitalism has taken an apocalyptic turn; OpenAI News: Introducing new capabilities to GPT-Rosalind; FAZ Wirtschaft: Handelspolitik: Trump plant neue Zölle – wegen Zwangsarbeit; NVIDIA Technical Blog: Build Personal AI Agents on Windows PCs with New Tools from Microsoft and NVIDIA</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260604-000314Z.ogg" length="2056378" type="audio/ogg" />
+    </item>
     <item>
       <title>Global volatility, AI infrastructure, and energy security shape the morning briefing</title>
       <link>https://thoughtvector.zip/radio/2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research/</link>
