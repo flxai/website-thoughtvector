@@ -28,8 +28,8 @@
       "article_ids": [
         "a002bd8e19d",
         "a8af94b5ce8",
-        "a552e468d47",
-        "a8f847318d8"
+        "a8f847318d8",
+        "a57d89367fb"
       ],
       "end": 38.01,
       "id": "p2",
@@ -46,9 +46,7 @@
     {
       "article_ids": [
         "ade94cdba27",
-        "a8ec8426391",
-        "a6b00819422",
-        "ab0a539134c"
+        "a95c2bcdd48"
       ],
       "end": 64.71,
       "id": "p3",
@@ -480,8 +478,8 @@
     },
     {
       "article_ids": [
-        "a552e468d47",
-        "a8f847318d8"
+        "a8f847318d8",
+        "a57d89367fb"
       ],
       "end": 38.01,
       "group": "p2",
@@ -642,7 +640,7 @@
     {
       "article_ids": [
         "ade94cdba27",
-        "a8ec8426391"
+        "a95c2bcdd48"
       ],
       "end": 52.39,
       "group": "p3",
@@ -872,8 +870,8 @@
     },
     {
       "article_ids": [
-        "a6b00819422",
-        "ab0a539134c"
+        "ade94cdba27",
+        "a95c2bcdd48"
       ],
       "end": 64.71,
       "group": "p3",
