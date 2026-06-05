@@ -13,14 +13,14 @@ Style: Estimated,Noto Sans,44,&H0038D8FF,&H00C078A5,&H00181818,&H80000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:09.77,0:00:14.65,Default,,0,0,0,,{\K34}It {\K16}is {\K32}currently {\K48}14 {\K50}degrees {\K90}and {\K62}cloudy {\K38}in {\K38}Berlin {\K80}Tempelhof
-Dialogue: 0,0:00:15.25,0:00:18.09,Default,,0,0,0,,{\K74}With {\K14}the {\K24}morning {\K36}weather {\K32}set{\K16} {\K26}here {\K16}is {\K16}the {\K30}news
-Dialogue: 0,0:00:18.75,0:00:29.45,Default,,0,0,0,,{\K74}Geopolitical {\K30}tensions {\K54}remain {\K42}high {\K36}as {\K44}Israel {\K22}and {\K34}Lebanon {\K34}move {\K40}toward {\K18}a {\K30}potential {\K84}ceasefire {\K80}with {\K40}reports {\K58}indicating {\K38}that {\K22}both {\K42}parties {\K22}are {\K44}negotiating {\K42}a {\K28}deal {\K18}to {\K28}end {\K66}hostilities
-Dialogue: 0,0:00:29.79,0:00:38.01,Default,,0,0,0,,{\K64}However{\K18} {\K20}the {\K44}stability {\K30}of {\K10}the {\K46}region {\K68}is {\K32}further {\K60}complicated {\K46}by {\K22}North {\K56}Korea's {\K38}continued {\K58}missile {\K56}tests {\K70}and {\K12}the {\K38}ongoing {\K34}conflict {\K1}in {\K1}Ukraine
-Dialogue: 0,0:00:39.53,0:00:52.39,Default,,0,0,0,,{\K10}In {\K10}the {\K24}realm {\K18}of {\K40}technology{\K44} {\K20}the {\K32}rapid {\K56}advancement {\K36}of {\K54}generative {\K30}AI {\K50}continues {\K50}to {\K54}reshape {\K50}industries {\K112}with {\K52}companies {\K26}like {\K56}OpenAI {\K36}and {\K28}Google {\K54}leading {\K20}the {\K40}charge {\K18}in {\K44}developing {\K34}more {\K48}capable {\K44}large {\K36}language {\K60}models
-Dialogue: 0,0:00:52.75,0:01:04.71,Default,,0,0,0,,{\K52}This {\K50}surge {\K28}in {\K36}AI {\K62}capabilities {\K82}has {\K44}sparked {\K20}a {\K28}global {\K40}debate {\K50}over {\K18}the {\K30}need {\K18}for {\K58}comprehensive {\K56}regulation {\K84}to {\K32}mitigate {\K46}risks {\K88}associated {\K38}with {\K46}misinformation {\K98}and {\K28}job {\K64}displacement
-Dialogue: 0,0:01:04.71,0:01:09.04,Estimated,,0,0,0,,{\K62}After {\K62}the {\K62}headlines {\K62}back {\K62}to {\K62}the {\K62}weather
-Dialogue: 0,0:01:09.04,0:01:13.44,Default,,0,0,0,,{\K440}This {\K1}afternoon {\K1}will {\K1}be {\K1}cloudy {\K1}with {\K1}temperatures {\K1}between {\K1}21 {\K1}and {\K1}23 {\K1}degrees
-Dialogue: 0,0:01:13.82,0:01:16.46,Default,,0,0,0,,{\K42}And {\K40}that's {\K12}it {\K20}for {\K18}your {\K40}personal {\K38}morning {\K54}broadcast
-Dialogue: 0,0:01:16.96,0:01:18.22,Default,,0,0,0,,{\K64}Rise {\K24}and {\K38}shine
-Dialogue: 0,0:01:18.44,0:01:19.78,Default,,0,0,0,,{\K70}Rise {\K32}and {\K32}shine
+Dialogue: 0,0:00:10.00,0:00:14.53,Estimated,,0,0,0,,{\K45}It {\K45}is {\K45}currently {\K45}14 {\K45}degrees {\K45}and {\K45}cloudy {\K45}in {\K45}Berlin {\K45}Tempelhof
+Dialogue: 0,0:00:14.53,0:00:18.61,Estimated,,0,0,0,,{\K45}With {\K45}the {\K45}morning {\K45}weather {\K45}set {\K45}here {\K45}is {\K45}the {\K45}news
+Dialogue: 0,0:00:18.61,0:00:30.39,Estimated,,0,0,0,,{\K45}Geopolitical {\K45}tensions {\K45}remain {\K45}high {\K45}as {\K45}Israel {\K45}and {\K45}Lebanon {\K45}move {\K45}toward {\K45}a {\K45}potential {\K45}ceasefire {\K45}with {\K45}reports {\K45}indicating {\K45}that {\K45}both {\K45}parties {\K45}are {\K45}negotiating {\K45}a {\K45}deal {\K45}to {\K45}end {\K45}hostilities
+Dialogue: 0,0:00:30.39,0:00:39.91,Estimated,,0,0,0,,{\K45}However {\K45}the {\K45}stability {\K45}of {\K45}the {\K45}region {\K45}is {\K45}further {\K45}complicated {\K45}by {\K45}North {\K45}Korea's {\K45}continued {\K45}missile {\K45}tests {\K45}and {\K45}the {\K45}ongoing {\K45}conflict {\K45}in {\K45}Ukraine
+Dialogue: 0,0:00:39.91,0:00:53.95,Estimated,,0,0,0,,{\K45}In {\K45}the {\K45}realm {\K45}of {\K45}technology {\K45}the {\K45}rapid {\K45}advancement {\K45}of {\K45}generative {\K45}AI {\K45}continues {\K45}to {\K45}reshape {\K45}industries {\K45}with {\K45}companies {\K45}like {\K45}OpenAI {\K45}and {\K45}Google {\K45}leading {\K45}the {\K45}charge {\K45}in {\K45}developing {\K45}more {\K45}capable {\K45}large {\K45}language {\K45}models
+Dialogue: 0,0:00:53.95,0:01:05.28,Estimated,,0,0,0,,{\K45}This {\K45}surge {\K45}in {\K45}AI {\K45}capabilities {\K45}has {\K45}sparked {\K45}a {\K45}global {\K45}debate {\K45}over {\K45}the {\K45}need {\K45}for {\K45}comprehensive {\K45}regulation {\K45}to {\K45}mitigate {\K45}risks {\K45}associated {\K45}with {\K45}misinformation {\K45}and {\K45}job {\K45}displacement
+Dialogue: 0,0:01:05.28,0:01:08.45,Estimated,,0,0,0,,{\K45}After {\K45}the {\K45}headlines {\K45}back {\K45}to {\K45}the {\K45}weather
+Dialogue: 0,0:01:08.45,0:01:13.89,Estimated,,0,0,0,,{\K45}This {\K45}afternoon {\K45}will {\K45}be {\K45}cloudy {\K45}with {\K45}temperatures {\K45}between {\K45}21 {\K45}and {\K45}23 {\K45}degrees
+Dialogue: 0,0:01:13.89,0:01:17.52,Estimated,,0,0,0,,{\K45}And {\K45}that's {\K45}it {\K45}for {\K45}your {\K45}personal {\K45}morning {\K45}broadcast
+Dialogue: 0,0:01:17.52,0:01:18.88,Estimated,,0,0,0,,{\K45}Rise {\K45}and {\K45}shine
+Dialogue: 0,0:01:18.88,0:01:20.24,Estimated,,0,0,0,,{\K45}Rise {\K45}and {\K45}shine

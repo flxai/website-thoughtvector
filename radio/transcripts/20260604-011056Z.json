@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "end": 14.65,
+      "end": 14.531,
       "id": "p0",
       "index": 0,
       "section_index": 0,
@@ -9,11 +9,11 @@
       "segments": [
         "s0"
       ],
-      "start": 9.77,
+      "start": 10.0,
       "text": "It is currently 14 degrees and cloudy in Berlin-Tempelhof."
     },
     {
-      "end": 18.09,
+      "end": 18.609,
       "id": "p1",
       "index": 1,
       "section_index": 1,
@@ -21,7 +21,7 @@
       "segments": [
         "s1"
       ],
-      "start": 15.25,
+      "start": 14.531,
       "text": "With the morning weather set, here is the news."
     },
     {
@@ -31,7 +31,7 @@
         "a8f847318d8",
         "a57d89367fb"
       ],
-      "end": 38.01,
+      "end": 39.906,
       "id": "p2",
       "index": 2,
       "section_index": 2,
@@ -40,7 +40,7 @@
         "s2",
         "s3"
       ],
-      "start": 18.75,
+      "start": 18.609,
       "text": "Geopolitical tensions remain high as Israel and Lebanon move toward a potential ceasefire, with reports indicating that both parties are negotiating a deal to end hostilities. However, the stability of the region is further complicated by North Korea's continued missile tests and the ongoing conflict in Ukraine."
     },
     {
@@ -48,7 +48,7 @@
         "ade94cdba27",
         "a95c2bcdd48"
       ],
-      "end": 64.71,
+      "end": 65.282,
       "id": "p3",
       "index": 3,
       "section_index": 3,
@@ -57,11 +57,11 @@
         "s4",
         "s5"
       ],
-      "start": 39.53,
+      "start": 39.906,
       "text": "In the realm of technology, the rapid advancement of generative AI continues to reshape industries, with companies like OpenAI and Google leading the charge in developing more capable large language models. This surge in AI capabilities has sparked a global debate over the need for comprehensive regulation to mitigate risks associated with misinformation and job displacement."
     },
     {
-      "end": 69.04,
+      "end": 68.453,
       "id": "p4",
       "index": 4,
       "section_index": 4,
@@ -69,11 +69,11 @@
       "segments": [
         "s6"
       ],
-      "start": 64.71,
+      "start": 65.282,
       "text": "After the headlines, back to the weather."
     },
     {
-      "end": 73.44,
+      "end": 73.891,
       "id": "p5",
       "index": 5,
       "section_index": 5,
@@ -81,11 +81,11 @@
       "segments": [
         "s7"
       ],
-      "start": 69.04,
+      "start": 68.453,
       "text": "This afternoon will be cloudy with temperatures between 21 and 23 degrees."
     },
     {
-      "end": 76.46,
+      "end": 77.516,
       "id": "p6",
       "index": 6,
       "section_index": 6,
@@ -93,11 +93,11 @@
       "segments": [
         "s8"
       ],
-      "start": 73.82,
+      "start": 73.891,
       "text": "And that's it for your personal morning broadcast."
     },
     {
-      "end": 78.22,
+      "end": 78.875,
       "id": "p7",
       "index": 7,
       "section_index": 7,
@@ -105,11 +105,11 @@
       "segments": [
         "s9"
       ],
-      "start": 76.96,
+      "start": 77.516,
       "text": "Rise and shine."
     },
     {
-      "end": 79.78,
+      "end": 80.235,
       "id": "p8",
       "index": 8,
       "section_index": 7,
@@ -117,165 +117,165 @@
       "segments": [
         "s10"
       ],
-      "start": 78.44,
+      "start": 78.875,
       "text": "Rise and shine."
     }
   ],
   "kind": "script-transcript",
   "media": {
-    "duration_seconds": 100.235
+    "duration_seconds": 100.242
   },
   "run_id": "20260604-011056Z",
   "segments": [
     {
-      "end": 14.65,
+      "end": 14.531,
       "group": "p0",
       "id": "s0",
       "index": 0,
-      "start": 9.77,
+      "start": 10.0,
       "text": "It is currently 14 degrees and cloudy in Berlin-Tempelhof.",
       "words": [
         {
-          "end": 10.11,
+          "end": 10.453,
           "index": 0,
-          "source": "exact",
-          "start": 9.77,
+          "source": "interpolated",
+          "start": 10.0,
           "text": "It"
         },
         {
-          "end": 10.27,
+          "end": 10.906,
           "index": 1,
-          "source": "exact",
-          "start": 10.11,
+          "source": "interpolated",
+          "start": 10.453,
           "text": "is"
         },
         {
-          "end": 10.59,
+          "end": 11.359,
           "index": 2,
-          "source": "exact",
-          "start": 10.27,
+          "source": "interpolated",
+          "start": 10.906,
           "text": "currently"
         },
         {
-          "end": 11.07,
+          "end": 11.813,
           "index": 3,
-          "source": "exact",
-          "start": 10.59,
+          "source": "interpolated",
+          "start": 11.359,
           "text": "14"
         },
         {
-          "end": 11.57,
+          "end": 12.266,
           "index": 4,
-          "source": "exact",
-          "start": 11.07,
+          "source": "interpolated",
+          "start": 11.813,
           "text": "degrees"
         },
         {
-          "end": 12.47,
+          "end": 12.719,
           "index": 5,
-          "source": "exact",
-          "start": 11.57,
+          "source": "interpolated",
+          "start": 12.266,
           "text": "and"
         },
         {
-          "end": 13.09,
+          "end": 13.172,
           "index": 6,
-          "source": "exact",
-          "start": 12.47,
+          "source": "interpolated",
+          "start": 12.719,
           "text": "cloudy"
         },
         {
-          "end": 13.47,
+          "end": 13.625,
           "index": 7,
-          "source": "exact",
-          "start": 13.09,
+          "source": "interpolated",
+          "start": 13.172,
           "text": "in"
         },
         {
-          "end": 13.85,
+          "end": 14.078,
           "index": 8,
-          "source": "exact",
-          "start": 13.47,
+          "source": "interpolated",
+          "start": 13.625,
           "text": "Berlin"
         },
         {
-          "end": 14.65,
+          "end": 14.531,
           "index": 9,
-          "source": "exact",
-          "start": 13.85,
+          "source": "interpolated",
+          "start": 14.078,
           "text": "Tempelhof"
         }
       ]
     },
     {
-      "end": 18.09,
+      "end": 18.609,
       "group": "p1",
       "id": "s1",
       "index": 1,
-      "start": 15.25,
+      "start": 14.531,
       "text": "With the morning weather set, here is the news.",
       "words": [
         {
-          "end": 15.99,
+          "end": 14.984,
           "index": 0,
-          "source": "exact",
-          "start": 15.25,
+          "source": "interpolated",
+          "start": 14.531,
           "text": "With"
         },
         {
-          "end": 16.13,
+          "end": 15.438,
           "index": 1,
-          "source": "exact",
-          "start": 15.99,
+          "source": "interpolated",
+          "start": 14.984,
           "text": "the"
         },
         {
-          "end": 16.37,
+          "end": 15.891,
           "index": 2,
-          "source": "exact",
-          "start": 16.13,
+          "source": "interpolated",
+          "start": 15.438,
           "text": "morning"
         },
         {
-          "end": 16.73,
+          "end": 16.344,
           "index": 3,
-          "source": "exact",
-          "start": 16.37,
+          "source": "interpolated",
+          "start": 15.891,
           "text": "weather"
         },
         {
-          "end": 17.05,
+          "end": 16.797,
           "index": 4,
-          "source": "exact",
-          "start": 16.73,
+          "source": "interpolated",
+          "start": 16.344,
           "text": "set"
         },
         {
-          "end": 17.47,
+          "end": 17.25,
           "index": 5,
-          "source": "exact",
-          "start": 17.21,
+          "source": "interpolated",
+          "start": 16.797,
           "text": "here"
         },
         {
-          "end": 17.63,
+          "end": 17.703,
           "index": 6,
-          "source": "exact",
-          "start": 17.47,
+          "source": "interpolated",
+          "start": 17.25,
           "text": "is"
         },
         {
-          "end": 17.79,
+          "end": 18.156,
           "index": 7,
-          "source": "exact",
-          "start": 17.63,
+          "source": "interpolated",
+          "start": 17.703,
           "text": "the"
         },
         {
-          "end": 18.09,
+          "end": 18.609,
           "index": 8,
-          "source": "exact",
-          "start": 17.79,
+          "source": "interpolated",
+          "start": 18.156,
           "text": "news"
         }
       ]
@@ -285,193 +285,193 @@
         "a002bd8e19d",
         "a8af94b5ce8"
       ],
-      "end": 29.45,
+      "end": 30.391,
       "group": "p2",
       "id": "s2",
       "index": 2,
-      "start": 18.75,
+      "start": 18.609,
       "text": "Geopolitical tensions remain high as Israel and Lebanon move toward a potential ceasefire, with reports indicating that both parties are negotiating a deal to end hostilities.",
       "words": [
         {
-          "end": 19.49,
+          "end": 19.063,
           "index": 0,
-          "source": "exact",
-          "start": 18.75,
+          "source": "interpolated",
+          "start": 18.609,
           "text": "Geopolitical"
         },
         {
-          "end": 19.79,
+          "end": 19.516,
           "index": 1,
-          "source": "exact",
-          "start": 19.49,
+          "source": "interpolated",
+          "start": 19.063,
           "text": "tensions"
         },
         {
-          "end": 20.33,
+          "end": 19.969,
           "index": 2,
-          "source": "exact",
-          "start": 19.79,
+          "source": "interpolated",
+          "start": 19.516,
           "text": "remain"
         },
         {
-          "end": 20.75,
+          "end": 20.422,
           "index": 3,
-          "source": "exact",
-          "start": 20.33,
+          "source": "interpolated",
+          "start": 19.969,
           "text": "high"
         },
         {
-          "end": 21.11,
+          "end": 20.875,
           "index": 4,
-          "source": "exact",
-          "start": 20.75,
+          "source": "interpolated",
+          "start": 20.422,
           "text": "as"
         },
         {
-          "end": 21.55,
+          "end": 21.328,
           "index": 5,
-          "source": "exact",
-          "start": 21.11,
+          "source": "interpolated",
+          "start": 20.875,
           "text": "Israel"
         },
         {
-          "end": 21.77,
+          "end": 21.781,
           "index": 6,
-          "source": "exact",
-          "start": 21.55,
+          "source": "interpolated",
+          "start": 21.328,
           "text": "and"
         },
         {
-          "end": 22.11,
+          "end": 22.234,
           "index": 7,
-          "source": "exact",
-          "start": 21.77,
+          "source": "interpolated",
+          "start": 21.781,
           "text": "Lebanon"
         },
         {
-          "end": 22.45,
+          "end": 22.688,
           "index": 8,
-          "source": "exact",
-          "start": 22.11,
+          "source": "interpolated",
+          "start": 22.234,
           "text": "move"
         },
         {
-          "end": 22.85,
+          "end": 23.141,
           "index": 9,
-          "source": "exact",
-          "start": 22.45,
+          "source": "interpolated",
+          "start": 22.688,
           "text": "toward"
         },
         {
-          "end": 23.03,
+          "end": 23.594,
           "index": 10,
-          "source": "exact",
-          "start": 22.85,
+          "source": "interpolated",
+          "start": 23.141,
           "text": "a"
         },
         {
-          "end": 23.33,
+          "end": 24.047,
           "index": 11,
-          "source": "exact",
-          "start": 23.03,
+          "source": "interpolated",
+          "start": 23.594,
           "text": "potential"
         },
         {
-          "end": 24.17,
+          "end": 24.5,
           "index": 12,
-          "source": "exact",
-          "start": 23.33,
+          "source": "interpolated",
+          "start": 24.047,
           "text": "ceasefire"
         },
         {
-          "end": 24.97,
+          "end": 24.953,
           "index": 13,
           "source": "interpolated",
-          "start": 24.17,
+          "start": 24.5,
           "text": "with"
         },
         {
-          "end": 25.37,
+          "end": 25.406,
           "index": 14,
-          "source": "exact",
-          "start": 24.97,
+          "source": "interpolated",
+          "start": 24.953,
           "text": "reports"
         },
         {
-          "end": 25.95,
+          "end": 25.859,
           "index": 15,
-          "source": "exact",
-          "start": 25.37,
+          "source": "interpolated",
+          "start": 25.406,
           "text": "indicating"
         },
         {
-          "end": 26.33,
+          "end": 26.313,
           "index": 16,
-          "source": "exact",
-          "start": 25.95,
+          "source": "interpolated",
+          "start": 25.859,
           "text": "that"
         },
         {
-          "end": 26.55,
+          "end": 26.766,
           "index": 17,
-          "source": "exact",
-          "start": 26.33,
+          "source": "interpolated",
+          "start": 26.313,
           "text": "both"
         },
         {
-          "end": 26.97,
+          "end": 27.219,
           "index": 18,
-          "source": "exact",
-          "start": 26.55,
+          "source": "interpolated",
+          "start": 26.766,
           "text": "parties"
         },
         {
-          "end": 27.19,
+          "end": 27.672,
           "index": 19,
-          "source": "exact",
-          "start": 26.97,
+          "source": "interpolated",
+          "start": 27.219,
           "text": "are"
         },
         {
-          "end": 27.63,
+          "end": 28.125,
           "index": 20,
-          "source": "exact",
-          "start": 27.19,
+          "source": "interpolated",
+          "start": 27.672,
           "text": "negotiating"
         },
         {
-          "end": 28.05,
+          "end": 28.578,
           "index": 21,
-          "source": "exact",
-          "start": 27.63,
+          "source": "interpolated",
+          "start": 28.125,
           "text": "a"
         },
         {
-          "end": 28.33,
+          "end": 29.031,
           "index": 22,
-          "source": "exact",
-          "start": 28.05,
+          "source": "interpolated",
+          "start": 28.578,
           "text": "deal"
         },
         {
-          "end": 28.51,
+          "end": 29.484,
           "index": 23,
-          "source": "exact",
-          "start": 28.33,
+          "source": "interpolated",
+          "start": 29.031,
           "text": "to"
         },
         {
-          "end": 28.79,
+          "end": 29.938,
           "index": 24,
-          "source": "exact",
-          "start": 28.51,
+          "source": "interpolated",
+          "start": 29.484,
           "text": "end"
         },
         {
-          "end": 29.45,
+          "end": 30.391,
           "index": 25,
-          "source": "exact",
-          "start": 28.79,
+          "source": "interpolated",
+          "start": 29.938,
           "text": "hostilities"
         }
       ]
@@ -481,158 +481,158 @@
         "a8f847318d8",
         "a57d89367fb"
       ],
-      "end": 38.01,
+      "end": 39.906,
       "group": "p2",
       "id": "s3",
       "index": 3,
-      "start": 29.79,
+      "start": 30.391,
       "text": "However, the stability of the region is further complicated by North Korea's continued missile tests and the ongoing conflict in Ukraine.",
       "words": [
         {
-          "end": 30.43,
+          "end": 30.844,
           "index": 0,
-          "source": "exact",
-          "start": 29.79,
+          "source": "interpolated",
+          "start": 30.391,
           "text": "However"
         },
         {
-          "end": 30.81,
+          "end": 31.297,
           "index": 1,
-          "source": "exact",
-          "start": 30.61,
+          "source": "interpolated",
+          "start": 30.844,
           "text": "the"
         },
         {
-          "end": 31.25,
+          "end": 31.75,
           "index": 2,
-          "source": "exact",
-          "start": 30.81,
+          "source": "interpolated",
+          "start": 31.297,
           "text": "stability"
         },
         {
-          "end": 31.55,
+          "end": 32.203,
           "index": 3,
-          "source": "exact",
-          "start": 31.25,
+          "source": "interpolated",
+          "start": 31.75,
           "text": "of"
         },
         {
-          "end": 31.65,
+          "end": 32.656,
           "index": 4,
-          "source": "exact",
-          "start": 31.55,
+          "source": "interpolated",
+          "start": 32.203,
           "text": "the"
-        },
-        {
-          "end": 32.11,
-          "index": 5,
-          "source": "exact",
-          "start": 31.65,
-          "text": "region"
-        },
-        {
-          "end": 32.79,
-          "index": 6,
-          "source": "exact",
-          "start": 32.11,
-          "text": "is"
         },
         {
           "end": 33.11,
+          "index": 5,
+          "source": "interpolated",
+          "start": 32.656,
+          "text": "region"
+        },
+        {
+          "end": 33.563,
+          "index": 6,
+          "source": "interpolated",
+          "start": 33.11,
+          "text": "is"
+        },
+        {
+          "end": 34.016,
           "index": 7,
-          "source": "exact",
-          "start": 32.79,
+          "source": "interpolated",
+          "start": 33.563,
           "text": "further"
         },
         {
-          "end": 33.71,
+          "end": 34.469,
           "index": 8,
-          "source": "exact",
-          "start": 33.11,
+          "source": "interpolated",
+          "start": 34.016,
           "text": "complicated"
         },
         {
-          "end": 34.17,
+          "end": 34.922,
           "index": 9,
-          "source": "exact",
-          "start": 33.71,
+          "source": "interpolated",
+          "start": 34.469,
           "text": "by"
         },
         {
-          "end": 34.39,
+          "end": 35.375,
           "index": 10,
-          "source": "exact",
-          "start": 34.17,
+          "source": "interpolated",
+          "start": 34.922,
           "text": "North"
         },
         {
-          "end": 34.95,
+          "end": 35.828,
           "index": 11,
-          "source": "exact",
-          "start": 34.39,
+          "source": "interpolated",
+          "start": 35.375,
           "text": "Korea's"
         },
         {
-          "end": 35.33,
+          "end": 36.281,
           "index": 12,
-          "source": "exact",
-          "start": 34.95,
+          "source": "interpolated",
+          "start": 35.828,
           "text": "continued"
         },
         {
-          "end": 35.91,
+          "end": 36.735,
           "index": 13,
-          "source": "exact",
-          "start": 35.33,
+          "source": "interpolated",
+          "start": 36.281,
           "text": "missile"
         },
         {
-          "end": 36.47,
+          "end": 37.188,
           "index": 14,
-          "source": "exact",
-          "start": 35.91,
+          "source": "interpolated",
+          "start": 36.735,
           "text": "tests"
         },
         {
-          "end": 37.17,
+          "end": 37.641,
           "index": 15,
-          "source": "exact",
-          "start": 36.47,
+          "source": "interpolated",
+          "start": 37.188,
           "text": "and"
         },
         {
-          "end": 37.29,
+          "end": 38.094,
           "index": 16,
-          "source": "exact",
-          "start": 37.17,
+          "source": "interpolated",
+          "start": 37.641,
           "text": "the"
         },
         {
-          "end": 37.67,
+          "end": 38.547,
           "index": 17,
-          "source": "exact",
-          "start": 37.29,
+          "source": "interpolated",
+          "start": 38.094,
           "text": "ongoing"
         },
         {
-          "end": 38.01,
+          "end": 39.0,
           "index": 18,
-          "source": "exact",
-          "start": 37.67,
+          "source": "interpolated",
+          "start": 38.547,
           "text": "conflict"
         },
         {
-          "end": 38.02,
+          "end": 39.453,
           "index": 19,
           "source": "interpolated",
-          "start": 38.01,
+          "start": 39.0,
           "text": "in"
         },
         {
-          "end": 38.02,
+          "end": 39.906,
           "index": 20,
           "source": "interpolated",
-          "start": 38.01,
+          "start": 39.453,
           "text": "Ukraine"
         }
       ]
@@ -642,826 +642,701 @@
         "ade94cdba27",
         "a95c2bcdd48"
       ],
-      "end": 52.39,
+      "end": 53.953,
       "group": "p3",
       "id": "s4",
       "index": 4,
-      "start": 39.53,
+      "start": 39.906,
       "text": "In the realm of technology, the rapid advancement of generative AI continues to reshape industries, with companies like OpenAI and Google leading the charge in developing more capable large language models.",
       "words": [
         {
-          "end": 39.63,
+          "end": 40.36,
           "index": 0,
-          "source": "exact",
-          "start": 39.53,
+          "source": "interpolated",
+          "start": 39.906,
           "text": "In"
         },
         {
-          "end": 39.73,
+          "end": 40.813,
           "index": 1,
-          "source": "exact",
-          "start": 39.63,
+          "source": "interpolated",
+          "start": 40.36,
           "text": "the"
         },
         {
-          "end": 39.97,
+          "end": 41.266,
           "index": 2,
-          "source": "exact",
-          "start": 39.73,
+          "source": "interpolated",
+          "start": 40.813,
           "text": "realm"
         },
         {
-          "end": 40.15,
+          "end": 41.719,
           "index": 3,
-          "source": "exact",
-          "start": 39.97,
+          "source": "interpolated",
+          "start": 41.266,
           "text": "of"
         },
         {
-          "end": 40.55,
+          "end": 42.172,
           "index": 4,
-          "source": "exact",
-          "start": 40.15,
+          "source": "interpolated",
+          "start": 41.719,
           "text": "technology"
         },
         {
-          "end": 41.19,
+          "end": 42.625,
           "index": 5,
-          "source": "exact",
-          "start": 40.99,
+          "source": "interpolated",
+          "start": 42.172,
           "text": "the"
         },
         {
-          "end": 41.51,
+          "end": 43.078,
           "index": 6,
-          "source": "exact",
-          "start": 41.19,
+          "source": "interpolated",
+          "start": 42.625,
           "text": "rapid"
         },
         {
-          "end": 42.07,
+          "end": 43.531,
           "index": 7,
-          "source": "exact",
-          "start": 41.51,
+          "source": "interpolated",
+          "start": 43.078,
           "text": "advancement"
         },
         {
-          "end": 42.43,
+          "end": 43.985,
           "index": 8,
-          "source": "exact",
-          "start": 42.07,
+          "source": "interpolated",
+          "start": 43.531,
           "text": "of"
         },
         {
-          "end": 42.97,
+          "end": 44.438,
           "index": 9,
-          "source": "exact",
-          "start": 42.43,
+          "source": "interpolated",
+          "start": 43.985,
           "text": "generative"
         },
         {
-          "end": 43.27,
+          "end": 44.891,
           "index": 10,
-          "source": "exact",
-          "start": 42.97,
+          "source": "interpolated",
+          "start": 44.438,
           "text": "AI"
         },
         {
-          "end": 43.77,
+          "end": 45.344,
           "index": 11,
-          "source": "exact",
-          "start": 43.27,
+          "source": "interpolated",
+          "start": 44.891,
           "text": "continues"
         },
         {
-          "end": 44.27,
+          "end": 45.797,
           "index": 12,
-          "source": "exact",
-          "start": 43.77,
+          "source": "interpolated",
+          "start": 45.344,
           "text": "to"
         },
         {
-          "end": 44.81,
+          "end": 46.25,
           "index": 13,
-          "source": "exact",
-          "start": 44.27,
+          "source": "interpolated",
+          "start": 45.797,
           "text": "reshape"
         },
         {
-          "end": 45.31,
+          "end": 46.703,
           "index": 14,
-          "source": "exact",
-          "start": 44.81,
+          "source": "interpolated",
+          "start": 46.25,
           "text": "industries"
         },
         {
-          "end": 46.43,
+          "end": 47.156,
           "index": 15,
           "source": "interpolated",
-          "start": 45.31,
+          "start": 46.703,
           "text": "with"
         },
         {
-          "end": 46.95,
+          "end": 47.61,
           "index": 16,
-          "source": "exact",
-          "start": 46.43,
+          "source": "interpolated",
+          "start": 47.156,
           "text": "companies"
         },
         {
-          "end": 47.21,
+          "end": 48.063,
           "index": 17,
-          "source": "exact",
-          "start": 46.95,
+          "source": "interpolated",
+          "start": 47.61,
           "text": "like"
         },
         {
-          "end": 47.77,
+          "end": 48.516,
           "index": 18,
-          "source": "exact",
-          "start": 47.21,
+          "source": "interpolated",
+          "start": 48.063,
           "text": "OpenAI"
         },
         {
-          "end": 48.13,
+          "end": 48.969,
           "index": 19,
-          "source": "exact",
-          "start": 47.77,
+          "source": "interpolated",
+          "start": 48.516,
           "text": "and"
         },
         {
-          "end": 48.41,
+          "end": 49.422,
           "index": 20,
-          "source": "exact",
-          "start": 48.13,
+          "source": "interpolated",
+          "start": 48.969,
           "text": "Google"
         },
         {
-          "end": 48.95,
+          "end": 49.875,
           "index": 21,
-          "source": "exact",
-          "start": 48.41,
+          "source": "interpolated",
+          "start": 49.422,
           "text": "leading"
         },
         {
-          "end": 49.15,
+          "end": 50.328,
           "index": 22,
-          "source": "exact",
-          "start": 48.95,
+          "source": "interpolated",
+          "start": 49.875,
           "text": "the"
         },
         {
-          "end": 49.55,
+          "end": 50.781,
           "index": 23,
-          "source": "exact",
-          "start": 49.15,
+          "source": "interpolated",
+          "start": 50.328,
           "text": "charge"
         },
         {
-          "end": 49.73,
+          "end": 51.235,
           "index": 24,
-          "source": "exact",
-          "start": 49.55,
+          "source": "interpolated",
+          "start": 50.781,
           "text": "in"
         },
         {
-          "end": 50.17,
+          "end": 51.688,
           "index": 25,
-          "source": "exact",
-          "start": 49.73,
+          "source": "interpolated",
+          "start": 51.235,
           "text": "developing"
         },
         {
-          "end": 50.51,
+          "end": 52.141,
           "index": 26,
-          "source": "exact",
-          "start": 50.17,
+          "source": "interpolated",
+          "start": 51.688,
           "text": "more"
         },
         {
-          "end": 50.99,
+          "end": 52.594,
           "index": 27,
-          "source": "exact",
-          "start": 50.51,
+          "source": "interpolated",
+          "start": 52.141,
           "text": "capable"
         },
         {
-          "end": 51.43,
+          "end": 53.047,
           "index": 28,
-          "source": "exact",
-          "start": 50.99,
+          "source": "interpolated",
+          "start": 52.594,
           "text": "large"
         },
         {
-          "end": 51.79,
+          "end": 53.5,
           "index": 29,
-          "source": "exact",
-          "start": 51.43,
+          "source": "interpolated",
+          "start": 53.047,
           "text": "language"
         },
         {
-          "end": 52.39,
+          "end": 53.953,
           "index": 30,
-          "source": "exact",
-          "start": 51.79,
+          "source": "interpolated",
+          "start": 53.5,
           "text": "models"
         }
       ]
     },
     {
-      "end": 64.71,
+      "end": 65.282,
       "group": "p3",
       "id": "s5",
       "index": 5,
-      "start": 52.75,
+      "start": 53.953,
       "text": "This surge in AI capabilities has sparked a global debate over the need for comprehensive regulation to mitigate risks associated with misinformation and job displacement.",
       "words": [
         {
-          "end": 53.27,
+          "end": 54.407,
           "index": 0,
-          "source": "exact",
-          "start": 52.75,
+          "source": "interpolated",
+          "start": 53.953,
           "text": "This"
         },
         {
-          "end": 53.77,
+          "end": 54.86,
           "index": 1,
-          "source": "exact",
-          "start": 53.27,
+          "source": "interpolated",
+          "start": 54.407,
           "text": "surge"
         },
         {
-          "end": 54.05,
+          "end": 55.313,
           "index": 2,
-          "source": "exact",
-          "start": 53.77,
+          "source": "interpolated",
+          "start": 54.86,
           "text": "in"
         },
         {
-          "end": 54.41,
+          "end": 55.766,
           "index": 3,
-          "source": "exact",
-          "start": 54.05,
+          "source": "interpolated",
+          "start": 55.313,
           "text": "AI"
         },
         {
-          "end": 55.03,
+          "end": 56.219,
           "index": 4,
-          "source": "exact",
-          "start": 54.41,
+          "source": "interpolated",
+          "start": 55.766,
           "text": "capabilities"
         },
         {
-          "end": 55.85,
+          "end": 56.672,
           "index": 5,
-          "source": "exact",
-          "start": 55.03,
+          "source": "interpolated",
+          "start": 56.219,
           "text": "has"
         },
         {
-          "end": 56.29,
+          "end": 57.125,
           "index": 6,
-          "source": "exact",
-          "start": 55.85,
+          "source": "interpolated",
+          "start": 56.672,
           "text": "sparked"
         },
         {
-          "end": 56.49,
+          "end": 57.578,
           "index": 7,
-          "source": "exact",
-          "start": 56.29,
+          "source": "interpolated",
+          "start": 57.125,
           "text": "a"
         },
         {
-          "end": 56.77,
+          "end": 58.032,
           "index": 8,
-          "source": "exact",
-          "start": 56.49,
+          "source": "interpolated",
+          "start": 57.578,
           "text": "global"
         },
         {
-          "end": 57.17,
+          "end": 58.485,
           "index": 9,
-          "source": "exact",
-          "start": 56.77,
+          "source": "interpolated",
+          "start": 58.032,
           "text": "debate"
         },
         {
-          "end": 57.67,
+          "end": 58.938,
           "index": 10,
-          "source": "exact",
-          "start": 57.17,
+          "source": "interpolated",
+          "start": 58.485,
           "text": "over"
         },
         {
-          "end": 57.85,
+          "end": 59.391,
           "index": 11,
-          "source": "exact",
-          "start": 57.67,
+          "source": "interpolated",
+          "start": 58.938,
           "text": "the"
         },
         {
-          "end": 58.15,
+          "end": 59.844,
           "index": 12,
-          "source": "exact",
-          "start": 57.85,
+          "source": "interpolated",
+          "start": 59.391,
           "text": "need"
         },
         {
-          "end": 58.33,
+          "end": 60.297,
           "index": 13,
-          "source": "exact",
-          "start": 58.15,
+          "source": "interpolated",
+          "start": 59.844,
           "text": "for"
         },
         {
-          "end": 58.91,
+          "end": 60.75,
           "index": 14,
-          "source": "exact",
-          "start": 58.33,
+          "source": "interpolated",
+          "start": 60.297,
           "text": "comprehensive"
         },
         {
-          "end": 59.47,
+          "end": 61.203,
           "index": 15,
-          "source": "exact",
-          "start": 58.91,
+          "source": "interpolated",
+          "start": 60.75,
           "text": "regulation"
         },
         {
-          "end": 60.31,
+          "end": 61.657,
           "index": 16,
-          "source": "exact",
-          "start": 59.47,
+          "source": "interpolated",
+          "start": 61.203,
           "text": "to"
         },
         {
-          "end": 60.63,
+          "end": 62.11,
           "index": 17,
-          "source": "exact",
-          "start": 60.31,
+          "source": "interpolated",
+          "start": 61.657,
           "text": "mitigate"
         },
         {
-          "end": 61.09,
+          "end": 62.563,
           "index": 18,
-          "source": "exact",
-          "start": 60.63,
+          "source": "interpolated",
+          "start": 62.11,
           "text": "risks"
         },
         {
-          "end": 61.97,
+          "end": 63.016,
           "index": 19,
-          "source": "exact",
-          "start": 61.09,
+          "source": "interpolated",
+          "start": 62.563,
           "text": "associated"
         },
         {
-          "end": 62.35,
+          "end": 63.469,
           "index": 20,
-          "source": "exact",
-          "start": 61.97,
+          "source": "interpolated",
+          "start": 63.016,
           "text": "with"
         },
         {
-          "end": 62.81,
+          "end": 63.922,
           "index": 21,
-          "source": "exact",
-          "start": 62.35,
+          "source": "interpolated",
+          "start": 63.469,
           "text": "misinformation"
         },
         {
-          "end": 63.79,
+          "end": 64.375,
           "index": 22,
-          "source": "exact",
-          "start": 62.81,
+          "source": "interpolated",
+          "start": 63.922,
           "text": "and"
         },
         {
-          "end": 64.07,
+          "end": 64.828,
           "index": 23,
-          "source": "exact",
-          "start": 63.79,
+          "source": "interpolated",
+          "start": 64.375,
           "text": "job"
         },
         {
-          "end": 64.71,
+          "end": 65.282,
           "index": 24,
-          "source": "exact",
-          "start": 64.07,
+          "source": "interpolated",
+          "start": 64.828,
           "text": "displacement"
         }
       ]
     },
     {
-      "end": 69.04,
+      "end": 68.453,
       "group": "p4",
       "id": "s6",
       "index": 6,
-      "start": 64.71,
+      "start": 65.282,
       "text": "After the headlines, back to the weather.",
       "words": [
         {
-          "end": 65.329,
+          "end": 65.735,
           "index": 0,
           "source": "interpolated",
-          "start": 64.71,
+          "start": 65.282,
           "text": "After"
         },
         {
-          "end": 65.947,
+          "end": 66.188,
           "index": 1,
           "source": "interpolated",
-          "start": 65.329,
+          "start": 65.735,
           "text": "the"
         },
         {
-          "end": 66.566,
+          "end": 66.641,
           "index": 2,
           "source": "interpolated",
-          "start": 65.947,
+          "start": 66.188,
           "text": "headlines"
         },
         {
-          "end": 67.184,
+          "end": 67.094,
           "index": 3,
           "source": "interpolated",
-          "start": 66.566,
+          "start": 66.641,
           "text": "back"
         },
         {
-          "end": 67.803,
+          "end": 67.547,
           "index": 4,
           "source": "interpolated",
-          "start": 67.184,
+          "start": 67.094,
           "text": "to"
         },
         {
-          "end": 68.421,
+          "end": 68.0,
           "index": 5,
           "source": "interpolated",
-          "start": 67.803,
+          "start": 67.547,
           "text": "the"
         },
         {
-          "end": 69.04,
+          "end": 68.453,
           "index": 6,
           "source": "interpolated",
-          "start": 68.421,
+          "start": 68.0,
           "text": "weather"
         }
       ]
     },
     {
-      "end": 73.44,
+      "end": 73.891,
       "group": "p5",
       "id": "s7",
       "index": 7,
-      "start": 69.04,
+      "start": 68.453,
       "text": "This afternoon will be cloudy with temperatures between 21 and 23 degrees.",
       "words": [
         {
-          "end": 73.44,
+          "end": 68.907,
           "index": 0,
           "source": "interpolated",
-          "start": 69.04,
+          "start": 68.453,
           "text": "This"
         },
         {
-          "end": 73.45,
+          "end": 69.36,
           "index": 1,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 68.907,
           "text": "afternoon"
         },
         {
-          "end": 73.45,
+          "end": 69.813,
           "index": 2,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 69.36,
           "text": "will"
         },
         {
-          "end": 73.45,
+          "end": 70.266,
           "index": 3,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 69.813,
           "text": "be"
         },
         {
-          "end": 73.45,
+          "end": 70.719,
           "index": 4,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 70.266,
           "text": "cloudy"
         },
         {
-          "end": 73.45,
+          "end": 71.172,
           "index": 5,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 70.719,
           "text": "with"
         },
         {
-          "end": 73.45,
+          "end": 71.625,
           "index": 6,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 71.172,
           "text": "temperatures"
         },
         {
-          "end": 73.45,
+          "end": 72.078,
           "index": 7,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 71.625,
           "text": "between"
         },
         {
-          "end": 73.45,
+          "end": 72.532,
           "index": 8,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 72.078,
           "text": "21"
         },
         {
-          "end": 73.45,
+          "end": 72.985,
           "index": 9,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 72.532,
           "text": "and"
         },
         {
-          "end": 73.45,
+          "end": 73.438,
           "index": 10,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 72.985,
           "text": "23"
         },
         {
-          "end": 73.45,
+          "end": 73.891,
           "index": 11,
-          "source": "exact",
-          "start": 73.44,
+          "source": "interpolated",
+          "start": 73.438,
           "text": "degrees"
         }
       ]
     },
     {
-      "end": 76.46,
+      "end": 77.516,
       "group": "p6",
       "id": "s8",
       "index": 8,
-      "start": 73.82,
+      "start": 73.891,
       "text": "And that's it for your personal morning broadcast.",
       "words": [
         {
-          "end": 74.24,
+          "end": 74.344,
           "index": 0,
-          "source": "exact",
-          "start": 73.82,
+          "source": "interpolated",
+          "start": 73.891,
           "text": "And"
         },
         {
-          "end": 74.64,
+          "end": 74.797,
           "index": 1,
-          "source": "exact",
-          "start": 74.24,
+          "source": "interpolated",
+          "start": 74.344,
           "text": "that's"
         },
         {
-          "end": 74.76,
+          "end": 75.25,
           "index": 2,
-          "source": "exact",
-          "start": 74.64,
+          "source": "interpolated",
+          "start": 74.797,
           "text": "it"
         },
         {
-          "end": 74.96,
+          "end": 75.704,
           "index": 3,
-          "source": "exact",
-          "start": 74.76,
+          "source": "interpolated",
+          "start": 75.25,
           "text": "for"
         },
         {
-          "end": 75.14,
+          "end": 76.157,
           "index": 4,
-          "source": "exact",
-          "start": 74.96,
+          "source": "interpolated",
+          "start": 75.704,
           "text": "your"
         },
         {
-          "end": 75.54,
+          "end": 76.61,
           "index": 5,
-          "source": "exact",
-          "start": 75.14,
+          "source": "interpolated",
+          "start": 76.157,
           "text": "personal"
         },
         {
-          "end": 75.92,
+          "end": 77.063,
           "index": 6,
-          "source": "exact",
-          "start": 75.54,
+          "source": "interpolated",
+          "start": 76.61,
           "text": "morning"
         },
         {
-          "end": 76.46,
+          "end": 77.516,
           "index": 7,
-          "source": "exact",
-          "start": 75.92,
+          "source": "interpolated",
+          "start": 77.063,
           "text": "broadcast"
         }
       ]
     },
     {
-      "end": 78.22,
+      "end": 78.875,
       "group": "p7",
       "id": "s9",
       "index": 9,
-      "start": 76.96,
+      "start": 77.516,
       "text": "Rise and shine.",
       "words": [
         {
-          "end": 77.6,
+          "end": 77.969,
           "index": 0,
-          "source": "exact",
-          "start": 76.96,
+          "source": "interpolated",
+          "start": 77.516,
           "text": "Rise"
         },
         {
-          "end": 77.84,
+          "end": 78.422,
           "index": 1,
-          "source": "exact",
-          "start": 77.6,
+          "source": "interpolated",
+          "start": 77.969,
           "text": "and"
         },
         {
-          "end": 78.22,
+          "end": 78.875,
           "index": 2,
-          "source": "exact",
-          "start": 77.84,
+          "source": "interpolated",
+          "start": 78.422,
           "text": "shine"
         }
       ]
     },
     {
-      "end": 79.78,
+      "end": 80.235,
       "group": "p8",
       "id": "s10",
       "index": 10,
-      "start": 78.44,
+      "start": 78.875,
       "text": "Rise and shine.",
       "words": [
         {
-          "end": 79.14,
+          "end": 79.329,
           "index": 0,
-          "source": "exact",
-          "start": 78.44,
+          "source": "interpolated",
+          "start": 78.875,
           "text": "Rise"
         },
         {
-          "end": 79.46,
+          "end": 79.782,
           "index": 1,
-          "source": "exact",
-          "start": 79.14,
+          "source": "interpolated",
+          "start": 79.329,
           "text": "and"
         },
         {
-          "end": 79.78,
+          "end": 80.235,
           "index": 2,
-          "source": "exact",
-          "start": 79.46,
+          "source": "interpolated",
+          "start": 79.782,
           "text": "shine"
         }
       ]
     }
   ],
-  "source": "radio_script+transcribe",
-  "timing": "transcribe-part-aligned-script",
-  "transcribe": {
-    "cache": "transcribe.verbose.cache.json",
-    "cached": true,
-    "exact_words": 143,
-    "match_ratio": 0.923,
-    "matched_words": 143,
-    "part_count": 11,
-    "parts": [
-      {
-        "end": 14.65,
-        "exact_words": 10,
-        "index": 0,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 10,
-        "script_start_word": 0,
-        "start": 9.77
-      },
-      {
-        "end": 18.09,
-        "exact_words": 9,
-        "index": 1,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 19,
-        "script_start_word": 10,
-        "start": 15.25
-      },
-      {
-        "end": 24.17,
-        "exact_words": 13,
-        "index": 2,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 32,
-        "script_start_word": 19,
-        "start": 18.75
-      },
-      {
-        "end": 29.45,
-        "exact_words": 12,
-        "index": 3,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 45,
-        "script_start_word": 33,
-        "start": 24.856
-      },
-      {
-        "end": 38.01,
-        "exact_words": 19,
-        "index": 4,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 64,
-        "script_start_word": 45,
-        "start": 29.79
-      },
-      {
-        "end": 45.31,
-        "exact_words": 15,
-        "index": 5,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 81,
-        "script_start_word": 66,
-        "start": 39.53
-      },
-      {
-        "end": 51.43,
-        "exact_words": 13,
-        "index": 6,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 95,
-        "script_start_word": 82,
-        "start": 46.256
-      },
-      {
-        "end": 58.33,
-        "exact_words": 16,
-        "index": 7,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 111,
-        "script_start_word": 95,
-        "start": 51.43
-      },
-      {
-        "end": 64.71,
-        "exact_words": 11,
-        "index": 8,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 122,
-        "script_start_word": 111,
-        "start": 58.33
-      },
-      {
-        "end": 74.76,
-        "exact_words": 14,
-        "index": 9,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 144,
-        "script_start_word": 130,
-        "start": 69.04
-      },
-      {
-        "end": 79.78,
-        "exact_words": 11,
-        "index": 10,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 155,
-        "script_start_word": 144,
-        "start": 74.76
-      }
-    ],
-    "positional_words": 0,
-    "script_words": 155,
-    "source_bytes": 1312046,
-    "tool": "transcribe",
-    "word_timestamps": true
-  },
+  "source": "radio_script",
+  "timing": "word-count-estimate",
   "validation": {
     "monotonic": true,
     "segments": 11,
