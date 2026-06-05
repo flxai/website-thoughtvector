@@ -1360,13 +1360,15 @@
             const gap = 8;
             const rect = pill.getBoundingClientRect();
             const tooltipRect = tooltip.getBoundingClientRect();
-            const width = tooltipRect.width || Math.min(320, Math.max(0, window.innerWidth - margin * 2));
+            const viewportWidth = document.documentElement.clientWidth || window.innerWidth;
+            const viewportHeight = document.documentElement.clientHeight || window.innerHeight;
+            const width = tooltipRect.width || Math.min(320, Math.max(0, viewportWidth - margin * 2));
             const height = tooltipRect.height || 0;
-            const maxLeft = Math.max(margin, window.innerWidth - width - margin);
+            const maxLeft = Math.max(margin, viewportWidth - width - margin);
             const left = clamp(rect.left + rect.width / 2 - width / 2, margin, maxLeft);
             let top = rect.top - height - gap;
             if (top < margin) {
-              top = Math.min(window.innerHeight - height - margin, rect.bottom + gap);
+              top = Math.min(viewportHeight - height - margin, rect.bottom + gap);
             }
             tooltip.style.setProperty("--source-tooltip-left", Math.round(left) + "px");
             tooltip.style.setProperty("--source-tooltip-top", Math.round(Math.max(margin, top)) + "px");
