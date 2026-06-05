@@ -376,7 +376,8 @@
         display: grid;
         gap: 8px;
         max-height: 360px;
-        overflow: auto;
+        overflow-x: clip;
+        overflow-y: auto;
         padding-right: 4px;
       }
       .transcript[data-expanded="true"] .transcript-list {
@@ -587,6 +588,13 @@
         transform: translateY(4px);
         transition: opacity var(--theme-transition), transform var(--theme-transition), visibility var(--theme-transition);
         visibility: hidden;
+      }
+      .player[data-enhanced="true"] .transcript-source-tooltip {
+        position: fixed;
+        bottom: auto;
+        left: var(--source-tooltip-left, 0);
+        top: var(--source-tooltip-top, 0);
+        z-index: 80;
       }
       .transcript-source-pill:hover .transcript-source-tooltip,
       .transcript-source-pill:focus-visible .transcript-source-tooltip {
@@ -1227,6 +1235,7 @@
           const transcriptCues = Array.from(player.querySelectorAll("[data-transcript-cue]"));
           const transcriptToggle = player.querySelector("[data-transcript-toggle]");
           const transcriptSection = transcriptToggle ? transcriptToggle.closest(".transcript") : null;
+          const transcriptSourcePills = Array.from(player.querySelectorAll(".transcript-source-pill"));
           if (!audio || !toggle || !waveform) {
             continue;
           }
@@ -1341,6 +1350,52 @@
             audio.currentTime = ratio * total;
             updateProgress();
           };
+          let activeSourcePill = null;
+          const positionSourceTooltip = (pill) => {
+            const tooltip = pill ? pill.querySelector(".transcript-source-tooltip") : null;
+            if (!tooltip) {
+              return;
+            }
+            const margin = 12;
+            const gap = 8;
+            const rect = pill.getBoundingClientRect();
+            const tooltipRect = tooltip.getBoundingClientRect();
+            const width = tooltipRect.width || Math.min(320, Math.max(0, window.innerWidth - margin * 2));
+            const height = tooltipRect.height || 0;
+            const maxLeft = Math.max(margin, window.innerWidth - width - margin);
+            const left = clamp(rect.left + rect.width / 2 - width / 2, margin, maxLeft);
+            let top = rect.top - height - gap;
+            if (top < margin) {
+              top = Math.min(window.innerHeight - height - margin, rect.bottom + gap);
+            }
+            tooltip.style.setProperty("--source-tooltip-left", Math.round(left) + "px");
+            tooltip.style.setProperty("--source-tooltip-top", Math.round(Math.max(margin, top)) + "px");
+          };
+          const activateSourceTooltip = (pill) => {
+            activeSourcePill = pill;
+            positionSourceTooltip(pill);
+          };
+          const deactivateSourceTooltip = (pill) => {
+            if (activeSourcePill === pill) {
+              activeSourcePill = null;
+            }
+          };
+          for (const pill of transcriptSourcePills) {
+            pill.addEventListener("mouseenter", () => activateSourceTooltip(pill));
+            pill.addEventListener("focus", () => activateSourceTooltip(pill));
+            pill.addEventListener("mouseleave", () => deactivateSourceTooltip(pill));
+            pill.addEventListener("blur", () => deactivateSourceTooltip(pill));
+          }
+          window.addEventListener("scroll", () => {
+            if (activeSourcePill) {
+              positionSourceTooltip(activeSourcePill);
+            }
+          }, { passive: true });
+          window.addEventListener("resize", () => {
+            if (activeSourcePill) {
+              positionSourceTooltip(activeSourcePill);
+            }
+          });
           const play = () => {
             const promise = audio.play();
             if (promise && typeof promise.catch === "function") {
