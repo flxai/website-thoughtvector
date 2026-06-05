@@ -1,11 +1,25 @@
 [
   {
-    "audio": "media/20260605-100120Z.ogg",
+    "audio": "media/20260605-132314Z.ogg",
     "debug": "2026-06-05-seoul-purpose/debug/",
+    "feed_failure_count": 234,
+    "generated_at": "2026-06-05T13:23:14+00:00",
+    "id": "20260605-132314Z",
+    "page": "2026-06-05-seoul-purpose/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260605-132314Z.ass",
+    "summary": "Nvidia is expanding AI agent capabilities and sovereign infrastructure through strategic partnerships in South Korea. China's rapid expansion of nuclear energy highlights the massive power requirements of modern industrial scaling. Legal actions against a German bank examine whether outdated security systems led to massive vault losses. Cultural retrospectives on iconic figures and dystopian literature offer frameworks for navigating modern professional pressures.",
+    "title": "Technological Ambition and the Fragility of Security",
+    "transcript": "transcripts/20260605-132314Z.json",
+    "waveform": "waveforms/20260605-132314Z.json"
+  },
+  {
+    "audio": "media/20260605-100120Z.ogg",
+    "debug": "2026-06-05-seoul-purpose-20260605-100120z/debug/",
     "feed_failure_count": 234,
     "generated_at": "2026-06-05T10:01:20+00:00",
     "id": "20260605-100120Z",
-    "page": "2026-06-05-seoul-purpose/",
+    "page": "2026-06-05-seoul-purpose-20260605-100120z/",
     "selected_article_count": 80,
     "subtitles": "subtitles/20260605-100120Z.ass",
     "summary": "NVIDIA is expanding its global influence by integrating AI infrastructure with South Korea's robotics and autonomous reasoning sectors. European diplomatic efforts in Montenegro signal a broader strategic push to stabilize the region through EU membership. Unexpected GDP declines in the Eurozone highlight underlying economic fragility despite steady performance in German equity markets. Market volatility persists as investors weigh geopolitical tensions in Ukraine against upcoming American labor market indicators.",

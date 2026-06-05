@@ -5,11 +5,19 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 10:01:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 13:23:14 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Global Tech Ambitions and European Economic Shifts</title>
+      <title>Technological Ambition and the Fragility of Security</title>
       <link>https://thoughtvector.zip/radio/2026-06-05-seoul-purpose/</link>
+      <guid isPermaLink="false">morning-whispers:20260605-132314Z</guid>
+      <pubDate>Fri, 05 Jun 2026 13:23:14 GMT</pubDate>
+      <description>Nvidia is expanding AI agent capabilities and sovereign infrastructure through strategic partnerships in South Korea. China&#x27;s rapid expansion of nuclear energy highlights the massive power requirements of modern industrial scaling. Legal actions against a German bank examine whether outdated security systems led to massive vault losses. Cultural retrospectives on iconic figures and dystopian literature offer</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260605-132314Z.ogg" length="2251010" type="audio/ogg" />
+    </item>
+    <item>
+      <title>Global Tech Ambitions and European Economic Shifts</title>
+      <link>https://thoughtvector.zip/radio/2026-06-05-seoul-purpose-20260605-100120z/</link>
       <guid isPermaLink="false">morning-whispers:20260605-100120Z</guid>
       <pubDate>Fri, 05 Jun 2026 10:01:20 GMT</pubDate>
       <description>NVIDIA is expanding its global influence by integrating AI infrastructure with South Korea&#x27;s robotics and autonomous reasoning sectors. European diplomatic efforts in Montenegro signal a broader strategic push to stabilize the region through EU membership. Unexpected GDP declines in the Eurozone highlight underlying economic fragility despite steady performance in German equity markets. Market volatility persists</description>
