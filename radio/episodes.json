@@ -1,6 +1,7 @@
 [
   {
     "audio": "media/20260605-100120Z.ogg",
+    "debug": "2026-06-05-seoul-purpose/debug/",
     "feed_failure_count": 234,
     "generated_at": "2026-06-05T10:01:20+00:00",
     "id": "20260605-100120Z",
@@ -14,6 +15,7 @@
   },
   {
     "audio": "media/20260604-011056Z.ogg",
+    "debug": "2026-06-04-nvidia-enables-the-next-era-of-physical-ai-research/debug/",
     "feed_failure_count": 235,
     "generated_at": "2026-06-04T01:10:56+00:00",
     "id": "20260604-011056Z",
@@ -27,6 +29,7 @@
   },
   {
     "audio": "media/20260604-000314Z.ogg",
+    "debug": "2026-06-04-nvidia-enables-the-next-era-of-physical-ai-research-20260604-000314z/debug/",
     "feed_failure_count": 234,
     "generated_at": "2026-06-04T00:03:14+00:00",
     "id": "20260604-000314Z",
@@ -40,6 +43,7 @@
   },
   {
     "audio": "media/20260603-230127Z.ogg",
+    "debug": "2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research/debug/",
     "feed_failure_count": 234,
     "generated_at": "2026-06-03T23:01:27+00:00",
     "id": "20260603-230127Z",
@@ -53,6 +57,7 @@
   },
   {
     "audio": "media/20260603-205545Z.ogg",
+    "debug": "2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research-20260603-205545z/debug/",
     "feed_failure_count": 234,
     "generated_at": "2026-06-03T20:55:45+00:00",
     "id": "20260603-205545Z",
@@ -66,6 +71,7 @@
   },
   {
     "audio": "media/20260603-165349Z.ogg",
+    "debug": "2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research-20260603-165349z/debug/",
     "feed_failure_count": 233,
     "generated_at": "2026-06-03T16:53:49+00:00",
     "id": "20260603-165349Z",
@@ -79,6 +85,7 @@
   },
   {
     "audio": "media/20260603-102905Z.ogg",
+    "debug": "2026-06-03-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build/debug/",
     "feed_failure_count": 85,
     "generated_at": "2026-06-03T10:29:05+00:00",
     "id": "20260603-102905Z",
@@ -92,6 +99,7 @@
   },
   {
     "audio": "media/20260603-022424Z.ogg",
+    "debug": "2026-06-03-industrial-software-leaders-build-secure-autonomous-ai-engineers/debug/",
     "feed_failure_count": 5,
     "generated_at": "2026-06-03T02:24:24+00:00",
     "id": "20260603-022424Z",
