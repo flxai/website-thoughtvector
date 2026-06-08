@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260608-121737Z.ogg",
+    "debug": "2026-06-08-nvidia-and-lg-group-build-an-ai-factory-to-advance-physical-ai-mobility-and-ai/debug/",
+    "feed_failure_count": 234,
+    "generated_at": "2026-06-08T12:17:37+00:00",
+    "id": "20260608-121737Z",
+    "page": "2026-06-08-nvidia-and-lg-group-build-an-ai-factory-to-advance-physical-ai-mobility-and-ai/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260608-121737Z.ass",
+    "summary": "The facility will provide accelerated computing infrastructure for robotics, autonomous driving, and GPU cloud services. While industry infrastructure expands, political stability remains fragile in other regions. In Armenia, Prime Minister Nikol Pashinyan has secured a victory, but the election was marred by extreme polarisation and hate speech.",
+    "title": "NVIDIA and LG Group are building a new AI factory to accelerate",
+    "transcript": "transcripts/20260608-121737Z.json",
+    "waveform": "waveforms/20260608-121737Z.json"
+  },
+  {
     "audio": "media/20260605-132314Z.ogg",
     "debug": "2026-06-05-seoul-purpose/debug/",
     "feed_failure_count": 234,

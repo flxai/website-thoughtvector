@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 13:23:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 12:17:37 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA and LG Group are building a new AI factory to accelerate</title>
+      <link>https://thoughtvector.zip/radio/2026-06-08-nvidia-and-lg-group-build-an-ai-factory-to-advance-physical-ai-mobility-and-ai/</link>
+      <guid isPermaLink="false">morning-whispers:20260608-121737Z</guid>
+      <pubDate>Mon, 08 Jun 2026 12:17:37 GMT</pubDate>
+      <description>The facility will provide accelerated computing infrastructure for robotics, autonomous driving, and GPU cloud services. While industry infrastructure expands, political stability remains fragile in other regions. In Armenia, Prime Minister Nikol Pashinyan has secured a victory, but the election was marred by extreme polarisation and hate speech.</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260608-121737Z.ogg" length="1486709" type="audio/ogg" />
+    </item>
     <item>
       <title>Technological Ambition and the Fragility of Security</title>
       <link>https://thoughtvector.zip/radio/2026-06-05-seoul-purpose/</link>
