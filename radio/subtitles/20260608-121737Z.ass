@@ -13,19 +13,19 @@ Style: Estimated,Noto Sans,44,&H0038D8FF,&H00C078A5,&H00181818,&H80000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:09.80,0:00:14.84,Default,,0,0,0,,{\K26}It {\K14}is {\K36}currently {\K50}24 {\K50}degrees {\K78}and {\K44}partly {\K46}cloudy {\K52}in {\K32}Berlin {\K76}Tempelhof
-Dialogue: 0,0:00:15.24,0:00:18.10,Default,,0,0,0,,{\K76}With {\K20}the {\K20}morning {\K38}weather {\K34}set{\K14} {\K22}here {\K14}is {\K16}the {\K32}news
-Dialogue: 0,0:00:18.68,0:00:24.16,Default,,0,0,0,,{\K76}NVIDIA {\K24}and {\K32}LG {\K42}Group {\K20}are {\K34}building {\K16}a {\K20}new {\K38}AI {\K42}factory {\K46}to {\K54}accelerate {\K48}physical {\K56}AI
-Dialogue: 0,0:00:24.50,0:00:31.44,Default,,0,0,0,,{\K38}The {\K40}facility {\K34}will {\K38}provide {\K64}accelerated {\K44}computing {\K74}infrastructure {\K52}for {\K52}robotics{\K22} {\K32}autonomous {\K54}driving {\K26}and {\K26}GPU {\K46}cloud {\K52}services
-Dialogue: 0,0:00:31.44,0:00:38.47,Estimated,,0,0,0,,{\K64}While {\K64}industry {\K64}infrastructure {\K64}expands {\K64}political {\K64}stability {\K64}remains {\K64}fragile {\K64}in {\K64}other {\K64}regions
-Dialogue: 0,0:00:38.47,0:00:47.19,Default,,0,0,0,,{\K22}In {\K40}Armenia{\K30} {\K24}Prime {\K42}Minister {\K54}Nikol {\K74}Pashinyan {\K30}has {\K38}secured {\K24}a {\K30}victory{\K22} {\K32}but {\K10}the {\K36}election {\K38}was {\K44}marred {\K18}by {\K50}extreme {\K62}polarisation {\K92}and {\K24}hate {\K36}speech
-Dialogue: 0,0:00:47.59,0:00:47.95,Default,,0,0,0,,{\K36}Dr
-Dialogue: 0,0:00:48.05,0:00:54.27,Default,,0,0,0,,{\K44}Narek {\K82}Sukiasyan {\K46}describes {\K54}these {\K50}conditions {\K44}as {\K34}signs {\K26}of {\K40}democratic {\K112}backsliding {\K26}within {\K26}the {\K38}country
-Dialogue: 0,0:00:54.61,0:00:57.13,Default,,0,0,0,,{\K40}After {\K18}the {\K30}headlines{\K40} {\K64}back {\K18}to {\K10}the {\K32}weather
-Dialogue: 0,0:00:57.47,0:01:04.85,Default,,0,0,0,,{\K72}This {\K50}afternoon {\K24}will {\K18}be {\K32}partly {\K40}cloudy {\K38}with {\K20}no {\K30}rain {\K50}expected {\K68}and {\K68}temperatures {\K46}between {\K60}24 {\K34}and {\K30}25 {\K58}degrees
-Dialogue: 0,0:01:04.85,0:01:13.20,Estimated,,0,0,0,,{\K84}And {\K83}from {\K84}the {\K83}weather {\K84}a {\K83}quick {\K83}look {\K84}at {\K83}the {\K84}calendar
-Dialogue: 0,0:01:13.20,0:01:15.50,Default,,0,0,0,,{\K18}On {\K18}your {\K18}calendar {\K18}today {\K18}Your {\K18}work {\K18}calendar {\K18}has {\K18}a {\K18}department {\K18}retro {\K18}all {\K18}day {\K1}and {\K1}an {\K1}AP2 {\K1}meeting {\K1}at {\K1}nine {\K1}in {\K1}the {\K1}morning
-Dialogue: 0,0:01:16.02,0:01:20.00,Default,,0,0,0,,{\K76}Your {\K42}personal {\K54}calendar {\K30}has {\K50}Twerchhau {\K32}at {\K38}seven {\K20}in {\K8}the {\K48}evening
-Dialogue: 0,0:01:20.16,0:01:22.56,Default,,0,0,0,,{\K20}And {\K38}that's {\K12}it {\K20}for {\K14}your {\K42}personal {\K36}morning {\K58}broadcast
-Dialogue: 0,0:01:23.80,0:01:28.76,Default,,0,0,0,,{\K29}mature {\K29}adult {\K29}voice {\K29}intensely {\K29}emotional {\K29}tender {\K29}radiant {\K29}hold {\K29}a {\K29}long {\K29}breath {\K29}after {\K76}Rise {\K76}Rise {\K1}and {\K1}shine
-Dialogue: 0,0:01:28.76,0:01:34.44,Estimated,,0,0,0,,{\K22}very {\K22}very {\K22}long {\K22}pause {\K22}before {\K22}speaking {\K22}then {\K22}mature {\K22}adult {\K22}voice {\K22}most {\K22}emotional {\K22}strong {\K22}warm {\K22}radiant {\K22}deeply {\K22}encouraging {\K22}hold {\K22}a {\K22}long {\K22}breath {\K22}after {\K22}Rise {\K22}Rise {\K22}and {\K22}shine
+Dialogue: 0,0:00:10.00,0:00:14.52,Estimated,,0,0,0,,{\K41}It {\K41}is {\K41}currently {\K41}24 {\K41}degrees {\K41}and {\K41}partly {\K41}cloudy {\K41}in {\K41}Berlin {\K41}Tempelhof
+Dialogue: 0,0:00:14.52,0:00:18.22,Estimated,,0,0,0,,{\K41}With {\K41}the {\K41}morning {\K41}weather {\K41}set {\K41}here {\K41}is {\K41}the {\K41}news
+Dialogue: 0,0:00:18.22,0:00:23.97,Estimated,,0,0,0,,{\K41}NVIDIA {\K41}and {\K41}LG {\K41}Group {\K41}are {\K41}building {\K41}a {\K41}new {\K41}AI {\K41}factory {\K41}to {\K41}accelerate {\K41}physical {\K41}AI
+Dialogue: 0,0:00:23.97,0:00:30.13,Estimated,,0,0,0,,{\K41}The {\K41}facility {\K41}will {\K41}provide {\K41}accelerated {\K41}computing {\K41}infrastructure {\K41}for {\K41}robotics {\K41}autonomous {\K41}driving {\K41}and {\K41}GPU {\K41}cloud {\K41}services
+Dialogue: 0,0:00:30.13,0:00:34.65,Estimated,,0,0,0,,{\K41}While {\K41}industry {\K41}infrastructure {\K41}expands {\K41}political {\K41}stability {\K41}remains {\K41}fragile {\K41}in {\K41}other {\K41}regions
+Dialogue: 0,0:00:34.65,0:00:43.27,Estimated,,0,0,0,,{\K41}In {\K41}Armenia {\K41}Prime {\K41}Minister {\K41}Nikol {\K41}Pashinyan {\K41}has {\K41}secured {\K41}a {\K41}victory {\K41}but {\K41}the {\K41}election {\K41}was {\K41}marred {\K41}by {\K41}extreme {\K41}polarisation {\K41}and {\K41}hate {\K41}speech
+Dialogue: 0,0:00:43.27,0:00:43.68,Estimated,,0,0,0,,{\K41}Dr
+Dialogue: 0,0:00:43.68,0:00:49.02,Estimated,,0,0,0,,{\K41}Narek {\K41}Sukiasyan {\K41}describes {\K41}these {\K41}conditions {\K41}as {\K41}signs {\K41}of {\K41}democratic {\K41}backsliding {\K41}within {\K41}the {\K41}country
+Dialogue: 0,0:00:49.02,0:00:51.90,Estimated,,0,0,0,,{\K41}After {\K41}the {\K41}headlines {\K41}back {\K41}to {\K41}the {\K41}weather
+Dialogue: 0,0:00:51.90,0:00:58.88,Estimated,,0,0,0,,{\K41}This {\K41}afternoon {\K41}will {\K41}be {\K41}partly {\K41}cloudy {\K41}with {\K41}no {\K41}rain {\K41}expected {\K41}and {\K41}temperatures {\K41}between {\K41}24 {\K41}and {\K41}25 {\K41}degrees
+Dialogue: 0,0:00:58.88,0:01:02.99,Estimated,,0,0,0,,{\K41}And {\K41}from {\K41}the {\K41}weather {\K41}a {\K41}quick {\K41}look {\K41}at {\K41}the {\K41}calendar
+Dialogue: 0,0:01:02.99,0:01:12.02,Estimated,,0,0,0,,{\K41}On {\K41}your {\K41}calendar {\K41}today {\K41}Your {\K41}work {\K41}calendar {\K41}has {\K41}a {\K41}department {\K41}retro {\K41}all {\K41}day {\K41}and {\K41}an {\K41}AP2 {\K41}meeting {\K41}at {\K41}nine {\K41}in {\K41}the {\K41}morning
+Dialogue: 0,0:01:12.02,0:01:16.13,Estimated,,0,0,0,,{\K41}Your {\K41}personal {\K41}calendar {\K41}has {\K41}Twerchhau {\K41}at {\K41}seven {\K41}in {\K41}the {\K41}evening
+Dialogue: 0,0:01:16.13,0:01:19.42,Estimated,,0,0,0,,{\K41}And {\K41}that's {\K41}it {\K41}for {\K41}your {\K41}personal {\K41}morning {\K41}broadcast
+Dialogue: 0,0:01:19.42,0:01:25.99,Estimated,,0,0,0,,{\K41}mature {\K41}adult {\K41}voice {\K41}intensely {\K41}emotional {\K41}tender {\K41}radiant {\K41}hold {\K41}a {\K41}long {\K41}breath {\K41}after {\K41}Rise {\K41}Rise {\K41}and {\K41}shine
+Dialogue: 0,0:01:25.99,0:01:36.67,Estimated,,0,0,0,,{\K41}very {\K41}very {\K41}long {\K41}pause {\K41}before {\K41}speaking {\K41}then {\K41}mature {\K41}adult {\K41}voice {\K41}most {\K41}emotional {\K41}strong {\K41}warm {\K41}radiant {\K41}deeply {\K41}encouraging {\K41}hold {\K41}a {\K41}long {\K41}breath {\K41}after {\K41}Rise {\K41}Rise {\K41}and {\K41}shine

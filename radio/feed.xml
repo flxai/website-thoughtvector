@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2026 12:17:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 21:47:30 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google DeepMind has released DiffusionGemma</title>
+      <link>https://thoughtvector.zip/radio/2026-06-10-nvidia-accelerates-google-deepminds-diffusiongemma-for-local-ai/</link>
+      <guid isPermaLink="false">morning-whispers:20260610-214730Z</guid>
+      <pubDate>Wed, 10 Jun 2026 21:47:30 GMT</pubDate>
+      <description>Google DeepMind has released DiffusionGemma, an experimental open model designed for exceptionally fast text generation. The new model delivers up to four times faster inference on dedicated GPUs. NVIDIA has already optimized the model to run across its GeForce RTX GPUs, the RTX PRO platform, and DGX Spark systems. This push for local AI speed arrives as international tensions surface ahead of the 2026 World Cup. A</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260610-214730Z.ogg" length="1788359" type="audio/ogg" />
+    </item>
     <item>
       <title>NVIDIA and LG Group are building a new AI factory to accelerate</title>
       <link>https://thoughtvector.zip/radio/2026-06-08-nvidia-and-lg-group-build-an-ai-factory-to-advance-physical-ai-mobility-and-ai/</link>
