@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260611-080332Z.ogg",
+    "debug": "2026-06-11-nvidia-accelerates-google-deepminds-diffusiongemma-for-local-ai/debug/",
+    "feed_failure_count": 3,
+    "generated_at": "2026-06-11T08:03:32+00:00",
+    "id": "20260611-080332Z",
+    "page": "2026-06-11-nvidia-accelerates-google-deepminds-diffusiongemma-for-local-ai/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260611-080332Z.ass",
+    "summary": "Weather data is unavailable right now; we start with the news. Google DeepMind has released DiffusionGemma, an experimental open model designed for exceptionally fast text generation. NVIDIA has already optimized the model to increase speeds across GeForce RTX GPUs and the RTX PRO platform. While technical infrastructure advances, political barriers in Europe are shifting. Hungary's new prime minister, Peter Magyar, has announced a historic minority rights deal with Ukraine.",
+    "title": "Weather data is unavailable right now",
+    "transcript": "transcripts/20260611-080332Z.json",
+    "waveform": "waveforms/20260611-080332Z.json"
+  },
+  {
     "audio": "media/20260610-214730Z.ogg",
     "debug": "2026-06-10-nvidia-accelerates-google-deepminds-diffusiongemma-for-local-ai/debug/",
     "feed_failure_count": 2,

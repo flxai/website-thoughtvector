@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Jun 2026 21:47:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 08:03:32 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weather data is unavailable right now</title>
+      <link>https://thoughtvector.zip/radio/2026-06-11-nvidia-accelerates-google-deepminds-diffusiongemma-for-local-ai/</link>
+      <guid isPermaLink="false">morning-whispers:20260611-080332Z</guid>
+      <pubDate>Thu, 11 Jun 2026 08:03:32 GMT</pubDate>
+      <description>Weather data is unavailable right now; we start with the news. Google DeepMind has released DiffusionGemma, an experimental open model designed for exceptionally fast text generation. NVIDIA has already optimized the model to increase speeds across GeForce RTX GPUs and the RTX PRO platform. While technical infrastructure advances, political barriers in Europe are shifting. Hungary&#x27;s new prime minister, Peter</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260611-080332Z.ogg" length="1111356" type="audio/ogg" />
+    </item>
     <item>
       <title>Google DeepMind has released DiffusionGemma</title>
       <link>https://thoughtvector.zip/radio/2026-06-10-nvidia-accelerates-google-deepminds-diffusiongemma-for-local-ai/</link>
