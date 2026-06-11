@@ -13,14 +13,14 @@ Style: Estimated,Noto Sans,44,&H0038D8FF,&H00C078A5,&H00181818,&H80000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:11.85,0:00:12.35,Estimated,,0,0,0,,{\K25}Good {\K25}morning
-Dialogue: 0,0:00:12.35,0:00:15.69,Default,,0,0,0,,{\K334}Weather {\K1}data {\K1}is {\K1}unavailable {\K1}right {\K1}now {\K1}we {\K1}start {\K1}with {\K1}the {\K1}news
-Dialogue: 0,0:00:16.41,0:00:24.85,Default,,0,0,0,,{\K80}Google {\K82}DeepMind {\K16}has {\K38}released{\K9} {\K56}DiffusionGemma{\K91} {\K28}an {\K62}experimental {\K54}open {\K40}model {\K56}designed {\K36}for {\K50}exceptionally {\K56}fast {\K42}text {\K48}generation
-Dialogue: 0,0:00:25.47,0:00:33.03,Default,,0,0,0,,{\K66}NVIDIA {\K22}has {\K40}already {\K54}optimized {\K42}the {\K28}model {\K18}to {\K30}increase {\K48}speeds {\K40}across {\K86}GeForce {\K26}RTX {\K106}GPUs {\K10}and {\K16}the {\K34}RTX {\K38}PRO {\K52}platform
-Dialogue: 0,0:00:34.07,0:00:38.29,Default,,0,0,0,,{\K422}While {\K1}technical {\K1}infrastructure {\K1}advances {\K1}political {\K1}barriers {\K1}in {\K1}Europe {\K1}are {\K1}shifting
-Dialogue: 0,0:00:38.55,0:00:44.96,Default,,0,0,0,,{\K62}Hungary's {\K18}new {\K30}prime {\K40}minister {\K73}Peter {\K52}Magyar {\K20}has {\K54}announced {\K24}a {\K40}historic {\K56}minority {\K64}rights {\K40}deal {\K28}with {\K40}Ukraine
-Dialogue: 0,0:00:45.50,0:00:52.58,Default,,0,0,0,,{\K80}This {\K46}agreement {\K56}clears {\K28}the {\K24}path {\K26}for {\K36}Ukraine {\K26}to {\K28}begin {\K48}EU {\K82}accession {\K54}negotiations {\K74}after {\K30}years {\K32}of {\K38}tension
-Dialogue: 0,0:00:52.86,0:00:56.28,Default,,0,0,0,,{\K34}Weather {\K32}data {\K48}remains {\K100}unavailable {\K26}for {\K12}the {\K38}closing {\K52}update
-Dialogue: 0,0:00:56.68,0:00:59.94,Default,,0,0,0,,{\K36}And {\K46}that's {\K18}it {\K60}for {\K18}your {\K46}personal {\K44}morning {\K58}broadcast
-Dialogue: 0,0:00:59.94,0:01:01.30,Estimated,,0,0,0,,{\K9}mature {\K9}adult {\K8}voice {\K9}intensely {\K8}emotional {\K9}tender {\K8}radiant {\K9}hold {\K9}a {\K8}long {\K8}breath {\K9}after {\K9}Rise {\K9}Rise {\K8}and {\K9}shine
-Dialogue: 0,0:01:01.30,0:01:03.50,Estimated,,0,0,0,,{\K9}very {\K9}very {\K8}long {\K9}pause {\K9}before {\K9}speaking {\K9}then {\K8}mature {\K9}adult {\K9}voice {\K9}most {\K8}emotional {\K9}strong {\K8}warm {\K9}radiant {\K8}deeply {\K9}encouraging {\K9}hold {\K8}a {\K8}long {\K9}breath {\K9}after {\K9}Rise {\K8}Rise {\K9}and {\K9}shine
+Dialogue: 0,0:00:10.00,0:00:10.78,Estimated,,0,0,0,,{\K39}Good {\K39}morning
+Dialogue: 0,0:00:10.78,0:00:15.06,Estimated,,0,0,0,,{\K39}Weather {\K39}data {\K39}is {\K39}unavailable {\K39}right {\K39}now {\K39}we {\K39}start {\K39}with {\K39}the {\K39}news
+Dialogue: 0,0:00:15.06,0:00:20.90,Estimated,,0,0,0,,{\K39}Google {\K39}DeepMind {\K39}has {\K39}released {\K39}DiffusionGemma {\K39}an {\K39}experimental {\K39}open {\K39}model {\K39}designed {\K39}for {\K39}exceptionally {\K39}fast {\K39}text {\K39}generation
+Dialogue: 0,0:00:20.90,0:00:27.91,Estimated,,0,0,0,,{\K39}NVIDIA {\K39}has {\K39}already {\K39}optimized {\K39}the {\K39}model {\K39}to {\K39}increase {\K39}speeds {\K39}across {\K39}GeForce {\K39}RTX {\K39}GPUs {\K39}and {\K39}the {\K39}RTX {\K39}PRO {\K39}platform
+Dialogue: 0,0:00:27.91,0:00:31.80,Estimated,,0,0,0,,{\K39}While {\K39}technical {\K39}infrastructure {\K39}advances {\K39}political {\K39}barriers {\K39}in {\K39}Europe {\K39}are {\K39}shifting
+Dialogue: 0,0:00:31.80,0:00:37.64,Estimated,,0,0,0,,{\K39}Hungary's {\K39}new {\K39}prime {\K39}minister {\K39}Peter {\K39}Magyar {\K39}has {\K39}announced {\K39}a {\K39}historic {\K39}minority {\K39}rights {\K39}deal {\K39}with {\K39}Ukraine
+Dialogue: 0,0:00:37.64,0:00:43.87,Estimated,,0,0,0,,{\K39}This {\K39}agreement {\K39}clears {\K39}the {\K39}path {\K39}for {\K39}Ukraine {\K39}to {\K39}begin {\K39}EU {\K39}accession {\K39}negotiations {\K39}after {\K39}years {\K39}of {\K39}tension
+Dialogue: 0,0:00:43.87,0:00:46.98,Estimated,,0,0,0,,{\K39}Weather {\K39}data {\K39}remains {\K39}unavailable {\K39}for {\K39}the {\K39}closing {\K39}update
+Dialogue: 0,0:00:46.98,0:00:50.10,Estimated,,0,0,0,,{\K39}And {\K39}that's {\K39}it {\K39}for {\K39}your {\K39}personal {\K39}morning {\K39}broadcast
+Dialogue: 0,0:00:50.10,0:00:56.33,Estimated,,0,0,0,,{\K39}mature {\K39}adult {\K39}voice {\K39}intensely {\K39}emotional {\K39}tender {\K39}radiant {\K39}hold {\K39}a {\K39}long {\K39}breath {\K39}after {\K39}Rise {\K39}Rise {\K39}and {\K39}shine
+Dialogue: 0,0:00:56.33,0:01:06.45,Estimated,,0,0,0,,{\K39}very {\K39}very {\K39}long {\K39}pause {\K39}before {\K39}speaking {\K39}then {\K39}mature {\K39}adult {\K39}voice {\K39}most {\K39}emotional {\K39}strong {\K39}warm {\K39}radiant {\K39}deeply {\K39}encouraging {\K39}hold {\K39}a {\K39}long {\K39}breath {\K39}after {\K39}Rise {\K39}Rise {\K39}and {\K39}shine

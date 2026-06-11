@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "end": 15.69,
+      "end": 15.061,
       "id": "p0",
       "index": 0,
       "section_index": 0,
@@ -10,14 +10,14 @@
         "s0",
         "s1"
       ],
-      "start": 11.85,
+      "start": 10.0,
       "text": "Good morning. Weather data is unavailable right now; we start with the news."
     },
     {
       "article_ids": [
         "a3b1fba2b36"
       ],
-      "end": 33.03,
+      "end": 27.908,
       "id": "p1",
       "index": 1,
       "section_index": 1,
@@ -26,14 +26,14 @@
         "s2",
         "s3"
       ],
-      "start": 16.41,
+      "start": 15.061,
       "text": "Google DeepMind has released DiffusionGemma, an experimental open model designed for exceptionally fast text generation. NVIDIA has already optimized the model to increase speeds across GeForce RTX GPUs and the RTX PRO platform."
     },
     {
       "article_ids": [
         "adc9faf6384"
       ],
-      "end": 52.58,
+      "end": 43.869,
       "id": "p2",
       "index": 2,
       "section_index": 2,
@@ -43,11 +43,11 @@
         "s5",
         "s6"
       ],
-      "start": 34.07,
+      "start": 27.908,
       "text": "While technical infrastructure advances, political barriers in Europe are shifting. Hungary's new prime minister, Peter Magyar, has announced a historic minority rights deal with Ukraine. This agreement clears the path for Ukraine to begin EU accession negotiations after years of tension."
     },
     {
-      "end": 56.28,
+      "end": 46.983,
       "id": "p3",
       "index": 3,
       "section_index": 3,
@@ -55,11 +55,11 @@
       "segments": [
         "s7"
       ],
-      "start": 52.86,
+      "start": 43.869,
       "text": "Weather data remains unavailable for the closing update."
     },
     {
-      "end": 59.94,
+      "end": 50.097,
       "id": "p4",
       "index": 4,
       "section_index": 4,
@@ -67,11 +67,11 @@
       "segments": [
         "s8"
       ],
-      "start": 56.68,
+      "start": 46.983,
       "text": "And that's it for your personal morning broadcast."
     },
     {
-      "end": 61.296,
+      "end": 56.326,
       "id": "p5",
       "index": 5,
       "section_index": 5,
@@ -79,11 +79,11 @@
       "segments": [
         "s9"
       ],
-      "start": 59.94,
+      "start": 50.097,
       "text": "[mature adult voice, intensely emotional, tender, radiant; hold a long breath after Rise] Rise... and shine."
     },
     {
-      "end": 63.5,
+      "end": 66.448,
       "id": "p6",
       "index": 6,
       "section_index": 5,
@@ -91,7 +91,7 @@
       "segments": [
         "s10"
       ],
-      "start": 61.296,
+      "start": 56.326,
       "text": "[very very long pause before speaking; then mature adult voice, most emotional, strong, warm, radiant, deeply encouraging; hold a long breath after Rise] Rise... and shine."
     }
   ],
@@ -102,112 +102,112 @@
   "run_id": "20260611-080332Z",
   "segments": [
     {
-      "end": 12.35,
+      "end": 10.779,
       "group": "p0",
       "id": "s0",
       "index": 0,
-      "start": 11.85,
+      "start": 10.0,
       "text": "Good morning.",
       "words": [
         {
-          "end": 12.1,
+          "end": 10.389,
           "index": 0,
           "source": "interpolated",
-          "start": 11.85,
+          "start": 10.0,
           "text": "Good"
         },
         {
-          "end": 12.35,
+          "end": 10.779,
           "index": 1,
           "source": "interpolated",
-          "start": 12.1,
+          "start": 10.389,
           "text": "morning"
         }
       ]
     },
     {
-      "end": 15.69,
+      "end": 15.061,
       "group": "p0",
       "id": "s1",
       "index": 1,
-      "start": 12.35,
+      "start": 10.779,
       "text": "Weather data is unavailable right now; we start with the news.",
       "words": [
         {
-          "end": 15.69,
+          "end": 11.168,
           "index": 0,
           "source": "interpolated",
-          "start": 12.35,
+          "start": 10.779,
           "text": "Weather"
         },
         {
-          "end": 15.7,
+          "end": 11.557,
           "index": 1,
-          "source": "exact",
-          "start": 15.69,
+          "source": "interpolated",
+          "start": 11.168,
           "text": "data"
         },
         {
-          "end": 15.7,
+          "end": 11.946,
           "index": 2,
-          "source": "exact",
-          "start": 15.69,
+          "source": "interpolated",
+          "start": 11.557,
           "text": "is"
         },
         {
-          "end": 15.7,
+          "end": 12.336,
           "index": 3,
-          "source": "exact",
-          "start": 15.69,
+          "source": "interpolated",
+          "start": 11.946,
           "text": "unavailable"
         },
         {
-          "end": 15.7,
+          "end": 12.725,
           "index": 4,
-          "source": "exact",
-          "start": 15.69,
+          "source": "interpolated",
+          "start": 12.336,
           "text": "right"
         },
         {
-          "end": 15.7,
+          "end": 13.114,
           "index": 5,
-          "source": "exact",
-          "start": 15.69,
+          "source": "interpolated",
+          "start": 12.725,
           "text": "now"
         },
         {
-          "end": 15.7,
+          "end": 13.504,
           "index": 6,
-          "source": "exact",
-          "start": 15.69,
+          "source": "interpolated",
+          "start": 13.114,
           "text": "we"
         },
         {
-          "end": 15.7,
+          "end": 13.893,
           "index": 7,
-          "source": "exact",
-          "start": 15.69,
+          "source": "interpolated",
+          "start": 13.504,
           "text": "start"
         },
         {
-          "end": 15.7,
+          "end": 14.282,
           "index": 8,
-          "source": "exact",
-          "start": 15.69,
+          "source": "interpolated",
+          "start": 13.893,
           "text": "with"
         },
         {
-          "end": 15.7,
+          "end": 14.672,
           "index": 9,
-          "source": "exact",
-          "start": 15.69,
+          "source": "interpolated",
+          "start": 14.282,
           "text": "the"
         },
         {
-          "end": 15.7,
+          "end": 15.061,
           "index": 10,
-          "source": "exact",
-          "start": 15.69,
+          "source": "interpolated",
+          "start": 14.672,
           "text": "news"
         }
       ]
@@ -216,116 +216,116 @@
       "article_ids": [
         "a3b1fba2b36"
       ],
-      "end": 24.85,
+      "end": 20.9,
       "group": "p1",
       "id": "s2",
       "index": 2,
-      "start": 16.41,
+      "start": 15.061,
       "text": "Google DeepMind has released DiffusionGemma, an experimental open model designed for exceptionally fast text generation.",
       "words": [
         {
-          "end": 17.21,
+          "end": 15.45,
           "index": 0,
-          "source": "exact",
-          "start": 16.41,
+          "source": "interpolated",
+          "start": 15.061,
           "text": "Google"
         },
         {
-          "end": 18.03,
+          "end": 15.839,
           "index": 1,
-          "source": "exact",
-          "start": 17.21,
+          "source": "interpolated",
+          "start": 15.45,
           "text": "DeepMind"
         },
         {
-          "end": 18.19,
+          "end": 16.229,
           "index": 2,
-          "source": "exact",
-          "start": 18.03,
+          "source": "interpolated",
+          "start": 15.839,
           "text": "has"
         },
         {
-          "end": 18.57,
+          "end": 16.618,
           "index": 3,
-          "source": "exact",
-          "start": 18.19,
+          "source": "interpolated",
+          "start": 16.229,
           "text": "released"
         },
         {
-          "end": 19.223,
+          "end": 17.007,
           "index": 4,
-          "source": "estimated",
-          "start": 18.661,
+          "source": "interpolated",
+          "start": 16.618,
           "text": "DiffusionGemma"
         },
         {
-          "end": 20.41,
+          "end": 17.397,
           "index": 5,
-          "source": "exact",
-          "start": 20.13,
+          "source": "interpolated",
+          "start": 17.007,
           "text": "an"
         },
         {
-          "end": 21.03,
+          "end": 17.786,
           "index": 6,
-          "source": "exact",
-          "start": 20.41,
+          "source": "interpolated",
+          "start": 17.397,
           "text": "experimental"
         },
         {
-          "end": 21.57,
+          "end": 18.175,
           "index": 7,
-          "source": "exact",
-          "start": 21.03,
+          "source": "interpolated",
+          "start": 17.786,
           "text": "open"
         },
         {
-          "end": 21.97,
+          "end": 18.565,
           "index": 8,
-          "source": "exact",
-          "start": 21.57,
+          "source": "interpolated",
+          "start": 18.175,
           "text": "model"
         },
         {
-          "end": 22.53,
+          "end": 18.954,
           "index": 9,
-          "source": "exact",
-          "start": 21.97,
+          "source": "interpolated",
+          "start": 18.565,
           "text": "designed"
         },
         {
-          "end": 22.89,
+          "end": 19.343,
           "index": 10,
-          "source": "exact",
-          "start": 22.53,
+          "source": "interpolated",
+          "start": 18.954,
           "text": "for"
         },
         {
-          "end": 23.39,
+          "end": 19.732,
           "index": 11,
-          "source": "exact",
-          "start": 22.89,
+          "source": "interpolated",
+          "start": 19.343,
           "text": "exceptionally"
         },
         {
-          "end": 23.95,
+          "end": 20.122,
           "index": 12,
-          "source": "exact",
-          "start": 23.39,
+          "source": "interpolated",
+          "start": 19.732,
           "text": "fast"
         },
         {
-          "end": 24.37,
+          "end": 20.511,
           "index": 13,
-          "source": "exact",
-          "start": 23.95,
+          "source": "interpolated",
+          "start": 20.122,
           "text": "text"
         },
         {
-          "end": 24.85,
+          "end": 20.9,
           "index": 14,
-          "source": "exact",
-          "start": 24.37,
+          "source": "interpolated",
+          "start": 20.511,
           "text": "generation"
         }
       ]
@@ -334,217 +334,217 @@
       "article_ids": [
         "a3b1fba2b36"
       ],
-      "end": 33.03,
+      "end": 27.908,
       "group": "p1",
       "id": "s3",
       "index": 3,
-      "start": 25.47,
+      "start": 20.9,
       "text": "NVIDIA has already optimized the model to increase speeds across GeForce RTX GPUs and the RTX PRO platform.",
       "words": [
         {
-          "end": 26.13,
+          "end": 21.29,
           "index": 0,
-          "source": "exact",
-          "start": 25.47,
+          "source": "interpolated",
+          "start": 20.9,
           "text": "NVIDIA"
         },
         {
-          "end": 26.35,
+          "end": 21.679,
           "index": 1,
-          "source": "exact",
-          "start": 26.13,
+          "source": "interpolated",
+          "start": 21.29,
           "text": "has"
         },
         {
-          "end": 26.75,
+          "end": 22.068,
           "index": 2,
-          "source": "exact",
-          "start": 26.35,
+          "source": "interpolated",
+          "start": 21.679,
           "text": "already"
         },
         {
-          "end": 27.29,
+          "end": 22.457,
           "index": 3,
-          "source": "exact",
-          "start": 26.75,
+          "source": "interpolated",
+          "start": 22.068,
           "text": "optimized"
         },
         {
-          "end": 27.71,
+          "end": 22.847,
           "index": 4,
-          "source": "exact",
-          "start": 27.29,
+          "source": "interpolated",
+          "start": 22.457,
           "text": "the"
         },
         {
-          "end": 27.99,
+          "end": 23.236,
           "index": 5,
-          "source": "exact",
-          "start": 27.71,
+          "source": "interpolated",
+          "start": 22.847,
           "text": "model"
         },
         {
-          "end": 28.17,
+          "end": 23.625,
           "index": 6,
-          "source": "exact",
-          "start": 27.99,
+          "source": "interpolated",
+          "start": 23.236,
           "text": "to"
         },
         {
-          "end": 28.47,
+          "end": 24.015,
           "index": 7,
-          "source": "exact",
-          "start": 28.17,
+          "source": "interpolated",
+          "start": 23.625,
           "text": "increase"
         },
         {
-          "end": 28.95,
+          "end": 24.404,
           "index": 8,
-          "source": "exact",
-          "start": 28.47,
+          "source": "interpolated",
+          "start": 24.015,
           "text": "speeds"
         },
         {
-          "end": 29.35,
+          "end": 24.793,
           "index": 9,
-          "source": "exact",
-          "start": 28.95,
+          "source": "interpolated",
+          "start": 24.404,
           "text": "across"
         },
         {
-          "end": 30.21,
+          "end": 25.183,
           "index": 10,
-          "source": "exact",
-          "start": 29.35,
+          "source": "interpolated",
+          "start": 24.793,
           "text": "GeForce"
         },
         {
-          "end": 30.47,
+          "end": 25.572,
           "index": 11,
-          "source": "exact",
-          "start": 30.21,
+          "source": "interpolated",
+          "start": 25.183,
           "text": "RTX"
         },
         {
-          "end": 31.53,
+          "end": 25.961,
           "index": 12,
-          "source": "exact",
-          "start": 30.47,
+          "source": "interpolated",
+          "start": 25.572,
           "text": "GPUs"
         },
         {
-          "end": 31.63,
+          "end": 26.35,
           "index": 13,
-          "source": "exact",
-          "start": 31.53,
+          "source": "interpolated",
+          "start": 25.961,
           "text": "and"
         },
         {
-          "end": 31.79,
+          "end": 26.74,
           "index": 14,
-          "source": "exact",
-          "start": 31.63,
+          "source": "interpolated",
+          "start": 26.35,
           "text": "the"
         },
         {
-          "end": 32.13,
+          "end": 27.129,
           "index": 15,
-          "source": "exact",
-          "start": 31.79,
+          "source": "interpolated",
+          "start": 26.74,
           "text": "RTX"
         },
         {
-          "end": 32.51,
+          "end": 27.518,
           "index": 16,
-          "source": "exact",
-          "start": 32.13,
+          "source": "interpolated",
+          "start": 27.129,
           "text": "PRO"
         },
         {
-          "end": 33.03,
+          "end": 27.908,
           "index": 17,
-          "source": "exact",
-          "start": 32.51,
+          "source": "interpolated",
+          "start": 27.518,
           "text": "platform"
         }
       ]
     },
     {
-      "end": 38.29,
+      "end": 31.801,
       "group": "p2",
       "id": "s4",
       "index": 4,
-      "start": 34.07,
+      "start": 27.908,
       "text": "While technical infrastructure advances, political barriers in Europe are shifting.",
       "words": [
         {
-          "end": 38.29,
+          "end": 28.297,
           "index": 0,
           "source": "interpolated",
-          "start": 34.07,
+          "start": 27.908,
           "text": "While"
         },
         {
-          "end": 38.3,
+          "end": 28.686,
           "index": 1,
-          "source": "exact",
-          "start": 38.29,
+          "source": "interpolated",
+          "start": 28.297,
           "text": "technical"
         },
         {
-          "end": 38.3,
+          "end": 29.075,
           "index": 2,
-          "source": "exact",
-          "start": 38.29,
+          "source": "interpolated",
+          "start": 28.686,
           "text": "infrastructure"
         },
         {
-          "end": 38.3,
+          "end": 29.465,
           "index": 3,
-          "source": "exact",
-          "start": 38.29,
+          "source": "interpolated",
+          "start": 29.075,
           "text": "advances"
         },
         {
-          "end": 38.3,
+          "end": 29.854,
           "index": 4,
-          "source": "exact",
-          "start": 38.29,
+          "source": "interpolated",
+          "start": 29.465,
           "text": "political"
         },
         {
-          "end": 38.3,
+          "end": 30.243,
           "index": 5,
-          "source": "exact",
-          "start": 38.29,
+          "source": "interpolated",
+          "start": 29.854,
           "text": "barriers"
         },
         {
-          "end": 38.3,
+          "end": 30.633,
           "index": 6,
-          "source": "exact",
-          "start": 38.29,
+          "source": "interpolated",
+          "start": 30.243,
           "text": "in"
         },
         {
-          "end": 38.3,
+          "end": 31.022,
           "index": 7,
-          "source": "exact",
-          "start": 38.29,
+          "source": "interpolated",
+          "start": 30.633,
           "text": "Europe"
         },
         {
-          "end": 38.3,
+          "end": 31.411,
           "index": 8,
-          "source": "exact",
-          "start": 38.29,
+          "source": "interpolated",
+          "start": 31.022,
           "text": "are"
         },
         {
-          "end": 38.3,
+          "end": 31.801,
           "index": 9,
-          "source": "exact",
-          "start": 38.29,
+          "source": "interpolated",
+          "start": 31.411,
           "text": "shifting"
         }
       ]
@@ -553,116 +553,116 @@
       "article_ids": [
         "adc9faf6384"
       ],
-      "end": 44.96,
+      "end": 37.64,
       "group": "p2",
       "id": "s5",
       "index": 5,
-      "start": 38.55,
+      "start": 31.801,
       "text": "Hungary's new prime minister, Peter Magyar, has announced a historic minority rights deal with Ukraine.",
       "words": [
         {
-          "end": 39.17,
+          "end": 32.19,
           "index": 0,
-          "source": "exact",
-          "start": 38.55,
+          "source": "interpolated",
+          "start": 31.801,
           "text": "Hungary's"
         },
         {
-          "end": 39.35,
+          "end": 32.579,
           "index": 1,
-          "source": "exact",
-          "start": 39.17,
+          "source": "interpolated",
+          "start": 32.19,
           "text": "new"
         },
         {
-          "end": 39.65,
+          "end": 32.968,
           "index": 2,
-          "source": "exact",
-          "start": 39.35,
+          "source": "interpolated",
+          "start": 32.579,
           "text": "prime"
         },
         {
-          "end": 40.05,
+          "end": 33.358,
           "index": 3,
-          "source": "exact",
-          "start": 39.65,
+          "source": "interpolated",
+          "start": 32.968,
           "text": "minister"
         },
         {
-          "end": 40.78,
+          "end": 33.747,
           "index": 4,
           "source": "interpolated",
-          "start": 40.05,
+          "start": 33.358,
           "text": "Peter"
         },
         {
-          "end": 41.3,
+          "end": 34.136,
           "index": 5,
-          "source": "exact",
-          "start": 40.78,
+          "source": "interpolated",
+          "start": 33.747,
           "text": "Magyar"
         },
         {
-          "end": 41.5,
+          "end": 34.526,
           "index": 6,
-          "source": "exact",
-          "start": 41.3,
+          "source": "interpolated",
+          "start": 34.136,
           "text": "has"
         },
         {
-          "end": 42.04,
+          "end": 34.915,
           "index": 7,
-          "source": "exact",
-          "start": 41.5,
+          "source": "interpolated",
+          "start": 34.526,
           "text": "announced"
         },
         {
-          "end": 42.28,
+          "end": 35.304,
           "index": 8,
-          "source": "exact",
-          "start": 42.04,
+          "source": "interpolated",
+          "start": 34.915,
           "text": "a"
         },
         {
-          "end": 42.68,
+          "end": 35.694,
           "index": 9,
-          "source": "exact",
-          "start": 42.28,
+          "source": "interpolated",
+          "start": 35.304,
           "text": "historic"
         },
         {
-          "end": 43.24,
+          "end": 36.083,
           "index": 10,
-          "source": "exact",
-          "start": 42.68,
+          "source": "interpolated",
+          "start": 35.694,
           "text": "minority"
         },
         {
-          "end": 43.88,
+          "end": 36.472,
           "index": 11,
-          "source": "exact",
-          "start": 43.24,
+          "source": "interpolated",
+          "start": 36.083,
           "text": "rights"
         },
         {
-          "end": 44.28,
+          "end": 36.861,
           "index": 12,
-          "source": "exact",
-          "start": 43.88,
+          "source": "interpolated",
+          "start": 36.472,
           "text": "deal"
         },
         {
-          "end": 44.56,
+          "end": 37.251,
           "index": 13,
-          "source": "exact",
-          "start": 44.28,
+          "source": "interpolated",
+          "start": 36.861,
           "text": "with"
         },
         {
-          "end": 44.96,
+          "end": 37.64,
           "index": 14,
-          "source": "exact",
-          "start": 44.56,
+          "source": "interpolated",
+          "start": 37.251,
           "text": "Ukraine"
         }
       ]
@@ -671,671 +671,576 @@
       "article_ids": [
         "adc9faf6384"
       ],
-      "end": 52.58,
+      "end": 43.869,
       "group": "p2",
       "id": "s6",
       "index": 6,
-      "start": 45.5,
+      "start": 37.64,
       "text": "This agreement clears the path for Ukraine to begin EU accession negotiations after years of tension.",
       "words": [
         {
-          "end": 46.3,
+          "end": 38.029,
           "index": 0,
-          "source": "exact",
-          "start": 45.5,
+          "source": "interpolated",
+          "start": 37.64,
           "text": "This"
         },
         {
-          "end": 46.76,
+          "end": 38.419,
           "index": 1,
-          "source": "exact",
-          "start": 46.3,
+          "source": "interpolated",
+          "start": 38.029,
           "text": "agreement"
         },
         {
-          "end": 47.32,
+          "end": 38.808,
           "index": 2,
-          "source": "exact",
-          "start": 46.76,
+          "source": "interpolated",
+          "start": 38.419,
           "text": "clears"
         },
         {
-          "end": 47.6,
+          "end": 39.197,
           "index": 3,
-          "source": "exact",
-          "start": 47.32,
+          "source": "interpolated",
+          "start": 38.808,
           "text": "the"
         },
         {
-          "end": 47.84,
+          "end": 39.586,
           "index": 4,
-          "source": "exact",
-          "start": 47.6,
+          "source": "interpolated",
+          "start": 39.197,
           "text": "path"
         },
         {
-          "end": 48.1,
+          "end": 39.976,
           "index": 5,
-          "source": "exact",
-          "start": 47.84,
+          "source": "interpolated",
+          "start": 39.586,
           "text": "for"
         },
         {
-          "end": 48.46,
+          "end": 40.365,
           "index": 6,
-          "source": "exact",
-          "start": 48.1,
+          "source": "interpolated",
+          "start": 39.976,
           "text": "Ukraine"
         },
         {
-          "end": 48.72,
+          "end": 40.754,
           "index": 7,
-          "source": "exact",
-          "start": 48.46,
+          "source": "interpolated",
+          "start": 40.365,
           "text": "to"
         },
         {
-          "end": 49.0,
+          "end": 41.144,
           "index": 8,
-          "source": "exact",
-          "start": 48.72,
+          "source": "interpolated",
+          "start": 40.754,
           "text": "begin"
         },
         {
-          "end": 49.48,
+          "end": 41.533,
           "index": 9,
-          "source": "exact",
-          "start": 49.0,
+          "source": "interpolated",
+          "start": 41.144,
           "text": "EU"
         },
         {
-          "end": 50.3,
+          "end": 41.922,
           "index": 10,
-          "source": "exact",
-          "start": 49.48,
+          "source": "interpolated",
+          "start": 41.533,
           "text": "accession"
         },
         {
-          "end": 50.84,
+          "end": 42.312,
           "index": 11,
-          "source": "exact",
-          "start": 50.3,
+          "source": "interpolated",
+          "start": 41.922,
           "text": "negotiations"
         },
         {
-          "end": 51.58,
+          "end": 42.701,
           "index": 12,
-          "source": "exact",
-          "start": 50.84,
+          "source": "interpolated",
+          "start": 42.312,
           "text": "after"
         },
         {
-          "end": 51.88,
+          "end": 43.09,
           "index": 13,
-          "source": "exact",
-          "start": 51.58,
+          "source": "interpolated",
+          "start": 42.701,
           "text": "years"
         },
         {
-          "end": 52.2,
+          "end": 43.479,
           "index": 14,
-          "source": "exact",
-          "start": 51.88,
+          "source": "interpolated",
+          "start": 43.09,
           "text": "of"
         },
         {
-          "end": 52.58,
+          "end": 43.869,
           "index": 15,
-          "source": "exact",
-          "start": 52.2,
+          "source": "interpolated",
+          "start": 43.479,
           "text": "tension"
         }
       ]
     },
     {
-      "end": 56.28,
+      "end": 46.983,
       "group": "p3",
       "id": "s7",
       "index": 7,
-      "start": 52.86,
+      "start": 43.869,
       "text": "Weather data remains unavailable for the closing update.",
       "words": [
         {
-          "end": 53.2,
+          "end": 44.258,
           "index": 0,
-          "source": "exact",
-          "start": 52.86,
+          "source": "interpolated",
+          "start": 43.869,
           "text": "Weather"
         },
         {
-          "end": 53.52,
+          "end": 44.647,
           "index": 1,
-          "source": "exact",
-          "start": 53.2,
+          "source": "interpolated",
+          "start": 44.258,
           "text": "data"
         },
         {
-          "end": 54.0,
+          "end": 45.037,
           "index": 2,
-          "source": "exact",
-          "start": 53.52,
+          "source": "interpolated",
+          "start": 44.647,
           "text": "remains"
         },
         {
-          "end": 55.0,
+          "end": 45.426,
           "index": 3,
-          "source": "exact",
-          "start": 54.0,
+          "source": "interpolated",
+          "start": 45.037,
           "text": "unavailable"
         },
         {
-          "end": 55.26,
+          "end": 45.815,
           "index": 4,
-          "source": "exact",
-          "start": 55.0,
+          "source": "interpolated",
+          "start": 45.426,
           "text": "for"
         },
         {
-          "end": 55.38,
+          "end": 46.205,
           "index": 5,
-          "source": "exact",
-          "start": 55.26,
+          "source": "interpolated",
+          "start": 45.815,
           "text": "the"
         },
         {
-          "end": 55.76,
+          "end": 46.594,
           "index": 6,
-          "source": "exact",
-          "start": 55.38,
+          "source": "interpolated",
+          "start": 46.205,
           "text": "closing"
         },
         {
-          "end": 56.28,
+          "end": 46.983,
           "index": 7,
-          "source": "exact",
-          "start": 55.76,
+          "source": "interpolated",
+          "start": 46.594,
           "text": "update"
         }
       ]
     },
     {
-      "end": 59.94,
+      "end": 50.097,
       "group": "p4",
       "id": "s8",
       "index": 8,
-      "start": 56.68,
+      "start": 46.983,
       "text": "And that's it for your personal morning broadcast.",
       "words": [
         {
-          "end": 57.04,
+          "end": 47.372,
           "index": 0,
-          "source": "exact",
-          "start": 56.68,
+          "source": "interpolated",
+          "start": 46.983,
           "text": "And"
         },
         {
-          "end": 57.5,
+          "end": 47.762,
           "index": 1,
-          "source": "exact",
-          "start": 57.04,
+          "source": "interpolated",
+          "start": 47.372,
           "text": "that's"
         },
         {
-          "end": 57.68,
+          "end": 48.151,
           "index": 2,
-          "source": "exact",
-          "start": 57.5,
+          "source": "interpolated",
+          "start": 47.762,
           "text": "it"
         },
         {
-          "end": 58.28,
+          "end": 48.54,
           "index": 3,
-          "source": "exact",
-          "start": 57.68,
+          "source": "interpolated",
+          "start": 48.151,
           "text": "for"
         },
         {
-          "end": 58.46,
+          "end": 48.93,
           "index": 4,
-          "source": "exact",
-          "start": 58.28,
+          "source": "interpolated",
+          "start": 48.54,
           "text": "your"
         },
         {
-          "end": 58.92,
+          "end": 49.319,
           "index": 5,
-          "source": "exact",
-          "start": 58.46,
+          "source": "interpolated",
+          "start": 48.93,
           "text": "personal"
         },
         {
-          "end": 59.36,
+          "end": 49.708,
           "index": 6,
-          "source": "exact",
-          "start": 58.92,
+          "source": "interpolated",
+          "start": 49.319,
           "text": "morning"
         },
         {
-          "end": 59.94,
+          "end": 50.097,
           "index": 7,
-          "source": "exact",
-          "start": 59.36,
+          "source": "interpolated",
+          "start": 49.708,
           "text": "broadcast"
         }
       ]
     },
     {
-      "end": 61.296,
+      "end": 56.326,
       "group": "p5",
       "id": "s9",
       "index": 9,
-      "start": 59.94,
+      "start": 50.097,
       "text": "[mature adult voice, intensely emotional, tender, radiant; hold a long breath after Rise] Rise... and shine.",
       "words": [
         {
-          "end": 60.025,
+          "end": 50.487,
           "index": 0,
           "source": "interpolated",
-          "start": 59.94,
+          "start": 50.097,
           "text": "mature"
         },
         {
-          "end": 60.11,
+          "end": 50.876,
           "index": 1,
           "source": "interpolated",
-          "start": 60.025,
+          "start": 50.487,
           "text": "adult"
         },
         {
-          "end": 60.194,
+          "end": 51.265,
           "index": 2,
           "source": "interpolated",
-          "start": 60.11,
+          "start": 50.876,
           "text": "voice"
         },
         {
-          "end": 60.279,
+          "end": 51.655,
           "index": 3,
           "source": "interpolated",
-          "start": 60.194,
+          "start": 51.265,
           "text": "intensely"
         },
         {
-          "end": 60.364,
+          "end": 52.044,
           "index": 4,
           "source": "interpolated",
-          "start": 60.279,
+          "start": 51.655,
           "text": "emotional"
         },
         {
-          "end": 60.449,
+          "end": 52.433,
           "index": 5,
           "source": "interpolated",
-          "start": 60.364,
+          "start": 52.044,
           "text": "tender"
         },
         {
-          "end": 60.533,
+          "end": 52.823,
           "index": 6,
           "source": "interpolated",
-          "start": 60.449,
+          "start": 52.433,
           "text": "radiant"
         },
         {
-          "end": 60.618,
+          "end": 53.212,
           "index": 7,
           "source": "interpolated",
-          "start": 60.533,
+          "start": 52.823,
           "text": "hold"
         },
         {
-          "end": 60.703,
+          "end": 53.601,
           "index": 8,
           "source": "interpolated",
-          "start": 60.618,
+          "start": 53.212,
           "text": "a"
         },
         {
-          "end": 60.788,
+          "end": 53.99,
           "index": 9,
           "source": "interpolated",
-          "start": 60.703,
+          "start": 53.601,
           "text": "long"
         },
         {
-          "end": 60.872,
+          "end": 54.38,
           "index": 10,
           "source": "interpolated",
-          "start": 60.788,
+          "start": 53.99,
           "text": "breath"
         },
         {
-          "end": 60.957,
+          "end": 54.769,
           "index": 11,
           "source": "interpolated",
-          "start": 60.872,
+          "start": 54.38,
           "text": "after"
         },
         {
-          "end": 61.042,
+          "end": 55.158,
           "index": 12,
           "source": "interpolated",
-          "start": 60.957,
+          "start": 54.769,
           "text": "Rise"
         },
         {
-          "end": 61.127,
+          "end": 55.548,
           "index": 13,
           "source": "interpolated",
-          "start": 61.042,
+          "start": 55.158,
           "text": "Rise"
         },
         {
-          "end": 61.211,
+          "end": 55.937,
           "index": 14,
           "source": "interpolated",
-          "start": 61.127,
+          "start": 55.548,
           "text": "and"
         },
         {
-          "end": 61.296,
+          "end": 56.326,
           "index": 15,
           "source": "interpolated",
-          "start": 61.211,
+          "start": 55.937,
           "text": "shine"
         }
       ]
     },
     {
-      "end": 63.5,
+      "end": 66.448,
       "group": "p6",
       "id": "s10",
       "index": 10,
-      "start": 61.296,
+      "start": 56.326,
       "text": "[very very long pause before speaking; then mature adult voice, most emotional, strong, warm, radiant, deeply encouraging; hold a long breath after Rise] Rise... and shine.",
       "words": [
         {
-          "end": 61.381,
+          "end": 56.715,
           "index": 0,
           "source": "interpolated",
-          "start": 61.296,
+          "start": 56.326,
           "text": "very"
         },
         {
-          "end": 61.466,
+          "end": 57.105,
           "index": 1,
           "source": "interpolated",
-          "start": 61.381,
+          "start": 56.715,
           "text": "very"
         },
         {
-          "end": 61.55,
+          "end": 57.494,
           "index": 2,
           "source": "interpolated",
-          "start": 61.466,
+          "start": 57.105,
           "text": "long"
         },
         {
-          "end": 61.635,
+          "end": 57.883,
           "index": 3,
           "source": "interpolated",
-          "start": 61.55,
+          "start": 57.494,
           "text": "pause"
         },
         {
-          "end": 61.72,
+          "end": 58.273,
           "index": 4,
           "source": "interpolated",
-          "start": 61.635,
+          "start": 57.883,
           "text": "before"
         },
         {
-          "end": 61.805,
+          "end": 58.662,
           "index": 5,
           "source": "interpolated",
-          "start": 61.72,
+          "start": 58.273,
           "text": "speaking"
         },
         {
-          "end": 61.89,
+          "end": 59.051,
           "index": 6,
           "source": "interpolated",
-          "start": 61.805,
+          "start": 58.662,
           "text": "then"
         },
         {
-          "end": 61.974,
+          "end": 59.441,
           "index": 7,
           "source": "interpolated",
-          "start": 61.89,
+          "start": 59.051,
           "text": "mature"
         },
         {
-          "end": 62.059,
+          "end": 59.83,
           "index": 8,
           "source": "interpolated",
-          "start": 61.974,
+          "start": 59.441,
           "text": "adult"
         },
         {
-          "end": 62.144,
+          "end": 60.219,
           "index": 9,
           "source": "interpolated",
-          "start": 62.059,
+          "start": 59.83,
           "text": "voice"
         },
         {
-          "end": 62.229,
+          "end": 60.608,
           "index": 10,
           "source": "interpolated",
-          "start": 62.144,
+          "start": 60.219,
           "text": "most"
         },
         {
-          "end": 62.313,
+          "end": 60.998,
           "index": 11,
           "source": "interpolated",
-          "start": 62.229,
+          "start": 60.608,
           "text": "emotional"
         },
         {
-          "end": 62.398,
+          "end": 61.387,
           "index": 12,
           "source": "interpolated",
-          "start": 62.313,
+          "start": 60.998,
           "text": "strong"
         },
         {
-          "end": 62.483,
+          "end": 61.776,
           "index": 13,
           "source": "interpolated",
-          "start": 62.398,
+          "start": 61.387,
           "text": "warm"
         },
         {
-          "end": 62.568,
+          "end": 62.166,
           "index": 14,
           "source": "interpolated",
-          "start": 62.483,
+          "start": 61.776,
           "text": "radiant"
         },
         {
-          "end": 62.652,
+          "end": 62.555,
           "index": 15,
           "source": "interpolated",
-          "start": 62.568,
+          "start": 62.166,
           "text": "deeply"
         },
         {
-          "end": 62.737,
+          "end": 62.944,
           "index": 16,
           "source": "interpolated",
-          "start": 62.652,
+          "start": 62.555,
           "text": "encouraging"
         },
         {
-          "end": 62.822,
+          "end": 63.334,
           "index": 17,
           "source": "interpolated",
-          "start": 62.737,
+          "start": 62.944,
           "text": "hold"
         },
         {
-          "end": 62.907,
+          "end": 63.723,
           "index": 18,
           "source": "interpolated",
-          "start": 62.822,
+          "start": 63.334,
           "text": "a"
         },
         {
-          "end": 62.991,
+          "end": 64.112,
           "index": 19,
           "source": "interpolated",
-          "start": 62.907,
+          "start": 63.723,
           "text": "long"
         },
         {
-          "end": 63.076,
+          "end": 64.501,
           "index": 20,
           "source": "interpolated",
-          "start": 62.991,
+          "start": 64.112,
           "text": "breath"
         },
         {
-          "end": 63.161,
+          "end": 64.891,
           "index": 21,
           "source": "interpolated",
-          "start": 63.076,
+          "start": 64.501,
           "text": "after"
         },
         {
-          "end": 63.246,
+          "end": 65.28,
           "index": 22,
           "source": "interpolated",
-          "start": 63.161,
+          "start": 64.891,
           "text": "Rise"
         },
         {
-          "end": 63.33,
+          "end": 65.669,
           "index": 23,
           "source": "interpolated",
-          "start": 63.246,
+          "start": 65.28,
           "text": "Rise"
         },
         {
-          "end": 63.415,
+          "end": 66.059,
           "index": 24,
           "source": "interpolated",
-          "start": 63.33,
+          "start": 65.669,
           "text": "and"
         },
         {
-          "end": 63.5,
+          "end": 66.448,
           "index": 25,
           "source": "interpolated",
-          "start": 63.415,
+          "start": 66.059,
           "text": "shine"
         }
       ]
     }
   ],
-  "source": "radio_script+transcribe",
-  "timing": "transcribe-part-aligned-script",
-  "transcribe": {
-    "cache": "transcribe.verbose.cache.json",
-    "cached": false,
-    "exact_words": 97,
-    "match_ratio": 0.676,
-    "matched_words": 98,
-    "part_count": 8,
-    "parts": [
-      {
-        "end": 15.69,
-        "exact_words": 10,
-        "index": 0,
-        "positional_words": 0,
-        "ratio": 0.952,
-        "script_end_word": 13,
-        "script_start_word": 3,
-        "start": 11.85
-      },
-      {
-        "end": 24.85,
-        "exact_words": 14,
-        "index": 1,
-        "positional_words": 0,
-        "ratio": 0.903,
-        "script_end_word": 28,
-        "script_start_word": 13,
-        "start": 16.41
-      },
-      {
-        "end": 33.03,
-        "exact_words": 18,
-        "index": 2,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 46,
-        "script_start_word": 28,
-        "start": 25.47
-      },
-      {
-        "end": 38.29,
-        "exact_words": 9,
-        "index": 3,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 56,
-        "script_start_word": 47,
-        "start": 34.016
-      },
-      {
-        "end": 40.05,
-        "exact_words": 4,
-        "index": 4,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 60,
-        "script_start_word": 56,
-        "start": 38.55
-      },
-      {
-        "end": 47.84,
-        "exact_words": 15,
-        "index": 5,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 76,
-        "script_start_word": 61,
-        "start": 40.78
-      },
-      {
-        "end": 54.0,
-        "exact_words": 14,
-        "index": 6,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 90,
-        "script_start_word": 76,
-        "start": 47.84
-      },
-      {
-        "end": 63.5,
-        "exact_words": 13,
-        "index": 7,
-        "positional_words": 0,
-        "ratio": 0.897,
-        "script_end_word": 103,
-        "script_start_word": 90,
-        "start": 54.0
-      }
-    ],
-    "positional_words": 0,
-    "script_words": 145,
-    "source_bytes": 1111356,
-    "tool": "transcribe",
-    "word_timestamps": true
-  },
+  "source": "radio_script",
+  "timing": "word-count-estimate",
   "validation": {
     "monotonic": true,
     "segments": 11,
