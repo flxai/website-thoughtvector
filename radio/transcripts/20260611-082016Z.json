@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "end": 15.51,
+      "end": 15.582,
       "id": "p0",
       "index": 0,
       "section_index": 0,
@@ -10,7 +10,7 @@
         "s0",
         "s1"
       ],
-      "start": 10.09,
+      "start": 10.0,
       "text": "Good morning. Weather data is unavailable right now; we start with the news."
     },
     {
@@ -18,7 +18,7 @@
         "a3b1fba2b36",
         "aaa34c45b83"
       ],
-      "end": 49.05,
+      "end": 41.347,
       "id": "p1",
       "index": 1,
       "section_index": 1,
@@ -28,14 +28,14 @@
         "s3",
         "s4"
       ],
-      "start": 16.41,
+      "start": 15.582,
       "text": "Google DeepMind has released DiffusionGemma, an experimental open model designed for exceptionally fast text generation. The new model delivers up to four times faster inference on dedicated GPUs, which opens the door for speed-critical local AI applications. NVIDIA has already optimized DiffusionGemma to run even faster across its GeForce RTX GPUs, the RTX PRO platform, and DGX Spark infrastructure."
     },
     {
       "article_ids": [
         "adc9faf6384"
       ],
-      "end": 68.11,
+      "end": 60.67,
       "id": "p2",
       "index": 2,
       "section_index": 2,
@@ -45,14 +45,14 @@
         "s6",
         "s7"
       ],
-      "start": 49.47,
+      "start": 41.347,
       "text": "This push for faster local computing coincides with a shift in European diplomacy. Hungary's new prime minister, Peter Magyar, has announced a historic minority rights deal with Ukraine. The agreement ends years of tension and clears the way for Ukraine to begin EU accession negotiations."
     },
     {
       "article_ids": [
         "a7e46262630"
       ],
-      "end": 86.07,
+      "end": 77.846,
       "id": "p3",
       "index": 3,
       "section_index": 3,
@@ -62,7 +62,7 @@
         "s9",
         "s10"
       ],
-      "start": 68.75,
+      "start": 60.67,
       "text": "While diplomatic ties mend, economic friction remains high within the European Union. In the Bundestag, Friedrich Merz has warned against taking on new EU debts. Merz argues that the current coalition is failing to deliver on its promises to citizens."
     },
     {
@@ -70,7 +70,7 @@
         "af5d1372431",
         "a635d4304c1"
       ],
-      "end": 116.52,
+      "end": 105.328,
       "id": "p4",
       "index": 4,
       "section_index": 4,
@@ -81,11 +81,11 @@
         "s13",
         "s14"
       ],
-      "start": 86.07,
+      "start": 77.846,
       "text": "Broader market signals show similar volatility in energy and capital. Renewable identification numbers for biomass-based diesel and ethanol have doubled in value since the start of the year. These RIN prices are approaching record highs due to increased U.S. biofuel blending targets. This concentration of value mirrors a wider trend in American capitalism, where power is wielded by millionaires rather than billionaires."
     },
     {
-      "end": 120.58,
+      "end": 108.763,
       "id": "p5",
       "index": 5,
       "section_index": 5,
@@ -93,11 +93,11 @@
       "segments": [
         "s15"
       ],
-      "start": 117.7,
+      "start": 105.328,
       "text": "Weather data remains unavailable for the closing update."
     },
     {
-      "end": 123.46,
+      "end": 112.198,
       "id": "p6",
       "index": 6,
       "section_index": 6,
@@ -105,11 +105,11 @@
       "segments": [
         "s16"
       ],
-      "start": 121.04,
+      "start": 108.763,
       "text": "And that's it for your personal morning broadcast."
     },
     {
-      "end": 127.94,
+      "end": 119.069,
       "id": "p7",
       "index": 7,
       "section_index": 7,
@@ -117,11 +117,11 @@
       "segments": [
         "s17"
       ],
-      "start": 126.2,
+      "start": 112.198,
       "text": "[mature adult voice, intensely emotional, tender, radiant; hold a long breath after Rise] Rise... and shine."
     },
     {
-      "end": 128.44,
+      "end": 130.233,
       "id": "p8",
       "index": 8,
       "section_index": 7,
@@ -129,7 +129,7 @@
       "segments": [
         "s18"
       ],
-      "start": 127.94,
+      "start": 119.069,
       "text": "[very very long pause before speaking; then mature adult voice, most emotional, strong, warm, radiant, deeply encouraging; hold a long breath after Rise] Rise... and shine."
     }
   ],
@@ -140,112 +140,112 @@
   "run_id": "20260611-082016Z",
   "segments": [
     {
-      "end": 10.47,
+      "end": 10.859,
       "group": "p0",
       "id": "s0",
       "index": 0,
-      "start": 10.09,
+      "start": 10.0,
       "text": "Good morning.",
       "words": [
         {
-          "end": 10.17,
+          "end": 10.429,
           "index": 0,
-          "source": "exact",
-          "start": 10.09,
+          "source": "interpolated",
+          "start": 10.0,
           "text": "Good"
         },
         {
-          "end": 10.47,
+          "end": 10.859,
           "index": 1,
-          "source": "exact",
-          "start": 10.17,
+          "source": "interpolated",
+          "start": 10.429,
           "text": "morning"
         }
       ]
     },
     {
-      "end": 15.51,
+      "end": 15.582,
       "group": "p0",
       "id": "s1",
       "index": 1,
-      "start": 10.97,
+      "start": 10.859,
       "text": "Weather data is unavailable right now; we start with the news.",
       "words": [
         {
-          "end": 11.75,
+          "end": 11.288,
           "index": 0,
-          "source": "exact",
-          "start": 10.97,
+          "source": "interpolated",
+          "start": 10.859,
           "text": "Weather"
         },
         {
-          "end": 12.07,
+          "end": 11.718,
           "index": 1,
-          "source": "exact",
-          "start": 11.75,
+          "source": "interpolated",
+          "start": 11.288,
           "text": "data"
         },
         {
-          "end": 12.47,
+          "end": 12.147,
           "index": 2,
-          "source": "exact",
-          "start": 12.07,
+          "source": "interpolated",
+          "start": 11.718,
           "text": "is"
         },
         {
-          "end": 13.29,
+          "end": 12.576,
           "index": 3,
-          "source": "exact",
-          "start": 12.47,
+          "source": "interpolated",
+          "start": 12.147,
           "text": "unavailable"
         },
         {
-          "end": 13.61,
+          "end": 13.006,
           "index": 4,
-          "source": "exact",
-          "start": 13.29,
+          "source": "interpolated",
+          "start": 12.576,
           "text": "right"
         },
         {
-          "end": 13.91,
+          "end": 13.435,
           "index": 5,
-          "source": "exact",
-          "start": 13.61,
+          "source": "interpolated",
+          "start": 13.006,
           "text": "now"
         },
         {
-          "end": 14.49,
+          "end": 13.865,
           "index": 6,
-          "source": "exact",
-          "start": 14.07,
+          "source": "interpolated",
+          "start": 13.435,
           "text": "we"
         },
         {
-          "end": 14.75,
+          "end": 14.294,
           "index": 7,
-          "source": "exact",
-          "start": 14.49,
+          "source": "interpolated",
+          "start": 13.865,
           "text": "start"
         },
         {
-          "end": 15.05,
+          "end": 14.723,
           "index": 8,
-          "source": "exact",
-          "start": 14.75,
+          "source": "interpolated",
+          "start": 14.294,
           "text": "with"
         },
         {
-          "end": 15.21,
+          "end": 15.153,
           "index": 9,
-          "source": "exact",
-          "start": 15.05,
+          "source": "interpolated",
+          "start": 14.723,
           "text": "the"
         },
         {
-          "end": 15.51,
+          "end": 15.582,
           "index": 10,
-          "source": "exact",
-          "start": 15.21,
+          "source": "interpolated",
+          "start": 15.153,
           "text": "news"
         }
       ]
@@ -254,116 +254,116 @@
       "article_ids": [
         "a3b1fba2b36"
       ],
-      "end": 25.03,
+      "end": 22.023,
       "group": "p1",
       "id": "s2",
       "index": 2,
-      "start": 16.41,
+      "start": 15.582,
       "text": "Google DeepMind has released DiffusionGemma, an experimental open model designed for exceptionally fast text generation.",
       "words": [
         {
-          "end": 17.19,
+          "end": 16.012,
           "index": 0,
-          "source": "exact",
-          "start": 16.41,
+          "source": "interpolated",
+          "start": 15.582,
           "text": "Google"
         },
         {
-          "end": 17.97,
+          "end": 16.441,
           "index": 1,
-          "source": "exact",
-          "start": 17.19,
+          "source": "interpolated",
+          "start": 16.012,
           "text": "DeepMind"
         },
         {
-          "end": 18.13,
+          "end": 16.87,
           "index": 2,
-          "source": "exact",
-          "start": 17.97,
+          "source": "interpolated",
+          "start": 16.441,
           "text": "has"
         },
         {
-          "end": 18.51,
+          "end": 17.3,
           "index": 3,
-          "source": "exact",
-          "start": 18.13,
+          "source": "interpolated",
+          "start": 16.87,
           "text": "released"
         },
         {
-          "end": 19.474,
+          "end": 17.729,
           "index": 4,
-          "source": "estimated",
-          "start": 18.903,
+          "source": "interpolated",
+          "start": 17.3,
           "text": "DiffusionGemma"
         },
         {
-          "end": 20.39,
+          "end": 18.159,
           "index": 5,
-          "source": "exact",
-          "start": 20.09,
+          "source": "interpolated",
+          "start": 17.729,
           "text": "an"
         },
         {
-          "end": 21.05,
+          "end": 18.588,
           "index": 6,
-          "source": "exact",
-          "start": 20.39,
+          "source": "interpolated",
+          "start": 18.159,
           "text": "experimental"
         },
         {
-          "end": 21.57,
+          "end": 19.017,
           "index": 7,
-          "source": "exact",
-          "start": 21.05,
+          "source": "interpolated",
+          "start": 18.588,
           "text": "open"
         },
         {
-          "end": 21.95,
+          "end": 19.447,
           "index": 8,
-          "source": "exact",
-          "start": 21.57,
+          "source": "interpolated",
+          "start": 19.017,
           "text": "model"
         },
         {
-          "end": 22.47,
+          "end": 19.876,
           "index": 9,
-          "source": "exact",
-          "start": 21.95,
+          "source": "interpolated",
+          "start": 19.447,
           "text": "designed"
         },
         {
-          "end": 22.85,
+          "end": 20.306,
           "index": 10,
-          "source": "exact",
-          "start": 22.47,
+          "source": "interpolated",
+          "start": 19.876,
           "text": "for"
         },
         {
-          "end": 23.47,
+          "end": 20.735,
           "index": 11,
-          "source": "exact",
-          "start": 22.85,
+          "source": "interpolated",
+          "start": 20.306,
           "text": "exceptionally"
         },
         {
-          "end": 24.05,
+          "end": 21.165,
           "index": 12,
-          "source": "exact",
-          "start": 23.47,
+          "source": "interpolated",
+          "start": 20.735,
           "text": "fast"
         },
         {
-          "end": 24.57,
+          "end": 21.594,
           "index": 13,
-          "source": "exact",
-          "start": 24.05,
+          "source": "interpolated",
+          "start": 21.165,
           "text": "text"
         },
         {
-          "end": 25.03,
+          "end": 22.023,
           "index": 14,
-          "source": "exact",
-          "start": 24.57,
+          "source": "interpolated",
+          "start": 21.594,
           "text": "generation"
         }
       ]
@@ -372,172 +372,172 @@
       "article_ids": [
         "aaa34c45b83"
       ],
-      "end": 35.87,
+      "end": 31.9,
       "group": "p1",
       "id": "s3",
       "index": 3,
-      "start": 25.53,
+      "start": 22.023,
       "text": "The new model delivers up to four times faster inference on dedicated GPUs, which opens the door for speed-critical local AI applications.",
       "words": [
         {
-          "end": 25.97,
+          "end": 22.453,
           "index": 0,
-          "source": "exact",
-          "start": 25.53,
+          "source": "interpolated",
+          "start": 22.023,
           "text": "The"
         },
         {
-          "end": 26.17,
+          "end": 22.882,
           "index": 1,
-          "source": "exact",
-          "start": 25.97,
+          "source": "interpolated",
+          "start": 22.453,
           "text": "new"
         },
         {
-          "end": 26.45,
+          "end": 23.312,
           "index": 2,
-          "source": "exact",
-          "start": 26.17,
+          "source": "interpolated",
+          "start": 22.882,
           "text": "model"
         },
         {
-          "end": 26.85,
+          "end": 23.741,
           "index": 3,
-          "source": "exact",
-          "start": 26.45,
+          "source": "interpolated",
+          "start": 23.312,
           "text": "delivers"
         },
         {
-          "end": 27.17,
+          "end": 24.17,
           "index": 4,
-          "source": "exact",
-          "start": 26.85,
+          "source": "interpolated",
+          "start": 23.741,
           "text": "up"
         },
         {
-          "end": 27.31,
+          "end": 24.6,
           "index": 5,
-          "source": "exact",
-          "start": 27.17,
+          "source": "interpolated",
+          "start": 24.17,
           "text": "to"
         },
         {
-          "end": 27.71,
+          "end": 25.029,
           "index": 6,
-          "source": "exact",
-          "start": 27.31,
+          "source": "interpolated",
+          "start": 24.6,
           "text": "four"
         },
         {
-          "end": 28.03,
+          "end": 25.459,
           "index": 7,
-          "source": "exact",
-          "start": 27.71,
+          "source": "interpolated",
+          "start": 25.029,
           "text": "times"
         },
         {
-          "end": 28.53,
+          "end": 25.888,
           "index": 8,
-          "source": "exact",
-          "start": 28.03,
+          "source": "interpolated",
+          "start": 25.459,
           "text": "faster"
         },
         {
-          "end": 29.29,
+          "end": 26.317,
           "index": 9,
-          "source": "exact",
-          "start": 28.53,
+          "source": "interpolated",
+          "start": 25.888,
           "text": "inference"
         },
         {
-          "end": 29.87,
+          "end": 26.747,
           "index": 10,
-          "source": "exact",
-          "start": 29.29,
+          "source": "interpolated",
+          "start": 26.317,
           "text": "on"
         },
         {
-          "end": 30.29,
+          "end": 27.176,
           "index": 11,
-          "source": "exact",
-          "start": 29.87,
+          "source": "interpolated",
+          "start": 26.747,
           "text": "dedicated"
         },
         {
-          "end": 31.49,
+          "end": 27.606,
           "index": 12,
-          "source": "exact",
-          "start": 30.29,
+          "source": "interpolated",
+          "start": 27.176,
           "text": "GPUs"
         },
         {
-          "end": 32.35,
+          "end": 28.035,
           "index": 13,
-          "source": "exact",
-          "start": 31.51,
+          "source": "interpolated",
+          "start": 27.606,
           "text": "which"
         },
         {
-          "end": 32.65,
+          "end": 28.464,
           "index": 14,
-          "source": "exact",
-          "start": 32.35,
+          "source": "interpolated",
+          "start": 28.035,
           "text": "opens"
         },
         {
-          "end": 32.93,
+          "end": 28.894,
           "index": 15,
-          "source": "exact",
-          "start": 32.65,
+          "source": "interpolated",
+          "start": 28.464,
           "text": "the"
         },
         {
-          "end": 33.17,
+          "end": 29.323,
           "index": 16,
-          "source": "exact",
-          "start": 32.93,
+          "source": "interpolated",
+          "start": 28.894,
           "text": "door"
         },
         {
-          "end": 33.43,
+          "end": 29.753,
           "index": 17,
-          "source": "exact",
-          "start": 33.17,
+          "source": "interpolated",
+          "start": 29.323,
           "text": "for"
         },
         {
-          "end": 33.79,
+          "end": 30.182,
           "index": 18,
-          "source": "exact",
-          "start": 33.43,
+          "source": "interpolated",
+          "start": 29.753,
           "text": "speed"
         },
         {
-          "end": 34.35,
+          "end": 30.611,
           "index": 19,
-          "source": "exact",
-          "start": 33.79,
+          "source": "interpolated",
+          "start": 30.182,
           "text": "critical"
         },
         {
-          "end": 34.65,
+          "end": 31.041,
           "index": 20,
-          "source": "exact",
-          "start": 34.35,
+          "source": "interpolated",
+          "start": 30.611,
           "text": "local"
         },
         {
-          "end": 35.23,
+          "end": 31.47,
           "index": 21,
-          "source": "exact",
-          "start": 34.65,
+          "source": "interpolated",
+          "start": 31.041,
           "text": "AI"
         },
         {
-          "end": 35.87,
+          "end": 31.9,
           "index": 22,
-          "source": "exact",
-          "start": 35.23,
+          "source": "interpolated",
+          "start": 31.47,
           "text": "applications"
         }
       ]
@@ -546,266 +546,266 @@
       "article_ids": [
         "a3b1fba2b36"
       ],
-      "end": 49.05,
+      "end": 41.347,
       "group": "p1",
       "id": "s4",
       "index": 4,
-      "start": 36.61,
+      "start": 31.9,
       "text": "NVIDIA has already optimized DiffusionGemma to run even faster across its GeForce RTX GPUs, the RTX PRO platform, and DGX Spark infrastructure.",
       "words": [
         {
-          "end": 37.39,
+          "end": 32.329,
           "index": 0,
-          "source": "exact",
-          "start": 36.61,
+          "source": "interpolated",
+          "start": 31.9,
           "text": "NVIDIA"
         },
         {
-          "end": 37.55,
+          "end": 32.758,
           "index": 1,
-          "source": "exact",
-          "start": 37.39,
+          "source": "interpolated",
+          "start": 32.329,
           "text": "has"
         },
         {
-          "end": 37.85,
+          "end": 33.188,
           "index": 2,
-          "source": "exact",
-          "start": 37.55,
+          "source": "interpolated",
+          "start": 32.758,
           "text": "already"
         },
         {
-          "end": 38.1,
+          "end": 33.617,
           "index": 3,
           "source": "interpolated",
-          "start": 37.85,
+          "start": 33.188,
           "text": "optimized"
         },
         {
-          "end": 38.35,
+          "end": 34.047,
           "index": 4,
           "source": "interpolated",
-          "start": 38.1,
+          "start": 33.617,
           "text": "DiffusionGemma"
         },
         {
-          "end": 38.77,
+          "end": 34.476,
           "index": 5,
-          "source": "exact",
-          "start": 38.35,
+          "source": "interpolated",
+          "start": 34.047,
           "text": "to"
         },
         {
-          "end": 39.89,
+          "end": 34.905,
           "index": 6,
-          "source": "exact",
-          "start": 38.77,
+          "source": "interpolated",
+          "start": 34.476,
           "text": "run"
         },
         {
-          "end": 40.21,
+          "end": 35.335,
           "index": 7,
-          "source": "exact",
-          "start": 39.89,
+          "source": "interpolated",
+          "start": 34.905,
           "text": "even"
         },
         {
-          "end": 40.81,
+          "end": 35.764,
           "index": 8,
-          "source": "exact",
-          "start": 40.21,
+          "source": "interpolated",
+          "start": 35.335,
           "text": "faster"
         },
         {
-          "end": 41.21,
+          "end": 36.194,
           "index": 9,
-          "source": "exact",
-          "start": 40.81,
+          "source": "interpolated",
+          "start": 35.764,
           "text": "across"
         },
         {
-          "end": 41.63,
+          "end": 36.623,
           "index": 10,
-          "source": "exact",
-          "start": 41.21,
+          "source": "interpolated",
+          "start": 36.194,
           "text": "its"
         },
         {
-          "end": 42.35,
+          "end": 37.052,
           "index": 11,
-          "source": "exact",
-          "start": 41.63,
+          "source": "interpolated",
+          "start": 36.623,
           "text": "GeForce"
         },
         {
-          "end": 42.69,
+          "end": 37.482,
           "index": 12,
-          "source": "exact",
-          "start": 42.35,
+          "source": "interpolated",
+          "start": 37.052,
           "text": "RTX"
         },
         {
-          "end": 44.01,
+          "end": 37.911,
           "index": 13,
-          "source": "exact",
-          "start": 42.69,
+          "source": "interpolated",
+          "start": 37.482,
           "text": "GPUs"
         },
         {
-          "end": 44.69,
+          "end": 38.341,
           "index": 14,
-          "source": "exact",
-          "start": 44.03,
+          "source": "interpolated",
+          "start": 37.911,
           "text": "the"
         },
         {
-          "end": 45.09,
+          "end": 38.77,
           "index": 15,
-          "source": "exact",
-          "start": 44.69,
+          "source": "interpolated",
+          "start": 38.341,
           "text": "RTX"
         },
         {
-          "end": 45.55,
+          "end": 39.2,
           "index": 16,
-          "source": "exact",
-          "start": 45.09,
+          "source": "interpolated",
+          "start": 38.77,
           "text": "PRO"
         },
         {
-          "end": 46.19,
+          "end": 39.629,
           "index": 17,
-          "source": "exact",
-          "start": 45.55,
+          "source": "interpolated",
+          "start": 39.2,
           "text": "platform"
         },
         {
-          "end": 47.11,
+          "end": 40.058,
           "index": 18,
-          "source": "exact",
-          "start": 46.19,
+          "source": "interpolated",
+          "start": 39.629,
           "text": "and"
         },
         {
-          "end": 47.95,
+          "end": 40.488,
           "index": 19,
-          "source": "exact",
-          "start": 47.11,
+          "source": "interpolated",
+          "start": 40.058,
           "text": "DGX"
         },
         {
-          "end": 48.25,
+          "end": 40.917,
           "index": 20,
-          "source": "exact",
-          "start": 47.95,
+          "source": "interpolated",
+          "start": 40.488,
           "text": "Spark"
         },
         {
-          "end": 49.05,
+          "end": 41.347,
           "index": 21,
-          "source": "exact",
-          "start": 48.25,
+          "source": "interpolated",
+          "start": 40.917,
           "text": "infrastructure"
         }
       ]
     },
     {
-      "end": 54.99,
+      "end": 46.929,
       "group": "p2",
       "id": "s5",
       "index": 5,
-      "start": 49.47,
+      "start": 41.347,
       "text": "This push for faster local computing coincides with a shift in European diplomacy.",
       "words": [
         {
-          "end": 49.75,
+          "end": 41.776,
           "index": 0,
-          "source": "exact",
-          "start": 49.47,
+          "source": "interpolated",
+          "start": 41.347,
           "text": "This"
         },
         {
-          "end": 50.09,
+          "end": 42.205,
           "index": 1,
-          "source": "exact",
-          "start": 49.75,
+          "source": "interpolated",
+          "start": 41.776,
           "text": "push"
         },
         {
-          "end": 50.37,
+          "end": 42.635,
           "index": 2,
-          "source": "exact",
-          "start": 50.09,
+          "source": "interpolated",
+          "start": 42.205,
           "text": "for"
         },
         {
-          "end": 50.83,
+          "end": 43.064,
           "index": 3,
-          "source": "exact",
-          "start": 50.37,
+          "source": "interpolated",
+          "start": 42.635,
           "text": "faster"
         },
         {
-          "end": 51.19,
+          "end": 43.494,
           "index": 4,
-          "source": "exact",
-          "start": 50.83,
+          "source": "interpolated",
+          "start": 43.064,
           "text": "local"
         },
         {
-          "end": 51.89,
+          "end": 43.923,
           "index": 5,
-          "source": "exact",
-          "start": 51.19,
+          "source": "interpolated",
+          "start": 43.494,
           "text": "computing"
         },
         {
-          "end": 52.87,
+          "end": 44.352,
           "index": 6,
-          "source": "exact",
-          "start": 51.89,
+          "source": "interpolated",
+          "start": 43.923,
           "text": "coincides"
         },
         {
-          "end": 53.05,
+          "end": 44.782,
           "index": 7,
-          "source": "exact",
-          "start": 52.87,
+          "source": "interpolated",
+          "start": 44.352,
           "text": "with"
         },
         {
-          "end": 53.15,
+          "end": 45.211,
           "index": 8,
-          "source": "exact",
-          "start": 53.05,
+          "source": "interpolated",
+          "start": 44.782,
           "text": "a"
         },
         {
-          "end": 53.49,
+          "end": 45.641,
           "index": 9,
-          "source": "exact",
-          "start": 53.15,
+          "source": "interpolated",
+          "start": 45.211,
           "text": "shift"
         },
         {
-          "end": 53.83,
+          "end": 46.07,
           "index": 10,
-          "source": "exact",
-          "start": 53.49,
+          "source": "interpolated",
+          "start": 45.641,
           "text": "in"
         },
         {
-          "end": 54.19,
+          "end": 46.499,
           "index": 11,
-          "source": "exact",
-          "start": 53.83,
+          "source": "interpolated",
+          "start": 46.07,
           "text": "European"
         },
         {
-          "end": 54.99,
+          "end": 46.929,
           "index": 12,
-          "source": "exact",
-          "start": 54.19,
+          "source": "interpolated",
+          "start": 46.499,
           "text": "diplomacy"
         }
       ]
@@ -814,116 +814,116 @@
       "article_ids": [
         "adc9faf6384"
       ],
-      "end": 61.67,
+      "end": 53.37,
       "group": "p2",
       "id": "s6",
       "index": 6,
-      "start": 55.51,
+      "start": 46.929,
       "text": "Hungary's new prime minister, Peter Magyar, has announced a historic minority rights deal with Ukraine.",
       "words": [
         {
-          "end": 56.13,
+          "end": 47.358,
           "index": 0,
-          "source": "exact",
-          "start": 55.51,
+          "source": "interpolated",
+          "start": 46.929,
           "text": "Hungary's"
         },
         {
-          "end": 56.33,
+          "end": 47.788,
           "index": 1,
-          "source": "exact",
-          "start": 56.13,
+          "source": "interpolated",
+          "start": 47.358,
           "text": "new"
         },
         {
-          "end": 56.65,
+          "end": 48.217,
           "index": 2,
-          "source": "exact",
-          "start": 56.33,
+          "source": "interpolated",
+          "start": 47.788,
           "text": "prime"
         },
         {
-          "end": 57.05,
+          "end": 48.646,
           "index": 3,
-          "source": "exact",
-          "start": 56.65,
+          "source": "interpolated",
+          "start": 48.217,
           "text": "minister"
         },
         {
-          "end": 57.55,
+          "end": 49.076,
           "index": 4,
-          "source": "exact",
-          "start": 57.23,
+          "source": "interpolated",
+          "start": 48.646,
           "text": "Peter"
         },
         {
-          "end": 58.07,
+          "end": 49.505,
           "index": 5,
-          "source": "exact",
-          "start": 57.55,
+          "source": "interpolated",
+          "start": 49.076,
           "text": "Magyar"
         },
         {
-          "end": 58.73,
+          "end": 49.935,
           "index": 6,
-          "source": "exact",
-          "start": 58.23,
+          "source": "interpolated",
+          "start": 49.505,
           "text": "has"
         },
         {
-          "end": 59.17,
+          "end": 50.364,
           "index": 7,
-          "source": "exact",
-          "start": 58.73,
+          "source": "interpolated",
+          "start": 49.935,
           "text": "announced"
         },
         {
-          "end": 59.35,
+          "end": 50.793,
           "index": 8,
-          "source": "exact",
-          "start": 59.17,
+          "source": "interpolated",
+          "start": 50.364,
           "text": "a"
         },
         {
-          "end": 59.63,
+          "end": 51.223,
           "index": 9,
-          "source": "exact",
-          "start": 59.35,
+          "source": "interpolated",
+          "start": 50.793,
           "text": "historic"
         },
         {
-          "end": 60.13,
+          "end": 51.652,
           "index": 10,
-          "source": "exact",
-          "start": 59.63,
+          "source": "interpolated",
+          "start": 51.223,
           "text": "minority"
         },
         {
-          "end": 60.71,
+          "end": 52.082,
           "index": 11,
-          "source": "exact",
-          "start": 60.13,
+          "source": "interpolated",
+          "start": 51.652,
           "text": "rights"
         },
         {
-          "end": 61.05,
+          "end": 52.511,
           "index": 12,
-          "source": "exact",
-          "start": 60.71,
+          "source": "interpolated",
+          "start": 52.082,
           "text": "deal"
         },
         {
-          "end": 61.29,
+          "end": 52.94,
           "index": 13,
-          "source": "exact",
-          "start": 61.05,
+          "source": "interpolated",
+          "start": 52.511,
           "text": "with"
         },
         {
-          "end": 61.67,
+          "end": 53.37,
           "index": 14,
-          "source": "exact",
-          "start": 61.29,
+          "source": "interpolated",
+          "start": 52.94,
           "text": "Ukraine"
         }
       ]
@@ -932,130 +932,130 @@
       "article_ids": [
         "adc9faf6384"
       ],
-      "end": 68.11,
+      "end": 60.67,
       "group": "p2",
       "id": "s7",
       "index": 7,
-      "start": 64.65,
+      "start": 53.37,
       "text": "The agreement ends years of tension and clears the way for Ukraine to begin EU accession negotiations.",
       "words": [
         {
-          "end": 65.227,
+          "end": 53.799,
           "index": 0,
           "source": "interpolated",
-          "start": 64.65,
+          "start": 53.37,
           "text": "The"
         },
         {
-          "end": 65.803,
+          "end": 54.229,
           "index": 1,
           "source": "interpolated",
-          "start": 65.227,
+          "start": 53.799,
           "text": "agreement"
         },
         {
-          "end": 66.38,
+          "end": 54.658,
           "index": 2,
           "source": "interpolated",
-          "start": 65.803,
+          "start": 54.229,
           "text": "ends"
         },
         {
-          "end": 66.957,
+          "end": 55.087,
           "index": 3,
           "source": "interpolated",
-          "start": 66.38,
+          "start": 54.658,
           "text": "years"
         },
         {
-          "end": 67.533,
+          "end": 55.517,
           "index": 4,
           "source": "interpolated",
-          "start": 66.957,
+          "start": 55.087,
           "text": "of"
         },
         {
-          "end": 68.11,
+          "end": 55.946,
           "index": 5,
           "source": "interpolated",
-          "start": 67.533,
+          "start": 55.517,
           "text": "tension"
         },
         {
-          "end": 68.12,
+          "end": 56.376,
           "index": 6,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 55.946,
           "text": "and"
         },
         {
-          "end": 68.12,
+          "end": 56.805,
           "index": 7,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 56.376,
           "text": "clears"
         },
         {
-          "end": 68.12,
+          "end": 57.235,
           "index": 8,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 56.805,
           "text": "the"
         },
         {
-          "end": 68.12,
+          "end": 57.664,
           "index": 9,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 57.235,
           "text": "way"
         },
         {
-          "end": 68.12,
+          "end": 58.093,
           "index": 10,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 57.664,
           "text": "for"
         },
         {
-          "end": 68.12,
+          "end": 58.523,
           "index": 11,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 58.093,
           "text": "Ukraine"
         },
         {
-          "end": 68.12,
+          "end": 58.952,
           "index": 12,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 58.523,
           "text": "to"
         },
         {
-          "end": 68.12,
+          "end": 59.382,
           "index": 13,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 58.952,
           "text": "begin"
         },
         {
-          "end": 68.12,
+          "end": 59.811,
           "index": 14,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 59.382,
           "text": "EU"
         },
         {
-          "end": 68.12,
+          "end": 60.24,
           "index": 15,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 59.811,
           "text": "accession"
         },
         {
-          "end": 68.12,
+          "end": 60.67,
           "index": 16,
-          "source": "exact",
-          "start": 68.11,
+          "source": "interpolated",
+          "start": 60.24,
           "text": "negotiations"
         }
       ]
@@ -1064,95 +1064,95 @@
       "article_ids": [
         "a7e46262630"
       ],
-      "end": 74.79,
+      "end": 65.823,
       "group": "p3",
       "id": "s8",
       "index": 8,
-      "start": 68.75,
+      "start": 60.67,
       "text": "While diplomatic ties mend, economic friction remains high within the European Union.",
       "words": [
         {
-          "end": 69.29,
+          "end": 61.099,
           "index": 0,
-          "source": "exact",
-          "start": 68.75,
+          "source": "interpolated",
+          "start": 60.67,
           "text": "While"
         },
         {
-          "end": 69.85,
+          "end": 61.529,
           "index": 1,
-          "source": "exact",
-          "start": 69.29,
+          "source": "interpolated",
+          "start": 61.099,
           "text": "diplomatic"
         },
         {
-          "end": 70.31,
+          "end": 61.958,
           "index": 2,
-          "source": "exact",
-          "start": 69.85,
+          "source": "interpolated",
+          "start": 61.529,
           "text": "ties"
         },
         {
-          "end": 70.69,
+          "end": 62.387,
           "index": 3,
-          "source": "exact",
-          "start": 70.31,
+          "source": "interpolated",
+          "start": 61.958,
           "text": "mend"
         },
         {
-          "end": 71.81,
+          "end": 62.817,
           "index": 4,
-          "source": "exact",
-          "start": 70.99,
+          "source": "interpolated",
+          "start": 62.387,
           "text": "economic"
         },
         {
-          "end": 72.47,
+          "end": 63.246,
           "index": 5,
-          "source": "exact",
-          "start": 71.81,
+          "source": "interpolated",
+          "start": 62.817,
           "text": "friction"
         },
         {
-          "end": 72.95,
+          "end": 63.676,
           "index": 6,
-          "source": "exact",
-          "start": 72.47,
+          "source": "interpolated",
+          "start": 63.246,
           "text": "remains"
         },
         {
-          "end": 73.35,
+          "end": 64.105,
           "index": 7,
-          "source": "exact",
-          "start": 72.95,
+          "source": "interpolated",
+          "start": 63.676,
           "text": "high"
         },
         {
-          "end": 73.65,
+          "end": 64.534,
           "index": 8,
-          "source": "exact",
-          "start": 73.35,
+          "source": "interpolated",
+          "start": 64.105,
           "text": "within"
         },
         {
-          "end": 73.89,
+          "end": 64.964,
           "index": 9,
-          "source": "exact",
-          "start": 73.65,
+          "source": "interpolated",
+          "start": 64.534,
           "text": "the"
         },
         {
-          "end": 74.15,
+          "end": 65.393,
           "index": 10,
-          "source": "exact",
-          "start": 73.89,
+          "source": "interpolated",
+          "start": 64.964,
           "text": "European"
         },
         {
-          "end": 74.79,
+          "end": 65.823,
           "index": 11,
-          "source": "exact",
-          "start": 74.15,
+          "source": "interpolated",
+          "start": 65.393,
           "text": "Union"
         }
       ]
@@ -1161,102 +1161,102 @@
       "article_ids": [
         "a7e46262630"
       ],
-      "end": 80.59,
+      "end": 71.405,
       "group": "p3",
       "id": "s9",
       "index": 9,
-      "start": 76.07,
+      "start": 65.823,
       "text": "In the Bundestag, Friedrich Merz has warned against taking on new EU debts.",
       "words": [
         {
-          "end": 80.59,
+          "end": 66.252,
           "index": 0,
           "source": "interpolated",
-          "start": 76.07,
+          "start": 65.823,
           "text": "In"
         },
         {
-          "end": 80.6,
+          "end": 66.681,
           "index": 1,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 66.252,
           "text": "the"
         },
         {
-          "end": 80.6,
+          "end": 67.111,
           "index": 2,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 66.681,
           "text": "Bundestag"
         },
         {
-          "end": 80.6,
+          "end": 67.54,
           "index": 3,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 67.111,
           "text": "Friedrich"
         },
         {
-          "end": 80.6,
+          "end": 67.97,
           "index": 4,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 67.54,
           "text": "Merz"
         },
         {
-          "end": 80.6,
+          "end": 68.399,
           "index": 5,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 67.97,
           "text": "has"
         },
         {
-          "end": 80.6,
+          "end": 68.828,
           "index": 6,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 68.399,
           "text": "warned"
         },
         {
-          "end": 80.6,
+          "end": 69.258,
           "index": 7,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 68.828,
           "text": "against"
         },
         {
-          "end": 80.6,
+          "end": 69.687,
           "index": 8,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 69.258,
           "text": "taking"
         },
         {
-          "end": 80.6,
+          "end": 70.117,
           "index": 9,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 69.687,
           "text": "on"
         },
         {
-          "end": 80.6,
+          "end": 70.546,
           "index": 10,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 70.117,
           "text": "new"
         },
         {
-          "end": 80.6,
+          "end": 70.975,
           "index": 11,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 70.546,
           "text": "EU"
         },
         {
-          "end": 80.6,
+          "end": 71.405,
           "index": 12,
-          "source": "exact",
-          "start": 80.59,
+          "source": "interpolated",
+          "start": 70.975,
           "text": "debts"
         }
       ]
@@ -1265,196 +1265,196 @@
       "article_ids": [
         "a7e46262630"
       ],
-      "end": 86.07,
+      "end": 77.846,
       "group": "p3",
       "id": "s10",
       "index": 10,
-      "start": 80.91,
+      "start": 71.405,
       "text": "Merz argues that the current coalition is failing to deliver on its promises to citizens.",
       "words": [
         {
-          "end": 81.39,
+          "end": 71.834,
           "index": 0,
-          "source": "exact",
-          "start": 80.91,
+          "source": "interpolated",
+          "start": 71.405,
           "text": "Merz"
         },
         {
-          "end": 81.89,
+          "end": 72.264,
           "index": 1,
-          "source": "exact",
-          "start": 81.39,
+          "source": "interpolated",
+          "start": 71.834,
           "text": "argues"
         },
         {
-          "end": 82.13,
+          "end": 72.693,
           "index": 2,
-          "source": "exact",
-          "start": 81.89,
+          "source": "interpolated",
+          "start": 72.264,
           "text": "that"
         },
         {
-          "end": 82.27,
+          "end": 73.122,
           "index": 3,
-          "source": "exact",
-          "start": 82.13,
+          "source": "interpolated",
+          "start": 72.693,
           "text": "the"
         },
         {
-          "end": 82.51,
+          "end": 73.552,
           "index": 4,
-          "source": "exact",
-          "start": 82.27,
+          "source": "interpolated",
+          "start": 73.122,
           "text": "current"
         },
         {
-          "end": 83.07,
+          "end": 73.981,
           "index": 5,
-          "source": "exact",
-          "start": 82.51,
+          "source": "interpolated",
+          "start": 73.552,
           "text": "coalition"
         },
         {
-          "end": 83.51,
+          "end": 74.411,
           "index": 6,
-          "source": "exact",
-          "start": 83.07,
+          "source": "interpolated",
+          "start": 73.981,
           "text": "is"
         },
         {
-          "end": 83.93,
+          "end": 74.84,
           "index": 7,
-          "source": "exact",
-          "start": 83.51,
+          "source": "interpolated",
+          "start": 74.411,
           "text": "failing"
         },
         {
-          "end": 84.15,
+          "end": 75.269,
           "index": 8,
-          "source": "exact",
-          "start": 83.93,
+          "source": "interpolated",
+          "start": 74.84,
           "text": "to"
         },
         {
-          "end": 84.51,
+          "end": 75.699,
           "index": 9,
-          "source": "exact",
-          "start": 84.15,
+          "source": "interpolated",
+          "start": 75.269,
           "text": "deliver"
         },
         {
-          "end": 84.73,
+          "end": 76.128,
           "index": 10,
-          "source": "exact",
-          "start": 84.51,
+          "source": "interpolated",
+          "start": 75.699,
           "text": "on"
         },
         {
-          "end": 84.87,
+          "end": 76.558,
           "index": 11,
-          "source": "exact",
-          "start": 84.73,
+          "source": "interpolated",
+          "start": 76.128,
           "text": "its"
         },
         {
-          "end": 85.39,
+          "end": 76.987,
           "index": 12,
-          "source": "exact",
-          "start": 84.87,
+          "source": "interpolated",
+          "start": 76.558,
           "text": "promises"
         },
         {
-          "end": 85.67,
+          "end": 77.417,
           "index": 13,
-          "source": "exact",
-          "start": 85.39,
+          "source": "interpolated",
+          "start": 76.987,
           "text": "to"
         },
         {
-          "end": 86.07,
+          "end": 77.846,
           "index": 14,
-          "source": "exact",
-          "start": 85.67,
+          "source": "interpolated",
+          "start": 77.417,
           "text": "citizens"
         }
       ]
     },
     {
-      "end": 92.12,
+      "end": 82.14,
       "group": "p4",
       "id": "s11",
       "index": 11,
-      "start": 86.07,
+      "start": 77.846,
       "text": "Broader market signals show similar volatility in energy and capital.",
       "words": [
         {
-          "end": 86.675,
+          "end": 78.275,
           "index": 0,
           "source": "interpolated",
-          "start": 86.07,
+          "start": 77.846,
           "text": "Broader"
         },
         {
-          "end": 87.28,
+          "end": 78.705,
           "index": 1,
           "source": "interpolated",
-          "start": 86.675,
+          "start": 78.275,
           "text": "market"
         },
         {
-          "end": 87.885,
+          "end": 79.134,
           "index": 2,
           "source": "interpolated",
-          "start": 87.28,
+          "start": 78.705,
           "text": "signals"
         },
         {
-          "end": 88.49,
+          "end": 79.564,
           "index": 3,
           "source": "interpolated",
-          "start": 87.885,
+          "start": 79.134,
           "text": "show"
         },
         {
-          "end": 89.095,
+          "end": 79.993,
           "index": 4,
           "source": "interpolated",
-          "start": 88.49,
+          "start": 79.564,
           "text": "similar"
         },
         {
-          "end": 89.7,
+          "end": 80.422,
           "index": 5,
           "source": "interpolated",
-          "start": 89.095,
+          "start": 79.993,
           "text": "volatility"
         },
         {
-          "end": 90.305,
+          "end": 80.852,
           "index": 6,
           "source": "interpolated",
-          "start": 89.7,
+          "start": 80.422,
           "text": "in"
         },
         {
-          "end": 90.91,
+          "end": 81.281,
           "index": 7,
           "source": "interpolated",
-          "start": 90.305,
+          "start": 80.852,
           "text": "energy"
         },
         {
-          "end": 91.515,
+          "end": 81.711,
           "index": 8,
           "source": "interpolated",
-          "start": 90.91,
+          "start": 81.281,
           "text": "and"
         },
         {
-          "end": 92.12,
+          "end": 82.14,
           "index": 9,
           "source": "interpolated",
-          "start": 91.515,
+          "start": 81.711,
           "text": "capital"
         }
       ]
@@ -1463,144 +1463,144 @@
       "article_ids": [
         "af5d1372431"
       ],
-      "end": 99.54,
+      "end": 90.299,
       "group": "p4",
       "id": "s12",
       "index": 12,
-      "start": 92.12,
+      "start": 82.14,
       "text": "Renewable identification numbers for biomass-based diesel and ethanol have doubled in value since the start of the year.",
       "words": [
         {
-          "end": 92.86,
+          "end": 82.569,
           "index": 0,
-          "source": "exact",
-          "start": 92.12,
+          "source": "interpolated",
+          "start": 82.14,
           "text": "Renewable"
         },
         {
-          "end": 93.3,
+          "end": 82.999,
           "index": 1,
-          "source": "exact",
-          "start": 92.86,
+          "source": "interpolated",
+          "start": 82.569,
           "text": "identification"
         },
         {
-          "end": 94.1,
+          "end": 83.428,
           "index": 2,
-          "source": "exact",
-          "start": 93.3,
+          "source": "interpolated",
+          "start": 82.999,
           "text": "numbers"
         },
         {
-          "end": 94.48,
+          "end": 83.858,
           "index": 3,
-          "source": "exact",
-          "start": 94.1,
+          "source": "interpolated",
+          "start": 83.428,
           "text": "for"
         },
         {
-          "end": 94.98,
+          "end": 84.287,
           "index": 4,
-          "source": "exact",
-          "start": 94.48,
+          "source": "interpolated",
+          "start": 83.858,
           "text": "biomass"
         },
         {
-          "end": 95.48,
+          "end": 84.716,
           "index": 5,
-          "source": "exact",
-          "start": 94.98,
+          "source": "interpolated",
+          "start": 84.287,
           "text": "based"
         },
         {
-          "end": 96.0,
+          "end": 85.146,
           "index": 6,
-          "source": "exact",
-          "start": 95.48,
+          "source": "interpolated",
+          "start": 84.716,
           "text": "diesel"
         },
         {
-          "end": 96.32,
+          "end": 85.575,
           "index": 7,
-          "source": "exact",
-          "start": 96.0,
+          "source": "interpolated",
+          "start": 85.146,
           "text": "and"
         },
         {
-          "end": 96.72,
+          "end": 86.005,
           "index": 8,
-          "source": "exact",
-          "start": 96.32,
+          "source": "interpolated",
+          "start": 85.575,
           "text": "ethanol"
         },
         {
-          "end": 97.08,
+          "end": 86.434,
           "index": 9,
-          "source": "exact",
-          "start": 96.72,
+          "source": "interpolated",
+          "start": 86.005,
           "text": "have"
         },
         {
-          "end": 97.5,
+          "end": 86.863,
           "index": 10,
-          "source": "exact",
-          "start": 97.08,
+          "source": "interpolated",
+          "start": 86.434,
           "text": "doubled"
         },
         {
-          "end": 97.7,
+          "end": 87.293,
           "index": 11,
-          "source": "exact",
-          "start": 97.5,
+          "source": "interpolated",
+          "start": 86.863,
           "text": "in"
         },
         {
-          "end": 98.04,
+          "end": 87.722,
           "index": 12,
-          "source": "exact",
-          "start": 97.7,
+          "source": "interpolated",
+          "start": 87.293,
           "text": "value"
         },
         {
-          "end": 98.38,
+          "end": 88.152,
           "index": 13,
-          "source": "exact",
-          "start": 98.04,
+          "source": "interpolated",
+          "start": 87.722,
           "text": "since"
         },
         {
-          "end": 98.62,
+          "end": 88.581,
           "index": 14,
-          "source": "exact",
-          "start": 98.38,
+          "source": "interpolated",
+          "start": 88.152,
           "text": "the"
         },
         {
-          "end": 98.94,
+          "end": 89.01,
           "index": 15,
-          "source": "exact",
-          "start": 98.62,
+          "source": "interpolated",
+          "start": 88.581,
           "text": "start"
         },
         {
-          "end": 99.12,
+          "end": 89.44,
           "index": 16,
-          "source": "exact",
-          "start": 98.94,
+          "source": "interpolated",
+          "start": 89.01,
           "text": "of"
         },
         {
-          "end": 99.2,
+          "end": 89.869,
           "index": 17,
-          "source": "exact",
-          "start": 99.12,
+          "source": "interpolated",
+          "start": 89.44,
           "text": "the"
         },
         {
-          "end": 99.54,
+          "end": 90.299,
           "index": 18,
-          "source": "exact",
-          "start": 99.2,
+          "source": "interpolated",
+          "start": 89.869,
           "text": "year"
         }
       ]
@@ -1609,116 +1609,116 @@
       "article_ids": [
         "af5d1372431"
       ],
-      "end": 105.98,
+      "end": 96.74,
       "group": "p4",
       "id": "s13",
       "index": 13,
-      "start": 99.66,
+      "start": 90.299,
       "text": "These RIN prices are approaching record highs due to increased U.S. biofuel blending targets.",
       "words": [
         {
-          "end": 99.98,
+          "end": 90.728,
           "index": 0,
-          "source": "exact",
-          "start": 99.66,
+          "source": "interpolated",
+          "start": 90.299,
           "text": "These"
         },
         {
-          "end": 100.3,
+          "end": 91.157,
           "index": 1,
-          "source": "positional",
-          "start": 99.98,
+          "source": "interpolated",
+          "start": 90.728,
           "text": "RIN"
         },
         {
-          "end": 100.76,
+          "end": 91.587,
           "index": 2,
-          "source": "exact",
-          "start": 100.3,
+          "source": "interpolated",
+          "start": 91.157,
           "text": "prices"
         },
         {
-          "end": 101.14,
+          "end": 92.016,
           "index": 3,
-          "source": "exact",
-          "start": 100.76,
+          "source": "interpolated",
+          "start": 91.587,
           "text": "are"
         },
         {
-          "end": 101.5,
+          "end": 92.446,
           "index": 4,
-          "source": "exact",
-          "start": 101.14,
+          "source": "interpolated",
+          "start": 92.016,
           "text": "approaching"
         },
         {
-          "end": 101.98,
+          "end": 92.875,
           "index": 5,
-          "source": "exact",
-          "start": 101.5,
+          "source": "interpolated",
+          "start": 92.446,
           "text": "record"
         },
         {
-          "end": 102.34,
+          "end": 93.304,
           "index": 6,
-          "source": "exact",
-          "start": 101.98,
+          "source": "interpolated",
+          "start": 92.875,
           "text": "highs"
         },
         {
-          "end": 102.7,
+          "end": 93.734,
           "index": 7,
-          "source": "exact",
-          "start": 102.34,
+          "source": "interpolated",
+          "start": 93.304,
           "text": "due"
         },
         {
-          "end": 102.88,
+          "end": 94.163,
           "index": 8,
-          "source": "exact",
-          "start": 102.7,
+          "source": "interpolated",
+          "start": 93.734,
           "text": "to"
         },
         {
-          "end": 103.42,
+          "end": 94.593,
           "index": 9,
-          "source": "exact",
-          "start": 102.88,
+          "source": "interpolated",
+          "start": 94.163,
           "text": "increased"
         },
         {
-          "end": 103.74,
+          "end": 95.022,
           "index": 10,
-          "source": "exact",
-          "start": 103.42,
+          "source": "interpolated",
+          "start": 94.593,
           "text": "U"
         },
         {
-          "end": 104.1,
+          "end": 95.452,
           "index": 11,
-          "source": "exact",
-          "start": 103.74,
+          "source": "interpolated",
+          "start": 95.022,
           "text": "S"
         },
         {
-          "end": 105.14,
+          "end": 95.881,
           "index": 12,
-          "source": "exact",
-          "start": 104.52,
+          "source": "interpolated",
+          "start": 95.452,
           "text": "biofuel"
         },
         {
-          "end": 105.32,
+          "end": 96.31,
           "index": 13,
-          "source": "exact",
-          "start": 105.14,
+          "source": "interpolated",
+          "start": 95.881,
           "text": "blending"
         },
         {
-          "end": 105.98,
+          "end": 96.74,
           "index": 14,
-          "source": "exact",
-          "start": 105.32,
+          "source": "interpolated",
+          "start": 96.31,
           "text": "targets"
         }
       ]
@@ -1727,809 +1727,604 @@
       "article_ids": [
         "a635d4304c1"
       ],
-      "end": 116.52,
+      "end": 105.328,
       "group": "p4",
       "id": "s14",
       "index": 14,
-      "start": 107.58,
+      "start": 96.74,
       "text": "This concentration of value mirrors a wider trend in American capitalism, where power is wielded by millionaires rather than billionaires.",
       "words": [
         {
-          "end": 116.52,
+          "end": 97.169,
           "index": 0,
           "source": "interpolated",
-          "start": 107.58,
+          "start": 96.74,
           "text": "This"
         },
         {
-          "end": 116.53,
+          "end": 97.599,
           "index": 1,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 97.169,
           "text": "concentration"
         },
         {
-          "end": 116.53,
+          "end": 98.028,
           "index": 2,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 97.599,
           "text": "of"
         },
         {
-          "end": 116.53,
+          "end": 98.457,
           "index": 3,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 98.028,
           "text": "value"
         },
         {
-          "end": 116.53,
+          "end": 98.887,
           "index": 4,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 98.457,
           "text": "mirrors"
         },
         {
-          "end": 116.53,
+          "end": 99.316,
           "index": 5,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 98.887,
           "text": "a"
         },
         {
-          "end": 116.53,
+          "end": 99.746,
           "index": 6,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 99.316,
           "text": "wider"
         },
         {
-          "end": 116.53,
+          "end": 100.175,
           "index": 7,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 99.746,
           "text": "trend"
         },
         {
-          "end": 116.53,
+          "end": 100.604,
           "index": 8,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 100.175,
           "text": "in"
         },
         {
-          "end": 116.53,
+          "end": 101.034,
           "index": 9,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 100.604,
           "text": "American"
         },
         {
-          "end": 116.53,
+          "end": 101.463,
           "index": 10,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 101.034,
           "text": "capitalism"
         },
         {
-          "end": 116.53,
+          "end": 101.893,
           "index": 11,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 101.463,
           "text": "where"
         },
         {
-          "end": 116.53,
+          "end": 102.322,
           "index": 12,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 101.893,
           "text": "power"
         },
         {
-          "end": 116.53,
+          "end": 102.751,
           "index": 13,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 102.322,
           "text": "is"
         },
         {
-          "end": 116.53,
+          "end": 103.181,
           "index": 14,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 102.751,
           "text": "wielded"
         },
         {
-          "end": 116.53,
+          "end": 103.61,
           "index": 15,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 103.181,
           "text": "by"
         },
         {
-          "end": 116.53,
+          "end": 104.04,
           "index": 16,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 103.61,
           "text": "millionaires"
         },
         {
-          "end": 116.53,
+          "end": 104.469,
           "index": 17,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 104.04,
           "text": "rather"
         },
         {
-          "end": 116.53,
+          "end": 104.898,
           "index": 18,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 104.469,
           "text": "than"
         },
         {
-          "end": 116.53,
+          "end": 105.328,
           "index": 19,
-          "source": "exact",
-          "start": 116.52,
+          "source": "interpolated",
+          "start": 104.898,
           "text": "billionaires"
         }
       ]
     },
     {
-      "end": 120.58,
+      "end": 108.763,
       "group": "p5",
       "id": "s15",
       "index": 15,
-      "start": 117.7,
+      "start": 105.328,
       "text": "Weather data remains unavailable for the closing update.",
       "words": [
         {
-          "end": 120.58,
+          "end": 105.757,
           "index": 0,
           "source": "interpolated",
-          "start": 117.7,
+          "start": 105.328,
           "text": "Weather"
         },
         {
-          "end": 120.59,
+          "end": 106.187,
           "index": 1,
-          "source": "exact",
-          "start": 120.58,
+          "source": "interpolated",
+          "start": 105.757,
           "text": "data"
         },
         {
-          "end": 120.59,
+          "end": 106.616,
           "index": 2,
-          "source": "exact",
-          "start": 120.58,
+          "source": "interpolated",
+          "start": 106.187,
           "text": "remains"
         },
         {
-          "end": 120.59,
+          "end": 107.045,
           "index": 3,
-          "source": "exact",
-          "start": 120.58,
+          "source": "interpolated",
+          "start": 106.616,
           "text": "unavailable"
         },
         {
-          "end": 120.59,
+          "end": 107.475,
           "index": 4,
-          "source": "exact",
-          "start": 120.58,
+          "source": "interpolated",
+          "start": 107.045,
           "text": "for"
         },
         {
-          "end": 120.59,
+          "end": 107.904,
           "index": 5,
-          "source": "exact",
-          "start": 120.58,
+          "source": "interpolated",
+          "start": 107.475,
           "text": "the"
         },
         {
-          "end": 120.59,
+          "end": 108.334,
           "index": 6,
-          "source": "exact",
-          "start": 120.58,
+          "source": "interpolated",
+          "start": 107.904,
           "text": "closing"
         },
         {
-          "end": 120.59,
+          "end": 108.763,
           "index": 7,
-          "source": "exact",
-          "start": 120.58,
+          "source": "interpolated",
+          "start": 108.334,
           "text": "update"
         }
       ]
     },
     {
-      "end": 123.46,
+      "end": 112.198,
       "group": "p6",
       "id": "s16",
       "index": 16,
-      "start": 121.04,
+      "start": 108.763,
       "text": "And that's it for your personal morning broadcast.",
       "words": [
         {
-          "end": 121.32,
+          "end": 109.192,
           "index": 0,
-          "source": "exact",
-          "start": 121.04,
+          "source": "interpolated",
+          "start": 108.763,
           "text": "And"
         },
         {
-          "end": 121.62,
+          "end": 109.622,
           "index": 1,
-          "source": "exact",
-          "start": 121.32,
+          "source": "interpolated",
+          "start": 109.192,
           "text": "that's"
         },
         {
-          "end": 121.76,
+          "end": 110.051,
           "index": 2,
-          "source": "exact",
-          "start": 121.62,
+          "source": "interpolated",
+          "start": 109.622,
           "text": "it"
         },
         {
-          "end": 121.96,
+          "end": 110.481,
           "index": 3,
-          "source": "exact",
-          "start": 121.76,
+          "source": "interpolated",
+          "start": 110.051,
           "text": "for"
         },
         {
-          "end": 122.08,
+          "end": 110.91,
           "index": 4,
-          "source": "exact",
-          "start": 121.96,
+          "source": "interpolated",
+          "start": 110.481,
           "text": "your"
         },
         {
-          "end": 122.5,
+          "end": 111.339,
           "index": 5,
-          "source": "exact",
-          "start": 122.08,
+          "source": "interpolated",
+          "start": 110.91,
           "text": "personal"
         },
         {
-          "end": 122.88,
+          "end": 111.769,
           "index": 6,
-          "source": "exact",
-          "start": 122.5,
+          "source": "interpolated",
+          "start": 111.339,
           "text": "morning"
         },
         {
-          "end": 123.46,
+          "end": 112.198,
           "index": 7,
-          "source": "exact",
-          "start": 122.88,
+          "source": "interpolated",
+          "start": 111.769,
           "text": "broadcast"
         }
       ]
     },
     {
-      "end": 127.94,
+      "end": 119.069,
       "group": "p7",
       "id": "s17",
       "index": 17,
-      "start": 126.2,
+      "start": 112.198,
       "text": "[mature adult voice, intensely emotional, tender, radiant; hold a long breath after Rise] Rise... and shine.",
       "words": [
         {
-          "end": 126.288,
+          "end": 112.628,
           "index": 0,
           "source": "interpolated",
-          "start": 126.2,
+          "start": 112.198,
           "text": "mature"
         },
         {
-          "end": 126.375,
+          "end": 113.057,
           "index": 1,
           "source": "interpolated",
-          "start": 126.288,
+          "start": 112.628,
           "text": "adult"
         },
         {
-          "end": 126.463,
+          "end": 113.487,
           "index": 2,
           "source": "interpolated",
-          "start": 126.375,
+          "start": 113.057,
           "text": "voice"
         },
         {
-          "end": 126.551,
+          "end": 113.916,
           "index": 3,
           "source": "interpolated",
-          "start": 126.463,
+          "start": 113.487,
           "text": "intensely"
         },
         {
-          "end": 126.638,
+          "end": 114.345,
           "index": 4,
           "source": "interpolated",
-          "start": 126.551,
+          "start": 113.916,
           "text": "emotional"
         },
         {
-          "end": 126.726,
+          "end": 114.775,
           "index": 5,
           "source": "interpolated",
-          "start": 126.638,
+          "start": 114.345,
           "text": "tender"
         },
         {
-          "end": 126.814,
+          "end": 115.204,
           "index": 6,
           "source": "interpolated",
-          "start": 126.726,
+          "start": 114.775,
           "text": "radiant"
         },
         {
-          "end": 126.902,
+          "end": 115.634,
           "index": 7,
           "source": "interpolated",
-          "start": 126.814,
+          "start": 115.204,
           "text": "hold"
         },
         {
-          "end": 126.989,
+          "end": 116.063,
           "index": 8,
           "source": "interpolated",
-          "start": 126.902,
+          "start": 115.634,
           "text": "a"
         },
         {
-          "end": 127.077,
+          "end": 116.492,
           "index": 9,
           "source": "interpolated",
-          "start": 126.989,
+          "start": 116.063,
           "text": "long"
         },
         {
-          "end": 127.165,
+          "end": 116.922,
           "index": 10,
           "source": "interpolated",
-          "start": 127.077,
+          "start": 116.492,
           "text": "breath"
         },
         {
-          "end": 127.252,
+          "end": 117.351,
           "index": 11,
           "source": "interpolated",
-          "start": 127.165,
+          "start": 116.922,
           "text": "after"
         },
         {
-          "end": 127.34,
+          "end": 117.781,
           "index": 12,
           "source": "interpolated",
-          "start": 127.252,
+          "start": 117.351,
           "text": "Rise"
         },
         {
-          "end": 127.94,
+          "end": 118.21,
           "index": 13,
-          "source": "exact",
-          "start": 127.34,
+          "source": "interpolated",
+          "start": 117.781,
           "text": "Rise"
         },
         {
-          "end": 127.95,
+          "end": 118.639,
           "index": 14,
-          "source": "exact",
-          "start": 127.94,
+          "source": "interpolated",
+          "start": 118.21,
           "text": "and"
         },
         {
-          "end": 127.95,
+          "end": 119.069,
           "index": 15,
-          "source": "exact",
-          "start": 127.94,
+          "source": "interpolated",
+          "start": 118.639,
           "text": "shine"
         }
       ]
     },
     {
-      "end": 128.44,
+      "end": 130.233,
       "group": "p8",
       "id": "s18",
       "index": 18,
-      "start": 127.94,
+      "start": 119.069,
       "text": "[very very long pause before speaking; then mature adult voice, most emotional, strong, warm, radiant, deeply encouraging; hold a long breath after Rise] Rise... and shine.",
       "words": [
         {
-          "end": 127.96,
+          "end": 119.498,
           "index": 0,
           "source": "interpolated",
-          "start": 127.94,
+          "start": 119.069,
           "text": "very"
         },
         {
-          "end": 127.98,
+          "end": 119.928,
           "index": 1,
           "source": "interpolated",
-          "start": 127.96,
+          "start": 119.498,
           "text": "very"
         },
         {
-          "end": 128.0,
+          "end": 120.357,
           "index": 2,
           "source": "interpolated",
-          "start": 127.98,
+          "start": 119.928,
           "text": "long"
         },
         {
-          "end": 128.02,
+          "end": 120.786,
           "index": 3,
           "source": "interpolated",
-          "start": 128.0,
+          "start": 120.357,
           "text": "pause"
         },
         {
-          "end": 128.04,
+          "end": 121.216,
           "index": 4,
           "source": "interpolated",
-          "start": 128.02,
+          "start": 120.786,
           "text": "before"
         },
         {
-          "end": 128.06,
+          "end": 121.645,
           "index": 5,
           "source": "interpolated",
-          "start": 128.04,
+          "start": 121.216,
           "text": "speaking"
         },
         {
-          "end": 128.08,
+          "end": 122.075,
           "index": 6,
           "source": "interpolated",
-          "start": 128.06,
+          "start": 121.645,
           "text": "then"
         },
         {
-          "end": 128.1,
+          "end": 122.504,
           "index": 7,
           "source": "interpolated",
-          "start": 128.08,
+          "start": 122.075,
           "text": "mature"
         },
         {
-          "end": 128.12,
+          "end": 122.933,
           "index": 8,
           "source": "interpolated",
-          "start": 128.1,
+          "start": 122.504,
           "text": "adult"
         },
         {
-          "end": 128.14,
+          "end": 123.363,
           "index": 9,
           "source": "interpolated",
-          "start": 128.12,
+          "start": 122.933,
           "text": "voice"
         },
         {
-          "end": 128.16,
+          "end": 123.792,
           "index": 10,
           "source": "interpolated",
-          "start": 128.14,
+          "start": 123.363,
           "text": "most"
         },
         {
-          "end": 128.18,
+          "end": 124.222,
           "index": 11,
           "source": "interpolated",
-          "start": 128.16,
+          "start": 123.792,
           "text": "emotional"
         },
         {
-          "end": 128.2,
+          "end": 124.651,
           "index": 12,
           "source": "interpolated",
-          "start": 128.18,
+          "start": 124.222,
           "text": "strong"
         },
         {
-          "end": 128.22,
+          "end": 125.08,
           "index": 13,
           "source": "interpolated",
-          "start": 128.2,
+          "start": 124.651,
           "text": "warm"
         },
         {
-          "end": 128.24,
+          "end": 125.51,
           "index": 14,
           "source": "interpolated",
-          "start": 128.22,
+          "start": 125.08,
           "text": "radiant"
         },
         {
-          "end": 128.26,
+          "end": 125.939,
           "index": 15,
           "source": "interpolated",
-          "start": 128.24,
+          "start": 125.51,
           "text": "deeply"
         },
         {
-          "end": 128.28,
+          "end": 126.369,
           "index": 16,
           "source": "interpolated",
-          "start": 128.26,
+          "start": 125.939,
           "text": "encouraging"
         },
         {
-          "end": 128.3,
+          "end": 126.798,
           "index": 17,
           "source": "interpolated",
-          "start": 128.28,
+          "start": 126.369,
           "text": "hold"
         },
         {
-          "end": 128.32,
+          "end": 127.227,
           "index": 18,
           "source": "interpolated",
-          "start": 128.3,
+          "start": 126.798,
           "text": "a"
         },
         {
-          "end": 128.34,
+          "end": 127.657,
           "index": 19,
           "source": "interpolated",
-          "start": 128.32,
+          "start": 127.227,
           "text": "long"
         },
         {
-          "end": 128.36,
+          "end": 128.086,
           "index": 20,
           "source": "interpolated",
-          "start": 128.34,
+          "start": 127.657,
           "text": "breath"
         },
         {
-          "end": 128.38,
+          "end": 128.516,
           "index": 21,
           "source": "interpolated",
-          "start": 128.36,
+          "start": 128.086,
           "text": "after"
         },
         {
-          "end": 128.4,
+          "end": 128.945,
           "index": 22,
           "source": "interpolated",
-          "start": 128.38,
+          "start": 128.516,
           "text": "Rise"
         },
         {
-          "end": 128.42,
+          "end": 129.374,
           "index": 23,
           "source": "interpolated",
-          "start": 128.4,
+          "start": 128.945,
           "text": "Rise"
         },
         {
-          "end": 128.44,
+          "end": 129.804,
           "index": 24,
           "source": "interpolated",
-          "start": 128.42,
+          "start": 129.374,
           "text": "and"
         },
         {
-          "end": 128.46,
+          "end": 130.233,
           "index": 25,
           "source": "interpolated",
-          "start": 128.44,
+          "start": 129.804,
           "text": "shine"
         }
       ]
     }
   ],
-  "source": "radio_script+transcribe",
-  "timing": "transcribe-part-aligned-script",
-  "transcribe": {
-    "cache": "transcribe.verbose.cache.json",
-    "cached": false,
-    "exact_words": 218,
-    "match_ratio": 0.786,
-    "matched_words": 220,
-    "part_count": 19,
-    "parts": [
-      {
-        "end": 17.19,
-        "exact_words": 14,
-        "index": 0,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 14,
-        "script_start_word": 0,
-        "start": 10.09
-      },
-      {
-        "end": 23.47,
-        "exact_words": 10,
-        "index": 1,
-        "positional_words": 0,
-        "ratio": 0.87,
-        "script_end_word": 25,
-        "script_start_word": 14,
-        "start": 17.19
-      },
-      {
-        "end": 30.29,
-        "exact_words": 15,
-        "index": 2,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 40,
-        "script_start_word": 25,
-        "start": 23.47
-      },
-      {
-        "end": 37.85,
-        "exact_words": 14,
-        "index": 3,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 54,
-        "script_start_word": 40,
-        "start": 30.29
-      },
-      {
-        "end": 49.05,
-        "exact_words": 17,
-        "index": 4,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 73,
-        "script_start_word": 56,
-        "start": 38.35
-      },
-      {
-        "end": 56.13,
-        "exact_words": 14,
-        "index": 5,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 87,
-        "script_start_word": 73,
-        "start": 49.47
-      },
-      {
-        "end": 61.67,
-        "exact_words": 14,
-        "index": 6,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 101,
-        "script_start_word": 87,
-        "start": 56.13
-      },
-      {
-        "end": 68.11,
-        "exact_words": 11,
-        "index": 7,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 118,
-        "script_start_word": 107,
-        "start": 64.65
-      },
-      {
-        "end": 74.79,
-        "exact_words": 12,
-        "index": 8,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 130,
-        "script_start_word": 118,
-        "start": 68.75
-      },
-      {
-        "end": 80.59,
-        "exact_words": 12,
-        "index": 9,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 143,
-        "script_start_word": 131,
-        "start": 75.936
-      },
-      {
-        "end": 86.07,
-        "exact_words": 15,
-        "index": 10,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 158,
-        "script_start_word": 143,
-        "start": 80.91
-      },
-      {
-        "end": 99.54,
-        "exact_words": 19,
-        "index": 11,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 187,
-        "script_start_word": 168,
-        "start": 92.12
-      },
-      {
-        "end": 105.98,
-        "exact_words": 14,
-        "index": 12,
-        "positional_words": 1,
-        "ratio": 0.933,
-        "script_end_word": 202,
-        "script_start_word": 187,
-        "start": 99.66
-      },
-      {
-        "end": 111.8,
-        "exact_words": 10,
-        "index": 13,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 213,
-        "script_start_word": 203,
-        "start": 107.52
-      },
-      {
-        "end": 116.52,
-        "exact_words": 9,
-        "index": 14,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 222,
-        "script_start_word": 213,
-        "start": 112.64
-      },
-      {
-        "end": 120.58,
-        "exact_words": 7,
-        "index": 15,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 230,
-        "script_start_word": 223,
-        "start": 117.56
-      },
-      {
-        "end": 123.46,
-        "exact_words": 8,
-        "index": 16,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 238,
-        "script_start_word": 230,
-        "start": 121.04
-      },
-      {
-        "end": 127.08,
-        "exact_words": 3,
-        "index": 17,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 254,
-        "script_start_word": 251,
-        "start": 125.6
-      },
-      {
-        "end": 127.94,
-        "exact_words": 1,
-        "index": 18,
-        "positional_words": 0,
-        "ratio": 1.0,
-        "script_end_word": 252,
-        "script_start_word": 251,
-        "start": 127.34
-      }
-    ],
-    "positional_words": 1,
-    "script_words": 280,
-    "source_bytes": 1834955,
-    "tool": "transcribe",
-    "word_timestamps": true
-  },
+  "source": "radio_script",
+  "timing": "word-count-estimate",
   "validation": {
     "monotonic": true,
     "segments": 19,

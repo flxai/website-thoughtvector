@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Morning Whisper Radio</title>
+    <title>Morning Whispers</title>
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2026 08:20:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 07:07:20 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamlining Security for Artificial Intelligence Infrastructure</title>
+      <link>https://thoughtvector.zip/radio/2026-06-12-save-big-and-play-bigger/</link>
+      <guid isPermaLink="false">morning-whispers:20260612-070720Z</guid>
+      <pubDate>Fri, 12 Jun 2026 07:07:20 GMT</pubDate>
+      <description>New intent based security profiles significantly reduce the time required to configure multi tenant fabric networks. Automated tools lower operational overhead for administrators managing complex inference infrastructure in cloud settings. The transition from manual setup to single click configuration minimizes potential deployment errors and delays. Enhanced networking efficiency supports the rapid scaling of high</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260612-070720Z.ogg" length="1303636" type="audio/ogg" />
+    </item>
     <item>
       <title>Weather data is unavailable right now</title>
       <link>https://thoughtvector.zip/radio/2026-06-11-nvidia-accelerates-google-deepminds-diffusiongemma-for-local-ai/</link>
@@ -88,19 +96,19 @@
       <enclosure url="https://thoughtvector.zip/radio/media/20260603-205545Z.ogg" length="1828225" type="audio/ogg" />
     </item>
     <item>
-      <title>NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics, Vision AI; Wall Street: US-Börsen</title>
+      <title>Morning Whisper Radio: Daily Briefing for REO</title>
       <link>https://thoughtvector.zip/radio/2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research-20260603-165349z/</link>
       <guid isPermaLink="false">morning-whispers:20260603-165349Z</guid>
       <pubDate>Wed, 03 Jun 2026 16:53:49 GMT</pubDate>
-      <description>Today: NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI; Wall Street: US-Börsen geben nach – KI-Titel legen weiter zu; &#x27;Both sides are committed&#x27; to US-EU trade deal, US Trade Representative Jamieson Greer says.</description>
+      <description>Morning Whisper Radio: Daily Briefing for REO.</description>
       <enclosure url="https://thoughtvector.zip/radio/media/20260603-165349Z.ogg" length="3064513" type="audio/ogg" />
     </item>
     <item>
-      <title>Financial intelligence models, AI-driven cyber threat mapping, escalating tensions in Eastern Europe, the Middle East, alongside volatility</title>
+      <title>Morning Whisper Radio: Daily Briefing for REO. Today&#x27;s focus is on the convergence of financial intelligence models, AI-driven cyber threat</title>
       <link>https://thoughtvector.zip/radio/2026-06-03-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build/</link>
       <guid isPermaLink="false">morning-whispers:20260603-102905Z</guid>
       <pubDate>Wed, 03 Jun 2026 10:29:05 GMT</pubDate>
-      <description>Today&#x27;s focus is on the convergence of financial intelligence models, AI-driven cyber threat mapping, and escalating tensions in Eastern Europe and the Middle East, alongside volatility in German equity markets.</description>
+      <description>Morning Whisper Radio: Daily Briefing for REO. Today&#x27;s focus is on the convergence of financial intelligence models, AI-driven cyber threat mapping, and escalating tensions in Eastern Europe and the Middle East, alongside volatility in German equity markets.</description>
       <enclosure url="https://thoughtvector.zip/radio/media/20260603-102905Z.ogg" length="3290197" type="audio/ogg" />
     </item>
     <item>

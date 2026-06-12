@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260612-070720Z.ogg",
+    "debug": "2026-06-12-save-big-and-play-bigger/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-12T07:07:20+00:00",
+    "id": "20260612-070720Z",
+    "page": "2026-06-12-save-big-and-play-bigger/",
+    "selected_article_count": 40,
+    "subtitles": "subtitles/20260612-070720Z.ass",
+    "summary": "New intent based security profiles significantly reduce the time required to configure multi tenant fabric networks. Automated tools lower operational overhead for administrators managing complex inference infrastructure in cloud settings. The transition from manual setup to single click configuration minimizes potential deployment errors and delays. Enhanced networking efficiency supports the rapid scaling of high performance AI clusters across various cloud models.",
+    "title": "Streamlining Security for Artificial Intelligence Infrastructure",
+    "transcript": "transcripts/20260612-070720Z.json",
+    "waveform": "waveforms/20260612-070720Z.json"
+  },
+  {
     "audio": "media/20260611-082016Z.ogg",
     "debug": "2026-06-11-nvidia-accelerates-google-deepminds-diffusiongemma-for-local-ai/debug/",
     "feed_failure_count": 236,
@@ -148,8 +162,8 @@
     "page": "2026-06-03-nvidia-enables-the-next-era-of-physical-ai-research-20260603-165349z/",
     "selected_article_count": 80,
     "subtitles": "subtitles/20260603-165349Z.ass",
-    "summary": "Today: NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI; Wall Street: US-Börsen geben nach – KI-Titel legen weiter zu; 'Both sides are committed' to US-EU trade deal, US Trade Representative Jamieson Greer says.",
-    "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics, Vision AI; Wall Street: US-Börsen",
+    "summary": "Morning Whisper Radio: Daily Briefing for REO.",
+    "title": "Morning Whisper Radio: Daily Briefing for REO",
     "transcript": "transcripts/20260603-165349Z.json",
     "waveform": "waveforms/20260603-165349Z.json"
   },
@@ -162,8 +176,8 @@
     "page": "2026-06-03-why-financial-institutions-are-converging-on-transaction-foundation-models-to-build/",
     "selected_article_count": 80,
     "subtitles": "subtitles/20260603-102905Z.ass",
-    "summary": "Today's focus is on the convergence of financial intelligence models, AI-driven cyber threat mapping, and escalating tensions in Eastern Europe and the Middle East, alongside volatility in German equity markets.",
-    "title": "Financial intelligence models, AI-driven cyber threat mapping, escalating tensions in Eastern Europe, the Middle East, alongside volatility",
+    "summary": "Morning Whisper Radio: Daily Briefing for REO. Today's focus is on the convergence of financial intelligence models, AI-driven cyber threat mapping, and escalating tensions in Eastern Europe and the Middle East, alongside volatility in German equity markets.",
+    "title": "Morning Whisper Radio: Daily Briefing for REO. Today's focus is on the convergence of financial intelligence models, AI-driven cyber threat",
     "transcript": "transcripts/20260603-102905Z.json",
     "waveform": "waveforms/20260603-102905Z.json"
   },
