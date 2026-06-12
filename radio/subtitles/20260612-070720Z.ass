@@ -13,16 +13,16 @@ Style: Estimated,Noto Sans,44,&H0038D8FF,&H00C078A5,&H00181818,&H80000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:09.84,0:00:14.30,Default,,0,0,0,,{\K22}It {\K16}is {\K32}currently {\K52}13 {\K56}degrees {\K50}and {\K60}raining {\K38}in {\K36}Berlin{\K20} {\K64}Tempelhof
-Dialogue: 0,0:00:15.80,0:00:17.96,Default,,0,0,0,,{\K216}With {\K1}the {\K1}morning {\K1}weather {\K1}set {\K1}here {\K1}is {\K1}the {\K1}news
-Dialogue: 0,0:00:18.60,0:00:24.72,Default,,0,0,0,,{\K80}NVIDIA {\K24}is {\K80}simplifying {\K20}how {\K52}administrators {\K76}secure {\K40}high {\K46}performance {\K56}networking {\K50}for {\K32}AI {\K56}clusters
-Dialogue: 0,0:00:25.12,0:00:32.12,Default,,0,0,0,,{\K48}The {\K38}company {\K60}introduced {\K46}intent {\K42}based {\K40}security {\K60}profiles {\K46}within {\K24}its {\K44}Unified {\K40}Fabric {\K44}Manager {\K38}for {\K36}Quantum {\K94}InfiniBand
-Dialogue: 0,0:00:32.28,0:00:37.98,Default,,0,0,0,,{\K72}Network {\K54}managers {\K36}can {\K20}now {\K44}auto {\K62}configure {\K42}multi {\K48}tenant {\K26}fabric {\K52}security {\K42}in {\K8}a {\K30}single {\K34}click
-Dialogue: 0,0:00:38.56,0:00:45.36,Default,,0,0,0,,{\K14}The {\K44}system {\K28}uses {\K42}three {\K58}specific {\K56}profiles {\K98}General {\K62}Bare {\K28}Metal {\K44}Cloud {\K62}and {\K38}Secured {\K36}Bare {\K30}Metal {\K40}Cloud
-Dialogue: 0,0:00:46.50,0:00:50.90,Default,,0,0,0,,{\K440}This {\K1}change {\K1}reduces {\K1}deployment {\K1}time {\K1}from {\K1}days {\K1}or {\K1}hours {\K1}down {\K1}to {\K1}minutes
-Dialogue: 0,0:00:50.90,0:00:57.76,Default,,0,0,0,,{\K84}It {\K46}lowers {\K28}the {\K60}operational {\K48}overhead {\K54}required {\K34}to {\K36}secure {\K46}inference {\K70}infrastructure {\K48}in {\K26}shared {\K40}AI {\K66}environments
-Dialogue: 0,0:00:59.14,0:01:01.06,Default,,0,0,0,,{\K192}After {\K1}the {\K1}headlines {\K1}back {\K1}to {\K1}the {\K1}weather
-Dialogue: 0,0:01:01.06,0:01:03.92,Default,,0,0,0,,{\K72}This {\K46}afternoon {\K34}will {\K20}be {\K36}cloudy {\K36}with {\K42}temperatures {\K1}between {\K1}15 {\K1}and {\K1}16 {\K1}degrees
-Dialogue: 0,0:01:07.96,0:01:09.36,Default,,0,0,0,,{\K28}And {\K28}that's {\K28}it {\K28}for {\K28}your {\K1}personal {\K1}morning {\K1}broadcast
-Dialogue: 0,0:01:09.60,0:01:10.24,Default,,0,0,0,,{\K5}mature {\K5}adult {\K5}voice {\K5}intensely {\K5}emotional {\K5}tender {\K5}radiant {\K5}hold {\K5}a {\K5}long {\K5}breath {\K5}after {\K1}Rise {\K1}Rise {\K1}and {\K1}shine
-Dialogue: 0,0:01:10.24,0:01:10.74,Estimated,,0,0,0,,{\K2}very {\K2}very {\K2}long {\K2}pause {\K2}before {\K2}speaking {\K2}then {\K2}mature {\K2}adult {\K2}voice {\K2}most {\K2}emotional {\K2}strong {\K2}warm {\K2}radiant {\K2}deeply {\K2}encouraging {\K2}hold {\K2}a {\K2}long {\K2}breath {\K2}after {\K2}Rise {\K2}Rise {\K2}and {\K2}shine
+Dialogue: 0,0:00:10.00,0:00:13.84,Estimated,,0,0,0,,{\K38}It {\K38}is {\K38}currently {\K38}13 {\K38}degrees {\K38}and {\K38}raining {\K38}in {\K38}Berlin {\K38}Tempelhof
+Dialogue: 0,0:00:13.84,0:00:17.30,Estimated,,0,0,0,,{\K38}With {\K38}the {\K38}morning {\K38}weather {\K38}set {\K38}here {\K38}is {\K38}the {\K39}news
+Dialogue: 0,0:00:17.30,0:00:21.91,Estimated,,0,0,0,,{\K38}NVIDIA {\K38}is {\K38}simplifying {\K38}how {\K39}administrators {\K38}secure {\K38}high {\K38}performance {\K38}networking {\K38}for {\K39}AI {\K38}clusters
+Dialogue: 0,0:00:21.91,0:00:27.67,Estimated,,0,0,0,,{\K38}The {\K38}company {\K38}introduced {\K38}intent {\K38}based {\K38}security {\K38}profiles {\K38}within {\K38}its {\K38}Unified {\K38}Fabric {\K38}Manager {\K38}for {\K39}Quantum {\K38}InfiniBand
+Dialogue: 0,0:00:27.67,0:00:33.05,Estimated,,0,0,0,,{\K38}Network {\K38}managers {\K38}can {\K38}now {\K39}auto {\K38}configure {\K38}multi {\K38}tenant {\K38}fabric {\K39}security {\K38}in {\K38}a {\K38}single {\K38}click
+Dialogue: 0,0:00:33.05,0:00:38.81,Estimated,,0,0,0,,{\K38}The {\K38}system {\K38}uses {\K38}three {\K38}specific {\K38}profiles {\K38}General {\K38}Bare {\K38}Metal {\K38}Cloud {\K38}and {\K38}Secured {\K38}Bare {\K38}Metal {\K38}Cloud
+Dialogue: 0,0:00:38.81,0:00:43.42,Estimated,,0,0,0,,{\K38}This {\K38}change {\K38}reduces {\K38}deployment {\K38}time {\K38}from {\K38}days {\K38}or {\K38}hours {\K38}down {\K38}to {\K38}minutes
+Dialogue: 0,0:00:43.42,0:00:48.80,Estimated,,0,0,0,,{\K38}It {\K38}lowers {\K38}the {\K38}operational {\K38}overhead {\K38}required {\K38}to {\K38}secure {\K38}inference {\K38}infrastructure {\K39}in {\K38}shared {\K38}AI {\K38}environments
+Dialogue: 0,0:00:48.80,0:00:51.49,Estimated,,0,0,0,,{\K38}After {\K38}the {\K39}headlines {\K38}back {\K38}to {\K38}the {\K38}weather
+Dialogue: 0,0:00:51.49,0:00:56.10,Estimated,,0,0,0,,{\K39}This {\K38}afternoon {\K38}will {\K38}be {\K38}cloudy {\K39}with {\K38}temperatures {\K38}between {\K38}15 {\K38}and {\K38}16 {\K38}degrees
+Dialogue: 0,0:00:56.10,0:00:59.18,Estimated,,0,0,0,,{\K38}And {\K38}that's {\K38}it {\K38}for {\K38}your {\K38}personal {\K38}morning {\K38}broadcast
+Dialogue: 0,0:00:59.18,0:01:05.32,Estimated,,0,0,0,,{\K38}mature {\K38}adult {\K38}voice {\K38}intensely {\K38}emotional {\K38}tender {\K38}radiant {\K38}hold {\K38}a {\K38}long {\K38}breath {\K38}after {\K39}Rise {\K38}Rise {\K38}and {\K38}shine
+Dialogue: 0,0:01:05.32,0:01:15.31,Estimated,,0,0,0,,{\K38}very {\K39}very {\K38}long {\K38}pause {\K38}before {\K38}speaking {\K39}then {\K38}mature {\K38}adult {\K38}voice {\K38}most {\K38}emotional {\K38}strong {\K38}warm {\K38}radiant {\K38}deeply {\K38}encouraging {\K39}hold {\K38}a {\K38}long {\K38}breath {\K38}after {\K38}Rise {\K38}Rise {\K38}and {\K38}shine

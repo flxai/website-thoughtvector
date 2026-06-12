@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260612-102124Z.ogg",
+    "debug": "2026-06-12-alibaba-cloud-promo-center-alibaba-cloud/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-12T10:21:24+00:00",
+    "id": "20260612-102124Z",
+    "page": "2026-06-12-alibaba-cloud-promo-center-alibaba-cloud/",
+    "selected_article_count": 45,
+    "subtitles": "subtitles/20260612-102124Z.ass",
+    "summary": "New developments in recursive AI and world models are accelerating the creation of self-building systems and humanoid robots. Infrastructure updates from NVIDIA aim to reduce the complexity of securing large scale AI clusters for multi tenant use. AI is evolving into specialized productivity agents that move beyond chat interfaces to assist professional knowledge workers. European strategic partnerships are merging AI innovation with space and defense sectors to strengthen regional technological capabilities.",
+    "title": "The Integration of AI into Physical Systems",
+    "transcript": "transcripts/20260612-102124Z.json",
+    "waveform": "waveforms/20260612-102124Z.json"
+  },
+  {
     "audio": "media/20260612-070720Z.ogg",
     "debug": "2026-06-12-save-big-and-play-bigger/debug/",
     "feed_failure_count": 0,
