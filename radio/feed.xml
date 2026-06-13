@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jun 2026 10:21:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 08:52:15 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The industry is establishing a new baseline for autonomous AI agents</title>
+      <link>https://thoughtvector.zip/radio/2026-06-13-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark/</link>
+      <guid isPermaLink="false">morning-whispers:20260613-085215Z</guid>
+      <pubDate>Sat, 13 Jun 2026 08:52:15 GMT</pubDate>
+      <description>The NVIDIA Blackwell Ultra NVL72 has taken the lead in AgentPerf, the first benchmark designed to measure agentic AI systems. This hardware performance is critical because AI agents have fundamentally changed the complexity of inference workloads. These high-performance models are already moving into specialized security roles. Microsoft Research&#x27;s Project Ire used an LLM agent to identify a LOTUSLITE malware</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260613-085215Z.ogg" length="1641156" type="audio/ogg" />
+    </item>
     <item>
       <title>The Integration of AI into Physical Systems</title>
       <link>https://thoughtvector.zip/radio/2026-06-12-alibaba-cloud-promo-center-alibaba-cloud/</link>
