@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Jun 2026 08:52:15 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 08:52:16 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Push for High Fidelity AI Realism</title>
+      <link>https://thoughtvector.zip/radio/2026-06-14-create-stunning-ai-videos-in-minutes-try-free-now-alibaba-cloud/</link>
+      <guid isPermaLink="false">morning-whispers:20260614-085216Z</guid>
+      <pubDate>Sun, 14 Jun 2026 08:52:16 GMT</pubDate>
+      <description>Advancements in voice technology aim to bridge the gap between synthetic speech and natural human vocalizations. The integration of agentic tooling expands the practical utility of open models for everyday communication tasks. Rapid iterations in Chinese video generation highlight a global race toward cinematic visual fidelity in AI. These combined trends suggest a broader industry move from simple text processing</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260614-085216Z.ogg" length="1358598" type="audio/ogg" />
+    </item>
     <item>
       <title>The industry is establishing a new baseline for autonomous AI agents</title>
       <link>https://thoughtvector.zip/radio/2026-06-13-nvidia-blackwell-leads-on-first-agentic-ai-infrastructure-benchmark/</link>
