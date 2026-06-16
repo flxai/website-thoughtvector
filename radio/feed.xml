@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2026 08:52:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 20:05:12 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI is shifting from simple chat interfaces toward autonomous agents that can</title>
+      <link>https://thoughtvector.zip/radio/2026-06-16-hpe-ai-factory/</link>
+      <guid isPermaLink="false">morning-whispers:20260616-200512Z</guid>
+      <pubDate>Tue, 16 Jun 2026 20:05:12 GMT</pubDate>
+      <description>AI is shifting from simple chat interfaces toward autonomous agents that can execute complex workflows. NVIDIA and HPE are expanding the HPE AI Factory to help enterprises move these agentic systems from proof of concept into full production. This push for autonomy extends to local hardware as well. NVIDIA has released the ACE Game Agent SDK and Unreal Engine 5 plugins, allowing developers to build AI companions</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260616-200512Z.ogg" length="1477115" type="audio/ogg" />
+    </item>
     <item>
       <title>The Push for High Fidelity AI Realism</title>
       <link>https://thoughtvector.zip/radio/2026-06-14-create-stunning-ai-videos-in-minutes-try-free-now-alibaba-cloud/</link>

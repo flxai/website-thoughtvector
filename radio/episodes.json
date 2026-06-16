@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260616-200512Z.ogg",
+    "debug": "2026-06-16-hpe-ai-factory/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-16T20:05:12+00:00",
+    "id": "20260616-200512Z",
+    "page": "2026-06-16-hpe-ai-factory/",
+    "selected_article_count": 45,
+    "subtitles": "subtitles/20260616-200512Z.ass",
+    "summary": "AI is shifting from simple chat interfaces toward autonomous agents that can execute complex workflows. NVIDIA and HPE are expanding the HPE AI Factory to help enterprises move these agentic systems from proof of concept into full production. This push for autonomy extends to local hardware as well. NVIDIA has released the ACE Game Agent SDK and Unreal Engine 5 plugins, allowing developers to build AI companions that run directly on devices rather than relying on the cloud. While some models focus on digital agents, others are being applied to the physical environment.",
+    "title": "AI is shifting from simple chat interfaces toward autonomous agents that can",
+    "transcript": "transcripts/20260616-200512Z.json",
+    "waveform": "waveforms/20260616-200512Z.json"
+  },
+  {
     "audio": "media/20260614-085216Z.ogg",
     "debug": "2026-06-14-create-stunning-ai-videos-in-minutes-try-free-now-alibaba-cloud/debug/",
     "feed_failure_count": 0,
