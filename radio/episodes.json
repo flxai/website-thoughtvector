@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260617-052034Z.ogg",
+    "debug": "2026-06-17-coherent-breaks-ground-on-expanded-texas-facility-scaling-ais-optical-backbone/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-17T05:20:34+00:00",
+    "id": "20260617-052034Z",
+    "page": "2026-06-17-coherent-breaks-ground-on-expanded-texas-facility-scaling-ais-optical-backbone/",
+    "selected_article_count": 56,
+    "subtitles": "subtitles/20260617-052034Z.ass",
+    "summary": "Coherent has broken ground on an expanded manufacturing facility in Sherman to produce lasers and optical components. The site will utilize six-inch indium phosphide to create the semiconductors that wire high-performance AI systems together. While hardware scales, frontier models are moving into direct government and engineering workflows. The UK government is partnering with Google DeepMind to build an AI-powered prototype that accelerates housing planning and construction decisions.",
+    "title": "The physical backbone of artificial intelligence is expanding in Texas",
+    "transcript": "transcripts/20260617-052034Z.json",
+    "waveform": "waveforms/20260617-052034Z.json"
+  },
+  {
     "audio": "media/20260616-200512Z.ogg",
     "debug": "2026-06-16-hpe-ai-factory/debug/",
     "feed_failure_count": 0,
