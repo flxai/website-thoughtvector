@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260620-102156Z.ogg",
+    "debug": "2026-06-20-auth-marlin-sakana-ai/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-20T10:21:56+00:00",
+    "id": "20260620-102156Z",
+    "page": "2026-06-20-auth-marlin-sakana-ai/",
+    "selected_article_count": 40,
+    "subtitles": "subtitles/20260620-102156Z.ass",
+    "summary": "Open source advancements are expanding the ability of AI models to handle complex autonomous coding tasks. Developments in vocal synthesis aim to bridge the gap between machine interaction and natural human conversation. Ongoing updates to video generation tools signal a push toward more sophisticated visual content creation. The simultaneous launch of these diverse tools reflects a broader trend toward multimodal AI integration.",
+    "title": "The Rapid Evolution of Frontier AI Capabilities",
+    "transcript": "transcripts/20260620-102156Z.json",
+    "waveform": "waveforms/20260620-102156Z.json"
+  },
+  {
     "audio": "media/20260617-052034Z.ogg",
     "debug": "2026-06-17-coherent-breaks-ground-on-expanded-texas-facility-scaling-ais-optical-backbone/debug/",
     "feed_failure_count": 0,

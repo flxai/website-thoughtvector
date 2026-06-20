@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jun 2026 05:20:34 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 10:21:56 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Rapid Evolution of Frontier AI Capabilities</title>
+      <link>https://thoughtvector.zip/radio/2026-06-20-auth-marlin-sakana-ai/</link>
+      <guid isPermaLink="false">morning-whispers:20260620-102156Z</guid>
+      <pubDate>Sat, 20 Jun 2026 10:21:56 GMT</pubDate>
+      <description>Open source advancements are expanding the ability of AI models to handle complex autonomous coding tasks. Developments in vocal synthesis aim to bridge the gap between machine interaction and natural human conversation. Ongoing updates to video generation tools signal a push toward more sophisticated visual content creation. The simultaneous launch of these diverse tools reflects a broader trend toward multimodal</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260620-102156Z.ogg" length="1127677" type="audio/ogg" />
+    </item>
     <item>
       <title>The physical backbone of artificial intelligence is expanding in Texas</title>
       <link>https://thoughtvector.zip/radio/2026-06-17-coherent-breaks-ground-on-expanded-texas-facility-scaling-ais-optical-backbone/</link>
