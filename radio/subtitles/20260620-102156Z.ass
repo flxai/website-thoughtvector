@@ -13,15 +13,15 @@ Style: Estimated,Noto Sans,44,&H0038D8FF,&H00C078A5,&H00181818,&H80000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:09.74,0:00:15.08,Default,,0,0,0,,{\K38}It {\K18}is {\K36}currently {\K64}29 {\K58}degrees {\K86}and {\K70}cloudy {\K46}in {\K40}Berlin {\K78}Tempelhof
-Dialogue: 0,0:00:15.84,0:00:18.88,Default,,0,0,0,,{\K84}With {\K16}the {\K26}morning {\K36}weather {\K30}set{\K16} {\K24}here {\K20}is {\K22}the {\K30}news
-Dialogue: 0,0:00:19.16,0:00:25.46,Default,,0,0,0,,{\K62}Competition {\K88}in {\K58}frontier {\K30}AI {\K54}is {\K62}accelerating {\K56}across {\K66}coding{\K20} {\K52}voice{\K22} {\K28}and {\K32}video
-Dialogue: 0,0:00:26.00,0:00:34.46,Default,,0,0,0,,{\K62}Moonshot {\K32}AI {\K36}has {\K52}released {\K56}Kimi {\K42}K2 {\K116}7 {\K48}Code{\K32} {\K70}an {\K28}open {\K28}source {\K46}model {\K46}built {\K24}for {\K58}agentic {\K20}coding {\K50}tasks
-Dialogue: 0,0:00:34.46,0:00:39.52,Estimated,,0,0,0,,{\K51}Other {\K51}firms {\K51}are {\K51}focusing {\K51}on {\K51}the {\K51}sensory {\K51}interfaces {\K51}of {\K51}AI
-Dialogue: 0,0:00:39.52,0:00:46.52,Default,,0,0,0,,{\K64}MiniMax {\K24}launched {\K62}Speech {\K36}2 {\K74}8 {\K18}to {\K28}create {\K32}more {\K72}lifelike {\K28}vocal {\K70}synthesis {\K46}for {\K40}human {\K32}AI {\K74}interaction
-Dialogue: 0,0:00:47.00,0:00:53.80,Default,,0,0,0,,{\K32}At {\K8}the {\K26}same {\K44}time{\K8} {\K106}Kuaishou {\K28}has {\K52}signaled {\K22}new {\K60}updates {\K28}for {\K18}its {\K40}Kling {\K36}AI {\K48}video {\K54}generation {\K70}model
-Dialogue: 0,0:00:54.84,0:00:56.44,Default,,0,0,0,,{\K160}After {\K1}the {\K1}headlines {\K1}back {\K1}to {\K1}the {\K1}weather
-Dialogue: 0,0:00:56.58,0:01:03.14,Default,,0,0,0,,{\K28}This {\K48}afternoon {\K28}will {\K18}be {\K34}cloudy {\K24}with {\K22}rain {\K44}chances {\K32}up {\K12}to {\K48}55{\K73} {\K37}percent {\K1}and {\K1}temperatures {\K34}between {\K42}28 {\K58}and {\K30}32 {\K42}degrees
-Dialogue: 0,0:01:04.04,0:01:06.72,Default,,0,0,0,,{\K58}And {\K30}that's {\K14}it {\K16}for {\K18}your {\K44}personal {\K36}morning {\K52}broadcast
-Dialogue: 0,0:01:08.18,0:01:10.60,Default,,0,0,0,,{\K19}mature {\K19}adult {\K19}voice {\K19}intensely {\K19}emotional {\K19}tender {\K19}radiant {\K19}hold {\K19}a {\K19}long {\K19}breath {\K19}after {\K19}Rise {\K1}Rise {\K1}and {\K1}shine
-Dialogue: 0,0:01:10.60,0:01:13.10,Estimated,,0,0,0,,{\K10}very {\K10}very {\K10}long {\K10}pause {\K10}before {\K10}speaking {\K10}then {\K10}mature {\K10}adult {\K10}voice {\K10}most {\K10}emotional {\K10}strong {\K10}warm {\K10}radiant {\K10}deeply {\K10}encouraging {\K10}hold {\K10}a {\K10}long {\K10}breath {\K10}after {\K10}Rise {\K10}Rise {\K10}and {\K10}shine
+Dialogue: 0,0:00:10.00,0:00:13.86,Estimated,,0,0,0,,{\K39}It {\K39}is {\K39}currently {\K39}29 {\K39}degrees {\K39}and {\K39}cloudy {\K39}in {\K39}Berlin {\K39}Tempelhof
+Dialogue: 0,0:00:13.86,0:00:17.34,Estimated,,0,0,0,,{\K39}With {\K39}the {\K39}morning {\K39}weather {\K39}set {\K39}here {\K39}is {\K39}the {\K39}news
+Dialogue: 0,0:00:17.34,0:00:21.59,Estimated,,0,0,0,,{\K39}Competition {\K39}in {\K39}frontier {\K39}AI {\K39}is {\K39}accelerating {\K39}across {\K39}coding {\K39}voice {\K39}and {\K39}video
+Dialogue: 0,0:00:21.59,0:00:28.16,Estimated,,0,0,0,,{\K39}Moonshot {\K39}AI {\K39}has {\K39}released {\K39}Kimi {\K39}K2 {\K39}7 {\K39}Code {\K39}an {\K39}open {\K39}source {\K39}model {\K39}built {\K39}for {\K39}agentic {\K39}coding {\K39}tasks
+Dialogue: 0,0:00:28.16,0:00:32.02,Estimated,,0,0,0,,{\K39}Other {\K39}firms {\K39}are {\K39}focusing {\K39}on {\K39}the {\K39}sensory {\K39}interfaces {\K39}of {\K39}AI
+Dialogue: 0,0:00:32.02,0:00:37.82,Estimated,,0,0,0,,{\K39}MiniMax {\K39}launched {\K39}Speech {\K39}2 {\K39}8 {\K39}to {\K39}create {\K39}more {\K39}lifelike {\K39}vocal {\K39}synthesis {\K39}for {\K39}human {\K39}AI {\K39}interaction
+Dialogue: 0,0:00:37.82,0:00:44.00,Estimated,,0,0,0,,{\K39}At {\K39}the {\K39}same {\K39}time {\K39}Kuaishou {\K39}has {\K39}signaled {\K39}new {\K39}updates {\K39}for {\K39}its {\K39}Kling {\K39}AI {\K39}video {\K39}generation {\K39}model
+Dialogue: 0,0:00:44.00,0:00:46.71,Estimated,,0,0,0,,{\K39}After {\K39}the {\K39}headlines {\K39}back {\K39}to {\K39}the {\K39}weather
+Dialogue: 0,0:00:46.71,0:00:54.05,Estimated,,0,0,0,,{\K39}This {\K39}afternoon {\K39}will {\K39}be {\K39}cloudy {\K39}with {\K39}rain {\K39}chances {\K39}up {\K39}to {\K39}55 {\K39}percent {\K39}and {\K39}temperatures {\K39}between {\K39}28 {\K39}and {\K39}32 {\K39}degrees
+Dialogue: 0,0:00:54.05,0:00:57.14,Estimated,,0,0,0,,{\K39}And {\K39}that's {\K39}it {\K39}for {\K39}your {\K39}personal {\K39}morning {\K39}broadcast
+Dialogue: 0,0:00:57.14,0:01:03.32,Estimated,,0,0,0,,{\K39}mature {\K39}adult {\K39}voice {\K39}intensely {\K39}emotional {\K39}tender {\K39}radiant {\K39}hold {\K39}a {\K39}long {\K39}breath {\K39}after {\K39}Rise {\K39}Rise {\K39}and {\K39}shine
+Dialogue: 0,0:01:03.32,0:01:13.37,Estimated,,0,0,0,,{\K39}very {\K39}very {\K39}long {\K39}pause {\K39}before {\K39}speaking {\K39}then {\K39}mature {\K39}adult {\K39}voice {\K39}most {\K39}emotional {\K39}strong {\K39}warm {\K39}radiant {\K39}deeply {\K39}encouraging {\K39}hold {\K39}a {\K39}long {\K39}breath {\K39}after {\K39}Rise {\K39}Rise {\K39}and {\K39}shine

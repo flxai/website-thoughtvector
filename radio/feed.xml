@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Jun 2026 10:21:56 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 10:22:14 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Competition in frontier AI is shifting toward high-fidelity sensory output and physical</title>
+      <link>https://thoughtvector.zip/radio/2026-06-21-mulerun/</link>
+      <guid isPermaLink="false">morning-whispers:20260621-102214Z</guid>
+      <pubDate>Sun, 21 Jun 2026 10:22:14 GMT</pubDate>
+      <description>Competition in frontier AI is shifting toward high-fidelity sensory output and physical integration. MiniMax has released Speech 2.8 to create more lifelike AI vocalizations. At the same time, Tesla continues engineering work on the gear systems for its Optimus humanoid robot. This push for embodied and sensory AI is mirrored by a drive toward agentic productivity tools in China. Alibaba Cloud is promoting MuleRun</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260621-102214Z.ogg" length="1478206" type="audio/ogg" />
+    </item>
     <item>
       <title>The Rapid Evolution of Frontier AI Capabilities</title>
       <link>https://thoughtvector.zip/radio/2026-06-20-auth-marlin-sakana-ai/</link>

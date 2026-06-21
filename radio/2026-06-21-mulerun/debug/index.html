@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Competition in frontier AI is shifting toward high-fidelity sensory output and physical - Morning Whispers Debug</title>
+    <meta name="description" content="Production diagnostics and source audit for this Morning Whispers episode.">
+    <link rel="canonical" href="https://thoughtvector.zip/radio/2026-06-21-mulerun/debug/">
+    <link rel="alternate" type="application/rss+xml" title="Morning Whispers RSS" href="https://thoughtvector.zip/radio/feed.xml">
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f3ee;
+        --ink: #202622;
+        --muted: #66716b;
+        --line: #d8cec2;
+        --panel: #fffaf4;
+        --pill-bg: #fff;
+        --accent: #315f4d;
+        --accent-soft: #dfece5;
+        --gold: #b58a42;
+        --failure: #8f4a3d;
+        --shadow: rgba(32, 38, 34, 0.16);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          color-scheme: dark;
+          --bg: #141815;
+          --ink: #edf3ee;
+          --muted: #aab7ae;
+          --line: #364139;
+          --panel: #1d241f;
+          --pill-bg: #161c18;
+          --accent: #8bd4b5;
+          --accent-soft: #243a31;
+          --gold: #d4b06b;
+          --failure: #ee9b8a;
+          --shadow: rgba(0, 0, 0, 0.42);
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        letter-spacing: 0;
+      }
+      main { width: min(1080px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0 64px; }
+      a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+      .topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 28px; }
+      .topbar-actions { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 10px; }
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--pill-bg);
+        color: var(--muted);
+        padding: 6px 10px;
+        text-decoration: none;
+      }
+      .pill:hover { color: var(--accent); border-color: var(--accent); }
+      .feed-icon { width: 1.05rem; height: 1.05rem; }
+      .icon { display: block; width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      header { display: grid; gap: 12px; margin-bottom: 32px; }
+      .eyebrow { color: var(--accent); font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; }
+      h1 { max-width: 880px; margin: 0; color: var(--ink); font-size: 2.4rem; font-weight: 760; line-height: 1.08; }
+      .lede { max-width: 760px; margin: 0; color: var(--muted); font-size: 1rem; line-height: 1.55; }
+      section { border-top: 1px solid var(--line); padding: 28px 0; }
+      h2 { margin: 0 0 14px; font-size: 1.1rem; }
+      .debug-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+      .debug-stat {
+        display: grid;
+        gap: 4px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        padding: 12px;
+      }
+      .debug-stat-label { color: var(--muted); font-size: 0.78rem; font-weight: 750; text-transform: uppercase; letter-spacing: 0.06em; }
+      .debug-stat-value { color: var(--ink); font-size: 1rem; font-weight: 700; overflow-wrap: anywhere; }
+      .empty { margin: 0; color: var(--muted); }
+      .show-note-sources { display: grid; gap: 24px; }
+      .source-section-note { margin: 0; color: var(--muted); font-size: 0.92rem; line-height: 1.5; }
+      .source-section { display: grid; gap: 14px; }
+      .source-section h3 {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+        margin: 0;
+        border-bottom: 1px solid var(--line);
+        color: var(--ink);
+        font-size: 1rem;
+        padding-bottom: 8px;
+      }
+      .source-section h3 span { color: var(--muted); font-size: 0.84rem; font-variant-numeric: tabular-nums; }
+      .source-section-considered { border-top: 1px solid var(--line); padding-top: 20px; }
+      .source-cluster { display: grid; gap: 8px; }
+      .source-cluster h4 {
+        margin: 0;
+        color: var(--accent);
+        font-size: 0.76rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .sources { display: grid; gap: 10px; list-style: none; margin: 0; padding: 0; }
+      .source-note {
+        display: grid;
+        grid-template-columns: 3.2rem minmax(0, 1fr);
+        align-items: start;
+        gap: 14px;
+        border-radius: 8px;
+        line-height: 1.45;
+        min-width: 0;
+        padding: 10px 0;
+        scroll-margin-top: 24px;
+      }
+      .source-note-mark {
+        display: grid;
+        justify-items: center;
+        align-content: start;
+        gap: 6px;
+        min-height: 64px;
+        border-right: 1px solid var(--line);
+        color: color-mix(in srgb, var(--gold) 72%, var(--muted));
+      }
+      .source-note-icon { display: inline-grid; place-items: center; width: 1.2rem; height: 1.2rem; color: inherit; margin-top: 2px; }
+      .source-note-icon .icon { width: 1.1rem; height: 1.1rem; }
+      .source-note-copy { display: grid; gap: 3px; min-width: 0; }
+      .source-note-title { color: var(--ink); }
+      .source-note-title a { color: inherit; text-decoration: none; }
+      .source-note-title a:hover, .source-note-title a:focus-visible { color: var(--accent); }
+      .source-note-meta {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 6px;
+        color: var(--muted);
+        font-size: 0.84rem;
+        line-height: 1.35;
+        overflow-wrap: anywhere;
+      }
+      .source-note-source {
+        display: inline-flex;
+        align-items: center;
+        border: 1px solid color-mix(in srgb, var(--gold) 58%, transparent);
+        border-radius: 999px;
+        color: color-mix(in srgb, var(--gold) 78%, var(--muted));
+        line-height: 1;
+        padding: 3px 7px;
+      }
+      .source-note-date { color: var(--muted); }
+      .source-note-translation { color: color-mix(in srgb, var(--muted) 82%, var(--accent)); font-size: 0.78rem; line-height: 1; text-transform: lowercase; }
+      .source-note-summary { color: var(--muted); font-size: 0.9rem; line-height: 1.4; max-width: 72rem; overflow-wrap: anywhere; }
+      .source-note-evidence-list { display: grid; gap: 4px; margin-top: 4px; max-width: 72rem; }
+      .source-note-evidence { color: color-mix(in srgb, var(--muted) 88%, var(--ink)); font-size: 0.82rem; font-style: italic; line-height: 1.36; overflow-wrap: anywhere; }
+      .source-note-evidence-ellipsis { color: color-mix(in srgb, var(--muted) 82%, var(--gold)); font-size: 0.9em; font-style: normal; opacity: 0.55; }
+      .source-note-evidence-mark { background: color-mix(in srgb, var(--gold) 24%, transparent); border-radius: 2px; color: var(--ink); padding: 0 2px; }
+      .source-note-id { color: inherit; font-size: clamp(1.02rem, 1.9vw, 1.22rem); font-weight: 650; line-height: 1; }
+      .source-popup-list { display: grid; gap: 12px; list-style: none; margin: 0; padding: 0; }
+      .source-row { display: flex; align-items: flex-start; gap: 10px; min-width: 0; }
+      .source-icon { position: relative; display: inline-grid; place-items: center; flex: 0 0 auto; width: 1.4rem; height: 1.4rem; color: var(--gold); line-height: 1; }
+      .source-icon .icon { width: 1.15rem; height: 1.15rem; }
+      .source-icon.muted-source { color: #6f665f; }
+      .source-icon.muted-source::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 1.65rem;
+        height: 2px;
+        border-radius: 999px;
+        background: currentColor;
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+      .source-copy { display: grid; gap: 3px; min-width: 0; }
+      .source-title { color: var(--ink); line-height: 1.35; }
+      .source-meta, .source-error { color: var(--muted); font-size: 0.84rem; line-height: 1.35; overflow-wrap: anywhere; }
+      .source-error { color: var(--failure); }
+      .debug-pre {
+        margin: 0;
+        max-height: 520px;
+        overflow: auto;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        color: var(--ink);
+        font: 0.86rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        padding: 14px;
+        white-space: pre-wrap;
+      }
+      .debug-script-sections { display: grid; gap: 10px; }
+      .debug-script-section {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .debug-script-section summary {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        cursor: pointer;
+        color: var(--ink);
+        font-weight: 700;
+        padding: 10px 12px;
+      }
+      .debug-script-section summary span:last-child {
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 500;
+        overflow-wrap: anywhere;
+        text-align: right;
+      }
+      .debug-script-section p {
+        margin: 0;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        line-height: 1.5;
+        padding: 12px;
+      }
+      @media (max-width: 640px) {
+        main { padding-top: 32px; }
+        h1 { font-size: 1.7rem; }
+        .topbar { align-items: flex-start; flex-direction: column; }
+        .source-note { grid-template-columns: 3rem minmax(0, 1fr); gap: 12px; }
+        .debug-script-section summary { flex-direction: column; }
+        .debug-script-section summary span:last-child { text-align: left; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav class="topbar" aria-label="Debug navigation">
+        <div class="eyebrow">Morning Whispers Debug</div>
+        <div class="topbar-actions">
+          <a class="pill" href="../">Listener page</a>
+          <a class="pill" href="../../">Archive</a>
+          <a class="pill" href="../../feed.xml" rel="alternate" type="application/rss+xml" aria-label="RSS feed" title="RSS feed"><svg class="icon feed-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg><span>RSS</span></a>
+        </div>
+      </nav>
+      <header>
+        <h1>Competition in frontier AI is shifting toward high-fidelity sensory output and physical</h1>
+        <p class="lede">Production diagnostics, source audit, and editorial artifacts for this generated episode.</p>
+      </header>
+      <section>
+        <h2>Production Snapshot</h2>
+        <div class="debug-stats"><div class="debug-stat"><span class="debug-stat-label">Run</span><span class="debug-stat-value">20260621-102214Z</span></div><div class="debug-stat"><span class="debug-stat-label">Generated</span><span class="debug-stat-value">2026-06-21T10:22:14+00:00</span></div><div class="debug-stat"><span class="debug-stat-label">Runtime</span><span class="debug-stat-value">1:50</span></div><div class="debug-stat"><span class="debug-stat-label">Ranked candidates</span><span class="debug-stat-value">300</span></div><div class="debug-stat"><span class="debug-stat-label">Prefiltered candidates</span><span class="debug-stat-value">31</span></div><div class="debug-stat"><span class="debug-stat-label">Transcript-linked sources</span><span class="debug-stat-value">4</span></div><div class="debug-stat"><span class="debug-stat-label">Editor-accepted sources</span><span class="debug-stat-value">4</span></div><div class="debug-stat"><span class="debug-stat-label">Additional accepted-only sources</span><span class="debug-stat-value">0</span></div><div class="debug-stat"><span class="debug-stat-label">Editor-parked examples</span><span class="debug-stat-value">4</span></div><div class="debug-stat"><span class="debug-stat-label">Prefiltered candidates not accepted</span><span class="debug-stat-value">27</span></div><div class="debug-stat"><span class="debug-stat-label">Feed failures</span><span class="debug-stat-value">0</span></div><div class="debug-stat"><span class="debug-stat-label">Sampled feed failures</span><span class="debug-stat-value">0</span></div><div class="debug-stat"><span class="debug-stat-label">Transcript segments</span><span class="debug-stat-value">13</span></div></div>
+      </section>
+      <section>
+        <h2>Source Audit</h2>
+        <div class="show-note-sources"><p class="source-section-note">The transcript links 4 sources behind spoken claims; the broader 31-item research pool spans AI and machine learning.</p><section class="source-section source-section-linked"><h3>Sources linked from transcript <span>4</span></h3><section class="source-cluster"><h4>AI and machine learning</h4><ol class="sources"><li id="source-01" class="source-note" data-source-item data-source-id="adef89dd539" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">01</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BbjkwaTRWRGNzTkNRRzZFdVRNQXVZNXIxbFloNEFjSlp0Z0hEWEIxaWZoZ2tNbTBJR1RIVzkzdnAyd3JMdmd6WmdyTU5LQ2owYXNhREFQUHc?oc=5">MiniMax Launches Speech 2.8 AI Voice Model</a></span><span class="source-note-meta"><span class="source-note-source">MiniMax News</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">MiniMax has released Speech 2.8, an update to its AI voice technology aimed at creating more lifelike vocalizations.</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>MiniMax <mark class="source-note-evidence-mark">Speech 2.8: Breathing life into AI voice</mark> - MiniMax<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-02" class="source-note" data-source-item data-source-id="aca4fa5e6a3" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">02</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxOeTNUQTBoNWRYLS05UzI0M3VYYlAtenR2TGxrbUl3MGhScTloSF9vR1pLZTBBS0xfX213MTMyMmt4Um85Tm1FWFA0UkhMWEhPQmR0X19fTmF6d0NOUTZWbTFVdTRrSC1PS1p0NmpqaUFYMDhQZVhMV3g4ZzJlUk9FZGxmdGtaUFk?oc=5">Tesla Continues Optimus Humanoid Development</a></span><span class="source-note-meta"><span class="source-note-source">Tesla AI and Robotics</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Recent activity indicates ongoing engineering efforts for the Optimus humanoid robot&#x27;s gear systems.</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>CAE Engineer, <mark class="source-note-evidence-mark">Optimus Gears</mark> - Tesla<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-03" class="source-note" data-source-item data-source-id="ab6a0c04b02" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">03</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9QTG44VmRzOFRwYVhOQkhjaFlSZGNCUW03YWxwYTlhS3dGQW56bmVId1RRaWhQNWF4T1pqZUlZVVdKYU91TllOTlg3NlRXbzJ0cXJ2dVQxWnl6ZE44dDFZUS1sYnR0QVdTajEw?oc=5">Alibaba Cloud Promotes MuleRun AI Workforce Tooling</a></span><span class="source-note-meta"><span class="source-note-source">Alibaba Wan Video Models</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Alibaba Cloud is highlighting &#x27;MuleRun&#x27; as part of its AI workforce productivity suite.</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span><mark class="source-note-evidence-mark">MuleRun: Your AI Workforce</mark> - Alibaba Cloud<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-04" class="source-note" data-source-item data-source-id="aedf79de14d" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">04</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lSnNrTlc2UUsyM19rUmJXWkxzeS01Tkh3TGFIeDlDSXkxY1ZkOFZCZTRwTURHdEE4bVllb1dmSXpLVnN0UFhELWd1ZTlDa2NMbmpwb0lPOTFzc243WWp4YWV1bVZFUnAx?oc=5">Kuaishou&#x27;s Kling AI Expands Creative Production Capabilities</a></span><span class="source-note-meta"><span class="source-note-source">Kuaishou Kling</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">The Kling AI platform continues to position itself as a next-generation productivity tool for AI-driven creative content.</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Kling AI - <mark class="source-note-evidence-mark">Next Generation AI Creative Productivity Platform</mark> - Kling AI<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li></ol></section></section><section class="source-section source-section-considered"><h3>Prefiltered candidates not accepted <span>27</span></h3><section class="source-cluster"><h4>AI and machine learning</h4><ol class="sources"><li id="source-05" class="source-note" data-source-item data-source-id="ab6d1e0fe5e" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">05</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3eWQ4TW9BdnFxcnhZUHFxLTgtYnc5S2t6bnpxRml1NThNV0t2azdaLXhPa19SLTVZYlFWN2R1ZEYyYnpqZzIxSHVXYTZOODZfMV9wRHFCcmttSjg?oc=5">Memory loss \u0026 context - Kimi Help Center - Kimi AI</a></span><span class="source-note-meta"><span class="source-note-source">Moonshot Kimi</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-06" class="source-note" data-source-item data-source-id="a81580e5e3f" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">06</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zWmxtYXBUSk1td2tMdzlRS1ZFVUdja2drNnRRV21TZ08xamtnQ0FyM3J5RG9EaUpfSHdkVjE5SmRURy13cjdacF9lYktFaURacHp2dU02SXlFS2RJWmdSX3ROamEteWs?oc=5">Z.ai</a></span><span class="source-note-meta"><span class="source-note-source">Z.ai GLM</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-07" class="source-note" data-source-item data-source-id="a2a8069e0e6" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">07</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMinAJBVV95cUxPTHA0WE9ZVVhEVjZEc2RTRFpheGFWamVVcWptWkV6dGJKWGxaMzBFdXZfS1VEVUpmWE5uWFlWWHJPZlgzaDZwS3c3M3JVLWNfeF9aZWJUdnc2UVRLZDc0cXFMbjNQNzFnNUwxbWU1UFlfTnozYWFYbUZBYjJJV01SQVM3MDVLaGZFVy1HcVo1N0xRYUlna014R0NxM05GR2tWeTJ2UUtGVHFBeVl5UFZoXzdiOERNMWR4cVkybmhDXzI5WWFLZzBfa1M1alQ0elk1X28yTWtNUXp0SFplaHJBZ21fX1F4VTJreVJtOUpFVlA0QldJWmtIdWtfOHZPT3YySHJNdDlMMFVKZDBQZEJEc3VUSWN5Q0lwVmVzaQ?oc=5">Documentation - Anthropic</a></span><span class="source-note-meta"><span class="source-note-source">Anthropic Official Updates</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-08" class="source-note" data-source-item data-source-id="a8d244687d0" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">08</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE1DRnY3MEh5Tm5YdU5VWWhaWGFnQ0ZPa0U0N0FoQmkwUDllRXBVVjZaT09Rc1oyZEVjNWNPeEc2NkdzZEg3elE?oc=5">Luma AI</a></span><span class="source-note-meta"><span class="source-note-source">Luma AI</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-09" class="source-note" data-source-item data-source-id="a94712af218" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">09</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE9pa1lOV2tibEUxcHFWNTJzNi05OEZLc2JqQjBGTm43SnhGUm5ma0tHM0FwS1lZMnN3Y3gtYmVoUzBVT2lpYmVwSTR1RQ?oc=5">Seko</a></span><span class="source-note-meta"><span class="source-note-source">SenseTime AI</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-10" class="source-note" data-source-item data-source-id="a15baa804a4" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">10</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxOeUpvN3kzV2JuR2dMMHh5ZU9SN0xtWkVweDVBUnYxYlAwUWFuM212aTQ1MjRGdGdKMEF1TF9KUl9rZ2FOZzVfZVpXZHFwQUR2UzBSeGxhaXh4RFRlTE9VbnBvb0xmSmctQ0NtYi1FVWxZekRpSDVxUHNZQTFBcFhUVHJ2UC1vS1lUN0E?oc=5">Automation Blueprints Catalog - Hermes Agent</a></span><span class="source-note-meta"><span class="source-note-source">Nous Research</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-11" class="source-note" data-source-item data-source-id="ad6fe65d949" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">11</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://the-decoder.com/aws-says-ai-agents-lack-business-context-and-security-launches-two-services-to-patch-the-gaps">AWS says AI agents lack business context and security, launches two services to patch the gaps</a></span><span class="source-note-meta"><span class="source-note-source">The Decoder</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">The AWS DevOps Agent now includes verification capabilities that check AI-generated code before it goes live, automatically testing it in production-like environments</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>AWS is also releasing its coding agent Kiro as an iOS app<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-12" class="source-note" data-source-item data-source-id="a93fa9b5329" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">12</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdlJ2V0o2eE5VSGlaU0xZRXVNTEpDLUx2dFllaVVEeG52dXY5UURwZ1NzdkhFT2hNcEFxX3l1TUV5MGROXzJoeUVfNm44bU5VT18tbGJid0pPZWNmT3VNV0VhX1NfNm9ZSXRscWlfc1pxeWg3Mmtpcld3c1hUX2RKSWYteGRLeU04bUpuR09qdGFUdEdXdGhFSS1neHdycmk4Qm42eTJCMkxKZUIxeE9SZElibHNiZlJE?oc=5">OpenRouter&#x27;s Fusion API bets the future of AI belongs to panels, not single frontier models - Startup Fortune</a></span><span class="source-note-meta"><span class="source-note-source">Google News AI Frontier</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-13" class="source-note" data-source-item data-source-id="a210e608232" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">13</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends">Signal President Warns AI Chatbots Are Not Sentient Beings</a></span><span class="source-note-meta"><span class="source-note-source">TechCrunch AI</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Meredith Whittaker, President of Signal, cautioned users that AI chatbots are not conscious or sentient interlocutors.</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>These are <mark class="source-note-evidence-mark">not sentient interlocutors</mark>.”<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-14" class="source-note" data-source-item data-source-id="a70ef4691c5" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">14</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data">The Atlantic Launches Searchable Database of AI Training Music</a></span><span class="source-note-meta"><span class="source-note-source">The Verge AI</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Reporter Alex Reisner has made four datasets used to train AI models searchable, including two sets containing millions of tracks.</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Two of the sets are absolutely enormous at <mark class="source-note-evidence-mark">12 million and 9 million tracks</mark>.<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-15" class="source-note" data-source-item data-source-id="a6d6ad3239c" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">15</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNM3loeTA3SVMxNVE1TS1Zb1pPNHMzZi1xandIVmcySUl5WVIyZDI3Q0VEb0hmcU52cldQVmFaRk9rOS1za0k0X2pFLXB0MUM2SDZjdUFiU01vcW9xTURaWTZVLXNDRGl5WjlGRVJLWDNvWDVkZExCYW5FLVJNeEZORg?oc=5">PolarDB for AI_Documentation - error-center.alibabacloud.com</a></span><span class="source-note-meta"><span class="source-note-source">Alibaba Wan Video Models</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-16" class="source-note" data-source-item data-source-id="a4fb8003da7" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">16</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1udy1TLURhR2JJbkhISTFBRXBKQ2laMUd2LTJkSG16bEdqV3hobEc1OFFEd0pNbWpsNm1uTkxmV2tvYUxhcFQtR1doWmxRT1E?oc=5">Kimi API 开放平台</a></span><span class="source-note-meta"><span class="source-note-source">Moonshot Kimi</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-17" class="source-note" data-source-item data-source-id="a881fd1da5c" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">17</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aV3RJOTB0ZHN5NHdRNVVocFJGMG1vUWxVR3pzV29WUE41ZjdtNDZsbG5CTHQyekNsS3czaHhiNFYzQzNCajRtOGhFVXNvZGs?oc=5">快手</a></span><span class="source-note-meta"><span class="source-note-source">Kuaishou Kling</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-18" class="source-note" data-source-item data-source-id="aef9494f030" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">18</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE9XRWpySld6R045U05wSEJGWnVNZENValp6MkNJVmdjeTQtVHExZVd4aXRvRGFUTDZLQVpzU3J0ak5zQ0FIR2NwZG0zTnU?oc=5">Drag to right to fill the puzzle - live.kuaishou.com</a></span><span class="source-note-meta"><span class="source-note-source">Kuaishou Kling</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-19" class="source-note" data-source-item data-source-id="a50b0c08f54" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">19</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5lSDI2Q2ZsbmpyZ295VVFwbkN6ZTBtQjIzRjdaWEdHUVByUC1zbkgwb29idEFWbjBYNnF6a1dlQ2VwMEFKb0pmcnJaQjlyQ05wUXBzZjRNd0ZESE1ZQy1CMFljYmxxNHM?oc=5">Z.ai</a></span><span class="source-note-meta"><span class="source-note-source">Z.ai GLM</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-20" class="source-note" data-source-item data-source-id="a44c80b8cda" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">20</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WTVpIcGJEUzc3YUZ2V0RHYlFCWXNOZWFFWnRYNE80Z2JvTjFxMmpLS1YwcmVUTHFPTEk4NUVrWkswbld5WDFRX1phMmtCckZZdGFKZWduNE5RWl9pbUg1bmFoUkhVX28?oc=5">Z.ai</a></span><span class="source-note-meta"><span class="source-note-source">Z.ai GLM</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-21" class="source-note" data-source-item data-source-id="a1faeec580f" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">21</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1vWkg5SmUtMzFhbXB3Q3VWclhLbmFmLTQ1WXhXUmM1RjItWjJHNGZDWnZUUk0zb3ZSblIzMkFaSDA3OFYtem1BSXNZNnFtcVhlZHlQcGJOdU1sQ2JkUDFNbUJKLVZtVVhIa0h5bE9xUHpUaXc?oc=5">Jihadist Evolution: From the Early Islamic Fitnas to the Modern Salafi-Jihadi Revival - Kimi AI</a></span><span class="source-note-meta"><span class="source-note-source">Moonshot Kimi</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-22" class="source-note" data-source-item data-source-id="a2e0754366a" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">22</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5lNEZaeG8yc0NwNkpINHdvVVBldWJfMUx6Wkl6aUdSRHVyRmZCMnd2SEpMcWQ3MkJEeHBNQmFadDJ4NVBaOGZHeTlQUGxYczloaGVxdGM1Z3BEdmZCQ2d4SGpQMXJUc3JLVkE?oc=5">Build your Career at Tesla - Tesla</a></span><span class="source-note-meta"><span class="source-note-source">Tesla AI and Robotics</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-23" class="source-note" data-source-item data-source-id="ac182185772" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">23</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiO0FVX3lxTFBzalFzV05XN3Rxdzg2eTN0blVzN2JJQjBPNWF1UTBlcnJWY0JtVGx6NzdpbFpoWi1KS3lJ?oc=5">Tesla</a></span><span class="source-note-meta"><span class="source-note-source">Tesla AI and Robotics</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-24" class="source-note" data-source-item data-source-id="a3e3e2f0e91" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">24</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE1RemJaNHljYXZ1ZC04dC1PUVVqVkhLSDZsMUQ0TjB2WG8xWkdwZTFUcE5jX0JTLWNhTDlXSVlzZDY1UHNQTHc?oc=5">Luma AI</a></span><span class="source-note-meta"><span class="source-note-source">Luma AI</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-25" class="source-note" data-source-item data-source-id="af02013e7dc" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">25</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiREFVX3lxTE8ySFR2cEluTl8yWFdOOC04X2ZncTViREExYkthWUlGWnBKTFNEaHRHZ09sblNQNmtMWEgtbHYwNkc1eEdP?oc=5">LumaLabs AI. - Luma AI - Luma AI</a></span><span class="source-note-meta"><span class="source-note-source">Luma AI</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-26" class="source-note" data-source-item data-source-id="ac8af574e6d" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">26</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aTy1nNDFOelNIczREbm9LSERhQkh6OHg1SkNRb1VlZWpJQ0t4LTVJVTZ3b3BJZk9MMEVwRFFfd3NGSWlaNHpHZ29IcHZxc29RMTJqYWlvWdIBV0FVX3lxTE1aTy1nNDFOelNIczREbm9LSERhQkh6OHg1SkNRb1VlZWpJQ0t4LTVJVTZ3b3BJZk9MMEVwRFFfd3NGSWlaNHpHZ29IcHZxc29RMTJqYWlvWQ?oc=5">Kakao Launches AI Supercomputer Ranked Among Worlds Top 30 - aju press</a></span><span class="source-note-meta"><span class="source-note-source">Google News AI Frontier</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-27" class="source-note" data-source-item data-source-id="ab9a8b773bc" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">27</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPeDNtZndSS0tqdEVEMGhvb2FJZm0yM1JqOXlHbGdaclFqUVFNUmh4aUJhMGo3MVlNazM5RmJfZk9HVThhelF1RFVVUXRnbFQ1cHgzZzRNaGFlbURhQ3dyQ1N3WS02el9UQmJobVcwRi1iTzZuQ3BNaWkwdnVnZmZfR1NUV0FjSnMtZHpxYlpWbWZqVzl3U0lVTlR1Mk03dTlWNkpYSEZpYTlhamZWeEtwTFM2bEhRUU5CVDQ5UHI1UWJhdjFySlFWaHNHUdIB0AFBVV95cUxQak5hQmt6a19ac1Q5TXdfVmpRMWVxOVZOSGNVY3o2d2NhcDhSeWZNbC1adGJxRnNDR3pWUUhpSHYwTHZLTEY0MElBekcweHNLQ3MzaW1VVHUyb0VqRTZGaWxPMVFTdV92R29STFpqQjIwRE0wN2QtTzNBLVBCdmlqSzdwWjJHY01XcjBiX3FqaHYxbVE2VnIwbEhib1ZaV3ZERTlURXlCY0xiR2Z4WE03a2ZXdlByQWxaSWJ1WDRNQWtBb0ZxQ0pXZl9lN3FjZHFU?oc=5">Nebius Group (NBIS) Launches £1.7b UK AI Buildout With Nvidia Robotics Lab - simplywall.st</a></span><span class="source-note-meta"><span class="source-note-source">Google News AI Frontier</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Non-personalized content is influenced by things like the content you’re currently viewing, activity in your active Search session, and your location. Non-personalized</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Non-personalized ads are influenced by the content you’re currently viewing and your<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-28" class="source-note" data-source-item data-source-id="a0f9bd8cff3" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">28</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://the-decoder.com/sam-altman-says-a-whole-generation-of-researchers-held-ai-back-by-underestimating-what-scaling-could-do">Sam Altman Claims Researchers Underestimated AI Scaling Potential</a></span><span class="source-note-meta"><span class="source-note-source">The Decoder</span><span class="source-note-date">2026-06-21</span></span><span class="source-note-summary">OpenAI CEO Sam Altman argued at a Stanford talk that the field of AI was slowed by researchers who underestimated the power of scaling large language models.</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>A whole generation of researchers <mark class="source-note-evidence-mark">held the field back</mark>, he says, because<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-29" class="source-note" data-source-item data-source-id="ae405fa412e" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">29</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://the-decoder.com/openais-codex-can-now-watch-you-work-once-and-repeat-the-task-forever">OpenAI Introduces Record &amp; Replay Feature for Codex on macOS</a></span><span class="source-note-meta"><span class="source-note-source">The Decoder</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">OpenAI has launched a feature for its Codex app that allows users to demonstrate a workflow once for the AI to convert into a reusable skill.</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>Codex turns that recording into a <mark class="source-note-evidence-mark">reusable &quot;skill&quot;</mark> and can then repeat<span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li><li id="source-30" class="source-note" data-source-item data-source-id="ad199ad2669" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">30</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search">In the Weights is your new AI-centric vanity search</a></span><span class="source-note-meta"><span class="source-note-source">TechCrunch AI</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Anyone who’s Googled themselves recently knows that it doesn’t quite hit the way it used to. Sure, there’s everything going on with Google search itself , but there’s</span></span></li><li id="source-31" class="source-note" data-source-item data-source-id="a9b53714b74" tabindex="-1"><span class="source-note-mark" aria-hidden="true"><span class="source-note-icon"><svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 6h12a3 3 0 0 1 3 3v9H6a2 2 0 0 1-2-2V6Z"></path><path d="M19 9h1a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2"></path><path d="M8 10h6"></path><path d="M8 14h7"></path><path d="M8 18h4"></path></svg></span><span class="source-note-id">31</span></span><span class="source-note-copy"><span class="source-note-title"><a href="https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic">Nobel Laureate John Jumper Moves from DeepMind to Anthropic</a></span><span class="source-note-meta"><span class="source-note-source">TechCrunch AI</span><span class="source-note-date">2026-06-20</span></span><span class="source-note-summary">Chemistry Nobel Prize winner John Jumper is leaving Google DeepMind to join rival AI company Anthropic after nearly nine years.</span><span class="source-note-evidence-list"><span class="source-note-evidence"><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span>John Jumper, who shared a recent Nobel Prize in chemistry, announced Friday that he’s <mark class="source-note-evidence-mark">making the leap to Anthropic</mark><span class="source-note-evidence-ellipsis" aria-hidden="true">…</span></span></span></span></li></ol></section></section></div>
+      </section>
+      <section>
+        <h2>Feed Failures</h2>
+        <p class="empty">No feed failures were recorded for this episode.</p>
+      </section>
+      <section>
+        <h2>Editor Brief</h2>
+        <pre class="debug-pre">{
+  &quot;schema_version&quot;: 1,
+  &quot;overview&quot;: &quot;The current source pool contains only fragmented metadata and generic Google News boilerplate text for AI-related items. No substantive news content regarding geopolitics, European markets, or Germany was provided in the index. Consequently, no stories meet the threshold for a credible briefing.&quot;,
+  &quot;accepted_stories&quot;: [
+    {
+      &quot;cluster_id&quot;: &quot;ai_ml_frontier&quot;,
+      &quot;headline&quot;: &quot;MiniMax Launches Speech 2.8 AI Voice Model&quot;,
+      &quot;summary&quot;: &quot;MiniMax has released Speech 2.8, an update to its AI voice technology aimed at creating more lifelike vocalizations.&quot;,
+      &quot;why_it_matters&quot;: &quot;Represents ongoing competition in the frontier-model space for high-fidelity audio and speech synthesis.&quot;,
+      &quot;article_ids&quot;: [
+        &quot;adef89dd539&quot;
+      ],
+      &quot;source_roles&quot;: [
+        {
+          &quot;article_id&quot;: &quot;adef89dd539&quot;,
+          &quot;role&quot;: &quot;primary&quot;
+        }
+      ],
+      &quot;confidence&quot;: &quot;low&quot;
+    },
+    {
+      &quot;cluster_id&quot;: &quot;ai_ml_frontier&quot;,
+      &quot;headline&quot;: &quot;Tesla Continues Optimus Humanoid Development&quot;,
+      &quot;summary&quot;: &quot;Recent activity indicates ongoing engineering efforts for the Optimus humanoid robot&#x27;s gear systems.&quot;,
+      &quot;why_it_matters&quot;: &quot;Signals continued progress in physical-AI and embodied robotics from a major industry player.&quot;,
+      &quot;article_ids&quot;: [
+        &quot;aca4fa5e6a3&quot;
+      ],
+      &quot;source_roles&quot;: [
+        {
+          &quot;article_id&quot;: &quot;aca4fa5e6a3&quot;,
+          &quot;role&quot;: &quot;primary&quot;
+        }
+      ],
+      &quot;confidence&quot;: &quot;low&quot;
+    },
+    {
+      &quot;cluster_id&quot;: &quot;ai_ml_frontier&quot;,
+      &quot;headline&quot;: &quot;Alibaba Cloud Promotes MuleRun AI Workforce Tooling&quot;,
+      &quot;summary&quot;: &quot;Alibaba Cloud is highlighting &#x27;MuleRun&#x27; as part of its AI workforce productivity suite.&quot;,
+      &quot;why_it_matters&quot;: &quot;Demonstrates the shift toward AI-driven agentic workflows and enterprise tooling in the Chinese market.&quot;,
+      &quot;article_ids&quot;: [
+        &quot;ab6a0c04b02&quot;
+      ],
+      &quot;source_roles&quot;: [
+        {
+          &quot;article_id&quot;: &quot;ab6a0c04b02&quot;,
+          &quot;role&quot;: &quot;primary&quot;
+        }
+      ],
+      &quot;confidence&quot;: &quot;low&quot;
+    },
+    {
+      &quot;cluster_id&quot;: &quot;ai_ml_frontier&quot;,
+      &quot;headline&quot;: &quot;Kuaishou&#x27;s Kling AI Expands Creative Production Capabilities&quot;,
+      &quot;summary&quot;: &quot;The Kling AI platform continues to position itself as a next-generation productivity tool for AI-driven creative content.&quot;,
+      &quot;why_it_matters&quot;: &quot;Highlights the competitive landscape of high-end video and image generation models coming out of China.&quot;,
+      &quot;article_ids&quot;: [
+        &quot;aedf79de14d&quot;
+      ],
+      &quot;source_roles&quot;: [
+        {
+          &quot;article_id&quot;: &quot;aedf79de14d&quot;,
+          &quot;role&quot;: &quot;primary&quot;
+        }
+      ],
+      &quot;confidence&quot;: &quot;low&quot;
+    }
+  ],
+  &quot;parked_candidates&quot;: [
+    {
+      &quot;article_id&quot;: &quot;a2a8069e0e6&quot;,
+      &quot;reason&quot;: &quot;Generic documentation link; no specific news event or update provided.&quot;
+    },
+    {
+      &quot;article_id&quot;: &quot;ab6d1e0fe5e&quot;,
+      &quot;reason&quot;: &quot;Help center article regarding memory loss/context; not a news item.&quot;
+    },
+    {
+      &quot;article_id&quot;: &quot;a81580e5e3f&quot;,
+      &quot;reason&quot;: &quot;Insufficient content; title is just the company name.&quot;
+    },
+    {
+      &quot;article_id&quot;: &quot;a8d244687d0&quot;,
+      &quot;reason&quot;: &quot;Insufficient content; title is just the company name.&quot;
+    }
+  ],
+  &quot;source_caveats&quot;: [
+    &quot;Most provided articles contained generic Google News boilerplate text instead of actual news summaries, leading to low confidence in the depth of these stories.&quot;
+  ]
+}</pre>
+      </section>
+      <section>
+        <h2>Script Sections</h2>
+        <div class="debug-script-sections"><details class="debug-script-section"><summary><span>1. weather_opening</span><span>no explicit article ids</span></summary><p>It is currently a cloudy morning in Berlin-Tempelhof with a temperature of 27 degrees Celsius.</p></details><details class="debug-script-section"><summary><span>2. news_bridge</span><span>no explicit article ids</span></summary><p>[calm, inviting] With the morning weather set, here is the news.</p></details><details class="debug-script-section"><summary><span>3. news</span><span>adef89dd539, aca4fa5e6a3</span></summary><p>[measured, clear] Competition in frontier AI is shifting toward high-fidelity sensory output and physical integration. MiniMax has released Speech 2.8 to create more lifelike AI vocalizations. At the same time, Tesla continues engineering work on the gear systems for its Optimus humanoid robot.</p></details><details class="debug-script-section"><summary><span>4. news</span><span>ab6a0c04b02, aedf79de14d</span></summary><p>This push for embodied and sensory AI is mirrored by a drive toward agentic productivity tools in China. Alibaba Cloud is promoting MuleRun as part of a new AI workforce productivity suite. [calm, focused] Kuaishou&#x27;s Kling AI platform is also expanding its capabilities as a creative production tool for high-end video and image generation.</p></details><details class="debug-script-section"><summary><span>5. weather_return_bridge</span><span>no explicit article ids</span></summary><p>[settling, conversational] After the headlines, back to the weather.</p></details><details class="debug-script-section"><summary><span>6. weather_closing</span><span>no explicit article ids</span></summary><p>This afternoon will remain cloudy with rain chances up to 83 percent and temperatures between 24 and 30 degrees Celsius.</p></details><details class="debug-script-section"><summary><span>7. closing</span><span>no explicit article ids</span></summary><p>[warm, settled] And that&#x27;s it for your personal morning broadcast.</p></details><details class="debug-script-section"><summary><span>8. signoff</span><span>no explicit article ids</span></summary><p>[mature adult voice, intensely emotional, tender, radiant; hold a long breath after Rise] Rise... and shine. [very very long pause before speaking; then mature adult voice, most emotional, strong, warm, radiant, deeply encouraging; hold a long breath after Rise] Rise... and shine.</p></details></div>
+      </section>
+    </main>
+  </body>
+</html>

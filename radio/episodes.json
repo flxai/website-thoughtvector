@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260621-102214Z.ogg",
+    "debug": "2026-06-21-mulerun/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-21T10:22:14+00:00",
+    "id": "20260621-102214Z",
+    "page": "2026-06-21-mulerun/",
+    "selected_article_count": 31,
+    "subtitles": "subtitles/20260621-102214Z.ass",
+    "summary": "Competition in frontier AI is shifting toward high-fidelity sensory output and physical integration. MiniMax has released Speech 2.8 to create more lifelike AI vocalizations. At the same time, Tesla continues engineering work on the gear systems for its Optimus humanoid robot. This push for embodied and sensory AI is mirrored by a drive toward agentic productivity tools in China. Alibaba Cloud is promoting MuleRun as part of a new AI workforce productivity suite.",
+    "title": "Competition in frontier AI is shifting toward high-fidelity sensory output and physical",
+    "transcript": "transcripts/20260621-102214Z.json",
+    "waveform": "waveforms/20260621-102214Z.json"
+  },
+  {
     "audio": "media/20260620-102156Z.ogg",
     "debug": "2026-06-20-auth-marlin-sakana-ai/debug/",
     "feed_failure_count": 0,
