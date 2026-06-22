@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jun 2026 10:22:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 10:22:11 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA has developed a breakthrough in cooling for its largest AI machines</title>
+      <link>https://thoughtvector.zip/radio/2026-06-22-hotter-than-a-hot-tub/</link>
+      <guid isPermaLink="false">morning-whispers:20260622-102211Z</guid>
+      <pubDate>Mon, 22 Jun 2026 10:22:11 GMT</pubDate>
+      <description>The new servers can operate with cooling liquid temperatures reaching up to 45 degrees Celsius. This thermal management allows for the scaling of frontier model training and inference clusters. As this physical infrastructure expands, major corporations are integrating these tools into their daily operations. Samsung Electronics is now deploying ChatGPT Enterprise and Codex to its global workforce.</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260622-102211Z.ogg" length="1262942" type="audio/ogg" />
+    </item>
     <item>
       <title>Competition in frontier AI is shifting toward high-fidelity sensory output and physical</title>
       <link>https://thoughtvector.zip/radio/2026-06-21-mulerun/</link>

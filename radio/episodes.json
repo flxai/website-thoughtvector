@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260622-102211Z.ogg",
+    "debug": "2026-06-22-hotter-than-a-hot-tub/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-22T10:22:11+00:00",
+    "id": "20260622-102211Z",
+    "page": "2026-06-22-hotter-than-a-hot-tub/",
+    "selected_article_count": 33,
+    "subtitles": "subtitles/20260622-102211Z.ass",
+    "summary": "The new servers can operate with cooling liquid temperatures reaching up to 45 degrees Celsius. This thermal management allows for the scaling of frontier model training and inference clusters. As this physical infrastructure expands, major corporations are integrating these tools into their daily operations. Samsung Electronics is now deploying ChatGPT Enterprise and Codex to its global workforce.",
+    "title": "NVIDIA has developed a breakthrough in cooling for its largest AI machines",
+    "transcript": "transcripts/20260622-102211Z.json",
+    "waveform": "waveforms/20260622-102211Z.json"
+  },
+  {
     "audio": "media/20260621-102214Z.ogg",
     "debug": "2026-06-21-mulerun/debug/",
     "feed_failure_count": 0,
