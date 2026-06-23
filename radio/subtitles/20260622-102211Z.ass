@@ -13,16 +13,16 @@ Style: Estimated,Noto Sans,44,&H0038D8FF,&H00C078A5,&H00181818,&H80000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:09.80,0:00:14.44,Default,,0,0,0,,{\K30}It {\K14}is {\K36}currently {\K26}a {\K24}clear {\K40}morning {\K22}in {\K26}Berlin {\K60}Tempelhof {\K32}with {\K12}a {\K32}temperature {\K26}of {\K32}24 {\K52}degrees
-Dialogue: 0,0:00:15.16,0:00:17.74,Default,,0,0,0,,{\K72}With {\K8}the {\K22}morning {\K32}weather {\K30}set{\K16} {\K20}here {\K14}is {\K14}the {\K30}news
-Dialogue: 0,0:00:18.56,0:00:22.62,Default,,0,0,0,,{\K72}NVIDIA {\K14}has {\K42}developed {\K20}a {\K28}breakthrough {\K26}in {\K32}cooling {\K28}for {\K16}its {\K44}largest {\K38}AI {\K46}machines
-Dialogue: 0,0:00:23.22,0:00:29.22,Default,,0,0,0,,{\K36}The {\K20}new {\K48}servers {\K38}can {\K42}operate {\K36}with {\K44}cooling {\K32}liquid {\K68}temperatures {\K40}reaching {\K32}up {\K18}to {\K44}45 {\K50}degrees {\K52}Celsius
-Dialogue: 0,0:00:30.08,0:00:35.80,Default,,0,0,0,,{\K50}This {\K36}thermal {\K50}management {\K48}allows {\K40}for {\K12}the {\K54}scaling {\K22}of {\K32}frontier {\K38}model {\K54}training {\K38}and {\K38}inference {\K60}clusters
-Dialogue: 0,0:00:39.76,0:00:44.02,Default,,0,0,0,,{\K85}As {\K85}this {\K85}physical {\K85}infrastructure {\K85}expands {\K1}major {\K1}corporations {\K1}are {\K1}integrating {\K1}these {\K1}tools {\K1}into {\K1}their {\K1}daily {\K1}operations
-Dialogue: 0,0:00:45.50,0:00:51.82,Default,,0,0,0,,{\K80}Samsung {\K80}Electronics {\K26}is {\K20}now {\K56}deploying {\K96}ChatGPT {\K40}Enterprise {\K54}and {\K62}Codex {\K16}to {\K20}its {\K26}global {\K56}workforce
-Dialogue: 0,0:00:52.32,0:00:58.06,Default,,0,0,0,,{\K70}This {\K46}represents {\K46}one {\K14}of {\K12}the {\K50}largest {\K70}enterprise {\K48}scale {\K64}rollouts {\K26}for {\K62}OpenAI {\K34}to {\K32}date
-Dialogue: 0,0:00:59.64,0:01:01.28,Default,,0,0,0,,{\K164}After {\K1}the {\K1}headlines {\K1}back {\K1}to {\K1}the {\K1}weather
-Dialogue: 0,0:01:01.44,0:01:06.72,Default,,0,0,0,,{\K70}This {\K50}afternoon {\K28}will {\K32}remain {\K40}clear {\K30}with {\K48}temperatures {\K44}between {\K62}24 {\K34}and {\K40}27 {\K50}degrees
-Dialogue: 0,0:01:07.55,0:01:09.63,Default,,0,0,0,,{\K14}And {\K34}that's {\K6}it {\K16}for {\K14}your {\K38}personal {\K32}morning {\K54}broadcast
-Dialogue: 0,0:01:12.93,0:01:14.79,Default,,0,0,0,,{\K10}mature {\K10}adult {\K10}voice {\K10}intensely {\K10}emotional {\K10}tender {\K10}radiant {\K10}hold {\K10}a {\K10}long {\K10}breath {\K10}after {\K10}Rise {\K60}Rise {\K1}and {\K1}shine
-Dialogue: 0,0:01:14.79,0:01:15.29,Estimated,,0,0,0,,{\K2}very {\K2}very {\K2}long {\K2}pause {\K2}before {\K2}speaking {\K2}then {\K2}mature {\K2}adult {\K2}voice {\K2}most {\K2}emotional {\K2}strong {\K2}warm {\K2}radiant {\K2}deeply {\K2}encouraging {\K2}hold {\K2}a {\K2}long {\K2}breath {\K2}after {\K2}Rise {\K2}Rise {\K2}and {\K2}shine
+Dialogue: 0,0:00:10.00,0:00:15.72,Estimated,,0,0,0,,{\K38}It {\K38}is {\K38}currently {\K38}a {\K38}clear {\K38}morning {\K38}in {\K38}Berlin {\K38}Tempelhof {\K38}with {\K38}a {\K38}temperature {\K38}of {\K38}24 {\K38}degrees
+Dialogue: 0,0:00:15.72,0:00:19.16,Estimated,,0,0,0,,{\K38}With {\K38}the {\K38}morning {\K38}weather {\K38}set {\K38}here {\K38}is {\K38}the {\K38}news
+Dialogue: 0,0:00:19.16,0:00:23.73,Estimated,,0,0,0,,{\K38}NVIDIA {\K38}has {\K38}developed {\K38}a {\K38}breakthrough {\K38}in {\K38}cooling {\K38}for {\K38}its {\K38}largest {\K38}AI {\K38}machines
+Dialogue: 0,0:00:23.73,0:00:29.45,Estimated,,0,0,0,,{\K38}The {\K38}new {\K38}servers {\K38}can {\K38}operate {\K38}with {\K38}cooling {\K38}liquid {\K38}temperatures {\K38}reaching {\K38}up {\K38}to {\K38}45 {\K38}degrees {\K38}Celsius
+Dialogue: 0,0:00:29.45,0:00:34.79,Estimated,,0,0,0,,{\K38}This {\K38}thermal {\K38}management {\K38}allows {\K38}for {\K38}the {\K38}scaling {\K38}of {\K38}frontier {\K38}model {\K38}training {\K38}and {\K38}inference {\K38}clusters
+Dialogue: 0,0:00:34.79,0:00:40.52,Estimated,,0,0,0,,{\K38}As {\K38}this {\K38}physical {\K38}infrastructure {\K38}expands {\K38}major {\K38}corporations {\K38}are {\K38}integrating {\K38}these {\K38}tools {\K38}into {\K38}their {\K38}daily {\K38}operations
+Dialogue: 0,0:00:40.52,0:00:45.47,Estimated,,0,0,0,,{\K38}Samsung {\K38}Electronics {\K38}is {\K38}now {\K38}deploying {\K38}ChatGPT {\K38}Enterprise {\K38}and {\K38}Codex {\K38}to {\K38}its {\K38}global {\K38}workforce
+Dialogue: 0,0:00:45.47,0:00:50.43,Estimated,,0,0,0,,{\K38}This {\K38}represents {\K38}one {\K38}of {\K38}the {\K38}largest {\K38}enterprise {\K38}scale {\K38}rollouts {\K38}for {\K38}OpenAI {\K38}to {\K38}date
+Dialogue: 0,0:00:50.43,0:00:53.10,Estimated,,0,0,0,,{\K38}After {\K38}the {\K38}headlines {\K38}back {\K38}to {\K38}the {\K38}weather
+Dialogue: 0,0:00:53.10,0:00:57.68,Estimated,,0,0,0,,{\K38}This {\K38}afternoon {\K38}will {\K38}remain {\K38}clear {\K38}with {\K38}temperatures {\K38}between {\K38}24 {\K38}and {\K38}27 {\K38}degrees
+Dialogue: 0,0:00:57.68,0:01:00.73,Estimated,,0,0,0,,{\K38}And {\K38}that's {\K38}it {\K38}for {\K38}your {\K38}personal {\K38}morning {\K38}broadcast
+Dialogue: 0,0:01:00.73,0:01:06.83,Estimated,,0,0,0,,{\K38}mature {\K38}adult {\K38}voice {\K38}intensely {\K38}emotional {\K38}tender {\K38}radiant {\K38}hold {\K38}a {\K38}long {\K38}breath {\K38}after {\K38}Rise {\K38}Rise {\K38}and {\K38}shine
+Dialogue: 0,0:01:06.83,0:01:16.75,Estimated,,0,0,0,,{\K38}very {\K38}very {\K38}long {\K38}pause {\K38}before {\K38}speaking {\K38}then {\K38}mature {\K38}adult {\K38}voice {\K38}most {\K38}emotional {\K38}strong {\K38}warm {\K38}radiant {\K38}deeply {\K38}encouraging {\K38}hold {\K38}a {\K38}long {\K38}breath {\K38}after {\K38}Rise {\K38}Rise {\K38}and {\K38}shine

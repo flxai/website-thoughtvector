@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260623-085155Z.ogg",
+    "debug": "2026-06-23-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-23T08:51:55+00:00",
+    "id": "20260623-085155Z",
+    "page": "2026-06-23-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations/",
+    "selected_article_count": 48,
+    "subtitles": "subtitles/20260623-085155Z.ass",
+    "summary": "NVIDIA is moving telecom operators away from simple task-based automation toward agentic AI. These new agents are designed to run twenty-four seven across network operations, customer care, and back-office workflows. While many operators have already used generative AI for predetermined steps, this shift aims for a higher level of autonomy in critical infrastructure. This push for autonomy extends to the tools developers use to build these models. Hugging Face is now shipping updates to its hub Python client every week.",
+    "title": "NVIDIA is moving telecom operators away from simple task-based automation toward agentic",
+    "transcript": "transcripts/20260623-085155Z.json",
+    "waveform": "waveforms/20260623-085155Z.json"
+  },
+  {
     "audio": "media/20260622-102211Z.ogg",
     "debug": "2026-06-22-hotter-than-a-hot-tub/debug/",
     "feed_failure_count": 0,
