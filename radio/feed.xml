@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2026 08:51:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 08:37:25 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling AI Performance Against Energy Constraints</title>
+      <link>https://thoughtvector.zip/radio/2026-06-24-nvidia-and-aws-collaborate-to-bring-ai-to-production-at-scale/</link>
+      <guid isPermaLink="false">morning-whispers:20260624-083725Z</guid>
+      <pubDate>Wed, 24 Jun 2026 08:37:25 GMT</pubDate>
+      <description>New hardware integrations significantly accelerate inference performance for real world artificial intelligence applications. Enhanced vector indexing improves the efficiency and accuracy of semantic search capabilities within cloud services. Rising electricity expenses create a critical physical bottleneck for the expansion of large scale AI factories. Optimization efforts now prioritize energy efficiency to</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260624-083725Z.ogg" length="1325153" type="audio/ogg" />
+    </item>
     <item>
       <title>NVIDIA is moving telecom operators away from simple task-based automation toward agentic</title>
       <link>https://thoughtvector.zip/radio/2026-06-23-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations/</link>

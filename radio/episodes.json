@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260624-083725Z.ogg",
+    "debug": "2026-06-24-nvidia-and-aws-collaborate-to-bring-ai-to-production-at-scale/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-24T08:37:25+00:00",
+    "id": "20260624-083725Z",
+    "page": "2026-06-24-nvidia-and-aws-collaborate-to-bring-ai-to-production-at-scale/",
+    "selected_article_count": 40,
+    "subtitles": "subtitles/20260624-083725Z.ass",
+    "summary": "New hardware integrations significantly accelerate inference performance for real world artificial intelligence applications. Enhanced vector indexing improves the efficiency and accuracy of semantic search capabilities within cloud services. Rising electricity expenses create a critical physical bottleneck for the expansion of large scale AI factories. Optimization efforts now prioritize energy efficiency to reduce the operational cost of generating data tokens.",
+    "title": "Scaling AI Performance Against Energy Constraints",
+    "transcript": "transcripts/20260624-083725Z.json",
+    "waveform": "waveforms/20260624-083725Z.json"
+  },
+  {
     "audio": "media/20260623-085155Z.ogg",
     "debug": "2026-06-23-nvidia-brings-trusted-24-7-ai-agents-to-telecom-operations/debug/",
     "feed_failure_count": 0,
