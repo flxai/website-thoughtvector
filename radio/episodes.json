@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260625-085156Z.ogg",
+    "debug": "2026-06-25-introducing-computer-use-in-gemini-3-5-flash/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-25T08:51:56+00:00",
+    "id": "20260625-085156Z",
+    "page": "2026-06-25-introducing-computer-use-in-gemini-3-5-flash/",
+    "selected_article_count": 46,
+    "subtitles": "subtitles/20260625-085156Z.ass",
+    "summary": "Google DeepMind has integrated computer use as a built-in tool for Gemini 3.5 Flash. This update allows developers to build agents that can interact directly across different software platforms. While Gemini moves toward software agency, NVIDIA is focusing on the hardware and libraries needed for physical and specialized AI. The company is accelerating Bird's-Eye-View perception on its GPUs to improve how autonomous vehicles and robotics project camera data into a top-down grid. NVIDIA is also using the NeMo AutoModel open library to speed up the fine-tuning of Transformers.",
+    "title": "Google DeepMind has integrated computer use as a built-in tool for Gemini",
+    "transcript": "transcripts/20260625-085156Z.json",
+    "waveform": "waveforms/20260625-085156Z.json"
+  },
+  {
     "audio": "media/20260624-083725Z.ogg",
     "debug": "2026-06-24-nvidia-and-aws-collaborate-to-bring-ai-to-production-at-scale/debug/",
     "feed_failure_count": 0,
