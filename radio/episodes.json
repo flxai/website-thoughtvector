@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260626-095218Z.ogg",
+    "debug": "2026-06-26-api-openapi-api-alibabacloud-com/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-26T09:52:18+00:00",
+    "id": "20260626-095218Z",
+    "page": "2026-06-26-api-openapi-api-alibabacloud-com/",
+    "selected_article_count": 47,
+    "subtitles": "subtitles/20260626-095218Z.ass",
+    "summary": "Hugging Face has simplified how developers deploy large language models. Users can now launch private, OpenAI-compatible endpoints using vLLM with a single command. This removes the need for manual server management when moving from experimentation to active hosting. While software tools simplify deployment, NVIDIA is focusing on the underlying hardware efficiency. The company is streamlining how shaders access data through end-to-end support for Vulkan descriptor heaps.",
+    "title": "Hugging Face has simplified how developers deploy large language models",
+    "transcript": "transcripts/20260626-095218Z.json",
+    "waveform": "waveforms/20260626-095218Z.json"
+  },
+  {
     "audio": "media/20260625-085156Z.ogg",
     "debug": "2026-06-25-introducing-computer-use-in-gemini-3-5-flash/debug/",
     "feed_failure_count": 0,

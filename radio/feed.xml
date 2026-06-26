@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 08:51:56 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 09:52:18 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugging Face has simplified how developers deploy large language models</title>
+      <link>https://thoughtvector.zip/radio/2026-06-26-api-openapi-api-alibabacloud-com/</link>
+      <guid isPermaLink="false">morning-whispers:20260626-095218Z</guid>
+      <pubDate>Fri, 26 Jun 2026 09:52:18 GMT</pubDate>
+      <description>Hugging Face has simplified how developers deploy large language models. Users can now launch private, OpenAI-compatible endpoints using vLLM with a single command. This removes the need for manual server management when moving from experimentation to active hosting. While software tools simplify deployment, NVIDIA is focusing on the underlying hardware efficiency. The company is streamlining how shaders access</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260626-095218Z.ogg" length="1329897" type="audio/ogg" />
+    </item>
     <item>
       <title>Google DeepMind has integrated computer use as a built-in tool for Gemini</title>
       <link>https://thoughtvector.zip/radio/2026-06-25-introducing-computer-use-in-gemini-3-5-flash/</link>
