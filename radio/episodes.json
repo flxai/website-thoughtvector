@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260627-115155Z.ogg",
+    "debug": "2026-06-27-marlin-sakana-ai/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-27T11:51:55+00:00",
+    "id": "20260627-115155Z",
+    "page": "2026-06-27-marlin-sakana-ai/",
+    "selected_article_count": 37,
+    "subtitles": "subtitles/20260627-115155Z.ass",
+    "summary": "NVIDIA is enabling developers to build sophisticated agents capable of maintaining complex multi turn conversations. Google is enhancing the speed of on device models to improve efficiency for mobile users. New advancements in synthetic voice technology are making AI interactions feel more human and lifelike. The shift toward production grade agents marks a transition from basic responses to functional real time utility.",
+    "title": "The Evolution of Real Time AI Interaction",
+    "transcript": "transcripts/20260627-115155Z.json",
+    "waveform": "waveforms/20260627-115155Z.json"
+  },
+  {
     "audio": "media/20260626-095218Z.ogg",
     "debug": "2026-06-26-api-openapi-api-alibabacloud-com/debug/",
     "feed_failure_count": 0,

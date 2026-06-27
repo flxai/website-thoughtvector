@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 09:52:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 11:51:55 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Real Time AI Interaction</title>
+      <link>https://thoughtvector.zip/radio/2026-06-27-marlin-sakana-ai/</link>
+      <guid isPermaLink="false">morning-whispers:20260627-115155Z</guid>
+      <pubDate>Sat, 27 Jun 2026 11:51:55 GMT</pubDate>
+      <description>NVIDIA is enabling developers to build sophisticated agents capable of maintaining complex multi turn conversations. Google is enhancing the speed of on device models to improve efficiency for mobile users. New advancements in synthetic voice technology are making AI interactions feel more human and lifelike. The shift toward production grade agents marks a transition from basic responses to functional real time</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260627-115155Z.ogg" length="1330925" type="audio/ogg" />
+    </item>
     <item>
       <title>Hugging Face has simplified how developers deploy large language models</title>
       <link>https://thoughtvector.zip/radio/2026-06-26-api-openapi-api-alibabacloud-com/</link>
