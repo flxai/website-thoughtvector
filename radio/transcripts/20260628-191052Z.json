@@ -162,7 +162,7 @@
         "ac8d2d8f342",
         "a6c111ddcf9"
       ],
-      "end": 459.966,
+      "end": 482.788,
       "id": "p8",
       "index": 8,
       "section_index": 8,
@@ -180,7 +180,7 @@
       "text": "Zhou Hongyi, founder of the Chinese cybersecurity firm 360 Security Technology, is framing the race for AI vulnerability tools as a matter of cyber-nuclear deterrence. Zhou warns that China cannot allow the U.S. to hold a monopoly on these capabilities, comparing advanced models like Anthropic's Mythos to weapons of mass destruction. To close a gap he estimates at 20 to 30 percent between Chinese and Western systems, his company has unveiled two tools: Yi Tian Zhen for automated defense and Tu Long Feng for hunting vulnerabilities. The latter has already flagged over three thousand vulnerabilities. Separately, the personal application of AI is appearing in healthcare. Connor Christou, a founder diagnosed with a rare and aggressive form of non-Hodgkin’s lymphoma, used Claude to manage his battle. Christou fed the AI his blood results, scan data, wearable output, and journal entries to help navigate a disease caused by a random genetic mutation."
     },
     {
-      "end": 460.211,
+      "end": 485.454,
       "id": "p9",
       "index": 9,
       "section_index": 9,
@@ -188,11 +188,11 @@
       "segments": [
         "s51"
       ],
-      "start": 459.966,
+      "start": 482.788,
       "text": "After the headlines, back to the weather."
     },
     {
-      "end": 460.632,
+      "end": 490.024,
       "id": "p10",
       "index": 10,
       "section_index": 10,
@@ -200,11 +200,11 @@
       "segments": [
         "s52"
       ],
-      "start": 460.211,
+      "start": 485.454,
       "text": "This afternoon will bring rain with temperatures between 20 and 29 degrees."
     },
     {
-      "end": 460.983,
+      "end": 493.833,
       "id": "p11",
       "index": 11,
       "section_index": 11,
@@ -212,11 +212,11 @@
       "segments": [
         "s53"
       ],
-      "start": 460.632,
+      "start": 490.024,
       "text": "And from the weather, a quick look at the calendar."
     },
     {
-      "end": 461.334,
+      "end": 497.642,
       "id": "p12",
       "index": 12,
       "section_index": 12,
@@ -224,11 +224,11 @@
       "segments": [
         "s54"
       ],
-      "start": 460.983,
+      "start": 493.833,
       "text": "On your calendar today: no entries in the calendar artifact."
     },
     {
-      "end": 461.896,
+      "end": 503.736,
       "id": "p13",
       "index": 13,
       "section_index": 13,
@@ -236,11 +236,11 @@
       "segments": [
         "s55"
       ],
-      "start": 461.334,
+      "start": 497.642,
       "text": "Mail worth checking: Soerface sent an update regarding a new profile option to delete drinks history."
     },
     {
-      "end": 462.176,
+      "end": 506.783,
       "id": "p14",
       "index": 14,
       "section_index": 14,
@@ -248,11 +248,11 @@
       "segments": [
         "s56"
       ],
-      "start": 461.896,
+      "start": 503.736,
       "text": "And that's it for your personal morning broadcast."
     },
     {
-      "end": 462.738,
+      "end": 512.877,
       "id": "p15",
       "index": 15,
       "section_index": 15,
@@ -260,11 +260,11 @@
       "segments": [
         "s57"
       ],
-      "start": 462.176,
+      "start": 506.783,
       "text": "[mature adult voice, intensely emotional, tender, radiant; hold a long breath after Rise] Rise... and shine."
     },
     {
-      "end": 463.65,
+      "end": 522.779,
       "id": "p16",
       "index": 16,
       "section_index": 15,
@@ -272,7 +272,7 @@
       "segments": [
         "s58"
       ],
-      "start": 462.738,
+      "start": 512.877,
       "text": "[very very long pause before speaking; then mature adult voice, most emotional, strong, warm, radiant, deeply encouraging; hold a long breath after Rise] Rise... and shine."
     }
   ],
@@ -7839,7 +7839,7 @@
       "article_ids": [
         "ac8d2d8f342"
       ],
-      "end": 457.966,
+      "end": 461.078,
       "group": "p8",
       "id": "s47",
       "index": 47,
@@ -7847,146 +7847,146 @@
       "text": "The latter has already flagged over three thousand vulnerabilities.",
       "words": [
         {
-          "end": 457.685,
+          "end": 458.031,
           "index": 0,
           "source": "interpolated",
           "start": 457.65,
           "text": "The"
         },
         {
-          "end": 457.72,
+          "end": 458.412,
           "index": 1,
           "source": "interpolated",
-          "start": 457.685,
+          "start": 458.031,
           "text": "latter"
         },
         {
-          "end": 457.755,
+          "end": 458.793,
           "index": 2,
           "source": "interpolated",
-          "start": 457.72,
+          "start": 458.412,
           "text": "has"
         },
         {
-          "end": 457.79,
+          "end": 459.173,
           "index": 3,
           "source": "interpolated",
-          "start": 457.755,
+          "start": 458.793,
           "text": "already"
         },
         {
-          "end": 457.825,
+          "end": 459.554,
           "index": 4,
           "source": "interpolated",
-          "start": 457.79,
+          "start": 459.173,
           "text": "flagged"
         },
         {
-          "end": 457.861,
+          "end": 459.935,
           "index": 5,
           "source": "interpolated",
-          "start": 457.825,
+          "start": 459.554,
           "text": "over"
         },
         {
-          "end": 457.896,
+          "end": 460.316,
           "index": 6,
           "source": "interpolated",
-          "start": 457.861,
+          "start": 459.935,
           "text": "three"
         },
         {
-          "end": 457.931,
+          "end": 460.697,
           "index": 7,
           "source": "interpolated",
-          "start": 457.896,
+          "start": 460.316,
           "text": "thousand"
         },
         {
-          "end": 457.966,
+          "end": 461.078,
           "index": 8,
           "source": "interpolated",
-          "start": 457.931,
+          "start": 460.697,
           "text": "vulnerabilities"
         }
       ]
     },
     {
-      "end": 458.317,
+      "end": 464.887,
       "group": "p8",
       "id": "s48",
       "index": 48,
-      "start": 457.966,
+      "start": 461.078,
       "text": "Separately, the personal application of AI is appearing in healthcare.",
       "words": [
         {
-          "end": 458.001,
+          "end": 461.459,
           "index": 0,
           "source": "interpolated",
-          "start": 457.966,
+          "start": 461.078,
           "text": "Separately"
         },
         {
-          "end": 458.036,
+          "end": 461.84,
           "index": 1,
           "source": "interpolated",
-          "start": 458.001,
+          "start": 461.459,
           "text": "the"
         },
         {
-          "end": 458.071,
+          "end": 462.22,
           "index": 2,
           "source": "interpolated",
-          "start": 458.036,
+          "start": 461.84,
           "text": "personal"
         },
         {
-          "end": 458.106,
+          "end": 462.601,
           "index": 3,
           "source": "interpolated",
-          "start": 458.071,
+          "start": 462.22,
           "text": "application"
         },
         {
-          "end": 458.141,
+          "end": 462.982,
           "index": 4,
           "source": "interpolated",
-          "start": 458.106,
+          "start": 462.601,
           "text": "of"
         },
         {
-          "end": 458.176,
+          "end": 463.363,
           "index": 5,
           "source": "interpolated",
-          "start": 458.141,
+          "start": 462.982,
           "text": "AI"
         },
         {
-          "end": 458.211,
+          "end": 463.744,
           "index": 6,
           "source": "interpolated",
-          "start": 458.176,
+          "start": 463.363,
           "text": "is"
         },
         {
-          "end": 458.246,
+          "end": 464.125,
           "index": 7,
           "source": "interpolated",
-          "start": 458.211,
+          "start": 463.744,
           "text": "appearing"
         },
         {
-          "end": 458.282,
+          "end": 464.506,
           "index": 8,
           "source": "interpolated",
-          "start": 458.246,
+          "start": 464.125,
           "text": "in"
         },
         {
-          "end": 458.317,
+          "end": 464.887,
           "index": 9,
           "source": "interpolated",
-          "start": 458.282,
+          "start": 464.506,
           "text": "healthcare"
         }
       ]
@@ -7995,165 +7995,165 @@
       "article_ids": [
         "a6c111ddcf9"
       ],
-      "end": 459.089,
+      "end": 473.266,
       "group": "p8",
       "id": "s49",
       "index": 49,
-      "start": 458.317,
+      "start": 464.887,
       "text": "Connor Christou, a founder diagnosed with a rare and aggressive form of non-Hodgkin’s lymphoma, used Claude to manage his battle.",
       "words": [
         {
-          "end": 458.352,
+          "end": 465.267,
           "index": 0,
           "source": "interpolated",
-          "start": 458.317,
+          "start": 464.887,
           "text": "Connor"
         },
         {
-          "end": 458.387,
+          "end": 465.648,
           "index": 1,
           "source": "interpolated",
-          "start": 458.352,
+          "start": 465.267,
           "text": "Christou"
         },
         {
-          "end": 458.422,
+          "end": 466.029,
           "index": 2,
           "source": "interpolated",
-          "start": 458.387,
+          "start": 465.648,
           "text": "a"
         },
         {
-          "end": 458.457,
+          "end": 466.41,
           "index": 3,
           "source": "interpolated",
-          "start": 458.422,
+          "start": 466.029,
           "text": "founder"
         },
         {
-          "end": 458.492,
+          "end": 466.791,
           "index": 4,
           "source": "interpolated",
-          "start": 458.457,
+          "start": 466.41,
           "text": "diagnosed"
         },
         {
-          "end": 458.527,
+          "end": 467.172,
           "index": 5,
           "source": "interpolated",
-          "start": 458.492,
+          "start": 466.791,
           "text": "with"
         },
         {
-          "end": 458.562,
+          "end": 467.553,
           "index": 6,
           "source": "interpolated",
-          "start": 458.527,
+          "start": 467.172,
           "text": "a"
         },
         {
-          "end": 458.597,
+          "end": 467.934,
           "index": 7,
           "source": "interpolated",
-          "start": 458.562,
+          "start": 467.553,
           "text": "rare"
         },
         {
-          "end": 458.632,
+          "end": 468.314,
           "index": 8,
           "source": "interpolated",
-          "start": 458.597,
+          "start": 467.934,
           "text": "and"
         },
         {
-          "end": 458.668,
+          "end": 468.695,
           "index": 9,
           "source": "interpolated",
-          "start": 458.632,
+          "start": 468.314,
           "text": "aggressive"
         },
         {
-          "end": 458.703,
+          "end": 469.076,
           "index": 10,
           "source": "interpolated",
-          "start": 458.668,
+          "start": 468.695,
           "text": "form"
         },
         {
-          "end": 458.738,
+          "end": 469.457,
           "index": 11,
           "source": "interpolated",
-          "start": 458.703,
+          "start": 469.076,
           "text": "of"
         },
         {
-          "end": 458.773,
+          "end": 469.838,
           "index": 12,
           "source": "interpolated",
-          "start": 458.738,
+          "start": 469.457,
           "text": "non"
         },
         {
-          "end": 458.808,
+          "end": 470.219,
           "index": 13,
           "source": "interpolated",
-          "start": 458.773,
+          "start": 469.838,
           "text": "Hodgkin"
         },
         {
-          "end": 458.843,
+          "end": 470.6,
           "index": 14,
           "source": "interpolated",
-          "start": 458.808,
+          "start": 470.219,
           "text": "s"
         },
         {
-          "end": 458.878,
+          "end": 470.981,
           "index": 15,
           "source": "interpolated",
-          "start": 458.843,
+          "start": 470.6,
           "text": "lymphoma"
         },
         {
-          "end": 458.913,
+          "end": 471.361,
           "index": 16,
           "source": "interpolated",
-          "start": 458.878,
+          "start": 470.981,
           "text": "used"
         },
         {
-          "end": 458.948,
+          "end": 471.742,
           "index": 17,
           "source": "interpolated",
-          "start": 458.913,
+          "start": 471.361,
           "text": "Claude"
         },
         {
-          "end": 458.983,
+          "end": 472.123,
           "index": 18,
           "source": "interpolated",
-          "start": 458.948,
+          "start": 471.742,
           "text": "to"
         },
         {
-          "end": 459.018,
+          "end": 472.504,
           "index": 19,
           "source": "interpolated",
-          "start": 458.983,
+          "start": 472.123,
           "text": "manage"
         },
         {
-          "end": 459.054,
+          "end": 472.885,
           "index": 20,
           "source": "interpolated",
-          "start": 459.018,
+          "start": 472.504,
           "text": "his"
         },
         {
-          "end": 459.089,
+          "end": 473.266,
           "index": 21,
           "source": "interpolated",
-          "start": 459.054,
+          "start": 472.885,
           "text": "battle"
         }
       ]
@@ -8162,1001 +8162,1001 @@
       "article_ids": [
         "a6c111ddcf9"
       ],
-      "end": 459.966,
+      "end": 482.788,
       "group": "p8",
       "id": "s50",
       "index": 50,
-      "start": 459.089,
+      "start": 473.266,
       "text": "Christou fed the AI his blood results, scan data, wearable output, and journal entries to help navigate a disease caused by a random genetic mutation.",
       "words": [
         {
-          "end": 459.124,
+          "end": 473.647,
           "index": 0,
           "source": "interpolated",
-          "start": 459.089,
+          "start": 473.266,
           "text": "Christou"
         },
         {
-          "end": 459.159,
+          "end": 474.028,
           "index": 1,
           "source": "interpolated",
-          "start": 459.124,
+          "start": 473.647,
           "text": "fed"
         },
         {
-          "end": 459.194,
+          "end": 474.408,
           "index": 2,
           "source": "interpolated",
-          "start": 459.159,
+          "start": 474.028,
           "text": "the"
         },
         {
-          "end": 459.229,
+          "end": 474.789,
           "index": 3,
           "source": "interpolated",
-          "start": 459.194,
+          "start": 474.408,
           "text": "AI"
         },
         {
-          "end": 459.264,
+          "end": 475.17,
           "index": 4,
           "source": "interpolated",
-          "start": 459.229,
+          "start": 474.789,
           "text": "his"
         },
         {
-          "end": 459.299,
+          "end": 475.551,
           "index": 5,
           "source": "interpolated",
-          "start": 459.264,
+          "start": 475.17,
           "text": "blood"
         },
         {
-          "end": 459.334,
+          "end": 475.932,
           "index": 6,
           "source": "interpolated",
-          "start": 459.299,
+          "start": 475.551,
           "text": "results"
         },
         {
-          "end": 459.369,
+          "end": 476.313,
           "index": 7,
           "source": "interpolated",
-          "start": 459.334,
+          "start": 475.932,
           "text": "scan"
         },
         {
-          "end": 459.404,
+          "end": 476.694,
           "index": 8,
           "source": "interpolated",
-          "start": 459.369,
+          "start": 476.313,
           "text": "data"
         },
         {
-          "end": 459.439,
+          "end": 477.075,
           "index": 9,
           "source": "interpolated",
-          "start": 459.404,
+          "start": 476.694,
           "text": "wearable"
         },
         {
-          "end": 459.475,
+          "end": 477.455,
           "index": 10,
           "source": "interpolated",
-          "start": 459.439,
+          "start": 477.075,
           "text": "output"
         },
         {
-          "end": 459.51,
+          "end": 477.836,
           "index": 11,
           "source": "interpolated",
-          "start": 459.475,
+          "start": 477.455,
           "text": "and"
         },
         {
-          "end": 459.545,
+          "end": 478.217,
           "index": 12,
           "source": "interpolated",
-          "start": 459.51,
+          "start": 477.836,
           "text": "journal"
         },
         {
-          "end": 459.58,
+          "end": 478.598,
           "index": 13,
           "source": "interpolated",
-          "start": 459.545,
+          "start": 478.217,
           "text": "entries"
         },
         {
-          "end": 459.615,
+          "end": 478.979,
           "index": 14,
           "source": "interpolated",
-          "start": 459.58,
+          "start": 478.598,
           "text": "to"
         },
         {
-          "end": 459.65,
+          "end": 479.36,
           "index": 15,
           "source": "interpolated",
-          "start": 459.615,
+          "start": 478.979,
           "text": "help"
         },
         {
-          "end": 459.685,
+          "end": 479.741,
           "index": 16,
           "source": "interpolated",
-          "start": 459.65,
+          "start": 479.36,
           "text": "navigate"
         },
         {
-          "end": 459.72,
+          "end": 480.122,
           "index": 17,
           "source": "interpolated",
-          "start": 459.685,
+          "start": 479.741,
           "text": "a"
         },
         {
-          "end": 459.755,
+          "end": 480.502,
           "index": 18,
           "source": "interpolated",
-          "start": 459.72,
+          "start": 480.122,
           "text": "disease"
         },
         {
-          "end": 459.79,
+          "end": 480.883,
           "index": 19,
           "source": "interpolated",
-          "start": 459.755,
+          "start": 480.502,
           "text": "caused"
         },
         {
-          "end": 459.825,
+          "end": 481.264,
           "index": 20,
           "source": "interpolated",
-          "start": 459.79,
+          "start": 480.883,
           "text": "by"
         },
         {
-          "end": 459.861,
+          "end": 481.645,
           "index": 21,
           "source": "interpolated",
-          "start": 459.825,
+          "start": 481.264,
           "text": "a"
         },
         {
-          "end": 459.896,
+          "end": 482.026,
           "index": 22,
           "source": "interpolated",
-          "start": 459.861,
+          "start": 481.645,
           "text": "random"
         },
         {
-          "end": 459.931,
+          "end": 482.407,
           "index": 23,
           "source": "interpolated",
-          "start": 459.896,
+          "start": 482.026,
           "text": "genetic"
         },
         {
-          "end": 459.966,
+          "end": 482.788,
           "index": 24,
           "source": "interpolated",
-          "start": 459.931,
+          "start": 482.407,
           "text": "mutation"
         }
       ]
     },
     {
-      "end": 460.211,
+      "end": 485.454,
       "group": "p9",
       "id": "s51",
       "index": 51,
-      "start": 459.966,
+      "start": 482.788,
       "text": "After the headlines, back to the weather.",
       "words": [
         {
-          "end": 460.001,
+          "end": 483.169,
           "index": 0,
           "source": "interpolated",
-          "start": 459.966,
+          "start": 482.788,
           "text": "After"
         },
         {
-          "end": 460.036,
+          "end": 483.549,
           "index": 1,
           "source": "interpolated",
-          "start": 460.001,
+          "start": 483.169,
           "text": "the"
         },
         {
-          "end": 460.071,
+          "end": 483.93,
           "index": 2,
           "source": "interpolated",
-          "start": 460.036,
+          "start": 483.549,
           "text": "headlines"
         },
         {
-          "end": 460.106,
+          "end": 484.311,
           "index": 3,
           "source": "interpolated",
-          "start": 460.071,
+          "start": 483.93,
           "text": "back"
         },
         {
-          "end": 460.141,
+          "end": 484.692,
           "index": 4,
           "source": "interpolated",
-          "start": 460.106,
+          "start": 484.311,
           "text": "to"
         },
         {
-          "end": 460.176,
+          "end": 485.073,
           "index": 5,
           "source": "interpolated",
-          "start": 460.141,
+          "start": 484.692,
           "text": "the"
         },
         {
-          "end": 460.211,
+          "end": 485.454,
           "index": 6,
           "source": "interpolated",
-          "start": 460.176,
+          "start": 485.073,
           "text": "weather"
         }
       ]
     },
     {
-      "end": 460.632,
+      "end": 490.024,
       "group": "p10",
       "id": "s52",
       "index": 52,
-      "start": 460.211,
+      "start": 485.454,
       "text": "This afternoon will bring rain with temperatures between 20 and 29 degrees.",
       "words": [
         {
-          "end": 460.246,
+          "end": 485.835,
           "index": 0,
           "source": "interpolated",
-          "start": 460.211,
+          "start": 485.454,
           "text": "This"
         },
         {
-          "end": 460.282,
+          "end": 486.216,
           "index": 1,
           "source": "interpolated",
-          "start": 460.246,
+          "start": 485.835,
           "text": "afternoon"
         },
         {
-          "end": 460.317,
+          "end": 486.596,
           "index": 2,
           "source": "interpolated",
-          "start": 460.282,
+          "start": 486.216,
           "text": "will"
         },
         {
-          "end": 460.352,
+          "end": 486.977,
           "index": 3,
           "source": "interpolated",
-          "start": 460.317,
+          "start": 486.596,
           "text": "bring"
         },
         {
-          "end": 460.387,
+          "end": 487.358,
           "index": 4,
           "source": "interpolated",
-          "start": 460.352,
+          "start": 486.977,
           "text": "rain"
         },
         {
-          "end": 460.422,
+          "end": 487.739,
           "index": 5,
           "source": "interpolated",
-          "start": 460.387,
+          "start": 487.358,
           "text": "with"
         },
         {
-          "end": 460.457,
+          "end": 488.12,
           "index": 6,
           "source": "interpolated",
-          "start": 460.422,
+          "start": 487.739,
           "text": "temperatures"
         },
         {
-          "end": 460.492,
+          "end": 488.501,
           "index": 7,
           "source": "interpolated",
-          "start": 460.457,
+          "start": 488.12,
           "text": "between"
         },
         {
-          "end": 460.527,
+          "end": 488.882,
           "index": 8,
           "source": "interpolated",
-          "start": 460.492,
+          "start": 488.501,
           "text": "20"
         },
         {
-          "end": 460.562,
+          "end": 489.263,
           "index": 9,
           "source": "interpolated",
-          "start": 460.527,
+          "start": 488.882,
           "text": "and"
         },
         {
-          "end": 460.597,
+          "end": 489.643,
           "index": 10,
           "source": "interpolated",
-          "start": 460.562,
+          "start": 489.263,
           "text": "29"
         },
         {
-          "end": 460.632,
+          "end": 490.024,
           "index": 11,
           "source": "interpolated",
-          "start": 460.597,
+          "start": 489.643,
           "text": "degrees"
         }
       ]
     },
     {
-      "end": 460.983,
+      "end": 493.833,
       "group": "p11",
       "id": "s53",
       "index": 53,
-      "start": 460.632,
+      "start": 490.024,
       "text": "And from the weather, a quick look at the calendar.",
       "words": [
         {
-          "end": 460.668,
+          "end": 490.405,
           "index": 0,
           "source": "interpolated",
-          "start": 460.632,
+          "start": 490.024,
           "text": "And"
         },
         {
-          "end": 460.703,
+          "end": 490.786,
           "index": 1,
           "source": "interpolated",
-          "start": 460.668,
+          "start": 490.405,
           "text": "from"
         },
         {
-          "end": 460.738,
+          "end": 491.167,
           "index": 2,
           "source": "interpolated",
-          "start": 460.703,
+          "start": 490.786,
           "text": "the"
         },
         {
-          "end": 460.773,
+          "end": 491.548,
           "index": 3,
           "source": "interpolated",
-          "start": 460.738,
+          "start": 491.167,
           "text": "weather"
         },
         {
-          "end": 460.808,
+          "end": 491.929,
           "index": 4,
           "source": "interpolated",
-          "start": 460.773,
+          "start": 491.548,
           "text": "a"
         },
         {
-          "end": 460.843,
+          "end": 492.31,
           "index": 5,
           "source": "interpolated",
-          "start": 460.808,
+          "start": 491.929,
           "text": "quick"
         },
         {
-          "end": 460.878,
+          "end": 492.69,
           "index": 6,
           "source": "interpolated",
-          "start": 460.843,
+          "start": 492.31,
           "text": "look"
         },
         {
-          "end": 460.913,
+          "end": 493.071,
           "index": 7,
           "source": "interpolated",
-          "start": 460.878,
+          "start": 492.69,
           "text": "at"
         },
         {
-          "end": 460.948,
+          "end": 493.452,
           "index": 8,
           "source": "interpolated",
-          "start": 460.913,
+          "start": 493.071,
           "text": "the"
         },
         {
-          "end": 460.983,
+          "end": 493.833,
           "index": 9,
           "source": "interpolated",
-          "start": 460.948,
+          "start": 493.452,
           "text": "calendar"
         }
       ]
     },
     {
-      "end": 461.334,
+      "end": 497.642,
       "group": "p12",
       "id": "s54",
       "index": 54,
-      "start": 460.983,
+      "start": 493.833,
       "text": "On your calendar today: no entries in the calendar artifact.",
       "words": [
         {
-          "end": 461.018,
+          "end": 494.214,
           "index": 0,
           "source": "interpolated",
-          "start": 460.983,
+          "start": 493.833,
           "text": "On"
         },
         {
-          "end": 461.054,
+          "end": 494.595,
           "index": 1,
           "source": "interpolated",
-          "start": 461.018,
+          "start": 494.214,
           "text": "your"
         },
         {
-          "end": 461.089,
+          "end": 494.976,
           "index": 2,
           "source": "interpolated",
-          "start": 461.054,
+          "start": 494.595,
           "text": "calendar"
         },
         {
-          "end": 461.124,
+          "end": 495.357,
           "index": 3,
           "source": "interpolated",
-          "start": 461.089,
+          "start": 494.976,
           "text": "today"
         },
         {
-          "end": 461.159,
+          "end": 495.737,
           "index": 4,
           "source": "interpolated",
-          "start": 461.124,
+          "start": 495.357,
           "text": "no"
         },
         {
-          "end": 461.194,
+          "end": 496.118,
           "index": 5,
           "source": "interpolated",
-          "start": 461.159,
+          "start": 495.737,
           "text": "entries"
         },
         {
-          "end": 461.229,
+          "end": 496.499,
           "index": 6,
           "source": "interpolated",
-          "start": 461.194,
+          "start": 496.118,
           "text": "in"
         },
         {
-          "end": 461.264,
+          "end": 496.88,
           "index": 7,
           "source": "interpolated",
-          "start": 461.229,
+          "start": 496.499,
           "text": "the"
         },
         {
-          "end": 461.299,
+          "end": 497.261,
           "index": 8,
           "source": "interpolated",
-          "start": 461.264,
+          "start": 496.88,
           "text": "calendar"
         },
         {
-          "end": 461.334,
+          "end": 497.642,
           "index": 9,
           "source": "interpolated",
-          "start": 461.299,
+          "start": 497.261,
           "text": "artifact"
         }
       ]
     },
     {
-      "end": 461.896,
+      "end": 503.736,
       "group": "p13",
       "id": "s55",
       "index": 55,
-      "start": 461.334,
+      "start": 497.642,
       "text": "Mail worth checking: Soerface sent an update regarding a new profile option to delete drinks history.",
       "words": [
         {
-          "end": 461.369,
+          "end": 498.023,
           "index": 0,
           "source": "interpolated",
-          "start": 461.334,
+          "start": 497.642,
           "text": "Mail"
         },
         {
-          "end": 461.404,
+          "end": 498.403,
           "index": 1,
           "source": "interpolated",
-          "start": 461.369,
+          "start": 498.023,
           "text": "worth"
         },
         {
-          "end": 461.439,
+          "end": 498.784,
           "index": 2,
           "source": "interpolated",
-          "start": 461.404,
+          "start": 498.403,
           "text": "checking"
         },
         {
-          "end": 461.475,
+          "end": 499.165,
           "index": 3,
           "source": "interpolated",
-          "start": 461.439,
+          "start": 498.784,
           "text": "Soerface"
         },
         {
-          "end": 461.51,
+          "end": 499.546,
           "index": 4,
           "source": "interpolated",
-          "start": 461.475,
+          "start": 499.165,
           "text": "sent"
         },
         {
-          "end": 461.545,
+          "end": 499.927,
           "index": 5,
           "source": "interpolated",
-          "start": 461.51,
+          "start": 499.546,
           "text": "an"
         },
         {
-          "end": 461.58,
+          "end": 500.308,
           "index": 6,
           "source": "interpolated",
-          "start": 461.545,
+          "start": 499.927,
           "text": "update"
         },
         {
-          "end": 461.615,
+          "end": 500.689,
           "index": 7,
           "source": "interpolated",
-          "start": 461.58,
+          "start": 500.308,
           "text": "regarding"
         },
         {
-          "end": 461.65,
+          "end": 501.07,
           "index": 8,
           "source": "interpolated",
-          "start": 461.615,
+          "start": 500.689,
           "text": "a"
         },
         {
-          "end": 461.685,
+          "end": 501.45,
           "index": 9,
           "source": "interpolated",
-          "start": 461.65,
+          "start": 501.07,
           "text": "new"
         },
         {
-          "end": 461.72,
+          "end": 501.831,
           "index": 10,
           "source": "interpolated",
-          "start": 461.685,
+          "start": 501.45,
           "text": "profile"
         },
         {
-          "end": 461.755,
+          "end": 502.212,
           "index": 11,
           "source": "interpolated",
-          "start": 461.72,
+          "start": 501.831,
           "text": "option"
         },
         {
-          "end": 461.79,
+          "end": 502.593,
           "index": 12,
           "source": "interpolated",
-          "start": 461.755,
+          "start": 502.212,
           "text": "to"
         },
         {
-          "end": 461.825,
+          "end": 502.974,
           "index": 13,
           "source": "interpolated",
-          "start": 461.79,
+          "start": 502.593,
           "text": "delete"
         },
         {
-          "end": 461.861,
+          "end": 503.355,
           "index": 14,
           "source": "interpolated",
-          "start": 461.825,
+          "start": 502.974,
           "text": "drinks"
         },
         {
-          "end": 461.896,
+          "end": 503.736,
           "index": 15,
           "source": "interpolated",
-          "start": 461.861,
+          "start": 503.355,
           "text": "history"
         }
       ]
     },
     {
-      "end": 462.176,
+      "end": 506.783,
       "group": "p14",
       "id": "s56",
       "index": 56,
-      "start": 461.896,
+      "start": 503.736,
       "text": "And that's it for your personal morning broadcast.",
       "words": [
         {
-          "end": 461.931,
+          "end": 504.117,
           "index": 0,
           "source": "interpolated",
-          "start": 461.896,
+          "start": 503.736,
           "text": "And"
         },
         {
-          "end": 461.966,
+          "end": 504.497,
           "index": 1,
           "source": "interpolated",
-          "start": 461.931,
+          "start": 504.117,
           "text": "that's"
         },
         {
-          "end": 462.001,
+          "end": 504.878,
           "index": 2,
           "source": "interpolated",
-          "start": 461.966,
+          "start": 504.497,
           "text": "it"
         },
         {
-          "end": 462.036,
+          "end": 505.259,
           "index": 3,
           "source": "interpolated",
-          "start": 462.001,
+          "start": 504.878,
           "text": "for"
         },
         {
-          "end": 462.071,
+          "end": 505.64,
           "index": 4,
           "source": "interpolated",
-          "start": 462.036,
+          "start": 505.259,
           "text": "your"
         },
         {
-          "end": 462.106,
+          "end": 506.021,
           "index": 5,
           "source": "interpolated",
-          "start": 462.071,
+          "start": 505.64,
           "text": "personal"
         },
         {
-          "end": 462.141,
+          "end": 506.402,
           "index": 6,
           "source": "interpolated",
-          "start": 462.106,
+          "start": 506.021,
           "text": "morning"
         },
         {
-          "end": 462.176,
+          "end": 506.783,
           "index": 7,
           "source": "interpolated",
-          "start": 462.141,
+          "start": 506.402,
           "text": "broadcast"
         }
       ]
     },
     {
-      "end": 462.738,
+      "end": 512.877,
       "group": "p15",
       "id": "s57",
       "index": 57,
-      "start": 462.176,
+      "start": 506.783,
       "text": "[mature adult voice, intensely emotional, tender, radiant; hold a long breath after Rise] Rise... and shine.",
       "words": [
         {
-          "end": 462.211,
+          "end": 507.164,
           "index": 0,
           "source": "interpolated",
-          "start": 462.176,
+          "start": 506.783,
           "text": "mature"
         },
         {
-          "end": 462.246,
+          "end": 507.544,
           "index": 1,
           "source": "interpolated",
-          "start": 462.211,
+          "start": 507.164,
           "text": "adult"
         },
         {
-          "end": 462.282,
+          "end": 507.925,
           "index": 2,
           "source": "interpolated",
-          "start": 462.246,
+          "start": 507.544,
           "text": "voice"
         },
         {
-          "end": 462.317,
+          "end": 508.306,
           "index": 3,
           "source": "interpolated",
-          "start": 462.282,
+          "start": 507.925,
           "text": "intensely"
         },
         {
-          "end": 462.352,
+          "end": 508.687,
           "index": 4,
           "source": "interpolated",
-          "start": 462.317,
+          "start": 508.306,
           "text": "emotional"
         },
         {
-          "end": 462.387,
+          "end": 509.068,
           "index": 5,
           "source": "interpolated",
-          "start": 462.352,
+          "start": 508.687,
           "text": "tender"
         },
         {
-          "end": 462.422,
+          "end": 509.449,
           "index": 6,
           "source": "interpolated",
-          "start": 462.387,
+          "start": 509.068,
           "text": "radiant"
         },
         {
-          "end": 462.457,
+          "end": 509.83,
           "index": 7,
           "source": "interpolated",
-          "start": 462.422,
+          "start": 509.449,
           "text": "hold"
         },
         {
-          "end": 462.492,
+          "end": 510.211,
           "index": 8,
           "source": "interpolated",
-          "start": 462.457,
+          "start": 509.83,
           "text": "a"
         },
         {
-          "end": 462.527,
+          "end": 510.591,
           "index": 9,
           "source": "interpolated",
-          "start": 462.492,
+          "start": 510.211,
           "text": "long"
         },
         {
-          "end": 462.562,
+          "end": 510.972,
           "index": 10,
           "source": "interpolated",
-          "start": 462.527,
+          "start": 510.591,
           "text": "breath"
         },
         {
-          "end": 462.597,
+          "end": 511.353,
           "index": 11,
           "source": "interpolated",
-          "start": 462.562,
+          "start": 510.972,
           "text": "after"
         },
         {
-          "end": 462.632,
+          "end": 511.734,
           "index": 12,
           "source": "interpolated",
-          "start": 462.597,
+          "start": 511.353,
           "text": "Rise"
         },
         {
-          "end": 462.668,
+          "end": 512.115,
           "index": 13,
           "source": "interpolated",
-          "start": 462.632,
+          "start": 511.734,
           "text": "Rise"
         },
         {
-          "end": 462.703,
+          "end": 512.496,
           "index": 14,
           "source": "interpolated",
-          "start": 462.668,
+          "start": 512.115,
           "text": "and"
         },
         {
-          "end": 462.738,
+          "end": 512.877,
           "index": 15,
           "source": "interpolated",
-          "start": 462.703,
+          "start": 512.496,
           "text": "shine"
         }
       ]
     },
     {
-      "end": 463.65,
+      "end": 522.779,
       "group": "p16",
       "id": "s58",
       "index": 58,
-      "start": 462.738,
+      "start": 512.877,
       "text": "[very very long pause before speaking; then mature adult voice, most emotional, strong, warm, radiant, deeply encouraging; hold a long breath after Rise] Rise... and shine.",
       "words": [
         {
-          "end": 462.773,
+          "end": 513.258,
           "index": 0,
           "source": "interpolated",
-          "start": 462.738,
+          "start": 512.877,
           "text": "very"
         },
         {
-          "end": 462.808,
+          "end": 513.638,
           "index": 1,
           "source": "interpolated",
-          "start": 462.773,
+          "start": 513.258,
           "text": "very"
         },
         {
-          "end": 462.843,
+          "end": 514.019,
           "index": 2,
           "source": "interpolated",
-          "start": 462.808,
+          "start": 513.638,
           "text": "long"
         },
         {
-          "end": 462.878,
+          "end": 514.4,
           "index": 3,
           "source": "interpolated",
-          "start": 462.843,
+          "start": 514.019,
           "text": "pause"
         },
         {
-          "end": 462.913,
+          "end": 514.781,
           "index": 4,
           "source": "interpolated",
-          "start": 462.878,
+          "start": 514.4,
           "text": "before"
         },
         {
-          "end": 462.948,
+          "end": 515.162,
           "index": 5,
           "source": "interpolated",
-          "start": 462.913,
+          "start": 514.781,
           "text": "speaking"
         },
         {
-          "end": 462.983,
+          "end": 515.543,
           "index": 6,
           "source": "interpolated",
-          "start": 462.948,
+          "start": 515.162,
           "text": "then"
         },
         {
-          "end": 463.018,
+          "end": 515.924,
           "index": 7,
           "source": "interpolated",
-          "start": 462.983,
+          "start": 515.543,
           "text": "mature"
         },
         {
-          "end": 463.054,
+          "end": 516.305,
           "index": 8,
           "source": "interpolated",
-          "start": 463.018,
+          "start": 515.924,
           "text": "adult"
         },
         {
-          "end": 463.089,
+          "end": 516.685,
           "index": 9,
           "source": "interpolated",
-          "start": 463.054,
+          "start": 516.305,
           "text": "voice"
         },
         {
-          "end": 463.124,
+          "end": 517.066,
           "index": 10,
           "source": "interpolated",
-          "start": 463.089,
+          "start": 516.685,
           "text": "most"
         },
         {
-          "end": 463.159,
+          "end": 517.447,
           "index": 11,
           "source": "interpolated",
-          "start": 463.124,
+          "start": 517.066,
           "text": "emotional"
         },
         {
-          "end": 463.194,
+          "end": 517.828,
           "index": 12,
           "source": "interpolated",
-          "start": 463.159,
+          "start": 517.447,
           "text": "strong"
         },
         {
-          "end": 463.229,
+          "end": 518.209,
           "index": 13,
           "source": "interpolated",
-          "start": 463.194,
+          "start": 517.828,
           "text": "warm"
         },
         {
-          "end": 463.264,
+          "end": 518.59,
           "index": 14,
           "source": "interpolated",
-          "start": 463.229,
+          "start": 518.209,
           "text": "radiant"
         },
         {
-          "end": 463.299,
+          "end": 518.971,
           "index": 15,
           "source": "interpolated",
-          "start": 463.264,
+          "start": 518.59,
           "text": "deeply"
         },
         {
-          "end": 463.334,
+          "end": 519.352,
           "index": 16,
           "source": "interpolated",
-          "start": 463.299,
+          "start": 518.971,
           "text": "encouraging"
         },
         {
-          "end": 463.369,
+          "end": 519.732,
           "index": 17,
           "source": "interpolated",
-          "start": 463.334,
+          "start": 519.352,
           "text": "hold"
         },
         {
-          "end": 463.404,
+          "end": 520.113,
           "index": 18,
           "source": "interpolated",
-          "start": 463.369,
+          "start": 519.732,
           "text": "a"
         },
         {
-          "end": 463.439,
+          "end": 520.494,
           "index": 19,
           "source": "interpolated",
-          "start": 463.404,
+          "start": 520.113,
           "text": "long"
         },
         {
-          "end": 463.475,
+          "end": 520.875,
           "index": 20,
           "source": "interpolated",
-          "start": 463.439,
+          "start": 520.494,
           "text": "breath"
         },
         {
-          "end": 463.51,
+          "end": 521.256,
           "index": 21,
           "source": "interpolated",
-          "start": 463.475,
+          "start": 520.875,
           "text": "after"
         },
         {
-          "end": 463.545,
+          "end": 521.637,
           "index": 22,
           "source": "interpolated",
-          "start": 463.51,
+          "start": 521.256,
           "text": "Rise"
         },
         {
-          "end": 463.58,
+          "end": 522.018,
           "index": 23,
           "source": "interpolated",
-          "start": 463.545,
+          "start": 521.637,
           "text": "Rise"
         },
         {
-          "end": 463.615,
+          "end": 522.399,
           "index": 24,
           "source": "interpolated",
-          "start": 463.58,
+          "start": 522.018,
           "text": "and"
         },
         {
-          "end": 463.65,
+          "end": 522.779,
           "index": 25,
           "source": "interpolated",
-          "start": 463.615,
+          "start": 522.399,
           "text": "shine"
         }
       ]
@@ -9166,8 +9166,10 @@
   "timing": "transcribe-part-aligned-script",
   "transcribe": {
     "cache": "transcribe.verbose.cache.json",
-    "cached": false,
+    "cached": true,
     "exact_words": 837,
+    "expected_speech_end": 522.779,
+    "expected_speech_start": 10.0,
     "match_ratio": 0.734,
     "matched_words": 856,
     "part_count": 67,
@@ -9847,6 +9849,8 @@
     "script_words": 1166,
     "source_bytes": 6571812,
     "tool": "transcribe",
+    "transcribed_end": 457.65,
+    "transcribed_start": 9.8,
     "word_timestamps": true
   },
   "validation": {
