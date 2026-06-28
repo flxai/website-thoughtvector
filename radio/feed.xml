@@ -5,11 +5,19 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Jun 2026 10:29:19 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 19:10:52 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Human Cost of the AI Arms Race</title>
+      <title>The Gap Between AI Potential and Practical Reality</title>
       <link>https://thoughtvector.zip/radio/2026-06-28-marlin-sakana-ai/</link>
+      <guid isPermaLink="false">morning-whispers:20260628-191052Z</guid>
+      <pubDate>Sun, 28 Jun 2026 19:10:52 GMT</pubDate>
+      <description>Market volatility reflects a desperate search for hardware winners as memory chip demand surges alongside AI infrastructure growth. Corporate shifts toward cheaper Chinese models highlight a growing tension between high-end performance and sustainable operational costs. Legal and literary critiques emphasize the risks of hallucination and the potential for chatbot logs to serve as forensic evidence. Academic tests</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260628-191052Z.ogg" length="6527945" type="audio/ogg" />
+    </item>
+    <item>
+      <title>The Human Cost of the AI Arms Race</title>
+      <link>https://thoughtvector.zip/radio/2026-06-28-marlin-sakana-ai-20260628-102919z/</link>
       <guid isPermaLink="false">morning-whispers:20260628-102919Z</guid>
       <pubDate>Sun, 28 Jun 2026 10:29:19 GMT</pubDate>
       <description>Personal health crises and corporate retraining initiatives highlight the precarious balance between human vulnerability and automation. Literary critics and researchers warn that plausible AI responses often mask a fundamental lack of truth. Global powers are treating AI development as a strategic deterrent akin to nuclear weaponry in cybersecurity. Hardware shifts toward wearable AI devices coincide with rising</description>
