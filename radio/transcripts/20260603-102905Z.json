@@ -3762,8 +3762,12 @@
   "source": "radio_script",
   "timing": "word-count-estimate",
   "validation": {
+    "expected_speech_end": 248.708,
+    "last_segment_end": 248.708,
     "monotonic": true,
     "segments": 31,
+    "speech_end_gap_seconds": 0.0,
+    "speech_end_tolerance_seconds": 5.0,
     "status": "ok",
     "timed_word_coverage": 1.0,
     "timed_words": 473,

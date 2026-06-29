@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Jun 2026 19:10:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 10:23:23 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Industry leaders balance the promise of autonomous intelligence against critical failures in</title>
+      <link>https://thoughtvector.zip/radio/2026-06-29-marlin-sakana-ai/</link>
+      <guid isPermaLink="false">morning-whispers:20260629-102323Z</guid>
+      <pubDate>Mon, 29 Jun 2026 10:23:23 GMT</pubDate>
+      <description>Ford is rehiring veteran engineers to fix quality gaps left by overreliance on automated systems. Corporate shifts toward cheaper Chinese AI models are challenging the pricing power of Western labs. Research indicates that current AI agents lack the long-term strategic reasoning required for executive leadership. Geopolitical tensions rise as China closes the gap in specialized cybersecurity and software bug</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260629-102323Z.ogg" length="6403257" type="audio/ogg" />
+    </item>
     <item>
       <title>The Gap Between AI Potential and Practical Reality</title>
       <link>https://thoughtvector.zip/radio/2026-06-28-marlin-sakana-ai/</link>

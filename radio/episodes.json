@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260629-102323Z.ogg",
+    "debug": "2026-06-29-marlin-sakana-ai/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-29T10:23:23+00:00",
+    "id": "20260629-102323Z",
+    "page": "2026-06-29-marlin-sakana-ai/",
+    "selected_article_count": 54,
+    "subtitles": "subtitles/20260629-102323Z.ass",
+    "summary": "Ford is rehiring veteran engineers to fix quality gaps left by overreliance on automated systems. Corporate shifts toward cheaper Chinese AI models are challenging the pricing power of Western labs. Research indicates that current AI agents lack the long-term strategic reasoning required for executive leadership. Geopolitical tensions rise as China closes the gap in specialized cybersecurity and software bug detection. New artist incubator programs create conflict between financial support and the loss of intellectual property rights.",
+    "title": "Industry leaders balance the promise of autonomous intelligence against critical failures in",
+    "transcript": "transcripts/20260629-102323Z.json",
+    "waveform": "waveforms/20260629-102323Z.json"
+  },
+  {
     "audio": "media/20260628-191052Z.ogg",
     "debug": "2026-06-28-marlin-sakana-ai/debug/",
     "feed_failure_count": 0,
