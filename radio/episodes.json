@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260630-085557Z.ogg",
+    "debug": "2026-06-30-open-models-closed-environments/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-06-30T08:55:57+00:00",
+    "id": "20260630-085557Z",
+    "page": "2026-06-30-open-models-closed-environments/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260630-085557Z.ass",
+    "summary": "Companies are increasingly building proprietary models to ensure long-term competitiveness and prevent intellectual property leaks to rivals. New government proposals aim to restrict data brokers from selling sensitive health and location information gathered by chatbots. The rise of autonomous agents creates a critical need for governed environments to protect sensitive enterprise data. A widening productivity gap exists as only a small fraction of workers derive significant benefits from AI tools. Technical breakthroughs in memory systems and data distribution are enhancing the efficiency and accuracy of generative models.",
+    "title": "Industry leaders and governments navigate the tension between rapid artificial intelligence adoption",
+    "transcript": "transcripts/20260630-085557Z.json",
+    "waveform": "waveforms/20260630-085557Z.json"
+  },
+  {
     "audio": "media/20260629-102323Z.ogg",
     "debug": "2026-06-29-marlin-sakana-ai/debug/",
     "feed_failure_count": 0,
