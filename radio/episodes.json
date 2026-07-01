@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260701-105258Z.ogg",
+    "debug": "2026-07-01-we-know-more-is-to-come-pro-ukrainians-in-crimea-greet-strikes-on-russian-logistics/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-01T10:52:58+00:00",
+    "id": "20260701-105258Z",
+    "page": "2026-07-01-we-know-more-is-to-come-pro-ukrainians-in-crimea-greet-strikes-on-russian-logistics/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260701-105258Z.ass",
+    "summary": "Climate extremes are causing unprecedented mortality rates in Spain and devastating seismic losses in Venezuela. Ukrainian strategic strikes on Crimea provide hope for liberation while Russia tightens border controls against NATO neighbors. Economic volatility in cocoa markets is driving systemic poverty and child labor increases across West Africa. Diplomatic efforts in Qatar aim to stabilize nuclear tensions between Washington and Tehran amid broader global uncertainty. Internal frictions emerge in Germany as sports failures mirror a perceived decline in the nation's global standing.",
+    "title": "Global Instability and the Fragility of Order",
+    "transcript": "transcripts/20260701-105258Z.json",
+    "waveform": "waveforms/20260701-105258Z.json"
+  },
+  {
     "audio": "media/20260630-085557Z.ogg",
     "debug": "2026-06-30-open-models-closed-environments/debug/",
     "feed_failure_count": 0,

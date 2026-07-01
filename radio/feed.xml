@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 08:55:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 10:52:58 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Instability and the Fragility of Order</title>
+      <link>https://thoughtvector.zip/radio/2026-07-01-we-know-more-is-to-come-pro-ukrainians-in-crimea-greet-strikes-on-russian-logistics/</link>
+      <guid isPermaLink="false">morning-whispers:20260701-105258Z</guid>
+      <pubDate>Wed, 01 Jul 2026 10:52:58 GMT</pubDate>
+      <description>Climate extremes are causing unprecedented mortality rates in Spain and devastating seismic losses in Venezuela. Ukrainian strategic strikes on Crimea provide hope for liberation while Russia tightens border controls against NATO neighbors. Economic volatility in cocoa markets is driving systemic poverty and child labor increases across West Africa. Diplomatic efforts in Qatar aim to stabilize nuclear tensions</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260701-105258Z.ogg" length="6601114" type="audio/ogg" />
+    </item>
     <item>
       <title>Industry leaders and governments navigate the tension between rapid artificial intelligence adoption</title>
       <link>https://thoughtvector.zip/radio/2026-06-30-open-models-closed-environments/</link>
