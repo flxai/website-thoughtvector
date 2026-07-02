@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260702-071828Z.ogg",
+    "debug": "2026-07-02-supervisor-engineering-optimus-technicians/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-02T07:18:28+00:00",
+    "id": "20260702-071828Z",
+    "page": "2026-07-02-supervisor-engineering-optimus-technicians/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260702-071828Z.ass",
+    "summary": "Indian entrepreneur Bhavin Turakhia is betting thirty million dollars of his own money to challenge the dominance of Microsoft Office and Google Apps. His new venture, Neo, is an enterprise work platform that integrates documents, file storage, and project management into a single product. Turakhia believes workplace software designed before the AI era cannot simply be upgraded with chatbots. Instead, he argues these tools must be redesigned from the ground up to make artificial intelligence an active participant in daily work. By bootstrapping the project, Turakhia aims to avoid the structural disadvantages faced by incumbents who add generative AI to legacy products.",
+    "title": "Indian entrepreneur Bhavin Turakhia is betting thirty million dollars of his own",
+    "transcript": "transcripts/20260702-071828Z.json",
+    "waveform": "waveforms/20260702-071828Z.json"
+  },
+  {
     "audio": "media/20260701-105258Z.ogg",
     "debug": "2026-07-01-we-know-more-is-to-come-pro-ukrainians-in-crimea-greet-strikes-on-russian-logistics/debug/",
     "feed_failure_count": 0,
