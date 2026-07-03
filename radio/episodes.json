@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260703-071732Z.ogg",
+    "debug": "2026-07-03-lithuania-poised-to-lift-nuclear-weapon-hosting-ban/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-03T07:17:32+00:00",
+    "id": "20260703-071732Z",
+    "page": "2026-07-03-lithuania-poised-to-lift-nuclear-weapon-hosting-ban/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260703-071732Z.ass",
+    "summary": "Lithuania considers lifting its nuclear weapons ban to strengthen NATO defenses amid regional instability. European cryptocurrency services face disruption as Binance navigates complex new regulatory frameworks across several nations. AI development is shifting toward hardware independence and autonomous agent economies to drive future scalability. Extreme weather events in Europe are causing critical infrastructure failures and significant loss of life. Controversy grows over the implementation of behavior-scanning surveillance technology in urban Berlin centers.",
+    "title": "Global Security Shifts and Digital Infrastructure Evolution",
+    "transcript": "transcripts/20260703-071732Z.json",
+    "waveform": "waveforms/20260703-071732Z.json"
+  },
+  {
     "audio": "media/20260702-071828Z.ogg",
     "debug": "2026-07-02-supervisor-engineering-optimus-technicians/debug/",
     "feed_failure_count": 0,
