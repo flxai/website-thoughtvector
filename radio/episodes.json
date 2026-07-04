@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260704-073741Z.ogg",
+    "debug": "2026-07-04-general-staff/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-04T07:37:41+00:00",
+    "id": "20260704-073741Z",
+    "page": "2026-07-04-general-staff/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260704-073741Z.ass",
+    "summary": "International stability remains fragile as Iran mourns its leader amid ongoing conflicts with the United States and Israel. NATO leadership emphasizes increased defense spending to maintain alliance cohesion ahead of a critical summit in Ankara. Technological advancements emerge through new AI verification tools and simulated black hole radiation research in Germany. Extreme weather patterns disrupt American Independence Day celebrations while Ethiopia invests heavily in aviation infrastructure. Legal battles over digital privacy intensify in India as domain providers challenge new identity disclosure requirements.",
+    "title": "Global Tensions and High Profile Milestones",
+    "transcript": "transcripts/20260704-073741Z.json",
+    "waveform": "waveforms/20260704-073741Z.json"
+  },
+  {
     "audio": "media/20260703-071732Z.ogg",
     "debug": "2026-07-03-lithuania-poised-to-lift-nuclear-weapon-hosting-ban/debug/",
     "feed_failure_count": 0,

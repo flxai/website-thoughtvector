@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jul 2026 07:17:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 07:37:41 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Tensions and High Profile Milestones</title>
+      <link>https://thoughtvector.zip/radio/2026-07-04-general-staff/</link>
+      <guid isPermaLink="false">morning-whispers:20260704-073741Z</guid>
+      <pubDate>Sat, 04 Jul 2026 07:37:41 GMT</pubDate>
+      <description>International stability remains fragile as Iran mourns its leader amid ongoing conflicts with the United States and Israel. NATO leadership emphasizes increased defense spending to maintain alliance cohesion ahead of a critical summit in Ankara. Technological advancements emerge through new AI verification tools and simulated black hole radiation research in Germany. Extreme weather patterns disrupt American</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260704-073741Z.ogg" length="6322482" type="audio/ogg" />
+    </item>
     <item>
       <title>Global Security Shifts and Digital Infrastructure Evolution</title>
       <link>https://thoughtvector.zip/radio/2026-07-03-lithuania-poised-to-lift-nuclear-weapon-hosting-ban/</link>
