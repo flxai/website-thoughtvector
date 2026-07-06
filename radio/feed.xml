@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Jul 2026 07:37:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 08:17:49 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Tensions and the Cost of Progress</title>
+      <link>https://thoughtvector.zip/radio/2026-07-06-ciflow-xpu-188963/</link>
+      <guid isPermaLink="false">morning-whispers:20260706-081749Z</guid>
+      <pubDate>Mon, 06 Jul 2026 08:17:49 GMT</pubDate>
+      <description>Extreme weather events across Europe and Asia highlight urgent needs for infrastructure adaptation and disaster response. Content creators are challenging tech giants in court over the unauthorized use of intellectual property for AI. The transition of power in Iran follows a period of intense conflict and state-led displays of unity. Scientific breakthroughs in deep space exploration provide new insights into the</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260706-081749Z.ogg" length="6356568" type="audio/ogg" />
+    </item>
     <item>
       <title>Global Tensions and High Profile Milestones</title>
       <link>https://thoughtvector.zip/radio/2026-07-04-general-staff/</link>

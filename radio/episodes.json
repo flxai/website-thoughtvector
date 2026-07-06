@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260706-081749Z.ogg",
+    "debug": "2026-07-06-ciflow-xpu-188963/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-06T08:17:49+00:00",
+    "id": "20260706-081749Z",
+    "page": "2026-07-06-ciflow-xpu-188963/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260706-081749Z.ass",
+    "summary": "Extreme weather events across Europe and Asia highlight urgent needs for infrastructure adaptation and disaster response. Content creators are challenging tech giants in court over the unauthorized use of intellectual property for AI. The transition of power in Iran follows a period of intense conflict and state-led displays of unity. Scientific breakthroughs in deep space exploration provide new insights into the formation of the earliest galaxies. Strategic investments in African climate technology aim to build more resilient food systems through targeted funding.",
+    "title": "Global Tensions and the Cost of Progress",
+    "transcript": "transcripts/20260706-081749Z.json",
+    "waveform": "waveforms/20260706-081749Z.json"
+  },
+  {
     "audio": "media/20260704-073741Z.ogg",
     "debug": "2026-07-04-general-staff/debug/",
     "feed_failure_count": 0,
