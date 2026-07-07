@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260707-112255Z.ogg",
+    "debug": "2026-07-07-industrial-scale-results-8-russian-shadow-fleet-tankers-hit-in-azov-sea-ukraine-s/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-07T11:22:55+00:00",
+    "id": "20260707-112255Z",
+    "page": "2026-07-07-industrial-scale-results-8-russian-shadow-fleet-tankers-hit-in-azov-sea-ukraine-s/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260707-112255Z.ass",
+    "summary": "Investors face potential stock repricing if AI productivity gains in regulated industries lag behind current market expectations. Ukraine is targeting Russian fuel supplies and refineries to disrupt military logistics and create domestic energy crises. The European Central Bank is integrating climate risk into monetary policy by penalizing bonds from vulnerable sectors. German industrial output shows fragile recovery led by automotive growth amid shifting consumer habits in the beverage market. Technical updates for local AI models aim to improve stability and hardware compatibility across diverse operating systems.",
+    "title": "Global Economic Risks and Strategic Military Escalations",
+    "transcript": "transcripts/20260707-112255Z.json",
+    "waveform": "waveforms/20260707-112255Z.json"
+  },
+  {
     "audio": "media/20260706-081749Z.ogg",
     "debug": "2026-07-06-ciflow-xpu-188963/debug/",
     "feed_failure_count": 0,
