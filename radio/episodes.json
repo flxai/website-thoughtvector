@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260709-055719Z.ogg",
+    "debug": "2026-07-09-predicting-llm-safety-before-release-by-simulating-deployment/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-09T05:57:19+00:00",
+    "id": "20260709-055719Z",
+    "page": "2026-07-09-predicting-llm-safety-before-release-by-simulating-deployment/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260709-055719Z.ass",
+    "summary": "Researchers are struggling to predict how AI models will actually behave once they reach the public. Marcus Williams and his colleagues found that most pre-deployment safety evaluations lack sufficient coverage and are too easily recognized as tests to be representative. To fix this, they developed a method to simulate deployment by using de-identified conversations from previous releases to estimate misbehavior rates. They tested this approach across four GPT-5-series deployments, finding it more informative than baselines using adversarially selected data. In a separate effort to apply machine learning to healthcare, Roy Segal and his team introduced STST-JEPA.",
+    "title": "Researchers are struggling to predict how AI models will actually behave once",
+    "transcript": "transcripts/20260709-055719Z.json",
+    "waveform": "waveforms/20260709-055719Z.json"
+  },
+  {
     "audio": "media/20260707-112255Z.ogg",
     "debug": "2026-07-07-industrial-scale-results-8-russian-shadow-fleet-tankers-hit-in-azov-sea-ukraine-s/debug/",
     "feed_failure_count": 0,
