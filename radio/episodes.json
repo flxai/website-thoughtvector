@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260710-073728Z.ogg",
+    "debug": "2026-07-10-bayeux-tapestry-arrives-in-british-museum-for-historic-exhibition/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-10T07:37:28+00:00",
+    "id": "20260710-073728Z",
+    "page": "2026-07-10-bayeux-tapestry-arrives-in-british-museum-for-historic-exhibition/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260710-073728Z.ass",
+    "summary": "Software developers are refining machine learning frameworks to prevent crashes and expand local model deployment across diverse hardware. The Bayeux Tapestry returns to England for a rare exhibition highlighting shared history between two nations. Former Cold War borders in Germany have evolved into vital ecological corridors protecting thousands of endangered species. India is increasing coal reliance to stabilize power grids as climate conditions disrupt traditional hydropower generation. Meta and Google are adjusting their AI strategies through aggressive pricing and new transparency labels for generated content.",
+    "title": "Technological Shifts and Cultural Reconnections",
+    "transcript": "transcripts/20260710-073728Z.json",
+    "waveform": "waveforms/20260710-073728Z.json"
+  },
+  {
     "audio": "media/20260709-055719Z.ogg",
     "debug": "2026-07-09-predicting-llm-safety-before-release-by-simulating-deployment/debug/",
     "feed_failure_count": 0,
