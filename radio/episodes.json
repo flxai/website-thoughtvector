@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260710-225238Z.ogg",
+    "debug": "2026-07-10-open-science-ai-lab-kyutai-org/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-10T22:52:38+00:00",
+    "id": "20260710-225238Z",
+    "page": "2026-07-10-open-science-ai-lab-kyutai-org/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260710-225238Z.ass",
+    "summary": "Legal battles intensify as Apple accuses OpenAI of poaching staff to steal hardware secrets for consumer devices. Russian strikes on civilian infrastructure in Zaporizhzhia highlight the ongoing volatility near the Ukrainian front lines. NATO leadership navigates shifting diplomatic ties while Germany implements controversial health insurance savings measures. Cybersecurity experts warn that AI-driven misinformation poses a significant threat to France's upcoming presidential elections.",
+    "title": "Corporate Espionage and Global Political Instability",
+    "transcript": "transcripts/20260710-225238Z.json",
+    "waveform": "waveforms/20260710-225238Z.json"
+  },
+  {
     "audio": "media/20260710-214953Z.ogg",
     "debug": "2026-07-10-openai-s-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model/debug/",
     "feed_failure_count": 0,
