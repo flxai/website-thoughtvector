@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260710-214953Z.ogg",
+    "debug": "2026-07-10-openai-s-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-10T21:49:53+00:00",
+    "id": "20260710-214953Z",
+    "page": "2026-07-10-openai-s-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260710-214953Z.ass",
+    "summary": "OpenAI advances toward automated research capabilities as new models begin independently optimizing smaller AI systems. Apple initiates legal action against OpenAI alleging a systematic theft of hardware secrets to build competing devices. Russian airstrikes on civilian infrastructure in Zaporizhzhia cause casualties and force emergency evacuations in the region. NATO leadership meetings and shifting political fortunes in France signal a volatile period for Western diplomacy. Corporate insider filings reveal strategic shifts in ownership across the technology, insurance, and real estate sectors.",
+    "title": "The Race for Autonomous Intelligence and Hardware",
+    "transcript": "transcripts/20260710-214953Z.json",
+    "waveform": "waveforms/20260710-214953Z.json"
+  },
+  {
     "audio": "media/20260710-073728Z.ogg",
     "debug": "2026-07-10-bayeux-tapestry-arrives-in-british-museum-for-historic-exhibition/debug/",
     "feed_failure_count": 0,

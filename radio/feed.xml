@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jul 2026 07:37:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 21:49:53 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Race for Autonomous Intelligence and Hardware</title>
+      <link>https://thoughtvector.zip/radio/2026-07-10-openai-s-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model/</link>
+      <guid isPermaLink="false">morning-whispers:20260710-214953Z</guid>
+      <pubDate>Fri, 10 Jul 2026 21:49:53 GMT</pubDate>
+      <description>OpenAI advances toward automated research capabilities as new models begin independently optimizing smaller AI systems. Apple initiates legal action against OpenAI alleging a systematic theft of hardware secrets to build competing devices. Russian airstrikes on civilian infrastructure in Zaporizhzhia cause casualties and force emergency evacuations in the region. NATO leadership meetings and shifting political</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260710-214953Z.ogg" length="6625394" type="audio/ogg" />
+    </item>
     <item>
       <title>Technological Shifts and Cultural Reconnections</title>
       <link>https://thoughtvector.zip/radio/2026-07-10-bayeux-tapestry-arrives-in-british-museum-for-historic-exhibition/</link>
