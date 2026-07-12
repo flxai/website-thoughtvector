@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260712-113729Z.ogg",
+    "debug": "2026-07-12-russia-kills-at-least-5-people-and-injures-35-others-in-last-24-hours/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-12T11:37:29+00:00",
+    "id": "20260712-113729Z",
+    "page": "2026-07-12-russia-kills-at-least-5-people-and-injures-35-others-in-last-24-hours/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260712-113729Z.ass",
+    "summary": "Anthropic has released an analysis showing that the primary use for its AI agent, Claude Cowork, is the mundane office work that employees typically avoid. The company examined one point two million anonymized sessions from over six hundred thousand organizations during May 2026. About half of all usage falls into business operations and text-based tasks, which Anthropic describes as the work around the work. This includes routine organizational burdens like compiling status reports, building onboarding checklists, and preparing presentations. These administrative processes often consume significant employee time but are rarely anyone's core responsibility.",
+    "title": "Anthropic has released an analysis showing that the primary use for its",
+    "transcript": "transcripts/20260712-113729Z.json",
+    "waveform": "waveforms/20260712-113729Z.json"
+  },
+  {
     "audio": "media/20260710-225238Z.ogg",
     "debug": "2026-07-10-open-science-ai-lab-kyutai-org/debug/",
     "feed_failure_count": 0,

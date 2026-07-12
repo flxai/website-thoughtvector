@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jul 2026 22:52:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 11:37:29 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic has released an analysis showing that the primary use for its</title>
+      <link>https://thoughtvector.zip/radio/2026-07-12-russia-kills-at-least-5-people-and-injures-35-others-in-last-24-hours/</link>
+      <guid isPermaLink="false">morning-whispers:20260712-113729Z</guid>
+      <pubDate>Sun, 12 Jul 2026 11:37:29 GMT</pubDate>
+      <description>Anthropic has released an analysis showing that the primary use for its AI agent, Claude Cowork, is the mundane office work that employees typically avoid. The company examined one point two million anonymized sessions from over six hundred thousand organizations during May 2026. About half of all usage falls into business operations and text-based tasks, which Anthropic describes as the work around the work. This</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260712-113729Z.ogg" length="6026688" type="audio/ogg" />
+    </item>
     <item>
       <title>Corporate Espionage and Global Political Instability</title>
       <link>https://thoughtvector.zip/radio/2026-07-10-open-science-ai-lab-kyutai-org/</link>
