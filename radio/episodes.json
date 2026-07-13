@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260713-073820Z.ogg",
+    "debug": "2026-07-13-ciflow-xpu-189516/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-13T07:38:20+00:00",
+    "id": "20260713-073820Z",
+    "page": "2026-07-13-ciflow-xpu-189516/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260713-073820Z.ass",
+    "summary": "Maritime instability in the Strait of Hormuz and Sea of Azov threatens critical shipping lanes and resource transport. European nations are increasing Russian gas imports despite looming bans and ongoing support for Ukraine. Western allies gather in Paris to strengthen air defense commitments and security guarantees for Kyiv. New infrastructure projects in Indiana and China aim to modernize cargo logistics and bypass coastal congestion. Medical experts warn that non-specific symptoms make the rare but deadly plague difficult for doctors to diagnose.",
+    "title": "Global Security Risks and Shifting Trade Dynamics",
+    "transcript": "transcripts/20260713-073820Z.json",
+    "waveform": "waveforms/20260713-073820Z.json"
+  },
+  {
     "audio": "media/20260712-113729Z.ogg",
     "debug": "2026-07-12-russia-kills-at-least-5-people-and-injures-35-others-in-last-24-hours/debug/",
     "feed_failure_count": 0,
