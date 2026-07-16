@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260716-103814Z.ogg",
+    "debug": "2026-07-16-on-his-way-out-fedorov-moves-to-boost-ukraine-s-sky-shield/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-16T10:38:14+00:00",
+    "id": "20260716-103814Z",
+    "page": "2026-07-16-on-his-way-out-fedorov-moves-to-boost-ukraine-s-sky-shield/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260716-103814Z.ass",
+    "summary": "Republican legislators are pressuring the Trump administration to ban American firms from buying memory chips from ChangXin Memory Technologies, a Chinese manufacturer the Pentagon flagged as military-linked in 2025. This push follows reports that Apple has been lobbying for clearance to source CXMT's DRAM chips since May, sparking a national security debate over whether such revenue fuels China's defense and AI capabilities. While US firms face these restrictions, Thinking Machines Lab, founded by former OpenAI CTO Mira Murati, has released Inkling. This multimodal open-weights model leads other US labs on agentic tasks but still trails the best Chinese models in overall performance and factual accuracy.",
+    "title": "Republican legislators are pressuring the Trump administration to ban American firms from",
+    "transcript": "transcripts/20260716-103814Z.json",
+    "waveform": "waveforms/20260716-103814Z.json"
+  },
+  {
     "audio": "media/20260713-073820Z.ogg",
     "debug": "2026-07-13-ciflow-xpu-189516/debug/",
     "feed_failure_count": 0,
