@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260718-072304Z.ogg",
+    "debug": "2026-07-18-general-staff/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-18T07:23:04+00:00",
+    "id": "20260718-072304Z",
+    "page": "2026-07-18-general-staff/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260718-072304Z.ass",
+    "summary": "Venture capitalists warn that extreme AI profits may require forced redistribution to prevent broader economic instability. Ukraine reports massive Russian troop losses while FIFA faces scrutiny over payments to sanctioned Russian football clubs. Strategic interests in the Gulf of Guinea rise as Russia expands military cooperation with São Tomé and Príncipe. Political controversy erupts in Germany over surrogacy laws following a high-profile case involving a government leader. Rural American landowners are seeing sudden windfalls from selling farmland for AI data center development.",
+    "title": "Global Tensions and the Redistribution of Power",
+    "transcript": "transcripts/20260718-072304Z.json",
+    "waveform": "waveforms/20260718-072304Z.json"
+  },
+  {
     "audio": "media/20260716-103814Z.ogg",
     "debug": "2026-07-16-on-his-way-out-fedorov-moves-to-boost-ukraine-s-sky-shield/debug/",
     "feed_failure_count": 0,
