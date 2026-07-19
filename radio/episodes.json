@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260719-072224Z.ogg",
+    "debug": "2026-07-19-kimi-k3-kimi-api-platform/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-19T07:22:24+00:00",
+    "id": "20260719-072224Z",
+    "page": "2026-07-19-kimi-k3-kimi-api-platform/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260719-072224Z.ass",
+    "summary": "Donald Trump is claiming that the governments of Hugo Chávez and Nicolás Maduro plotted to electronically manipulate election results between 2004 and 2020. He based these assertions on declassified CIA documents during a speech on July 16, but those reports actually contradict his claims. The CIA findings state there is no definitive evidence of large-scale electronic fraud and conclude that neither the Venezuelan government nor Smartmatic could alter elections outside of Venezuela. systems, analysts note that Chavismo typically relies on political disqualifications rather than electronic hacking to gain advantages at home.",
+    "title": "Donald Trump is claiming that the governments of Hugo Chávez and Nicolás",
+    "transcript": "transcripts/20260719-072224Z.json",
+    "waveform": "waveforms/20260719-072224Z.json"
+  },
+  {
     "audio": "media/20260718-072304Z.ogg",
     "debug": "2026-07-18-general-staff/debug/",
     "feed_failure_count": 0,
