@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260720-062254Z.ogg",
+    "debug": "2026-07-20-middle-east-live/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-20T06:22:54+00:00",
+    "id": "20260720-062254Z",
+    "page": "2026-07-20-middle-east-live/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260720-062254Z.ass",
+    "summary": "Escalating conflict between Iran and the US forces Gulf nations to rethink security alliances and energy stockpiles. The rise of voice cloning and image manipulation enables sophisticated corporate scams and non-consensual digital content. Civil unrest and political volatility intensify across India, Malaysia, and the US amid disputes over governance and human rights. Critical vulnerabilities in web infrastructure and declining marine biodiversity highlight urgent gaps in digital and environmental protection.",
+    "title": "Global Security Shifts and the Risks of AI",
+    "transcript": "transcripts/20260720-062254Z.json",
+    "waveform": "waveforms/20260720-062254Z.json"
+  },
+  {
     "audio": "media/20260719-072224Z.ogg",
     "debug": "2026-07-19-kimi-k3-kimi-api-platform/debug/",
     "feed_failure_count": 0,
