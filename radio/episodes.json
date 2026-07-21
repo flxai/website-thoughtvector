@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260721-062314Z.ogg",
+    "debug": "2026-07-21-live/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-21T06:23:14+00:00",
+    "id": "20260721-062314Z",
+    "page": "2026-07-21-live/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260721-062314Z.ass",
+    "summary": "The UK Competition and Markets Authority is seeking public views on a proposed acquisition in the food manufacturing sector. McCormick & Company intends to acquire the foods business of Unilever Plc, prompting the regulator to open an invitation for comments on how the deal might impact competition within the UK. Interested parties have until August 5th to submit written representations before the formal phase one investigation begins. In separate technical news, PyTorch developers have removed three unreachable CMake branches in a recent update. This cleanup addresses code that could no longer execute, including a condition for CUDA versions older than 12.1 and a duplicate mutual-exclusion check between CUDA and ROCm.",
+    "title": "The UK Competition and Markets Authority is seeking public views on a",
+    "transcript": "transcripts/20260721-062314Z.json",
+    "waveform": "waveforms/20260721-062314Z.json"
+  },
+  {
     "audio": "media/20260720-062254Z.ogg",
     "debug": "2026-07-20-middle-east-live/debug/",
     "feed_failure_count": 0,
