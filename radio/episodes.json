@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260722-062457Z.ogg",
+    "debug": "2026-07-22-dbmol/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-22T06:24:57+00:00",
+    "id": "20260722-062457Z",
+    "page": "2026-07-22-dbmol/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260722-062457Z.ass",
+    "summary": "Researchers are finding that the problem-solving abilities of large language models often depend on textual formatting and context. To test this, Pavel Golikov and his colleagues introduced the Robust Reasoning Benchmark, which applies thirteen deterministic textual perturbations to AIME mathematical problems. While frontier models remained largely resilient, open-weights reasoning models showed significant failure modes, including reasoning collapse and accuracy drops of up to 54 percent. Some models also suffered from attention dilution, where intermediate reasoning steps polluted the context window. In a different application of machine learning, Yiming Qin and other authors have introduced DBMol to aid drug discovery.",
+    "title": "Researchers are finding that the problem-solving abilities of large language models often",
+    "transcript": "transcripts/20260722-062457Z.json",
+    "waveform": "waveforms/20260722-062457Z.json"
+  },
+  {
     "audio": "media/20260721-062314Z.ogg",
     "debug": "2026-07-21-live/debug/",
     "feed_failure_count": 0,

@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 06:23:14 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 06:24:57 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Researchers are finding that the problem-solving abilities of large language models often</title>
+      <link>https://thoughtvector.zip/radio/2026-07-22-dbmol/</link>
+      <guid isPermaLink="false">morning-whispers:20260722-062457Z</guid>
+      <pubDate>Wed, 22 Jul 2026 06:24:57 GMT</pubDate>
+      <description>Researchers are finding that the problem-solving abilities of large language models often depend on textual formatting and context. To test this, Pavel Golikov and his colleagues introduced the Robust Reasoning Benchmark, which applies thirteen deterministic textual perturbations to AIME mathematical problems. While frontier models remained largely resilient, open-weights reasoning models showed significant failure</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260722-062457Z.ogg" length="6619521" type="audio/ogg" />
+    </item>
     <item>
       <title>The UK Competition and Markets Authority is seeking public views on a</title>
       <link>https://thoughtvector.zip/radio/2026-07-21-live/</link>
