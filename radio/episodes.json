@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260723-072258Z.ogg",
+    "debug": "2026-07-23-kimi-k3-kimi-api-platform/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-23T07:22:58+00:00",
+    "id": "20260723-072258Z",
+    "page": "2026-07-23-kimi-k3-kimi-api-platform/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260723-072258Z.ass",
+    "summary": "Indian Prime Minister Narendra Modi has vowed to punish those responsible for university exam fraud severely. The announcement comes as the government faces a wave of student protests that have lasted four days, marking one of the most serious crises since Modi began his third term two years ago. He stated on X that nothing is more important than the future of India's youth and promised to accelerate judicial proceedings against those involved in the fraud. Police previously used force to stop tens of thousands of students from reaching Parliament to demand educational reforms. Separately, the UK Competition and Markets Authority has opened an inquiry into a potential merger in the communications sector.",
+    "title": "Indian Prime Minister Narendra Modi has vowed to punish those responsible for",
+    "transcript": "transcripts/20260723-072258Z.json",
+    "waveform": "waveforms/20260723-072258Z.json"
+  },
+  {
     "audio": "media/20260722-062457Z.ogg",
     "debug": "2026-07-22-dbmol/debug/",
     "feed_failure_count": 0,
