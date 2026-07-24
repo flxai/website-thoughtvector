@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260724-062248Z.ogg",
+    "debug": "2026-07-24-at-ai-summit-south-korea-outlines-its-ai-future/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-24T06:22:48+00:00",
+    "id": "20260724-062248Z",
+    "page": "2026-07-24-at-ai-summit-south-korea-outlines-its-ai-future/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260724-062248Z.ass",
+    "summary": "South Korea is strengthening its technological infrastructure through strategic partnerships with NVIDIA to become a global AI hub. Political realignments in Turkey and potential cabinet changes in Germany reflect evolving struggles over leadership and social spending. Environmental crises drive urgent responses as Wales battles wildfires and Uzbekistan considers siestas to combat extreme heat. Security concerns mount following targeted ethnic violence in Ethiopia and ongoing drone strikes within Ukrainian territories. Thai authorities are dismantling a sophisticated citizenship fraud ring involving fake paternity claims for foreign nationals.",
+    "title": "Global Shifts in Technology Governance and Political Power",
+    "transcript": "transcripts/20260724-062248Z.json",
+    "waveform": "waveforms/20260724-062248Z.json"
+  },
+  {
     "audio": "media/20260723-072258Z.ogg",
     "debug": "2026-07-23-kimi-k3-kimi-api-platform/debug/",
     "feed_failure_count": 0,
