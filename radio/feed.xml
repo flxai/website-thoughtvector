@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 06:22:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 08:22:58 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SK Group and NVIDIA are launching a strategic partnership worth over 500</title>
+      <link>https://thoughtvector.zip/radio/2026-07-25-en-direct/</link>
+      <guid isPermaLink="false">morning-whispers:20260725-082258Z</guid>
+      <pubDate>Sat, 25 Jul 2026 08:22:58 GMT</pubDate>
+      <description>SK Group and NVIDIA are launching a strategic partnership worth over 500 billion dollars to build AI infrastructure for global compute demand. As part of this initiative, SK Telecom will construct a two-gigawatt AI factory using the NVIDIA DSX platform and Vera Rubin accelerated computing powered by SK hynix HBM4 memory. The first factory is expected to come online in 2027 to support sovereign, agentic, and</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260725-082258Z.ogg" length="5728373" type="audio/ogg" />
+    </item>
     <item>
       <title>Global Shifts in Technology Governance and Political Power</title>
       <link>https://thoughtvector.zip/radio/2026-07-24-at-ai-summit-south-korea-outlines-its-ai-future/</link>
