@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260727-075300Z.ogg",
+    "debug": "2026-07-27-les-drones-au-menu-de-la-rencontre-zelensky-burnham-au-royaume-uni/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-27T07:53:00+00:00",
+    "id": "20260727-075300Z",
+    "page": "2026-07-27-les-drones-au-menu-de-la-rencontre-zelensky-burnham-au-royaume-uni/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260727-075300Z.ass",
+    "summary": "The open-source community is pushing the limits of inference infrastructure with the release of vLLM version 0.26.0. This update arrived via 411 commits from 212 contributors, including 61 new developers. A primary addition is the Inkling model family, which now has a full support stack featuring LoRA and piecewise CUDA graph support. The release also targets DeepSeek-V4 performance across different vendors by introducing a specialized routing kernel and redundant repeat removal to lower latency. For those using AMD or XPU hardware, the update adds DSpark speculative decoding and a ROCm two-stage compressor for HCA prefill.",
+    "title": "The open-source community is pushing the limits of inference infrastructure with the",
+    "transcript": "transcripts/20260727-075300Z.json",
+    "waveform": "waveforms/20260727-075300Z.json"
+  },
+  {
     "audio": "media/20260726-072223Z.ogg",
     "debug": "2026-07-26-ciflow-torchtitan-191127/debug/",
     "feed_failure_count": 0,

@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jul 2026 07:22:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 07:53:00 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The open-source community is pushing the limits of inference infrastructure with the</title>
+      <link>https://thoughtvector.zip/radio/2026-07-27-les-drones-au-menu-de-la-rencontre-zelensky-burnham-au-royaume-uni/</link>
+      <guid isPermaLink="false">morning-whispers:20260727-075300Z</guid>
+      <pubDate>Mon, 27 Jul 2026 07:53:00 GMT</pubDate>
+      <description>The open-source community is pushing the limits of inference infrastructure with the release of vLLM version 0.26.0. This update arrived via 411 commits from 212 contributors, including 61 new developers. A primary addition is the Inkling model family, which now has a full support stack featuring LoRA and piecewise CUDA graph support. The release also targets DeepSeek-V4 performance across different vendors by</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260727-075300Z.ogg" length="6121462" type="audio/ogg" />
+    </item>
     <item>
       <title>Global Instability and the Digital Divide</title>
       <link>https://thoughtvector.zip/radio/2026-07-26-ciflow-torchtitan-191127/</link>
