@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2026 07:53:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 07:23:08 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Many AI coding tools assume a single model should handle every task</title>
+      <link>https://thoughtvector.zip/radio/2026-07-28-zinedine-zidane-to-be-officially-introduced-as-france-head-coach/</link>
+      <guid isPermaLink="false">morning-whispers:20260728-072308Z</guid>
+      <pubDate>Tue, 28 Jul 2026 07:23:08 GMT</pubDate>
+      <description>Many AI coding tools assume a single model should handle every task, from understanding the initial request to writing and reviewing the final code. To challenge this approach, a developer has built an open source pipeline called AutoDev Studio that allows different models to manage each stage of the software development lifecycle. This system enables users to mix local LLMs with hosted models, such as using</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260728-072308Z.ogg" length="6528785" type="audio/ogg" />
+    </item>
     <item>
       <title>The open-source community is pushing the limits of inference infrastructure with the</title>
       <link>https://thoughtvector.zip/radio/2026-07-27-les-drones-au-menu-de-la-rencontre-zelensky-burnham-au-royaume-uni/</link>

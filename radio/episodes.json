@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260728-072308Z.ogg",
+    "debug": "2026-07-28-zinedine-zidane-to-be-officially-introduced-as-france-head-coach/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-28T07:23:08+00:00",
+    "id": "20260728-072308Z",
+    "page": "2026-07-28-zinedine-zidane-to-be-officially-introduced-as-france-head-coach/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260728-072308Z.ass",
+    "summary": "Many AI coding tools assume a single model should handle every task, from understanding the initial request to writing and reviewing the final code. To challenge this approach, a developer has built an open source pipeline called AutoDev Studio that allows different models to manage each stage of the software development lifecycle. This system enables users to mix local LLMs with hosted models, such as using DeepSeek-R1 for planning and Claude Code for implementation. By ensuring the reviewer is always from a different model family than the author, the system prevents a model from approving its own work. In separate technical news, PyTorch has released incremental updates to switch the default for the NCCL backend.",
+    "title": "Many AI coding tools assume a single model should handle every task",
+    "transcript": "transcripts/20260728-072308Z.json",
+    "waveform": "waveforms/20260728-072308Z.json"
+  },
+  {
     "audio": "media/20260727-075300Z.ogg",
     "debug": "2026-07-27-les-drones-au-menu-de-la-rencontre-zelensky-burnham-au-royaume-uni/debug/",
     "feed_failure_count": 0,
