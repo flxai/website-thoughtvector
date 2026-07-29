@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 07:23:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 08:52:32 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technological Shifts and Global Political Transitions</title>
+      <link>https://thoughtvector.zip/radio/2026-07-29-b10174/</link>
+      <guid isPermaLink="false">morning-whispers:20260729-085232Z</guid>
+      <pubDate>Wed, 29 Jul 2026 08:52:32 GMT</pubDate>
+      <description>Local AI capabilities are expanding through technical optimizations that improve token prediction on diverse hardware platforms. Algeria marks a political milestone with its first female parliamentary leader despite low voter turnout and representation. China is attempting to reduce dependence on Western semiconductor technology by developing domestic lithography machinery. Maritime security in the Black Sea is</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260729-085232Z.ogg" length="6303385" type="audio/ogg" />
+    </item>
     <item>
       <title>Many AI coding tools assume a single model should handle every task</title>
       <link>https://thoughtvector.zip/radio/2026-07-28-zinedine-zidane-to-be-officially-introduced-as-france-head-coach/</link>

@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260729-085232Z.ogg",
+    "debug": "2026-07-29-b10174/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-07-29T08:52:32+00:00",
+    "id": "20260729-085232Z",
+    "page": "2026-07-29-b10174/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260729-085232Z.ass",
+    "summary": "Local AI capabilities are expanding through technical optimizations that improve token prediction on diverse hardware platforms. Algeria marks a political milestone with its first female parliamentary leader despite low voter turnout and representation. China is attempting to reduce dependence on Western semiconductor technology by developing domestic lithography machinery. Maritime security in the Black Sea is deteriorating as Russia considers arming commercial vessels against drone threats. Critical infrastructure vulnerabilities are highlighted by coordinated cyberattacks targeting water systems across several Minnesota communities.",
+    "title": "Technological Shifts and Global Political Transitions",
+    "transcript": "transcripts/20260729-085232Z.json",
+    "waveform": "waveforms/20260729-085232Z.json"
+  },
+  {
     "audio": "media/20260728-072308Z.ogg",
     "debug": "2026-07-28-zinedine-zidane-to-be-officially-introduced-as-france-head-coach/debug/",
     "feed_failure_count": 0,
