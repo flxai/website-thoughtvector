@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260809-095837Z.ogg",
+    "debug": "2026-08-09-general-staff/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-09T09:58:37+00:00",
+    "id": "20260809-095837Z",
+    "page": "2026-08-09-general-staff/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260809-095837Z.ass",
+    "summary": "Google is restructuring DeepMind to integrate AI development more closely with its core cloud infrastructure goals. A sophisticated drone attack at a German airport exposes gaps in national security against professional aerial threats. Synthetic biology has reached a milestone by using language models to create functional and viable bacteriophage genomes. New medical research indicates that abdominal obesity contributes to a higher percentage of cancer cases than previously estimated. Wildfires in British Columbia have triggered emergency evacuations while Japan re-evaluates its long-standing nuclear deterrence policies.",
+    "title": "Technological Shifts and Global Security Risks",
+    "transcript": "transcripts/20260809-095837Z.json",
+    "waveform": "waveforms/20260809-095837Z.json"
+  },
+  {
     "audio": "media/20260729-085232Z.ogg",
     "debug": "2026-07-29-b10174/debug/",
     "feed_failure_count": 0,

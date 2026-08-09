@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 08:52:32 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 09:58:37 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technological Shifts and Global Security Risks</title>
+      <link>https://thoughtvector.zip/radio/2026-08-09-general-staff/</link>
+      <guid isPermaLink="false">morning-whispers:20260809-095837Z</guid>
+      <pubDate>Sun, 09 Aug 2026 09:58:37 GMT</pubDate>
+      <description>Google is restructuring DeepMind to integrate AI development more closely with its core cloud infrastructure goals. A sophisticated drone attack at a German airport exposes gaps in national security against professional aerial threats. Synthetic biology has reached a milestone by using language models to create functional and viable bacteriophage genomes. New medical research indicates that abdominal obesity</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260809-095837Z.ogg" length="6553973" type="audio/ogg" />
+    </item>
     <item>
       <title>Technological Shifts and Global Political Transitions</title>
       <link>https://thoughtvector.zip/radio/2026-07-29-b10174/</link>
