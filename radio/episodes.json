@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260812-095304Z.ogg",
+    "debug": "2026-08-12-psg-x-aston-villa/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-12T09:53:04+00:00",
+    "id": "20260812-095304Z",
+    "page": "2026-08-12-psg-x-aston-villa/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260812-095304Z.ass",
+    "summary": "Russia is employing physical armor and altered shipping routes to protect its shadow fleet from Ukrainian drone attacks. Anthropic is introducing digital watermarks for synthetic content to comply with the European Union's transparency mandates. US primary election results signal potential leadership shifts in several states as parties prepare for upcoming runoffs. Legal challenges mount against Meta over claims that social media platforms are intentionally designed to addict minors. North Korean hackers are targeting global aviation sectors using sophisticated zero-day vulnerabilities and deceptive recruitment tactics.",
+    "title": "Global Security Tensions and Digital Governance Shifts",
+    "transcript": "transcripts/20260812-095304Z.json",
+    "waveform": "waveforms/20260812-095304Z.json"
+  },
+  {
     "audio": "media/20260811-095257Z.ogg",
     "debug": "2026-08-11-anthropic-watermarks-all-claude-outputs-globally/debug/",
     "feed_failure_count": 0,
