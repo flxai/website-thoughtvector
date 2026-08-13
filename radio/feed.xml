@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 09:53:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 10:08:34 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Security Shifts and Strategic Infrastructure Risks</title>
+      <link>https://thoughtvector.zip/radio/2026-08-13-jensen-huang-just-signed-7-japanese-industrial-giants-into-nvidia-s-physical-ai/</link>
+      <guid isPermaLink="false">morning-whispers:20260813-100834Z</guid>
+      <pubDate>Thu, 13 Aug 2026 10:08:34 GMT</pubDate>
+      <description>Ukrainian drone strikes on deep Russian petrochemical sites are triggering fuel shortages in occupied territories like Abkhazia. The White House is enhancing national security by integrating vetted private companies into federal offensive cyber intelligence efforts. Critical vulnerabilities in VMware software have led to widespread remote code execution attacks across nearly fifty different countries. European</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260813-100834Z.ogg" length="6801113" type="audio/ogg" />
+    </item>
     <item>
       <title>Global Security Tensions and Digital Governance Shifts</title>
       <link>https://thoughtvector.zip/radio/2026-08-12-psg-x-aston-villa/</link>

@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260813-100834Z.ogg",
+    "debug": "2026-08-13-jensen-huang-just-signed-7-japanese-industrial-giants-into-nvidia-s-physical-ai/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-13T10:08:34+00:00",
+    "id": "20260813-100834Z",
+    "page": "2026-08-13-jensen-huang-just-signed-7-japanese-industrial-giants-into-nvidia-s-physical-ai/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260813-100834Z.ass",
+    "summary": "Ukrainian drone strikes on deep Russian petrochemical sites are triggering fuel shortages in occupied territories like Abkhazia. The White House is enhancing national security by integrating vetted private companies into federal offensive cyber intelligence efforts. Critical vulnerabilities in VMware software have led to widespread remote code execution attacks across nearly fifty different countries. European political landscapes face instability as far-right factions in Germany challenge traditional barriers against populist cooperation. Economic trends show a surprising resilience for cash payments in the euro area despite a surge in mobile adoption.",
+    "title": "Global Security Shifts and Strategic Infrastructure Risks",
+    "transcript": "transcripts/20260813-100834Z.json",
+    "waveform": "waveforms/20260813-100834Z.json"
+  },
+  {
     "audio": "media/20260812-095304Z.ogg",
     "debug": "2026-08-12-psg-x-aston-villa/debug/",
     "feed_failure_count": 0,
