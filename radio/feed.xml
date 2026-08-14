@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 10:08:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 06:53:31 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paris Saint-Germain has reached an agreement with FC Barcelona to sign Ferran</title>
+      <link>https://thoughtvector.zip/radio/2026-08-14-general-staff/</link>
+      <guid isPermaLink="false">morning-whispers:20260814-065331Z</guid>
+      <pubDate>Fri, 14 Aug 2026 06:53:31 GMT</pubDate>
+      <description>Paris Saint-Germain has reached an agreement with FC Barcelona to sign Ferran Torres for an estimated fifty million euros. The twenty-six-year-old forward is best known for scoring the winning goal for Spain in the final of the most recent World Cup. Separately, PyTorch has released a technical update that introduces a new way for mark kernels to discover nodes within a scope. This change adds a handler that</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260814-065331Z.ogg" length="6711858" type="audio/ogg" />
+    </item>
     <item>
       <title>Global Security Shifts and Strategic Infrastructure Risks</title>
       <link>https://thoughtvector.zip/radio/2026-08-13-jensen-huang-just-signed-7-japanese-industrial-giants-into-nvidia-s-physical-ai/</link>

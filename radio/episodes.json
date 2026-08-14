@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260814-065331Z.ogg",
+    "debug": "2026-08-14-general-staff/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-14T06:53:31+00:00",
+    "id": "20260814-065331Z",
+    "page": "2026-08-14-general-staff/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260814-065331Z.ass",
+    "summary": "Paris Saint-Germain has reached an agreement with FC Barcelona to sign Ferran Torres for an estimated fifty million euros. The twenty-six-year-old forward is best known for scoring the winning goal for Spain in the final of the most recent World Cup. Separately, PyTorch has released a technical update that introduces a new way for mark kernels to discover nodes within a scope. This change adds a handler that records each node when CUPTI announces its creation, providing an alternative to the shared subscriber-callback registry. The update addresses specific performance limitations of the previous dependent-edge walk, which suffered from quadratic costs in nesting depth and failed to record scopes entered before a stream began capturing.",
+    "title": "Paris Saint-Germain has reached an agreement with FC Barcelona to sign Ferran",
+    "transcript": "transcripts/20260814-065331Z.json",
+    "waveform": "waveforms/20260814-065331Z.json"
+  },
+  {
     "audio": "media/20260813-100834Z.ogg",
     "debug": "2026-08-13-jensen-huang-just-signed-7-japanese-industrial-giants-into-nvidia-s-physical-ai/debug/",
     "feed_failure_count": 0,
