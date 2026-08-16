@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 06:53:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 07:23:35 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Crises and the Fragility of Infrastructure</title>
+      <link>https://thoughtvector.zip/radio/2026-08-16-general-staff/</link>
+      <guid isPermaLink="false">morning-whispers:20260816-072335Z</guid>
+      <pubDate>Sun, 16 Aug 2026 07:23:35 GMT</pubDate>
+      <description>Severe earthquakes in Indonesia and hurricanes in Hawaii highlight the vulnerability of critical power and transport networks. Escalating troop deployments from North Korea to Russia signal a widening scope of conflict in Eastern Europe. New AI benchmarking tools aim to move beyond general tests toward specialized business performance metrics. Extreme drought in Germany is compromising urban forests, removing</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260816-072335Z.ogg" length="6392286" type="audio/ogg" />
+    </item>
     <item>
       <title>Paris Saint-Germain has reached an agreement with FC Barcelona to sign Ferran</title>
       <link>https://thoughtvector.zip/radio/2026-08-14-general-staff/</link>

@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260816-072335Z.ogg",
+    "debug": "2026-08-16-general-staff/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-16T07:23:35+00:00",
+    "id": "20260816-072335Z",
+    "page": "2026-08-16-general-staff/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260816-072335Z.ass",
+    "summary": "Severe earthquakes in Indonesia and hurricanes in Hawaii highlight the vulnerability of critical power and transport networks. Escalating troop deployments from North Korea to Russia signal a widening scope of conflict in Eastern Europe. New AI benchmarking tools aim to move beyond general tests toward specialized business performance metrics. Extreme drought in Germany is compromising urban forests, removing essential natural cooling for city residents. Misinformation regarding election security in Nigeria underscores the volatility of political transitions and police conduct.",
+    "title": "Global Crises and the Fragility of Infrastructure",
+    "transcript": "transcripts/20260816-072335Z.json",
+    "waveform": "waveforms/20260816-072335Z.json"
+  },
+  {
     "audio": "media/20260814-065331Z.ogg",
     "debug": "2026-08-14-general-staff/debug/",
     "feed_failure_count": 0,
