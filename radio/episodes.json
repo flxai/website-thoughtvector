@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260817-092233Z.ogg",
+    "debug": "2026-08-17-ciflow-xpu-193477/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-17T09:22:33+00:00",
+    "id": "20260817-092233Z",
+    "page": "2026-08-17-ciflow-xpu-193477/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260817-092233Z.ass",
+    "summary": "Russia and Ukraine are increasingly targeting civilian infrastructure and residential areas as the conflict expands geographically. The United States is reconsidering its military presence in South Korea to reduce costs and alter diplomatic signals. A devastating Ebola outbreak in the Democratic Republic of the Congo has surpassed previous death tolls due to fragile infrastructure. Critical software vulnerabilities across Windows, macOS, and SAP are being actively exploited by hackers for system access. Western sanctions are driving a surge in the permanent decommissioning of blacklisted shipping tankers.",
+    "title": "Global Security Shifts and Escalating Humanitarian Crises",
+    "transcript": "transcripts/20260817-092233Z.json",
+    "waveform": "waveforms/20260817-092233Z.json"
+  },
+  {
     "audio": "media/20260816-072335Z.ogg",
     "debug": "2026-08-16-general-staff/debug/",
     "feed_failure_count": 0,

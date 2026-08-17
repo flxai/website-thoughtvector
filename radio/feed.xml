@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 07:23:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 09:22:33 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Security Shifts and Escalating Humanitarian Crises</title>
+      <link>https://thoughtvector.zip/radio/2026-08-17-ciflow-xpu-193477/</link>
+      <guid isPermaLink="false">morning-whispers:20260817-092233Z</guid>
+      <pubDate>Mon, 17 Aug 2026 09:22:33 GMT</pubDate>
+      <description>Russia and Ukraine are increasingly targeting civilian infrastructure and residential areas as the conflict expands geographically. The United States is reconsidering its military presence in South Korea to reduce costs and alter diplomatic signals. A devastating Ebola outbreak in the Democratic Republic of the Congo has surpassed previous death tolls due to fragile infrastructure. Critical software vulnerabilities</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260817-092233Z.ogg" length="6399535" type="audio/ogg" />
+    </item>
     <item>
       <title>Global Crises and the Fragility of Infrastructure</title>
       <link>https://thoughtvector.zip/radio/2026-08-16-general-staff/</link>
