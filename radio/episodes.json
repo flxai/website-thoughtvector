@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260818-102320Z.ogg",
+    "debug": "2026-08-18-evaluating-ai-agents-live-at-the-grounded-reasoning-cup/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-18T10:23:20+00:00",
+    "id": "20260818-102320Z",
+    "page": "2026-08-18-evaluating-ai-agents-live-at-the-grounded-reasoning-cup/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260818-102320Z.ass",
+    "summary": "The gap between AI performance on benchmarks and real-world utility remains a significant hurdle for the industry. To test this, Databricks hosted the inaugural Grounded Reasoning Cup, a live competition evaluating how AI agents reason over complex enterprise document collections. and Canada used resources from labs like OpenAI, Anthropic, and Google DeepMind to build their systems. These teams optimized agents on the OfficeQA benchmark before facing a new corpus of 120,000 U.S.",
+    "title": "The gap between AI performance on benchmarks and real-world utility remains a",
+    "transcript": "transcripts/20260818-102320Z.json",
+    "waveform": "waveforms/20260818-102320Z.json"
+  },
+  {
     "audio": "media/20260817-092233Z.ogg",
     "debug": "2026-08-17-ciflow-xpu-193477/debug/",
     "feed_failure_count": 0,
