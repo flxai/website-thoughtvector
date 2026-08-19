@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260819-102309Z.ogg",
+    "debug": "2026-08-19-ciflow-xpu-193178/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-19T10:23:09+00:00",
+    "id": "20260819-102309Z",
+    "page": "2026-08-19-ciflow-xpu-193178/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260819-102309Z.ass",
+    "summary": "A new tripartite defense agreement between Saudi Arabia, Turkey, and Pakistan reshapes strategic security ties in the Middle East. Apple proposes revised commission structures for European apps to resolve long-standing regulatory conflicts with the European Commission. Geopolitical instability is forcing shipping companies to prioritize crisis management over traditional operational goals and decarbonization targets. German authorities continue pursuing Ukrainian nationals suspected of sabotaging the Nord Stream pipelines to disrupt Russian gas revenue. Ukraine faces diplomatic pressure from EU partners to implement judicial reforms and combat corruption to ensure long-term resilience.",
+    "title": "Global Security Shifts and Regulatory Pressures",
+    "transcript": "transcripts/20260819-102309Z.json",
+    "waveform": "waveforms/20260819-102309Z.json"
+  },
+  {
     "audio": "media/20260818-102320Z.ogg",
     "debug": "2026-08-18-evaluating-ai-agents-live-at-the-grounded-reasoning-cup/debug/",
     "feed_failure_count": 0,

@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 10:23:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 10:23:09 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Security Shifts and Regulatory Pressures</title>
+      <link>https://thoughtvector.zip/radio/2026-08-19-ciflow-xpu-193178/</link>
+      <guid isPermaLink="false">morning-whispers:20260819-102309Z</guid>
+      <pubDate>Wed, 19 Aug 2026 10:23:09 GMT</pubDate>
+      <description>A new tripartite defense agreement between Saudi Arabia, Turkey, and Pakistan reshapes strategic security ties in the Middle East. Apple proposes revised commission structures for European apps to resolve long-standing regulatory conflicts with the European Commission. Geopolitical instability is forcing shipping companies to prioritize crisis management over traditional operational goals and decarbonization</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260819-102309Z.ogg" length="6546947" type="audio/ogg" />
+    </item>
     <item>
       <title>The gap between AI performance on benchmarks and real-world utility remains a</title>
       <link>https://thoughtvector.zip/radio/2026-08-18-evaluating-ai-agents-live-at-the-grounded-reasoning-cup/</link>
