@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 10:23:09 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 10:23:14 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Tensions and the Cost of Systemic Failure</title>
+      <link>https://thoughtvector.zip/radio/2026-08-20-china-now-has-its-own-ai-circular-financing-scheme/</link>
+      <guid isPermaLink="false">morning-whispers:20260820-102314Z</guid>
+      <pubDate>Thu, 20 Aug 2026 10:23:14 GMT</pubDate>
+      <description>Geopolitical friction intensifies as the US and Iran contest control over the Strait of Hormuz shipping lanes. Corporate governance concerns emerge from suspected financial schemes at Unitree Robotics and safety negligence allegations against Meta. Extreme climate conditions drive record-breaking wildfires across Europe, threatening long-term ecological stability and economic assets. Ukraine faces a critical air</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260820-102314Z.ogg" length="6599906" type="audio/ogg" />
+    </item>
     <item>
       <title>Global Security Shifts and Regulatory Pressures</title>
       <link>https://thoughtvector.zip/radio/2026-08-19-ciflow-xpu-193178/</link>

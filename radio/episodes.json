@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260820-102314Z.ogg",
+    "debug": "2026-08-20-china-now-has-its-own-ai-circular-financing-scheme/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-20T10:23:14+00:00",
+    "id": "20260820-102314Z",
+    "page": "2026-08-20-china-now-has-its-own-ai-circular-financing-scheme/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260820-102314Z.ass",
+    "summary": "Geopolitical friction intensifies as the US and Iran contest control over the Strait of Hormuz shipping lanes. Corporate governance concerns emerge from suspected financial schemes at Unitree Robotics and safety negligence allegations against Meta. Extreme climate conditions drive record-breaking wildfires across Europe, threatening long-term ecological stability and economic assets. Ukraine faces a critical air defense shortage amid ongoing Russian strikes while purging internal corruption within state banking. Technological risks persist as Citrix patches critical security flaws and AI scraping prompts new digital defense mechanisms.",
+    "title": "Global Tensions and the Cost of Systemic Failure",
+    "transcript": "transcripts/20260820-102314Z.json",
+    "waveform": "waveforms/20260820-102314Z.json"
+  },
+  {
     "audio": "media/20260819-102309Z.ogg",
     "debug": "2026-08-19-ciflow-xpu-193178/debug/",
     "feed_failure_count": 0,
