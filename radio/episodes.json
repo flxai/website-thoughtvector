@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260821-102328Z.ogg",
+    "debug": "2026-08-21-anthropic-changes-data-retention-policy-after-enterprise-pushback/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-21T10:23:28+00:00",
+    "id": "20260821-102328Z",
+    "page": "2026-08-21-anthropic-changes-data-retention-policy-after-enterprise-pushback/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260821-102328Z.ass",
+    "summary": "Anthropic is shifting data storage to customer clouds to resolve privacy concerns for enterprise clients. Australian authorities have charged a citizen for allegedly spying on Ukrainian military operations for Russia. North Korean cyberattacks on open source software highlight severe security gaps in local government infrastructure. Severe seismic activity has caused massive casualties and building destruction across several South American nations. Technical updates to machine learning tools are expanding hardware compatibility and improving core code standards.",
+    "title": "Global Security Risks and Infrastructure Vulnerabilities",
+    "transcript": "transcripts/20260821-102328Z.json",
+    "waveform": "waveforms/20260821-102328Z.json"
+  },
+  {
     "audio": "media/20260820-102314Z.ogg",
     "debug": "2026-08-20-china-now-has-its-own-ai-circular-financing-scheme/debug/",
     "feed_failure_count": 0,

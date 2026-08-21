@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 10:23:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 10:23:28 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Security Risks and Infrastructure Vulnerabilities</title>
+      <link>https://thoughtvector.zip/radio/2026-08-21-anthropic-changes-data-retention-policy-after-enterprise-pushback/</link>
+      <guid isPermaLink="false">morning-whispers:20260821-102328Z</guid>
+      <pubDate>Fri, 21 Aug 2026 10:23:28 GMT</pubDate>
+      <description>Anthropic is shifting data storage to customer clouds to resolve privacy concerns for enterprise clients. Australian authorities have charged a citizen for allegedly spying on Ukrainian military operations for Russia. North Korean cyberattacks on open source software highlight severe security gaps in local government infrastructure. Severe seismic activity has caused massive casualties and building destruction</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260821-102328Z.ogg" length="6560776" type="audio/ogg" />
+    </item>
     <item>
       <title>Global Tensions and the Cost of Systemic Failure</title>
       <link>https://thoughtvector.zip/radio/2026-08-20-china-now-has-its-own-ai-circular-financing-scheme/</link>
