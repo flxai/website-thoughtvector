@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260822-075342Z.ogg",
+    "debug": "2026-08-22-general-staff/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-22T07:53:42+00:00",
+    "id": "20260822-075342Z",
+    "page": "2026-08-22-general-staff/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260822-075342Z.ass",
+    "summary": "Canada threatens retaliatory tariffs to counter new US duties that jeopardize billions in exports. Ukraine reports massive Russian troop losses while facing renewed missile strikes on civilian infrastructure. German politics face a divide as populist campaign tactics meet proposals for financial state penalties. New AI developments enable large language models to run efficiently on standard laptop hardware. Security concerns rise in Germany following the discovery of weapons linked to potential foreign espionage.",
+    "title": "Global Tensions and Technological Breakthroughs",
+    "transcript": "transcripts/20260822-075342Z.json",
+    "waveform": "waveforms/20260822-075342Z.json"
+  },
+  {
     "audio": "media/20260821-102328Z.ogg",
     "debug": "2026-08-21-anthropic-changes-data-retention-policy-after-enterprise-pushback/debug/",
     "feed_failure_count": 0,
