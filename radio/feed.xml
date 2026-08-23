@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2026 07:53:42 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 08:23:05 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Tensions and the Fragility of Order</title>
+      <link>https://thoughtvector.zip/radio/2026-08-23-general-staff/</link>
+      <guid isPermaLink="false">morning-whispers:20260823-082305Z</guid>
+      <pubDate>Sun, 23 Aug 2026 08:23:05 GMT</pubDate>
+      <description>A sophisticated gray market in China is undermining AI safety protocols by bypassing corporate access controls. Escalating tariffs between the US and Canada signal a volatile shift in North American economic relations. German rail workers threaten nationwide strikes to force legislative protections against violence toward transit staff. Internal governance crises and corruption allegations emerge within Ukraine</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260823-082305Z.ogg" length="6484989" type="audio/ogg" />
+    </item>
     <item>
       <title>Global Tensions and Technological Breakthroughs</title>
       <link>https://thoughtvector.zip/radio/2026-08-22-general-staff/</link>

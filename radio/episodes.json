@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260823-082305Z.ogg",
+    "debug": "2026-08-23-general-staff/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-23T08:23:05+00:00",
+    "id": "20260823-082305Z",
+    "page": "2026-08-23-general-staff/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260823-082305Z.ass",
+    "summary": "A sophisticated gray market in China is undermining AI safety protocols by bypassing corporate access controls. Escalating tariffs between the US and Canada signal a volatile shift in North American economic relations. German rail workers threaten nationwide strikes to force legislative protections against violence toward transit staff. Internal governance crises and corruption allegations emerge within Ukraine amid ongoing conflict with Russia. The discovery of bird flu in an Australian mammal raises concerns about the virus jumping species.",
+    "title": "Global Tensions and the Fragility of Order",
+    "transcript": "transcripts/20260823-082305Z.json",
+    "waveform": "waveforms/20260823-082305Z.json"
+  },
+  {
     "audio": "media/20260822-075342Z.ogg",
     "debug": "2026-08-22-general-staff/debug/",
     "feed_failure_count": 0,
