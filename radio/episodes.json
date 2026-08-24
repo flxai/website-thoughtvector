@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260824-102257Z.ogg",
+    "debug": "2026-08-24-nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-24T10:22:57+00:00",
+    "id": "20260824-102257Z",
+    "page": "2026-08-24-nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260824-102257Z.ass",
+    "summary": "Nvidia is negotiating an investment in Perplexity at a valuation exceeding 30 billion dollars. This figure represents a jump of more than 50 percent over the company's last funding round from a year ago. The surge follows a tripling of Perplexity's annualized revenue, which has climbed from 250 million to over 750 million dollars. This growth is driven in part by an AI agent for automated tasks called Perplexity Computer. While Nvidia previously considered an acqui-hire of the staff and technology, it now follows a pattern of investing in firms like Groq and Enfabrica.",
+    "title": "Nvidia is negotiating an investment in Perplexity at a valuation exceeding 30",
+    "transcript": "transcripts/20260824-102257Z.json",
+    "waveform": "waveforms/20260824-102257Z.json"
+  },
+  {
     "audio": "media/20260823-082305Z.ogg",
     "debug": "2026-08-23-general-staff/debug/",
     "feed_failure_count": 0,
