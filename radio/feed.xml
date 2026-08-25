@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 10:22:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 10:22:09 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Global Security and Technology</title>
+      <link>https://thoughtvector.zip/radio/2026-08-25-taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese/</link>
+      <guid isPermaLink="false">morning-whispers:20260825-102209Z</guid>
+      <pubDate>Tue, 25 Aug 2026 10:22:09 GMT</pubDate>
+      <description>AI tools are accelerating the frequency and sophistication of state-backed hacking operations through lower security barriers. Ukraine considers expanding military obligations to all citizens to address severe personnel gaps during the ongoing war. Illegal exports of high-end AI hardware highlight the intensifying technological competition between Washington and Beijing. Testing reveals systemic ethnic biases in</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260825-102209Z.ogg" length="6840646" type="audio/ogg" />
+    </item>
     <item>
       <title>Nvidia is negotiating an investment in Perplexity at a valuation exceeding 30</title>
       <link>https://thoughtvector.zip/radio/2026-08-24-nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/</link>

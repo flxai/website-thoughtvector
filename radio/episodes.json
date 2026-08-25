@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260825-102209Z.ogg",
+    "debug": "2026-08-25-taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-25T10:22:09+00:00",
+    "id": "20260825-102209Z",
+    "page": "2026-08-25-taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260825-102209Z.ass",
+    "summary": "AI tools are accelerating the frequency and sophistication of state-backed hacking operations through lower security barriers. Ukraine considers expanding military obligations to all citizens to address severe personnel gaps during the ongoing war. Illegal exports of high-end AI hardware highlight the intensifying technological competition between Washington and Beijing. Testing reveals systemic ethnic biases in leading AI models that favor Western nationalities over others. Global health researchers have cataloged thousands of previously unknown RNA viruses through extensive urban sampling.",
+    "title": "The Evolution of Global Security and Technology",
+    "transcript": "transcripts/20260825-102209Z.json",
+    "waveform": "waveforms/20260825-102209Z.json"
+  },
+  {
     "audio": "media/20260824-102257Z.ogg",
     "debug": "2026-08-24-nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/debug/",
     "feed_failure_count": 0,
