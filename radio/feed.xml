@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 10:22:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 10:23:31 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technological Ambitions and Shifting Global Alliances</title>
+      <link>https://thoughtvector.zip/radio/2026-08-26-v0-28-0/</link>
+      <guid isPermaLink="false">morning-whispers:20260826-102331Z</guid>
+      <pubDate>Wed, 26 Aug 2026 10:23:31 GMT</pubDate>
+      <description>Open source developers are optimizing hardware integration to increase the speed and efficiency of large language models. Hungary has fundamentally shifted its diplomatic stance by officially designating Russia as a threat to global order. Anthropic is targeting an aggressive valuation for its upcoming IPO based on theoretical future AI market dominance. The European Central Bank is advocating for a unified</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260826-102331Z.ogg" length="6701477" type="audio/ogg" />
+    </item>
     <item>
       <title>The Evolution of Global Security and Technology</title>
       <link>https://thoughtvector.zip/radio/2026-08-25-taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese/</link>

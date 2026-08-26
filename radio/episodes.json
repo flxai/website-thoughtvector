@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260826-102331Z.ogg",
+    "debug": "2026-08-26-v0-28-0/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-26T10:23:31+00:00",
+    "id": "20260826-102331Z",
+    "page": "2026-08-26-v0-28-0/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260826-102331Z.ass",
+    "summary": "Open source developers are optimizing hardware integration to increase the speed and efficiency of large language models. Hungary has fundamentally shifted its diplomatic stance by officially designating Russia as a threat to global order. Anthropic is targeting an aggressive valuation for its upcoming IPO based on theoretical future AI market dominance. The European Central Bank is advocating for a unified tokenized financial system to reduce market fragmentation. Severe weather events and resource scarcity are causing humanitarian crises across Asia and parts of Europe.",
+    "title": "Technological Ambitions and Shifting Global Alliances",
+    "transcript": "transcripts/20260826-102331Z.json",
+    "waveform": "waveforms/20260826-102331Z.json"
+  },
+  {
     "audio": "media/20260825-102209Z.ogg",
     "debug": "2026-08-25-taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese/debug/",
     "feed_failure_count": 0,
