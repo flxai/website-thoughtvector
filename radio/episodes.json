@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260827-102209Z.ogg",
+    "debug": "2026-08-27-claude-cowork-now-runs-its-own-browser-inside-the-desktop-app/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-27T10:22:09+00:00",
+    "id": "20260827-102209Z",
+    "page": "2026-08-27-claude-cowork-now-runs-its-own-browser-inside-the-desktop-app/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260827-102209Z.ass",
+    "summary": "Anthropic is integrating its own browser directly into the Claude Cowork desktop app. This allows the AI to open a side panel where it can load pages, click buttons, and type to fill out forms or extract data from dashboards that lack an API. To maintain privacy, this browser remains separate from the user's personal tabs, bookmarks, and passwords. Users may move logins over one page at a time from Firefox, Edge, or Chrome, though banking and email sites remain off-limits. For pages already open and signed into, users must still rely on the Chrome extension.",
+    "title": "Anthropic is integrating its own browser directly into the Claude Cowork desktop",
+    "transcript": "transcripts/20260827-102209Z.json",
+    "waveform": "waveforms/20260827-102209Z.json"
+  },
+  {
     "audio": "media/20260826-102331Z.ogg",
     "debug": "2026-08-26-v0-28-0/debug/",
     "feed_failure_count": 0,

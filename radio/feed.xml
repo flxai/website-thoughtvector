@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 10:23:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 10:22:09 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic is integrating its own browser directly into the Claude Cowork desktop</title>
+      <link>https://thoughtvector.zip/radio/2026-08-27-claude-cowork-now-runs-its-own-browser-inside-the-desktop-app/</link>
+      <guid isPermaLink="false">morning-whispers:20260827-102209Z</guid>
+      <pubDate>Thu, 27 Aug 2026 10:22:09 GMT</pubDate>
+      <description>Anthropic is integrating its own browser directly into the Claude Cowork desktop app. This allows the AI to open a side panel where it can load pages, click buttons, and type to fill out forms or extract data from dashboards that lack an API. To maintain privacy, this browser remains separate from the user&#x27;s personal tabs, bookmarks, and passwords. Users may move logins over one page at a time from Firefox, Edge</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260827-102209Z.ogg" length="6661028" type="audio/ogg" />
+    </item>
     <item>
       <title>Technological Ambitions and Shifting Global Alliances</title>
       <link>https://thoughtvector.zip/radio/2026-08-26-v0-28-0/</link>
