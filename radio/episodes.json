@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260828-092317Z.ogg",
+    "debug": "2026-08-28-always-on-and-self-starting-ai-agents-might-be-openai-s-next-big-play/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-28T09:23:17+00:00",
+    "id": "20260828-092317Z",
+    "page": "2026-08-28-always-on-and-self-starting-ai-agents-might-be-openai-s-next-big-play/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260828-092317Z.ass",
+    "summary": "OpenAI is testing a Persistent Mode for its Codex AI agent that allows the software to stay active indefinitely. According to code found by WIRED, this feature enables the agent to work proactively across sessions and generate its own follow-up tasks without being asked. OpenAI confirmed these tests but stated there are no immediate plans for a public launch. This move aligns with Sam Altman's goal of transforming ChatGPT into a full personal assistant. However, persistent behavior introduces significant security risks.",
+    "title": "OpenAI is testing a Persistent Mode for its Codex AI agent that",
+    "transcript": "transcripts/20260828-092317Z.json",
+    "waveform": "waveforms/20260828-092317Z.json"
+  },
+  {
     "audio": "media/20260827-102209Z.ogg",
     "debug": "2026-08-27-claude-cowork-now-runs-its-own-browser-inside-the-desktop-app/debug/",
     "feed_failure_count": 0,
