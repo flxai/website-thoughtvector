@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260830-085317Z.ogg",
+    "debug": "2026-08-30-nvidia-jetson-orin-nano-2-doubles-edge-ai-performance-for-robotics-memeburn/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-30T08:53:17+00:00",
+    "id": "20260830-085317Z",
+    "page": "2026-08-30-nvidia-jetson-orin-nano-2-doubles-edge-ai-performance-for-robotics-memeburn/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260830-085317Z.ass",
+    "summary": "PyTorch developers have released a patch to resolve a specific indexing error within the forward automatic differentiation diagnostic path. This fix addresses a flaw where the fast-mode diagnostic path could select the wrong tensor or trigger an index error instead of a proper gradcheck error. The problem occurred when non-differentiable inputs or integer outputs appeared early in the sequence, causing the slow-mode error reporter to reuse incorrect indices. To solve this, the patch maps the fast-mode input index back to the original input tuple and recomputes the selected output within the correct indexing domain. This technical update does not break backward compatibility and was verified through a series of successful tests on CPU.",
+    "title": "PyTorch developers have released a patch to resolve a specific indexing error",
+    "transcript": "transcripts/20260830-085317Z.json",
+    "waveform": "waveforms/20260830-085317Z.json"
+  },
+  {
     "audio": "media/20260828-092317Z.ogg",
     "debug": "2026-08-28-always-on-and-self-starting-ai-agents-might-be-openai-s-next-big-play/debug/",
     "feed_failure_count": 0,

@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 09:23:17 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 08:53:17 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PyTorch developers have released a patch to resolve a specific indexing error</title>
+      <link>https://thoughtvector.zip/radio/2026-08-30-nvidia-jetson-orin-nano-2-doubles-edge-ai-performance-for-robotics-memeburn/</link>
+      <guid isPermaLink="false">morning-whispers:20260830-085317Z</guid>
+      <pubDate>Sun, 30 Aug 2026 08:53:17 GMT</pubDate>
+      <description>PyTorch developers have released a patch to resolve a specific indexing error within the forward automatic differentiation diagnostic path. This fix addresses a flaw where the fast-mode diagnostic path could select the wrong tensor or trigger an index error instead of a proper gradcheck error. The problem occurred when non-differentiable inputs or integer outputs appeared early in the sequence, causing the</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260830-085317Z.ogg" length="6525823" type="audio/ogg" />
+    </item>
     <item>
       <title>OpenAI is testing a Persistent Mode for its Codex AI agent that</title>
       <link>https://thoughtvector.zip/radio/2026-08-28-always-on-and-self-starting-ai-agents-might-be-openai-s-next-big-play/</link>
