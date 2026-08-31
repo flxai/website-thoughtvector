@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Aug 2026 08:53:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 11:52:48 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The OpenClaw Foundation has released version 2</title>
+      <link>https://thoughtvector.zip/radio/2026-08-31-lavrov-calls-nato-s-arctic-operations-direct-threat-says-russia-s-opponents-will-face/</link>
+      <guid isPermaLink="false">morning-whispers:20260831-115248Z</guid>
+      <pubDate>Mon, 31 Aug 2026 11:52:48 GMT</pubDate>
+      <description>The OpenClaw Foundation has released version 2.0 of its open-source AI platform, marking the project&#x27;s largest release to date with over 16,000 pull requests. The update focuses on reducing friction for new users through a simplified first-run setup that automatically detects existing API keys, local models, and subscriptions to Claude or ChatGPT. To improve the user experience, the foundation rebuilt the browser</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260831-115248Z.ogg" length="5973802" type="audio/ogg" />
+    </item>
     <item>
       <title>PyTorch developers have released a patch to resolve a specific indexing error</title>
       <link>https://thoughtvector.zip/radio/2026-08-30-nvidia-jetson-orin-nano-2-doubles-edge-ai-performance-for-robotics-memeburn/</link>

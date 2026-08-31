@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260831-115248Z.ogg",
+    "debug": "2026-08-31-lavrov-calls-nato-s-arctic-operations-direct-threat-says-russia-s-opponents-will-face/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-08-31T11:52:48+00:00",
+    "id": "20260831-115248Z",
+    "page": "2026-08-31-lavrov-calls-nato-s-arctic-operations-direct-threat-says-russia-s-opponents-will-face/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260831-115248Z.ass",
+    "summary": "The OpenClaw Foundation has released version 2.0 of its open-source AI platform, marking the project's largest release to date with over 16,000 pull requests. The update focuses on reducing friction for new users through a simplified first-run setup that automatically detects existing API keys, local models, and subscriptions to Claude or ChatGPT. To improve the user experience, the foundation rebuilt the browser app from scratch so it opens conversations immediately. This new interface includes a Session Rail to track plan progress and ratings in real time, alongside an integrated companion thread for asking questions without interrupting the agent. For teams, the release introduces shared cloud sessions on rented machines.",
+    "title": "The OpenClaw Foundation has released version 2",
+    "transcript": "transcripts/20260831-115248Z.json",
+    "waveform": "waveforms/20260831-115248Z.json"
+  },
+  {
     "audio": "media/20260830-085317Z.ogg",
     "debug": "2026-08-30-nvidia-jetson-orin-nano-2-doubles-edge-ai-performance-for-robotics-memeburn/debug/",
     "feed_failure_count": 0,
