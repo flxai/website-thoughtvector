@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2026 11:52:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 09:52:56 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Security Shifts and Long Term Resolutions</title>
+      <link>https://thoughtvector.zip/radio/2026-09-01-russia-targets-kyiv-and-its-region-for-sixth-consecutive-night-of-attacks/</link>
+      <guid isPermaLink="false">morning-whispers:20260901-095256Z</guid>
+      <pubDate>Tue, 01 Sep 2026 09:52:56 GMT</pubDate>
+      <description>The US Navy is diversifying its anti-submarine capabilities by developing smaller torpedoes compatible with drones and fighter jets. Intensified Russian strikes on Ukraine are causing civilian casualties and prompting NATO allies to call for stronger air defenses. Corporate AI adoption is creating a critical gap between operational efficiency and the ability to maintain secure infrastructure. A decades old cold</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260901-095256Z.ogg" length="6173255" type="audio/ogg" />
+    </item>
     <item>
       <title>The OpenClaw Foundation has released version 2</title>
       <link>https://thoughtvector.zip/radio/2026-08-31-lavrov-calls-nato-s-arctic-operations-direct-threat-says-russia-s-opponents-will-face/</link>

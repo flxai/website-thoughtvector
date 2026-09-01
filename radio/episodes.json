@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260901-095256Z.ogg",
+    "debug": "2026-09-01-russia-targets-kyiv-and-its-region-for-sixth-consecutive-night-of-attacks/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-09-01T09:52:56+00:00",
+    "id": "20260901-095256Z",
+    "page": "2026-09-01-russia-targets-kyiv-and-its-region-for-sixth-consecutive-night-of-attacks/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260901-095256Z.ass",
+    "summary": "The US Navy is diversifying its anti-submarine capabilities by developing smaller torpedoes compatible with drones and fighter jets. Intensified Russian strikes on Ukraine are causing civilian casualties and prompting NATO allies to call for stronger air defenses. Corporate AI adoption is creating a critical gap between operational efficiency and the ability to maintain secure infrastructure. A decades old cold case concludes as a jury finds a former gang member guilty in Tupac Shakur's murder. New imagery of Betelgeuse reveals surface instabilities that challenge existing astronomical models regarding red supergiant stars.",
+    "title": "Global Security Shifts and Long Term Resolutions",
+    "transcript": "transcripts/20260901-095256Z.json",
+    "waveform": "waveforms/20260901-095256Z.json"
+  },
+  {
     "audio": "media/20260831-115248Z.ogg",
     "debug": "2026-08-31-lavrov-calls-nato-s-arctic-operations-direct-threat-says-russia-s-opponents-will-face/debug/",
     "feed_failure_count": 0,
