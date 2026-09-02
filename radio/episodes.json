@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260902-092314Z.ogg",
+    "debug": "2026-09-02-google-gemini-s-new-agent-based-video-analysis-cuts-token-usage-by-up-to-88-percent/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-09-02T09:23:14+00:00",
+    "id": "20260902-092314Z",
+    "page": "2026-09-02-google-gemini-s-new-agent-based-video-analysis-cuts-token-usage-by-up-to-88-percent/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260902-092314Z.ass",
+    "summary": "Google is updating its Gemini Flash models to change how artificial intelligence processes video footage. Instead of scanning frames at a fixed rate, the new agent-based analysis allows Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite to autonomously decide which segments to examine and at what resolution. This shift reduces token usage by up to 88 percent and cuts costs by 66 percent. The system can now identify moments shorter than one second, such as state changes or quick cuts, which Google says makes automated video editing more precise. These models can also track individual scenes across hours of footage and spot anomalies by resampling suspicious windows at higher frame rates.",
+    "title": "Google is updating its Gemini Flash models to change how artificial intelligence",
+    "transcript": "transcripts/20260902-092314Z.json",
+    "waveform": "waveforms/20260902-092314Z.json"
+  },
+  {
     "audio": "media/20260901-095256Z.ogg",
     "debug": "2026-09-01-russia-targets-kyiv-and-its-region-for-sixth-consecutive-night-of-attacks/debug/",
     "feed_failure_count": 0,
