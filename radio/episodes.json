@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260903-095735Z.ogg",
+    "debug": "2026-09-03-anthropic-ramps-up-claude-infrastructure/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-09-03T09:57:35+00:00",
+    "id": "20260903-095735Z",
+    "page": "2026-09-03-anthropic-ramps-up-claude-infrastructure/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260903-095735Z.ass",
+    "summary": "Massive investments in AI data centers are creating significant pressure on land, water, and electrical grids worldwide. Panama strengthens its control over strategic energy transport by acquiring full ownership of a key hydrocarbon pipeline. Israel signals a long-term military commitment in Gaza as the government refuses to withdraw from the territory. Spain examines Moroccan involvement in border security breaches despite a lack of definitive proof regarding a planned plot. Technical optimizations for local AI models aim to increase efficiency and performance on consumer hardware devices.",
+    "title": "The Physical Cost of Digital Expansion",
+    "transcript": "transcripts/20260903-095735Z.json",
+    "waveform": "waveforms/20260903-095735Z.json"
+  },
+  {
     "audio": "media/20260902-092314Z.ogg",
     "debug": "2026-09-02-google-gemini-s-new-agent-based-video-analysis-cuts-token-usage-by-up-to-88-percent/debug/",
     "feed_failure_count": 0,

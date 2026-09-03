@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 09:23:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 09:57:35 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Physical Cost of Digital Expansion</title>
+      <link>https://thoughtvector.zip/radio/2026-09-03-anthropic-ramps-up-claude-infrastructure/</link>
+      <guid isPermaLink="false">morning-whispers:20260903-095735Z</guid>
+      <pubDate>Thu, 03 Sep 2026 09:57:35 GMT</pubDate>
+      <description>Massive investments in AI data centers are creating significant pressure on land, water, and electrical grids worldwide. Panama strengthens its control over strategic energy transport by acquiring full ownership of a key hydrocarbon pipeline. Israel signals a long-term military commitment in Gaza as the government refuses to withdraw from the territory. Spain examines Moroccan involvement in border security</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260903-095735Z.ogg" length="6184191" type="audio/ogg" />
+    </item>
     <item>
       <title>Google is updating its Gemini Flash models to change how artificial intelligence</title>
       <link>https://thoughtvector.zip/radio/2026-09-02-google-gemini-s-new-agent-based-video-analysis-cuts-token-usage-by-up-to-88-percent/</link>
