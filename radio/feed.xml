@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 09:57:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 09:22:46 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nvidia is pushing to tie open AI more tightly to its own</title>
+      <link>https://thoughtvector.zip/radio/2026-09-04-nvidia-wants-your-home-network-to-work-like-a-mini-data-center-for-local-ai/</link>
+      <guid isPermaLink="false">morning-whispers:20260904-092246Z</guid>
+      <pubDate>Fri, 04 Sep 2026 09:22:46 GMT</pubDate>
+      <description>Nvidia is pushing to tie open AI more tightly to its own hardware through a new open-source tool called PAIR. This Personal AI Router turns a home network into a mini data center by spreading local AI requests across all available devices, which prevents any single GPU from overloading. In one demo, a three-device cluster finished a task in under nine minutes, compared to eighteen minutes on a single laptop. The</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260904-092246Z.ogg" length="6134018" type="audio/ogg" />
+    </item>
     <item>
       <title>The Physical Cost of Digital Expansion</title>
       <link>https://thoughtvector.zip/radio/2026-09-03-anthropic-ramps-up-claude-infrastructure/</link>

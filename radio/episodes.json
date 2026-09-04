@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260904-092246Z.ogg",
+    "debug": "2026-09-04-nvidia-wants-your-home-network-to-work-like-a-mini-data-center-for-local-ai/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-09-04T09:22:46+00:00",
+    "id": "20260904-092246Z",
+    "page": "2026-09-04-nvidia-wants-your-home-network-to-work-like-a-mini-data-center-for-local-ai/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260904-092246Z.ass",
+    "summary": "Nvidia is pushing to tie open AI more tightly to its own hardware through a new open-source tool called PAIR. This Personal AI Router turns a home network into a mini data center by spreading local AI requests across all available devices, which prevents any single GPU from overloading. In one demo, a three-device cluster finished a task in under nine minutes, compared to eighteen minutes on a single laptop. The system supports Apple silicon starting with the M4 and GeForce RTX cards from the 20 series up. While Nvidia focuses on high-end hardware integration, Nigerian startup ChipMango is targeting the talent pipeline for the broader supply chain.",
+    "title": "Nvidia is pushing to tie open AI more tightly to its own",
+    "transcript": "transcripts/20260904-092246Z.json",
+    "waveform": "waveforms/20260904-092246Z.json"
+  },
+  {
     "audio": "media/20260903-095735Z.ogg",
     "debug": "2026-09-03-anthropic-ramps-up-claude-infrastructure/debug/",
     "feed_failure_count": 0,
