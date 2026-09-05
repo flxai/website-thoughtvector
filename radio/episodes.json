@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260905-102245Z.ogg",
+    "debug": "2026-09-05-openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-09-05T10:22:45+00:00",
+    "id": "20260905-102245Z",
+    "page": "2026-09-05-openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260905-102245Z.ass",
+    "summary": "OpenAI has launched its new GPT-6 Astra model, but users face significantly tighter usage limits than they did with the previous GPT-5.6 Sol. The standard version of Astra offers roughly half as many messages per five-hour window compared to Sol across all plans. Currently, the model is available for those on Pro, Enterprise, and Business Premium plans through ChatGPT Work and Codex, with Plus and Business users expected to gain access in the coming days. For those seeking more power, OpenAI also released GPT-6 Astra Pro. Access to this version depends heavily on the subscription tier.",
+    "title": "OpenAI has launched its new GPT-6 Astra model",
+    "transcript": "transcripts/20260905-102245Z.json",
+    "waveform": "waveforms/20260905-102245Z.json"
+  },
+  {
     "audio": "media/20260904-092246Z.ogg",
     "debug": "2026-09-04-nvidia-wants-your-home-network-to-work-like-a-mini-data-center-for-local-ai/debug/",
     "feed_failure_count": 0,

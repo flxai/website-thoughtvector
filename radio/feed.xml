@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 09:22:46 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 10:22:45 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI has launched its new GPT-6 Astra model</title>
+      <link>https://thoughtvector.zip/radio/2026-09-05-openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6/</link>
+      <guid isPermaLink="false">morning-whispers:20260905-102245Z</guid>
+      <pubDate>Sat, 05 Sep 2026 10:22:45 GMT</pubDate>
+      <description>OpenAI has launched its new GPT-6 Astra model, but users face significantly tighter usage limits than they did with the previous GPT-5.6 Sol. The standard version of Astra offers roughly half as many messages per five-hour window compared to Sol across all plans. Currently, the model is available for those on Pro, Enterprise, and Business Premium plans through ChatGPT Work and Codex, with Plus and Business users</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260905-102245Z.ogg" length="6278268" type="audio/ogg" />
+    </item>
     <item>
       <title>Nvidia is pushing to tie open AI more tightly to its own</title>
       <link>https://thoughtvector.zip/radio/2026-09-04-nvidia-wants-your-home-network-to-work-like-a-mini-data-center-for-local-ai/</link>
