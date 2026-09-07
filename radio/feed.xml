@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Sep 2026 10:22:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 10:22:39 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Instability Amidst Technological Advancement</title>
+      <link>https://thoughtvector.zip/radio/2026-09-07-ciflow-xpu-195699/</link>
+      <guid isPermaLink="false">morning-whispers:20260907-102239Z</guid>
+      <pubDate>Mon, 07 Sep 2026 10:22:39 GMT</pubDate>
+      <description>Geopolitical tensions escalate through renewed violence in Ukraine and Lebanon alongside maritime disputes in the Persian Gulf. Germany experiences a paradoxical moment of private aerospace success during a period of far-right political growth. The gaming industry faces a systemic crisis as traditional blockbuster models fail to sustain current market demands. Cloud security vulnerabilities increase as</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260907-102239Z.ogg" length="6166509" type="audio/ogg" />
+    </item>
     <item>
       <title>OpenAI has launched its new GPT-6 Astra model</title>
       <link>https://thoughtvector.zip/radio/2026-09-05-openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6/</link>

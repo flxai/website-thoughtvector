@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260907-102239Z.ogg",
+    "debug": "2026-09-07-ciflow-xpu-195699/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-09-07T10:22:39+00:00",
+    "id": "20260907-102239Z",
+    "page": "2026-09-07-ciflow-xpu-195699/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260907-102239Z.ass",
+    "summary": "Geopolitical tensions escalate through renewed violence in Ukraine and Lebanon alongside maritime disputes in the Persian Gulf. Germany experiences a paradoxical moment of private aerospace success during a period of far-right political growth. The gaming industry faces a systemic crisis as traditional blockbuster models fail to sustain current market demands. Cloud security vulnerabilities increase as organizations struggle to defend against sophisticated AI threats and infrastructure gaps. Humanitarian tragedies in Nepal and the US highlight the lethal consequences of environmental disasters and smuggling operations.",
+    "title": "Global Instability Amidst Technological Advancement",
+    "transcript": "transcripts/20260907-102239Z.json",
+    "waveform": "waveforms/20260907-102239Z.json"
+  },
+  {
     "audio": "media/20260905-102245Z.ogg",
     "debug": "2026-09-05-openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6/debug/",
     "feed_failure_count": 0,
