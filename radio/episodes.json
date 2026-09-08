@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260908-102256Z.ogg",
+    "debug": "2026-09-08-mistral-raises-3b-to-make-sovereign-open-weight-ai-the-technology-frontier/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-09-08T10:22:56+00:00",
+    "id": "20260908-102256Z",
+    "page": "2026-09-08-mistral-raises-3b-to-make-sovereign-open-weight-ai-the-technology-frontier/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260908-102256Z.ass",
+    "summary": "Mistral AI secures record funding to scale its international presence and enhance compute capacity for global enterprises. European manufacturers face tighter oversight under the Cyber Resilience Act requiring mandatory reporting of digital vulnerabilities. Ukraine navigates cautious peace proposals while facing continued Russian strikes on civilian infrastructure and media offices. Political pressures mount for Benjamin Netanyahu following allegations that he ignored early warnings regarding October attacks. India weighs child safety regulations that could inadvertently restrict adult access to essential digital public services.",
+    "title": "Global Shifts in Security and Digital Governance",
+    "transcript": "transcripts/20260908-102256Z.json",
+    "waveform": "waveforms/20260908-102256Z.json"
+  },
+  {
     "audio": "media/20260907-102239Z.ogg",
     "debug": "2026-09-07-ciflow-xpu-195699/debug/",
     "feed_failure_count": 0,
