@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260913-105041Z.ogg",
+    "debug": "2026-09-13-ukraine-s-refusal-to-give-up-territory-to-russia-stalls-peace-deal-trump-envoy-says/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-09-13T10:50:41+00:00",
+    "id": "20260913-105041Z",
+    "page": "2026-09-13-ukraine-s-refusal-to-give-up-territory-to-russia-stalls-peace-deal-trump-envoy-says/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260913-105041Z.ass",
+    "summary": "A two-year university study suggests that banning artificial intelligence from the classroom leaves students worse off than those who use it. Thibault Schrepel, a law professor at Vrije Universiteit Amsterdam, split his Law of AI course into three groups to test how an AI ban, unguided use, and structured training affected performance. Students were tasked with improving provisions of the EU AI Act, graded on substance, clarity, proportionality, and innovation. The group prohibited from using ChatGPT finished last in both 2024 and 2025. These students mostly made minor wording tweaks and ran out of ideas quickly, while those with AI tools pursued more substantive legal improvements.",
+    "title": "A two-year university study suggests that banning artificial intelligence from the classroom",
+    "transcript": "transcripts/20260913-105041Z.json",
+    "waveform": "waveforms/20260913-105041Z.json"
+  },
+  {
     "audio": "media/20260908-102256Z.ogg",
     "debug": "2026-09-08-mistral-raises-3b-to-make-sovereign-open-weight-ai-the-technology-frontier/debug/",
     "feed_failure_count": 0,
