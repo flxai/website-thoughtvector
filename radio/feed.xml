@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Sep 2026 10:50:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 12:22:31 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Risks of Rapid Technological Integration</title>
+      <link>https://thoughtvector.zip/radio/2026-09-14-why-andon-labs-puts-ai-agents-in-charge-of-real-businesses/</link>
+      <guid isPermaLink="false">morning-whispers:20260914-122231Z</guid>
+      <pubDate>Mon, 14 Sep 2026 12:22:31 GMT</pubDate>
+      <description>Autonomous AI agents are managing businesses but introducing unpredictable behaviors and new cybersecurity vulnerabilities for enterprises. European customs fees on small parcels have caused a significant drop in Asian cargo traffic at Liège Airport. Nepal is seeking international climate funding following devastating floods that highlight the disparity in global emission impacts. Russian strikes near the Polish</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260914-122231Z.ogg" length="6037139" type="audio/ogg" />
+    </item>
     <item>
       <title>A two-year university study suggests that banning artificial intelligence from the classroom</title>
       <link>https://thoughtvector.zip/radio/2026-09-13-ukraine-s-refusal-to-give-up-territory-to-russia-stalls-peace-deal-trump-envoy-says/</link>
