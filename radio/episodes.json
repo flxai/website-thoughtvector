@@ -1,5 +1,19 @@
 [
   {
+    "audio": "media/20260915-105315Z.ogg",
+    "debug": "2026-09-15-heart-of-the-matter/debug/",
+    "feed_failure_count": 0,
+    "generated_at": "2026-09-15T10:53:15+00:00",
+    "id": "20260915-105315Z",
+    "page": "2026-09-15-heart-of-the-matter/",
+    "selected_article_count": 80,
+    "subtitles": "subtitles/20260915-105315Z.ass",
+    "summary": "The Perplexity Portable Computer is now available for Windows users and runs on NVIDIA RTX hardware. This release marks a shift toward local processing, allowing AI agents to manage more complex tasks directly on a personal computer. By moving these operations off the cloud, the system can keep sensitive information stored securely on the device itself. This transition comes as local models become increasingly capable of handling workloads that previously required remote servers. The integration of NVIDIA RTX power enables this portable version of Perplexity to function as a local tool for users who prioritize data privacy and speed.",
+    "title": "The Perplexity Portable Computer is now available for Windows users and runs",
+    "transcript": "transcripts/20260915-105315Z.json",
+    "waveform": "waveforms/20260915-105315Z.json"
+  },
+  {
     "audio": "media/20260914-122231Z.ogg",
     "debug": "2026-09-14-why-andon-labs-puts-ai-agents-in-charge-of-real-businesses/debug/",
     "feed_failure_count": 0,

@@ -5,8 +5,16 @@
     <link>https://thoughtvector.zip/radio/</link>
     <description>Meditative morning news broadcasts with audio and show notes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 12:22:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 10:53:15 GMT</lastBuildDate>
     <atom:link href="https://thoughtvector.zip/radio/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Perplexity Portable Computer is now available for Windows users and runs</title>
+      <link>https://thoughtvector.zip/radio/2026-09-15-heart-of-the-matter/</link>
+      <guid isPermaLink="false">morning-whispers:20260915-105315Z</guid>
+      <pubDate>Tue, 15 Sep 2026 10:53:15 GMT</pubDate>
+      <description>The Perplexity Portable Computer is now available for Windows users and runs on NVIDIA RTX hardware. This release marks a shift toward local processing, allowing AI agents to manage more complex tasks directly on a personal computer. By moving these operations off the cloud, the system can keep sensitive information stored securely on the device itself. This transition comes as local models become increasingly</description>
+      <enclosure url="https://thoughtvector.zip/radio/media/20260915-105315Z.ogg" length="6160504" type="audio/ogg" />
+    </item>
     <item>
       <title>The Risks of Rapid Technological Integration</title>
       <link>https://thoughtvector.zip/radio/2026-09-14-why-andon-labs-puts-ai-agents-in-charge-of-real-businesses/</link>
